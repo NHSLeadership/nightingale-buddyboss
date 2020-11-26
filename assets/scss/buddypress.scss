@@ -121,15 +121,21 @@ body.buddypress {
 	  }
 	}
 
-	#comments {
+	#comments, #activity-stream {
+	  @extend #respond;
+	  @extend .nhsuk-list-panel;
 	  margin-top : nhsuk-spacing(3);
 
-	  .div-comment {
-		clear : both;
-	  }
+	  ul.comment-list {
+		background-color: inherit;
+		li.div-comment {
+		  clear : both;
+		  background-color: inherit;
+		}
 
 	  .comment-body {
 		position : relative;
+		background: $color_nhsuk-white;
 
 		.comment_body_comment:empty {
 		  display : none;
@@ -177,6 +183,7 @@ body.buddypress {
 		  }
 		}
 	  }
+	}
 	}
 
 
@@ -381,6 +388,20 @@ body.buddypress {
 		}
 	  }
 	}
+	.medium-editor-element {
+	  @extend .nhsuk-textarea;
+	  background: $color_nhsuk-white;
+	}
+  }
+  .nhsuk-bordered-tabs-container {
+	.nhsuk-bordered-tabs {
+	  .nhsuk-bordered-tabs-item {
+		padding: nhsuk-spacing(2);
+		&.nhsuk-bordered-tabs-item-active-alt {
+		  border-bottom: nhsuk-spacing(2) solid $color_nhsuk-blue;
+		}
+	  }
+	}
   }
 }
 
@@ -534,7 +555,7 @@ body.groups.group-invites {
 	li.depth4,
 	li.depth-5,
 	li.depth-6 {
-	  display : none;
+	  //display : none;
 	}
   }
 

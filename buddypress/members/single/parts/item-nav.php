@@ -31,8 +31,25 @@
 				$link        = '';
 				$current_url = $actual_link = ( isset( $_SERVER[ 'HTTPS' ] ) && $_SERVER[ 'HTTPS' ] === 'on' ? "https" : "http" ) . "://$_SERVER[HTTP_HOST]$_SERVER[REQUEST_URI]";
 
-				if ( bp_nouveau_get_nav_link() === $current_url ) {
-					$link = ' nhsuk-bordered-tabs-item-active';
+				$admin_links = array(
+					'/profile/',
+					'/settings/',
+					'/activity/',
+					'/notifications/',
+					'/messages/',
+					'/friends/',
+					'/groups/',
+					'/guides/',
+					'/photos/',
+					'/forums/',
+					'/invites/',
+				);
+				foreach ($admin_links as $links) {
+					if ( strpos( $current_url, $links ) !== false ) {
+						if ( strpos( bp_nouveau_get_nav_link(), $links ) !== false ) {
+							$link = ' nhsuk-bordered-tabs-item-active';
+						}
+					}
 				}
 				?>
 

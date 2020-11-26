@@ -60,8 +60,8 @@ remove_filter( 'bp_get_add_follow_button', 'buddyboss_theme_bp_get_add_follow_bu
 						<?php if( function_exists( 'bp_is_activity_follow_active' ) && bp_is_active('activity') && bp_is_activity_follow_active() ) { ?>
 							<div class="flex align-items-top member-social">
                                 <div class="flex align-items-center">
-								    <?php buddyboss_theme_followers_count(); ?>
-								    <?php buddyboss_theme_following_count(); ?>
+								    <?php nightingale_theme_followers_count(); ?>
+								    <?php nightingale_theme_following_count(); ?>
                                 </div>
 								<?php
 		                        if( function_exists('bp_get_user_social_networks_urls') ) {

@@ -67,7 +67,7 @@ $follow_class = $is_follow_active ? 'follow-active' : '';
 							</div>
 
 							<div class="button-wrap member-button-wrap only-list-view">
-								<?php buddyboss_theme_followers_count( bp_get_group_member_id() ); ?>
+								<?php nightingale_theme_followers_count( bp_get_group_member_id() ); ?>
 								<?php
 								if( bp_is_active('friends') ) {
 									bp_add_friend_button();
@@ -87,7 +87,7 @@ $follow_class = $is_follow_active ? 'follow-active' : '';
 								$justify_class = ( bp_get_group_member_id() == bp_loggedin_user_id() ) ? 'justify-center' : '';
 								?>
 								<div class="flex only-grid-view align-items-center follow-container <?php echo $justify_class; ?>">
-									<?php buddyboss_theme_followers_count( bp_get_group_member_id() ); ?>
+									<?php nightingale_theme_followers_count( bp_get_group_member_id() ); ?>
 									<?php bp_add_follow_button( bp_get_group_member_id(), bp_loggedin_user_id() ); ?>
 								</div>
 							<?php } ?>

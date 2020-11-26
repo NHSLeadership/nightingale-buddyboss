@@ -29,7 +29,28 @@
 							}
 							if ( bp_nouveau_get_nav_link() === $current_url ) {
 								$link = ' nhsuk-bordered-tabs-item-active';
-							}
+							} else {
+								$admin_links = array(
+									'/' . bp_get_displayed_user_mentionname() . '/profile/',
+									'/' . bp_get_displayed_user_mentionname() . '/settings/',
+									'/' . bp_get_displayed_user_mentionname() . '/activity/',
+									'/' . bp_get_displayed_user_mentionname() . '/notifications/',
+									'/' . bp_get_displayed_user_mentionname() . '/messages/',
+									'/' . bp_get_displayed_user_mentionname() . '/friends/',
+									'/' . bp_get_displayed_user_mentionname() . '/groups/',
+									'/' . bp_get_displayed_user_mentionname() . '/guides/',
+									'/' . bp_get_displayed_user_mentionname() . '/photos/',
+									'/' . bp_get_displayed_user_mentionname() . '/forums/',
+									'/' . bp_get_displayed_user_mentionname() . '/invites/',
+								);
+								foreach ($admin_links as $links) {
+									if ( strpos( $current_url, $links ) !== false ) {
+										if ( strpos( bp_nouveau_get_nav_link(), $links ) !== false ) {
+											$link = ' nhsuk-bordered-tabs-item-active';
+										}
+									}
+								}
+                            }
 
 							?>
 

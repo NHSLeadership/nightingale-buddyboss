@@ -9,10 +9,10 @@
 
 <header class="entry-header notifications-header flex">
 	<h1 class="entry-title flex-1"><?php esc_html_e( 'Notifications', 'nightingale'); ?></h1>
-	<?php bp_get_template_part( 'members/single/parts/item-subnav' ); ?>
 	<?php bp_get_template_part( 'common/search-and-filters-bar' ); ?>
 </header>
 
+<?php bp_get_template_part( 'members/single/parts/item-subnav' ); ?>
 <?php
 switch ( bp_current_action() ) :
 

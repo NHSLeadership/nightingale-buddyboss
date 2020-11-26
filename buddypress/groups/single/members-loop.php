@@ -85,17 +85,15 @@ $follow_class = $is_follow_active ? 'follow-active' : '';
 				<td role="cell" class="nhsuk-table__cell">
 					<?php
 					if( bp_is_active('friends') ) {
-						bp_add_friend_button();
+						bp_add_friend_button( $user_id );
 					}
 
-					//if( bp_is_active('messages') ) {
-						//if ( 'yes' === $show_message_button ) {
-							bp_send_message_button( $message_button_args );
-						//}
-					//}
-					//if( $is_follow_active ) {
-						bp_add_follow_button( bp_get_group_member_id(), bp_loggedin_user_id() );
-					//}
+					if( bp_is_active('messages') ) {
+					    bp_send_message_button( $message_button_args );
+					}
+					if( $is_follow_active ) {
+						bp_add_follow_button( $user_id, buddypress()->loggedin_user->id );
+					}
 					?>
 					<?php
 					if($member_loop_has_content){ ?>
