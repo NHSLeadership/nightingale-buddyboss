@@ -48,7 +48,7 @@ if ( !function_exists( 'nightingale_buddyboss_theme_get_option' ) ) {
  * Queue up buddyboss js include
  */
 function nightingale_buddyboss_js() {
-    wp_enqueue_script('nightingale-buddyboss', get_template_directory_uri() . '/js/buddypress.js', '', '20201123', true );
+    wp_enqueue_script('nightingale-buddyboss', get_stylesheet_uri() . '/js/buddypress.js', '', '20201123', true );
 }
 
 add_action( 'wp_enqueue_scripts', 'nightingale_buddyboss_js' );
@@ -357,7 +357,7 @@ class Nightingale_BuddyBoss_BuddyPanel_Menu_Walker extends Walker_Nav_Menu {
 			}
 		}
 		$iconname = nightingale_underscore($item->title);
-		$iconlocation = get_template_directory_uri() . '/assets/images/svg/buddyboss/' . $iconname . '.svg';
+		$iconlocation = get_stylesheet_directory_uri() . '/assets/images/svg/buddyboss/' . $iconname . '.svg';
 		$item->title = "<img class='bb-icon-file {$iconname}' src='{$iconlocation}' alt='{$item->title}'></img><span class='link-text'>{$item->title}</span>";
 
 
