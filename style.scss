@@ -25,49 +25,6 @@ Normalizing styles have been helped along thanks to the fine work of
 Nicolas Gallagher and Jonathan Neal https://necolas.github.io/normalize.css/
 */
 
-@import '../nightingale/assets/scss/default';
-@import '../nightingale/assets/scss/nhsuk-replacement';
-
-
-// start importing the theme specific settings
-@import '../nightingale/assets/scss/nhs-colours';
-// nhs colour pallette
-@import '../nightingale/assets/scss/generic-overrides';
-// generic over-rides to remove default wordpress styling issues
-@import '../nightingale/assets/scss/header';
-// header styles
-@import '../nightingale/assets/scss/style_variations';
-// block elements
-@import '../nightingale/assets/scss/sidebar-widgets.scss';
-// sidebar elements and subpages navigation
-@import '../nightingale/assets/scss/comments-and-meta';
-// Print output styling
-@import '../nightingale/assets/scss/print';
-// over-ride for gallery styling to bring into NHSUK style
-@import '../nightingale/assets/scss/gallery';
-// Gravity Forms plugin styling to match NHSUK design patterns
-@import '../nightingale/assets/scss/gravity-forms';
-// LearnDash plugin styling to match NHSUK design patterns
-@import '../nightingale/assets/scss/learndash-styling';
-
-// Events Calendar plugin styling to match NHSUK design patterns
-@import '../nightingale/assets/scss/events-calendar-styling';
-// Download Monitor plugin styling to match NHSUK design patterns
-@import '../nightingale/assets/scss/download-monitor';
-// Emergency Alert design patterns.
-@import '../nightingale/assets/scss/emergency_alert';
-// Add tabbed layout design patterns.
-@import '../nightingale/assets/scss/tabs';
-// Add Feedback Banner pattern
-@import '../nightingale/assets/scss/feedback_banner';
-@import '../nightingale/assets/scss/nhsblocks/nhsl-blocks'; // specific elements for nhsl-blocks plugin
-@import '../nightingale/assets/scss/nhsblocks/style_variations';//gutenberg blocks style variations
-@import '../nightingale/assets/scss/nhsblocks/stripe-blocks';//gutenberg blocks stripe
+@import '../nightingale/style.scss';
 @import 'assets/scss/buddypress'; //buddypress styling overrides
 
-// Legacy components - added 16th November 2020
-@import '../nightingale/assets/scss/nhsblocks/legacy/panel/panel';
-@import '../nightingale/assets/scss/nhsblocks/legacy/promo/promo';
-@import '../nightingale/assets/scss/nhsblocks/legacy/legacy';
-// nhs colour pallette
-@import '../nightingale/assets/scss/color-mixer';
