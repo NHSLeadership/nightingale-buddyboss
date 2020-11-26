@@ -48,7 +48,7 @@ if ( !function_exists( 'nightingale_buddyboss_theme_get_option' ) ) {
  * Queue up buddyboss js include
  */
 function nightingale_buddyboss_js() {
-    wp_enqueue_script('nightingale-buddyboss', get_stylesheet_uri() . '/js/buddypress.js', '', '20201123', true );
+    wp_enqueue_script('nightingale-buddyboss', get_stylesheet_directory_uri() . '/js/buddypress.js', '', '20201123', true );
 }
 
 add_action( 'wp_enqueue_scripts', 'nightingale_buddyboss_js' );

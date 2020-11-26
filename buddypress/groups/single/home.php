@@ -15,6 +15,7 @@ if ( bp_has_groups() ) :
 	?>
 	<?php bp_nouveau_group_header_template_part(); ?>
 
+		<?php bp_get_template_part( 'common/nav/directory-nav' ); ?>
 		<?php bp_nouveau_group_hook( 'before', 'home_content' ); ?>
 <h1 class="entry-header"><?php echo esc_attr( bp_get_group_name() ); ?></h1>
 

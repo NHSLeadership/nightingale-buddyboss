@@ -34,6 +34,7 @@ if ( bp_is_user_messages() || bp_is_user_settings() || bp_is_user_notifications(
 
 	</div><!-- #item-header -->
 
+<?php bp_get_template_part( 'common/nav/directory-nav' ); ?>
 	<?php if ( isset($bp_nouveau_appearance['user_nav_display']) && $bp_nouveau_appearance['user_nav_display'] &&  is_active_sidebar( 'profile' ) && !bp_is_user_settings() && !bp_is_user_messages() && !bp_is_user_notifications() && !bp_is_user_profile_edit() && !bp_is_user_change_avatar() && !bp_is_user_change_cover_image() && $profile_cover_width != 'default' ) {
 		$grid_class = '';
 		?>

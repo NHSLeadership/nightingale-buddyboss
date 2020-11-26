@@ -10,7 +10,6 @@ if ( ( bp_nouveau_has_nav( array( 'object' => 'groups' ) ) ) && ( !bp_nouveau_ha
 bp_get_template_part( 'groups/single/parts/item-nav' );
 endif;
 ?>
-
 <?php if ( bp_nouveau_has_nav( array( 'object' => 'directory' ) ) ) : ?>
 <div class="nhsuk-full-width-container">
     <div class="nhsuk-bordered-tabs-container">
@@ -30,7 +29,7 @@ endif;
 							}
 							?>
 
-                            <li id="<?php bp_nouveau_nav_id(); ?>" class="nhsuk-bordered-tabs-item <?php echo $link; ?>" <?php bp_nouveau_nav_scope(); ?> data-bp-object="<?php bp_nouveau_directory_nav_object(); ?>">
+                            <li class="nhsuk-bordered-tabs-item <?php echo $link; ?>" <?php bp_nouveau_nav_scope(); ?> data-bp-object="<?php bp_nouveau_directory_nav_object(); ?>">
                                 <a class="nhsuk-bordered-tabs-link" href="<?php bp_nouveau_nav_link(); ?>">
 									<?php bp_nouveau_nav_link_text(); ?>
 

@@ -20,8 +20,8 @@
 							bp_nouveau_nav_item();
 							$link        = '';
 							$current_url = $actual_link = ( isset( $_SERVER[ 'HTTPS' ] ) && $_SERVER[ 'HTTPS' ] === 'on' ? "https" : "http" ) . "://$_SERVER[HTTP_HOST]$_SERVER[REQUEST_URI]";
-							if ( strpos( $current_url, '/members/' ) !== false ) {
-								$current_url = substr( $current_url, 0, ( strpos( $current_url, "/members/" ) +9 ) ); // remove all-members from url so active tab works properly
+							if ( strpos( $current_url, '/messages/' ) !== false ) {
+								$current_url = substr( $current_url, 0, ( strpos( $current_url, "/messages/" ) +10 ) ); // remove all-members from url so active tab works properly
 							} else if (  strpos( $current_url, '/invite/' ) !== false ) {
 								$current_url = substr( $current_url, 0, ( strpos( $current_url, "/invite/" ) +8 ) ); // remove send-invites from url so active tab works properly
 							} else if (  strpos( $current_url, '/admin/' ) !== false ) {
@@ -30,9 +30,10 @@
 							if ( bp_nouveau_get_nav_link() === $current_url ) {
 								$link = ' nhsuk-bordered-tabs-item-active';
 							}
+
 							?>
 
-                            <li id="<?php bp_nouveau_nav_id(); ?>" class="nhsuk-bordered-tabs-item <?php echo $link; ?>">
+                            <li  class="nhsuk-bordered-tabs-item <?php echo $link; ?>">
                                 <a href="<?php bp_nouveau_nav_link(); ?>" id="<?php bp_nouveau_nav_link_id(); ?>" class="nhsuk-bordered-tabs-link">
 									<?php bp_nouveau_nav_link_text(); ?>
 
@@ -52,5 +53,5 @@
             </div>
         </div>
     </div>
-
+<br />
 <?php endif; ?>

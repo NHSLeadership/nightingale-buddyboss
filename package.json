@@ -9,8 +9,8 @@
   "main": "index.js",
   "scripts": {
     "build": "cat style.scss | node_modules/.bin/node-sass style.scss --output-style expanded > style.css ",
-    "zip": "zip -r nightingale-buddyboss.zip ./ -x .git .gitignore *.git/* /critical-css-generator.js /postcss.config.js *.github/* /Dockerfile /gruntfile.js /package.json package-lock.json *.DS_Store .DS_Store node_modules/ wp-html-mail/ wp-html-mail/* /phpcs.xml.dist node_modules/**\\* nhsblocks/node_modules/**\\*",
-    "compress": "postcss style.css > style.min.css",
+    "zip": "zip -r nightingale-buddyboss.zip ./ -x .git .gitignore *.git/* /critical-css-generator.js /postcss.config.js *.github/* /Dockerfile /gruntfile.js /package.json package-lock.json *.DS_Store .DS_Store node_modules/ wp-html-mail/ wp-html-mail/* /phpcs.xml.dist node_modules/**\\*",
+    "compress": "postcss style.css > style.min.css"
   },
   "keywords": [],
   "author": "",
