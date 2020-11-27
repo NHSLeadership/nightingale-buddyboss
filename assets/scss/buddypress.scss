@@ -382,6 +382,18 @@ body.buddypress {
 	  }
 	}
   }
+
+  .nhsuk-bordered-tabs-container{
+	&.nav-footer {
+	  background-color : inherit;
+	  border-bottom    : none;
+
+	  .nhsuk-bordered-tabs-item-active {
+		border-bottom-color: $color_nhsuk-grey-3;
+		border-radius: nhsuk-spacing(1);
+	  }
+	}
+  }
 }
 
 body.groups.group-invites {
@@ -601,10 +613,10 @@ body.groups.group-invites {
 		  color : $color_nhsuk-white;
 
 		  img {
-			display       : block;
-			width         : nhsuk-spacing(5);
-			height        : nhsuk-spacing(5);
-			filter: invert(26%) sepia(70%) saturate(2053%) hue-rotate(192deg) brightness(91%) contrast(104%);
+			display : block;
+			width   : nhsuk-spacing(5);
+			height  : nhsuk-spacing(5);
+			filter  : invert(26%) sepia(70%) saturate(2053%) hue-rotate(192deg) brightness(91%) contrast(104%);
 		  }
 
 		  &.focus-visible {
@@ -674,14 +686,16 @@ body.logged-in {
 	top : nhsuk-spacing(5);
   }
 }
-@media only screen and (max-width: 1068px) {
+
+@media only screen and (max-width : 1068px) {
   /* for the moment, hide buddy panel completely on anything less than a wide screen.
   	We need some display mechanism for small screens as this is the majority of users.
   */
-	.buddypanel {
-	  display: none;
-	}
+  .buddypanel {
+	display : none;
+  }
 }
+
 /* Buddypress header nav elements */
 .buddypress-header {
   .nhsuk-icon-buddy-search {
@@ -695,7 +709,7 @@ body.logged-in {
 	height      : nhsuk-spacing(5);
 	float       : left;
 	margin-left : nhsuk-spacing(3);
-	filter: invert(1);
+	filter      : invert(1);
   }
 
   .buddy-header-search {

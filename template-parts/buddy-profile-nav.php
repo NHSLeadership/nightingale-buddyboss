@@ -10,7 +10,7 @@
 	<?php if ( bp_nouveau_has_nav( array( 'type' => 'primary' ) ) ) : ?>
 
     <div class="nhsuk-full-width-container">
-        <div class="nhsuk-bordered-tabs-container">
+        <div class="nhsuk-bordered-tabs-container nav-footer">
             <div class="nhsuk-width-container">
                 <nav class="" id="object-nav" role="navigation" aria-label="<?php esc_attr_e( 'Group menu', 'buddyboss' ); ?>">
 
