@@ -52,12 +52,10 @@
 		<div class="bb-sm-grid bs-single-topic-sidebar">
             <div class="bs-topic-sidebar-inner">
                 <div class="single-topic-sidebar-links">
-        			<p class="bb-topic-reply-link-wrap"><?php //bbp_topic_reply_link(); ?>
-				        <a href="<?php bbp_forum_permalink( bbp_get_topic_forum_id() ); ?>?bbp_reply_to=<?php echo bbp_get_topic_id(); ?>#new-post" class="bbp-reply-to-link" data-balloon=" Reply " data-balloon-pos="up" onclick="return addReply.moveForm('post-<?php echo bbp_get_topic_id(); ?>','<?php echo bbp_get_topic_id(); ?>','new-reply-<?php echo bbp_get_topic_id(); ?>','<?php echo bbp_get_topic_id(); ?>');">
-					        <span class="bb-forum-reply-text">Reply</span>
-				        </a>
+        			<p class="bb-topic-reply-link-wrapper">
+				        <?php bbp_topic_reply_link(); ?>
 			        </p>
-        			<p class="bb-topic-subscription-link-wrap"><?php $args = array('before' => '');
+        			<p class="bb-topic-subscription-link-wrapper"><?php $args = array('before' => '');
         			echo bbp_get_topic_subscription_link( $args ); ?></p>
                 </div>
             </div>

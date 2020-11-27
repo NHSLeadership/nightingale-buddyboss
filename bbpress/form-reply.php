@@ -29,7 +29,7 @@
 
 	<?php endif; ?>
 
-	<div id="new-reply-<?php bbp_topic_id(); ?>" class="bbp-reply-form <?php if ( bbp_is_single_topic() ) { echo 'bb-modal bb-modal-box';} ?>" <?php if ( bbp_is_single_topic() ) { echo 'style="display: none;';} ?>>
+	<div id="new-reply-<?php bbp_topic_id(); ?>" class="bbp-reply-form <?php if ( bbp_is_single_topic() ) { echo 'bb-modal bb-modal-box';} ?>" <?php if ( bbp_is_single_topic() ) { echo 'style="display: none;"';} ?>>
 
 		<form id="new-post" name="new-post" method="post" action="<?php bbp_is_reply_edit() ? bbp_reply_edit_url() : the_permalink(); ?>">
 
@@ -37,9 +37,9 @@
             <div class="nhsuk-form-group">
 			<fieldset class="nhsuk-fieldset">
 				<legend class="nhsuk-fieldset__legend nhsuk-fieldset__legend--l">
-					<h1 class="nhsuk-fieldset__heading">
-						<?php _e( 'Reply to:', 'nightingale' ); ?> <h1 id="bbp-reply-to-user"><?php printf( '%s', bbp_get_topic_author_display_name() ); ?>
-					</h1>
+					<h2 class="nhsuk-fieldset__heading nhsuk-heading-m">
+                        <?php _e( 'Reply to:', 'nightingale' ); ?> <span id="bbp-reply-to-user"><?php printf( '%s', bbp_get_topic_author_display_name() ); ?></span>
+					</h2>
                     <div id="bbp-reply-exerpt"></div>
                 </legend>
 
