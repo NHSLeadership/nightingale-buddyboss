@@ -53,8 +53,6 @@
 				}
 				?>
 
-			?>
-
 				<li class="nhsuk-bordered-tabs-item <?php echo $link; ?>">
 					<a href="<?php bp_nouveau_nav_link(); ?>" id="<?php bp_nouveau_nav_link_id(); ?>"  class="nhsuk-bordered-tabs-link">
 						<?php bp_nouveau_nav_link_text(); ?>

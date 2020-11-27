@@ -1617,7 +1617,7 @@ h2,
 }
 
 h3,
-.nhsuk-heading-m, .nightingale-latest-news .nhsuk-panel a, .nightingale-latest-news .sticky a, .nightingale-latest-news .download-box a, .nhsuk-card.is-style-panel-with-label .nhsuk-card__content h2, .ld-course-list-items .ld_course_grid article.is-style-panel-with-label .nhsuk-card__content h2, .ld-course-list-items .ld_course_grid .is-style-panel-with-label.thumbnail.course .nhsuk-card__content h2, .is-style-panel-with-label.nhsuk-panel.is-style-panel-grey .nhsuk-card__content h2, .is-style-panel-with-label.is-style-panel-grey.sticky .nhsuk-card__content h2, .is-style-panel-with-label.is-style-panel-grey.download-box .nhsuk-card__content h2, .is-style-panel-with-label.nhsuk-promo.is-style-promo-small .nhsuk-card__content h2 {
+.nhsuk-heading-m, .nightingale-latest-news .nhsuk-panel a, .nightingale-latest-news .sticky a, .nightingale-latest-news .download-box a, .nhsuk-card.is-style-panel-with-label .nhsuk-card__content h2, .is-style-panel-with-label.nhsuk-panel.is-style-panel-grey .nhsuk-card__content h2, .is-style-panel-with-label.is-style-panel-grey.sticky .nhsuk-card__content h2, .is-style-panel-with-label.is-style-panel-grey.download-box .nhsuk-card__content h2, .is-style-panel-with-label.nhsuk-promo.is-style-promo-small .nhsuk-card__content h2 {
   font-size: 20px;
   font-size: 1.25rem;
   line-height: 1.4;
@@ -1629,7 +1629,7 @@ h3,
 
 @media (min-width: 40.0625em) {
   h3,
-  .nhsuk-heading-m, .nightingale-latest-news .nhsuk-panel a, .nightingale-latest-news .sticky a, .nightingale-latest-news .download-box a, .nhsuk-card.is-style-panel-with-label .nhsuk-card__content h2, .ld-course-list-items .ld_course_grid article.is-style-panel-with-label .nhsuk-card__content h2, .ld-course-list-items .ld_course_grid .is-style-panel-with-label.thumbnail.course .nhsuk-card__content h2, .is-style-panel-with-label.nhsuk-panel.is-style-panel-grey .nhsuk-card__content h2, .is-style-panel-with-label.is-style-panel-grey.sticky .nhsuk-card__content h2, .is-style-panel-with-label.is-style-panel-grey.download-box .nhsuk-card__content h2, .is-style-panel-with-label.nhsuk-promo.is-style-promo-small .nhsuk-card__content h2 {
+  .nhsuk-heading-m, .nightingale-latest-news .nhsuk-panel a, .nightingale-latest-news .sticky a, .nightingale-latest-news .download-box a, .nhsuk-card.is-style-panel-with-label .nhsuk-card__content h2, .is-style-panel-with-label.nhsuk-panel.is-style-panel-grey .nhsuk-card__content h2, .is-style-panel-with-label.is-style-panel-grey.sticky .nhsuk-card__content h2, .is-style-panel-with-label.is-style-panel-grey.download-box .nhsuk-card__content h2, .is-style-panel-with-label.nhsuk-promo.is-style-promo-small .nhsuk-card__content h2 {
     font-size: 24px;
     font-size: 1.5rem;
     line-height: 1.33333;
@@ -1638,7 +1638,7 @@ h3,
 
 @media print {
   h3,
-  .nhsuk-heading-m, .nightingale-latest-news .nhsuk-panel a, .nightingale-latest-news .sticky a, .nightingale-latest-news .download-box a, .nhsuk-card.is-style-panel-with-label .nhsuk-card__content h2, .ld-course-list-items .ld_course_grid article.is-style-panel-with-label .nhsuk-card__content h2, .ld-course-list-items .ld_course_grid .is-style-panel-with-label.thumbnail.course .nhsuk-card__content h2, .is-style-panel-with-label.nhsuk-panel.is-style-panel-grey .nhsuk-card__content h2, .is-style-panel-with-label.is-style-panel-grey.sticky .nhsuk-card__content h2, .is-style-panel-with-label.is-style-panel-grey.download-box .nhsuk-card__content h2, .is-style-panel-with-label.nhsuk-promo.is-style-promo-small .nhsuk-card__content h2 {
+  .nhsuk-heading-m, .nightingale-latest-news .nhsuk-panel a, .nightingale-latest-news .sticky a, .nightingale-latest-news .download-box a, .nhsuk-card.is-style-panel-with-label .nhsuk-card__content h2, .is-style-panel-with-label.nhsuk-panel.is-style-panel-grey .nhsuk-card__content h2, .is-style-panel-with-label.is-style-panel-grey.sticky .nhsuk-card__content h2, .is-style-panel-with-label.is-style-panel-grey.download-box .nhsuk-card__content h2, .is-style-panel-with-label.nhsuk-promo.is-style-promo-small .nhsuk-card__content h2 {
     font-size: 18pt;
     line-height: 1.15;
   }
@@ -1646,7 +1646,7 @@ h3,
 
 @media (min-width: 40.0625em) {
   h3,
-  .nhsuk-heading-m, .nightingale-latest-news .nhsuk-panel a, .nightingale-latest-news .sticky a, .nightingale-latest-news .download-box a, .nhsuk-card.is-style-panel-with-label .nhsuk-card__content h2, .ld-course-list-items .ld_course_grid article.is-style-panel-with-label .nhsuk-card__content h2, .ld-course-list-items .ld_course_grid .is-style-panel-with-label.thumbnail.course .nhsuk-card__content h2, .is-style-panel-with-label.nhsuk-panel.is-style-panel-grey .nhsuk-card__content h2, .is-style-panel-with-label.is-style-panel-grey.sticky .nhsuk-card__content h2, .is-style-panel-with-label.is-style-panel-grey.download-box .nhsuk-card__content h2, .is-style-panel-with-label.nhsuk-promo.is-style-promo-small .nhsuk-card__content h2 {
+  .nhsuk-heading-m, .nightingale-latest-news .nhsuk-panel a, .nightingale-latest-news .sticky a, .nightingale-latest-news .download-box a, .nhsuk-card.is-style-panel-with-label .nhsuk-card__content h2, .is-style-panel-with-label.nhsuk-panel.is-style-panel-grey .nhsuk-card__content h2, .is-style-panel-with-label.is-style-panel-grey.sticky .nhsuk-card__content h2, .is-style-panel-with-label.is-style-panel-grey.download-box .nhsuk-card__content h2, .is-style-panel-with-label.nhsuk-promo.is-style-promo-small .nhsuk-card__content h2 {
     margin-bottom: 24px;
   }
 }
@@ -2126,7 +2126,7 @@ p + h3, .tribe-common .nhsuk-promo-group p.nhsuk-promo__description + h3, .nhsuk
 p + .nhsuk-heading-m,
 .tribe-common .nhsuk-promo-group p.nhsuk-promo__description + .nhsuk-heading-m,
 .nhsuk-body-m + .nhsuk-heading-m,
-address + .nhsuk-heading-m, .nightingale-latest-news .nhsuk-panel p + a, .tribe-common .nhsuk-promo-group .nightingale-latest-news .nhsuk-panel p.nhsuk-promo__description + a, .nightingale-latest-news .nhsuk-panel .tribe-common .nhsuk-promo-group p.nhsuk-promo__description + a, .nightingale-latest-news .nhsuk-panel .nhsuk-body-m + a, .nightingale-latest-news .nhsuk-panel address + a, .nightingale-latest-news .sticky p + a, .tribe-common .nhsuk-promo-group .nightingale-latest-news .sticky p.nhsuk-promo__description + a, .nightingale-latest-news .sticky .tribe-common .nhsuk-promo-group p.nhsuk-promo__description + a, .nightingale-latest-news .sticky .nhsuk-body-m + a, .nightingale-latest-news .sticky address + a, .nightingale-latest-news .download-box p + a, .tribe-common .nhsuk-promo-group .nightingale-latest-news .download-box p.nhsuk-promo__description + a, .nightingale-latest-news .download-box .tribe-common .nhsuk-promo-group p.nhsuk-promo__description + a, .nightingale-latest-news .download-box .nhsuk-body-m + a, .nightingale-latest-news .download-box address + a, .nhsuk-card.is-style-panel-with-label .nhsuk-card__content p + h2, .nhsuk-card.is-style-panel-with-label .nhsuk-card__content .tribe-common .nhsuk-promo-group p.nhsuk-promo__description + h2, .nhsuk-card.is-style-panel-with-label .nhsuk-card__content .nhsuk-body-m + h2, .nhsuk-card.is-style-panel-with-label .nhsuk-card__content address + h2, .ld-course-list-items .ld_course_grid article.is-style-panel-with-label .nhsuk-card__content p + h2, .ld-course-list-items .ld_course_grid article.is-style-panel-with-label .nhsuk-card__content .tribe-common .nhsuk-promo-group p.nhsuk-promo__description + h2, .ld-course-list-items .ld_course_grid article.is-style-panel-with-label .nhsuk-card__content .nhsuk-body-m + h2, .ld-course-list-items .ld_course_grid article.is-style-panel-with-label .nhsuk-card__content address + h2, .ld-course-list-items .ld_course_grid .is-style-panel-with-label.thumbnail.course .nhsuk-card__content p + h2, .ld-course-list-items .ld_course_grid .is-style-panel-with-label.thumbnail.course .nhsuk-card__content .tribe-common .nhsuk-promo-group p.nhsuk-promo__description + h2, .ld-course-list-items .ld_course_grid .is-style-panel-with-label.thumbnail.course .nhsuk-card__content .nhsuk-body-m + h2, .ld-course-list-items .ld_course_grid .is-style-panel-with-label.thumbnail.course .nhsuk-card__content address + h2, .is-style-panel-with-label.nhsuk-panel.is-style-panel-grey .nhsuk-card__content p + h2, .is-style-panel-with-label.nhsuk-panel.is-style-panel-grey .nhsuk-card__content .tribe-common .nhsuk-promo-group p.nhsuk-promo__description + h2, .is-style-panel-with-label.nhsuk-panel.is-style-panel-grey .nhsuk-card__content .nhsuk-body-m + h2, .is-style-panel-with-label.nhsuk-panel.is-style-panel-grey .nhsuk-card__content address + h2, .is-style-panel-with-label.is-style-panel-grey.sticky .nhsuk-card__content p + h2, .is-style-panel-with-label.is-style-panel-grey.sticky .nhsuk-card__content .tribe-common .nhsuk-promo-group p.nhsuk-promo__description + h2, .is-style-panel-with-label.is-style-panel-grey.sticky .nhsuk-card__content .nhsuk-body-m + h2, .is-style-panel-with-label.is-style-panel-grey.sticky .nhsuk-card__content address + h2, .is-style-panel-with-label.is-style-panel-grey.download-box .nhsuk-card__content p + h2, .is-style-panel-with-label.is-style-panel-grey.download-box .nhsuk-card__content .tribe-common .nhsuk-promo-group p.nhsuk-promo__description + h2, .is-style-panel-with-label.is-style-panel-grey.download-box .nhsuk-card__content .nhsuk-body-m + h2, .is-style-panel-with-label.is-style-panel-grey.download-box .nhsuk-card__content address + h2, .is-style-panel-with-label.nhsuk-promo.is-style-promo-small .nhsuk-card__content p + h2, .is-style-panel-with-label.nhsuk-promo.is-style-promo-small .nhsuk-card__content .tribe-common .nhsuk-promo-group p.nhsuk-promo__description + h2, .is-style-panel-with-label.nhsuk-promo.is-style-promo-small .nhsuk-card__content .nhsuk-body-m + h2, .is-style-panel-with-label.nhsuk-promo.is-style-promo-small .nhsuk-card__content address + h2,
+address + .nhsuk-heading-m, .nightingale-latest-news .nhsuk-panel p + a, .tribe-common .nhsuk-promo-group .nightingale-latest-news .nhsuk-panel p.nhsuk-promo__description + a, .nightingale-latest-news .nhsuk-panel .tribe-common .nhsuk-promo-group p.nhsuk-promo__description + a, .nightingale-latest-news .nhsuk-panel .nhsuk-body-m + a, .nightingale-latest-news .nhsuk-panel address + a, .nightingale-latest-news .sticky p + a, .tribe-common .nhsuk-promo-group .nightingale-latest-news .sticky p.nhsuk-promo__description + a, .nightingale-latest-news .sticky .tribe-common .nhsuk-promo-group p.nhsuk-promo__description + a, .nightingale-latest-news .sticky .nhsuk-body-m + a, .nightingale-latest-news .sticky address + a, .nightingale-latest-news .download-box p + a, .tribe-common .nhsuk-promo-group .nightingale-latest-news .download-box p.nhsuk-promo__description + a, .nightingale-latest-news .download-box .tribe-common .nhsuk-promo-group p.nhsuk-promo__description + a, .nightingale-latest-news .download-box .nhsuk-body-m + a, .nightingale-latest-news .download-box address + a, .nhsuk-card.is-style-panel-with-label .nhsuk-card__content p + h2, .nhsuk-card.is-style-panel-with-label .nhsuk-card__content .tribe-common .nhsuk-promo-group p.nhsuk-promo__description + h2, .nhsuk-card.is-style-panel-with-label .nhsuk-card__content .nhsuk-body-m + h2, .nhsuk-card.is-style-panel-with-label .nhsuk-card__content address + h2, .is-style-panel-with-label.nhsuk-panel.is-style-panel-grey .nhsuk-card__content p + h2, .is-style-panel-with-label.nhsuk-panel.is-style-panel-grey .nhsuk-card__content .tribe-common .nhsuk-promo-group p.nhsuk-promo__description + h2, .is-style-panel-with-label.nhsuk-panel.is-style-panel-grey .nhsuk-card__content .nhsuk-body-m + h2, .is-style-panel-with-label.nhsuk-panel.is-style-panel-grey .nhsuk-card__content address + h2, .is-style-panel-with-label.is-style-panel-grey.sticky .nhsuk-card__content p + h2, .is-style-panel-with-label.is-style-panel-grey.sticky .nhsuk-card__content .tribe-common .nhsuk-promo-group p.nhsuk-promo__description + h2, .is-style-panel-with-label.is-style-panel-grey.sticky .nhsuk-card__content .nhsuk-body-m + h2, .is-style-panel-with-label.is-style-panel-grey.sticky .nhsuk-card__content address + h2, .is-style-panel-with-label.is-style-panel-grey.download-box .nhsuk-card__content p + h2, .is-style-panel-with-label.is-style-panel-grey.download-box .nhsuk-card__content .tribe-common .nhsuk-promo-group p.nhsuk-promo__description + h2, .is-style-panel-with-label.is-style-panel-grey.download-box .nhsuk-card__content .nhsuk-body-m + h2, .is-style-panel-with-label.is-style-panel-grey.download-box .nhsuk-card__content address + h2, .is-style-panel-with-label.nhsuk-promo.is-style-promo-small .nhsuk-card__content p + h2, .is-style-panel-with-label.nhsuk-promo.is-style-promo-small .nhsuk-card__content .tribe-common .nhsuk-promo-group p.nhsuk-promo__description + h2, .is-style-panel-with-label.nhsuk-promo.is-style-promo-small .nhsuk-card__content .nhsuk-body-m + h2, .is-style-panel-with-label.nhsuk-promo.is-style-promo-small .nhsuk-card__content address + h2,
 .nhsuk-body-s + h3,
 .nhsuk-list-panel .comment-list .nhsuk-list-panel__item .comment-body .vcard .comment-meta a + h3,
 body.buddypress #buddypress #comments .comment-list .nhsuk-list-panel__item .comment-body .vcard .comment-meta a + h3,
@@ -2203,36 +2203,6 @@ body.buddypress #buddypress #activity-stream .comment-list .nhsuk-list-panel__it
 .nhsuk-card.is-style-panel-with-label .nhsuk-card__content .article-footer .comments-link + h2,
 #bbpress-forums .nhsuk-card.is-style-panel-with-label .nhsuk-card__content .bbp-author-name + h2,
 .nhsuk-card.is-style-panel-with-label .nhsuk-card__content #bbpress-forums .bbp-author-name + h2,
-.ld-course-list-items .ld_course_grid article.is-style-panel-with-label .nhsuk-card__content .nhsuk-body-s + h2,
-.nhsuk-list-panel .comment-list .nhsuk-list-panel__item .comment-body .vcard .comment-meta .ld-course-list-items .ld_course_grid article.is-style-panel-with-label .nhsuk-card__content a + h2,
-.ld-course-list-items .ld_course_grid article.is-style-panel-with-label .nhsuk-card__content .nhsuk-list-panel .comment-list .nhsuk-list-panel__item .comment-body .vcard .comment-meta a + h2,
-body.buddypress #buddypress #comments .comment-list .nhsuk-list-panel__item .comment-body .vcard .comment-meta .ld-course-list-items .ld_course_grid article.is-style-panel-with-label .nhsuk-card__content a + h2,
-.ld-course-list-items .ld_course_grid article.is-style-panel-with-label .nhsuk-card__content body.buddypress #buddypress #comments .comment-list .nhsuk-list-panel__item .comment-body .vcard .comment-meta a + h2,
-body.buddypress #buddypress #activity-stream .comment-list .nhsuk-list-panel__item .comment-body .vcard .comment-meta .ld-course-list-items .ld_course_grid article.is-style-panel-with-label .nhsuk-card__content a + h2,
-.ld-course-list-items .ld_course_grid article.is-style-panel-with-label .nhsuk-card__content body.buddypress #buddypress #activity-stream .comment-list .nhsuk-list-panel__item .comment-body .vcard .comment-meta a + h2,
-.article-footer .ld-course-list-items .ld_course_grid article.is-style-panel-with-label .nhsuk-card__content .cat-links + h2,
-.ld-course-list-items .ld_course_grid article.is-style-panel-with-label .nhsuk-card__content .article-footer .cat-links + h2,
-.article-footer .ld-course-list-items .ld_course_grid article.is-style-panel-with-label .nhsuk-card__content .tags-links + h2,
-.ld-course-list-items .ld_course_grid article.is-style-panel-with-label .nhsuk-card__content .article-footer .tags-links + h2,
-.article-footer .ld-course-list-items .ld_course_grid article.is-style-panel-with-label .nhsuk-card__content .comments-link + h2,
-.ld-course-list-items .ld_course_grid article.is-style-panel-with-label .nhsuk-card__content .article-footer .comments-link + h2,
-#bbpress-forums .ld-course-list-items .ld_course_grid article.is-style-panel-with-label .nhsuk-card__content .bbp-author-name + h2,
-.ld-course-list-items .ld_course_grid article.is-style-panel-with-label .nhsuk-card__content #bbpress-forums .bbp-author-name + h2,
-.ld-course-list-items .ld_course_grid .is-style-panel-with-label.thumbnail.course .nhsuk-card__content .nhsuk-body-s + h2,
-.nhsuk-list-panel .comment-list .nhsuk-list-panel__item .comment-body .vcard .comment-meta .ld-course-list-items .ld_course_grid .is-style-panel-with-label.thumbnail.course .nhsuk-card__content a + h2,
-.ld-course-list-items .ld_course_grid .is-style-panel-with-label.thumbnail.course .nhsuk-card__content .nhsuk-list-panel .comment-list .nhsuk-list-panel__item .comment-body .vcard .comment-meta a + h2,
-body.buddypress #buddypress #comments .comment-list .nhsuk-list-panel__item .comment-body .vcard .comment-meta .ld-course-list-items .ld_course_grid .is-style-panel-with-label.thumbnail.course .nhsuk-card__content a + h2,
-.ld-course-list-items .ld_course_grid .is-style-panel-with-label.thumbnail.course .nhsuk-card__content body.buddypress #buddypress #comments .comment-list .nhsuk-list-panel__item .comment-body .vcard .comment-meta a + h2,
-body.buddypress #buddypress #activity-stream .comment-list .nhsuk-list-panel__item .comment-body .vcard .comment-meta .ld-course-list-items .ld_course_grid .is-style-panel-with-label.thumbnail.course .nhsuk-card__content a + h2,
-.ld-course-list-items .ld_course_grid .is-style-panel-with-label.thumbnail.course .nhsuk-card__content body.buddypress #buddypress #activity-stream .comment-list .nhsuk-list-panel__item .comment-body .vcard .comment-meta a + h2,
-.article-footer .ld-course-list-items .ld_course_grid .is-style-panel-with-label.thumbnail.course .nhsuk-card__content .cat-links + h2,
-.ld-course-list-items .ld_course_grid .is-style-panel-with-label.thumbnail.course .nhsuk-card__content .article-footer .cat-links + h2,
-.article-footer .ld-course-list-items .ld_course_grid .is-style-panel-with-label.thumbnail.course .nhsuk-card__content .tags-links + h2,
-.ld-course-list-items .ld_course_grid .is-style-panel-with-label.thumbnail.course .nhsuk-card__content .article-footer .tags-links + h2,
-.article-footer .ld-course-list-items .ld_course_grid .is-style-panel-with-label.thumbnail.course .nhsuk-card__content .comments-link + h2,
-.ld-course-list-items .ld_course_grid .is-style-panel-with-label.thumbnail.course .nhsuk-card__content .article-footer .comments-link + h2,
-#bbpress-forums .ld-course-list-items .ld_course_grid .is-style-panel-with-label.thumbnail.course .nhsuk-card__content .bbp-author-name + h2,
-.ld-course-list-items .ld_course_grid .is-style-panel-with-label.thumbnail.course .nhsuk-card__content #bbpress-forums .bbp-author-name + h2,
 .is-style-panel-with-label.nhsuk-panel.is-style-panel-grey .nhsuk-card__content .nhsuk-body-s + h2,
 .nhsuk-list-panel .comment-list .nhsuk-list-panel__item .comment-body .vcard .comment-meta .is-style-panel-with-label.nhsuk-panel.is-style-panel-grey .nhsuk-card__content a + h2,
 .is-style-panel-with-label.nhsuk-panel.is-style-panel-grey .nhsuk-card__content .nhsuk-list-panel .comment-list .nhsuk-list-panel__item .comment-body .vcard .comment-meta a + h2,
@@ -2312,12 +2282,6 @@ ol + .nhsuk-heading-m,
 .nhsuk-card.is-style-panel-with-label .nhsuk-card__content .nhsuk-list + h2,
 .nhsuk-card.is-style-panel-with-label .nhsuk-card__content ul + h2,
 .nhsuk-card.is-style-panel-with-label .nhsuk-card__content ol + h2,
-.ld-course-list-items .ld_course_grid article.is-style-panel-with-label .nhsuk-card__content .nhsuk-list + h2,
-.ld-course-list-items .ld_course_grid article.is-style-panel-with-label .nhsuk-card__content ul + h2,
-.ld-course-list-items .ld_course_grid article.is-style-panel-with-label .nhsuk-card__content ol + h2,
-.ld-course-list-items .ld_course_grid .is-style-panel-with-label.thumbnail.course .nhsuk-card__content .nhsuk-list + h2,
-.ld-course-list-items .ld_course_grid .is-style-panel-with-label.thumbnail.course .nhsuk-card__content ul + h2,
-.ld-course-list-items .ld_course_grid .is-style-panel-with-label.thumbnail.course .nhsuk-card__content ol + h2,
 .is-style-panel-with-label.nhsuk-panel.is-style-panel-grey .nhsuk-card__content .nhsuk-list + h2,
 .is-style-panel-with-label.nhsuk-panel.is-style-panel-grey .nhsuk-card__content ul + h2,
 .is-style-panel-with-label.nhsuk-panel.is-style-panel-grey .nhsuk-card__content ol + h2,
@@ -2369,7 +2333,7 @@ ol + .nhsuk-heading-s {
   p + .nhsuk-heading-m,
   .tribe-common .nhsuk-promo-group p.nhsuk-promo__description + .nhsuk-heading-m,
   .nhsuk-body-m + .nhsuk-heading-m,
-  address + .nhsuk-heading-m, .nightingale-latest-news .nhsuk-panel p + a, .tribe-common .nhsuk-promo-group .nightingale-latest-news .nhsuk-panel p.nhsuk-promo__description + a, .nightingale-latest-news .nhsuk-panel .tribe-common .nhsuk-promo-group p.nhsuk-promo__description + a, .nightingale-latest-news .nhsuk-panel .nhsuk-body-m + a, .nightingale-latest-news .nhsuk-panel address + a, .nightingale-latest-news .sticky p + a, .tribe-common .nhsuk-promo-group .nightingale-latest-news .sticky p.nhsuk-promo__description + a, .nightingale-latest-news .sticky .tribe-common .nhsuk-promo-group p.nhsuk-promo__description + a, .nightingale-latest-news .sticky .nhsuk-body-m + a, .nightingale-latest-news .sticky address + a, .nightingale-latest-news .download-box p + a, .tribe-common .nhsuk-promo-group .nightingale-latest-news .download-box p.nhsuk-promo__description + a, .nightingale-latest-news .download-box .tribe-common .nhsuk-promo-group p.nhsuk-promo__description + a, .nightingale-latest-news .download-box .nhsuk-body-m + a, .nightingale-latest-news .download-box address + a, .nhsuk-card.is-style-panel-with-label .nhsuk-card__content p + h2, .nhsuk-card.is-style-panel-with-label .nhsuk-card__content .tribe-common .nhsuk-promo-group p.nhsuk-promo__description + h2, .nhsuk-card.is-style-panel-with-label .nhsuk-card__content .nhsuk-body-m + h2, .nhsuk-card.is-style-panel-with-label .nhsuk-card__content address + h2, .ld-course-list-items .ld_course_grid article.is-style-panel-with-label .nhsuk-card__content p + h2, .ld-course-list-items .ld_course_grid article.is-style-panel-with-label .nhsuk-card__content .tribe-common .nhsuk-promo-group p.nhsuk-promo__description + h2, .ld-course-list-items .ld_course_grid article.is-style-panel-with-label .nhsuk-card__content .nhsuk-body-m + h2, .ld-course-list-items .ld_course_grid article.is-style-panel-with-label .nhsuk-card__content address + h2, .ld-course-list-items .ld_course_grid .is-style-panel-with-label.thumbnail.course .nhsuk-card__content p + h2, .ld-course-list-items .ld_course_grid .is-style-panel-with-label.thumbnail.course .nhsuk-card__content .tribe-common .nhsuk-promo-group p.nhsuk-promo__description + h2, .ld-course-list-items .ld_course_grid .is-style-panel-with-label.thumbnail.course .nhsuk-card__content .nhsuk-body-m + h2, .ld-course-list-items .ld_course_grid .is-style-panel-with-label.thumbnail.course .nhsuk-card__content address + h2, .is-style-panel-with-label.nhsuk-panel.is-style-panel-grey .nhsuk-card__content p + h2, .is-style-panel-with-label.nhsuk-panel.is-style-panel-grey .nhsuk-card__content .tribe-common .nhsuk-promo-group p.nhsuk-promo__description + h2, .is-style-panel-with-label.nhsuk-panel.is-style-panel-grey .nhsuk-card__content .nhsuk-body-m + h2, .is-style-panel-with-label.nhsuk-panel.is-style-panel-grey .nhsuk-card__content address + h2, .is-style-panel-with-label.is-style-panel-grey.sticky .nhsuk-card__content p + h2, .is-style-panel-with-label.is-style-panel-grey.sticky .nhsuk-card__content .tribe-common .nhsuk-promo-group p.nhsuk-promo__description + h2, .is-style-panel-with-label.is-style-panel-grey.sticky .nhsuk-card__content .nhsuk-body-m + h2, .is-style-panel-with-label.is-style-panel-grey.sticky .nhsuk-card__content address + h2, .is-style-panel-with-label.is-style-panel-grey.download-box .nhsuk-card__content p + h2, .is-style-panel-with-label.is-style-panel-grey.download-box .nhsuk-card__content .tribe-common .nhsuk-promo-group p.nhsuk-promo__description + h2, .is-style-panel-with-label.is-style-panel-grey.download-box .nhsuk-card__content .nhsuk-body-m + h2, .is-style-panel-with-label.is-style-panel-grey.download-box .nhsuk-card__content address + h2, .is-style-panel-with-label.nhsuk-promo.is-style-promo-small .nhsuk-card__content p + h2, .is-style-panel-with-label.nhsuk-promo.is-style-promo-small .nhsuk-card__content .tribe-common .nhsuk-promo-group p.nhsuk-promo__description + h2, .is-style-panel-with-label.nhsuk-promo.is-style-promo-small .nhsuk-card__content .nhsuk-body-m + h2, .is-style-panel-with-label.nhsuk-promo.is-style-promo-small .nhsuk-card__content address + h2,
+  address + .nhsuk-heading-m, .nightingale-latest-news .nhsuk-panel p + a, .tribe-common .nhsuk-promo-group .nightingale-latest-news .nhsuk-panel p.nhsuk-promo__description + a, .nightingale-latest-news .nhsuk-panel .tribe-common .nhsuk-promo-group p.nhsuk-promo__description + a, .nightingale-latest-news .nhsuk-panel .nhsuk-body-m + a, .nightingale-latest-news .nhsuk-panel address + a, .nightingale-latest-news .sticky p + a, .tribe-common .nhsuk-promo-group .nightingale-latest-news .sticky p.nhsuk-promo__description + a, .nightingale-latest-news .sticky .tribe-common .nhsuk-promo-group p.nhsuk-promo__description + a, .nightingale-latest-news .sticky .nhsuk-body-m + a, .nightingale-latest-news .sticky address + a, .nightingale-latest-news .download-box p + a, .tribe-common .nhsuk-promo-group .nightingale-latest-news .download-box p.nhsuk-promo__description + a, .nightingale-latest-news .download-box .tribe-common .nhsuk-promo-group p.nhsuk-promo__description + a, .nightingale-latest-news .download-box .nhsuk-body-m + a, .nightingale-latest-news .download-box address + a, .nhsuk-card.is-style-panel-with-label .nhsuk-card__content p + h2, .nhsuk-card.is-style-panel-with-label .nhsuk-card__content .tribe-common .nhsuk-promo-group p.nhsuk-promo__description + h2, .nhsuk-card.is-style-panel-with-label .nhsuk-card__content .nhsuk-body-m + h2, .nhsuk-card.is-style-panel-with-label .nhsuk-card__content address + h2, .is-style-panel-with-label.nhsuk-panel.is-style-panel-grey .nhsuk-card__content p + h2, .is-style-panel-with-label.nhsuk-panel.is-style-panel-grey .nhsuk-card__content .tribe-common .nhsuk-promo-group p.nhsuk-promo__description + h2, .is-style-panel-with-label.nhsuk-panel.is-style-panel-grey .nhsuk-card__content .nhsuk-body-m + h2, .is-style-panel-with-label.nhsuk-panel.is-style-panel-grey .nhsuk-card__content address + h2, .is-style-panel-with-label.is-style-panel-grey.sticky .nhsuk-card__content p + h2, .is-style-panel-with-label.is-style-panel-grey.sticky .nhsuk-card__content .tribe-common .nhsuk-promo-group p.nhsuk-promo__description + h2, .is-style-panel-with-label.is-style-panel-grey.sticky .nhsuk-card__content .nhsuk-body-m + h2, .is-style-panel-with-label.is-style-panel-grey.sticky .nhsuk-card__content address + h2, .is-style-panel-with-label.is-style-panel-grey.download-box .nhsuk-card__content p + h2, .is-style-panel-with-label.is-style-panel-grey.download-box .nhsuk-card__content .tribe-common .nhsuk-promo-group p.nhsuk-promo__description + h2, .is-style-panel-with-label.is-style-panel-grey.download-box .nhsuk-card__content .nhsuk-body-m + h2, .is-style-panel-with-label.is-style-panel-grey.download-box .nhsuk-card__content address + h2, .is-style-panel-with-label.nhsuk-promo.is-style-promo-small .nhsuk-card__content p + h2, .is-style-panel-with-label.nhsuk-promo.is-style-promo-small .nhsuk-card__content .tribe-common .nhsuk-promo-group p.nhsuk-promo__description + h2, .is-style-panel-with-label.nhsuk-promo.is-style-promo-small .nhsuk-card__content .nhsuk-body-m + h2, .is-style-panel-with-label.nhsuk-promo.is-style-promo-small .nhsuk-card__content address + h2,
   .nhsuk-body-s + h3,
   .nhsuk-list-panel .comment-list .nhsuk-list-panel__item .comment-body .vcard .comment-meta a + h3,
   body.buddypress #buddypress #comments .comment-list .nhsuk-list-panel__item .comment-body .vcard .comment-meta a + h3,
@@ -2446,36 +2410,6 @@ ol + .nhsuk-heading-s {
   .nhsuk-card.is-style-panel-with-label .nhsuk-card__content .article-footer .comments-link + h2,
   #bbpress-forums .nhsuk-card.is-style-panel-with-label .nhsuk-card__content .bbp-author-name + h2,
   .nhsuk-card.is-style-panel-with-label .nhsuk-card__content #bbpress-forums .bbp-author-name + h2,
-  .ld-course-list-items .ld_course_grid article.is-style-panel-with-label .nhsuk-card__content .nhsuk-body-s + h2,
-  .nhsuk-list-panel .comment-list .nhsuk-list-panel__item .comment-body .vcard .comment-meta .ld-course-list-items .ld_course_grid article.is-style-panel-with-label .nhsuk-card__content a + h2,
-  .ld-course-list-items .ld_course_grid article.is-style-panel-with-label .nhsuk-card__content .nhsuk-list-panel .comment-list .nhsuk-list-panel__item .comment-body .vcard .comment-meta a + h2,
-  body.buddypress #buddypress #comments .comment-list .nhsuk-list-panel__item .comment-body .vcard .comment-meta .ld-course-list-items .ld_course_grid article.is-style-panel-with-label .nhsuk-card__content a + h2,
-  .ld-course-list-items .ld_course_grid article.is-style-panel-with-label .nhsuk-card__content body.buddypress #buddypress #comments .comment-list .nhsuk-list-panel__item .comment-body .vcard .comment-meta a + h2,
-  body.buddypress #buddypress #activity-stream .comment-list .nhsuk-list-panel__item .comment-body .vcard .comment-meta .ld-course-list-items .ld_course_grid article.is-style-panel-with-label .nhsuk-card__content a + h2,
-  .ld-course-list-items .ld_course_grid article.is-style-panel-with-label .nhsuk-card__content body.buddypress #buddypress #activity-stream .comment-list .nhsuk-list-panel__item .comment-body .vcard .comment-meta a + h2,
-  .article-footer .ld-course-list-items .ld_course_grid article.is-style-panel-with-label .nhsuk-card__content .cat-links + h2,
-  .ld-course-list-items .ld_course_grid article.is-style-panel-with-label .nhsuk-card__content .article-footer .cat-links + h2,
-  .article-footer .ld-course-list-items .ld_course_grid article.is-style-panel-with-label .nhsuk-card__content .tags-links + h2,
-  .ld-course-list-items .ld_course_grid article.is-style-panel-with-label .nhsuk-card__content .article-footer .tags-links + h2,
-  .article-footer .ld-course-list-items .ld_course_grid article.is-style-panel-with-label .nhsuk-card__content .comments-link + h2,
-  .ld-course-list-items .ld_course_grid article.is-style-panel-with-label .nhsuk-card__content .article-footer .comments-link + h2,
-  #bbpress-forums .ld-course-list-items .ld_course_grid article.is-style-panel-with-label .nhsuk-card__content .bbp-author-name + h2,
-  .ld-course-list-items .ld_course_grid article.is-style-panel-with-label .nhsuk-card__content #bbpress-forums .bbp-author-name + h2,
-  .ld-course-list-items .ld_course_grid .is-style-panel-with-label.thumbnail.course .nhsuk-card__content .nhsuk-body-s + h2,
-  .nhsuk-list-panel .comment-list .nhsuk-list-panel__item .comment-body .vcard .comment-meta .ld-course-list-items .ld_course_grid .is-style-panel-with-label.thumbnail.course .nhsuk-card__content a + h2,
-  .ld-course-list-items .ld_course_grid .is-style-panel-with-label.thumbnail.course .nhsuk-card__content .nhsuk-list-panel .comment-list .nhsuk-list-panel__item .comment-body .vcard .comment-meta a + h2,
-  body.buddypress #buddypress #comments .comment-list .nhsuk-list-panel__item .comment-body .vcard .comment-meta .ld-course-list-items .ld_course_grid .is-style-panel-with-label.thumbnail.course .nhsuk-card__content a + h2,
-  .ld-course-list-items .ld_course_grid .is-style-panel-with-label.thumbnail.course .nhsuk-card__content body.buddypress #buddypress #comments .comment-list .nhsuk-list-panel__item .comment-body .vcard .comment-meta a + h2,
-  body.buddypress #buddypress #activity-stream .comment-list .nhsuk-list-panel__item .comment-body .vcard .comment-meta .ld-course-list-items .ld_course_grid .is-style-panel-with-label.thumbnail.course .nhsuk-card__content a + h2,
-  .ld-course-list-items .ld_course_grid .is-style-panel-with-label.thumbnail.course .nhsuk-card__content body.buddypress #buddypress #activity-stream .comment-list .nhsuk-list-panel__item .comment-body .vcard .comment-meta a + h2,
-  .article-footer .ld-course-list-items .ld_course_grid .is-style-panel-with-label.thumbnail.course .nhsuk-card__content .cat-links + h2,
-  .ld-course-list-items .ld_course_grid .is-style-panel-with-label.thumbnail.course .nhsuk-card__content .article-footer .cat-links + h2,
-  .article-footer .ld-course-list-items .ld_course_grid .is-style-panel-with-label.thumbnail.course .nhsuk-card__content .tags-links + h2,
-  .ld-course-list-items .ld_course_grid .is-style-panel-with-label.thumbnail.course .nhsuk-card__content .article-footer .tags-links + h2,
-  .article-footer .ld-course-list-items .ld_course_grid .is-style-panel-with-label.thumbnail.course .nhsuk-card__content .comments-link + h2,
-  .ld-course-list-items .ld_course_grid .is-style-panel-with-label.thumbnail.course .nhsuk-card__content .article-footer .comments-link + h2,
-  #bbpress-forums .ld-course-list-items .ld_course_grid .is-style-panel-with-label.thumbnail.course .nhsuk-card__content .bbp-author-name + h2,
-  .ld-course-list-items .ld_course_grid .is-style-panel-with-label.thumbnail.course .nhsuk-card__content #bbpress-forums .bbp-author-name + h2,
   .is-style-panel-with-label.nhsuk-panel.is-style-panel-grey .nhsuk-card__content .nhsuk-body-s + h2,
   .nhsuk-list-panel .comment-list .nhsuk-list-panel__item .comment-body .vcard .comment-meta .is-style-panel-with-label.nhsuk-panel.is-style-panel-grey .nhsuk-card__content a + h2,
   .is-style-panel-with-label.nhsuk-panel.is-style-panel-grey .nhsuk-card__content .nhsuk-list-panel .comment-list .nhsuk-list-panel__item .comment-body .vcard .comment-meta a + h2,
@@ -2555,12 +2489,6 @@ ol + .nhsuk-heading-s {
   .nhsuk-card.is-style-panel-with-label .nhsuk-card__content .nhsuk-list + h2,
   .nhsuk-card.is-style-panel-with-label .nhsuk-card__content ul + h2,
   .nhsuk-card.is-style-panel-with-label .nhsuk-card__content ol + h2,
-  .ld-course-list-items .ld_course_grid article.is-style-panel-with-label .nhsuk-card__content .nhsuk-list + h2,
-  .ld-course-list-items .ld_course_grid article.is-style-panel-with-label .nhsuk-card__content ul + h2,
-  .ld-course-list-items .ld_course_grid article.is-style-panel-with-label .nhsuk-card__content ol + h2,
-  .ld-course-list-items .ld_course_grid .is-style-panel-with-label.thumbnail.course .nhsuk-card__content .nhsuk-list + h2,
-  .ld-course-list-items .ld_course_grid .is-style-panel-with-label.thumbnail.course .nhsuk-card__content ul + h2,
-  .ld-course-list-items .ld_course_grid .is-style-panel-with-label.thumbnail.course .nhsuk-card__content ol + h2,
   .is-style-panel-with-label.nhsuk-panel.is-style-panel-grey .nhsuk-card__content .nhsuk-list + h2,
   .is-style-panel-with-label.nhsuk-panel.is-style-panel-grey .nhsuk-card__content ul + h2,
   .is-style-panel-with-label.nhsuk-panel.is-style-panel-grey .nhsuk-card__content ol + h2,
@@ -4071,12 +3999,12 @@ b {
  * 5. Box shadow 8px used instead of the default 4px.
  * 6. Text decoration underline used to override default <a> styling.
  */
-.nhsuk-action-link {
+.nhsuk-action-link, body.buddypress #buddypress #send-private-message {
   margin-bottom: 32px;
 }
 
 @media (min-width: 40.0625em) {
-  .nhsuk-action-link {
+  .nhsuk-action-link, body.buddypress #buddypress #send-private-message {
     margin-bottom: 40px;
   }
 }
@@ -4425,7 +4353,6 @@ input[type="submit"], #content a.wp-block-button__link, #content .wp-block-file_
 #tribe-events-content button:not(.tribe-tickets__rsvp-ar-quantity-input-number), html.js .tribe-events-page-template.wp-embed-responsive .wp-embed.nhsuk-care-card .tribe-events-event-cost a, html.js .tribe-events-page-template.wp-embed-responsive .learndash-wrapper .wp-embed.ld-table-list .tribe-events-event-cost a, .learndash-wrapper html.js .tribe-events-page-template.wp-embed-responsive .wp-embed.ld-table-list .tribe-events-event-cost a, .download-button, body.buddypress #buddypress .request-membership,
 body.buddypress #buddypress .friendship-button a,
 body.buddypress #buddypress .follow-button a,
-body.buddypress #buddypress #send-private-message a,
 body.buddypress #buddypress #aw-whats-new-submit,
 body.buddypress #buddypress #aw-whats-new-reset,
 body.buddypress #buddypress .dz-button,
@@ -4467,7 +4394,6 @@ body.buddypress #buddypress .button, body.buddypress #buddypress input[type="sub
   #tribe-events-content button:not(.tribe-tickets__rsvp-ar-quantity-input-number), html.js .tribe-events-page-template.wp-embed-responsive .wp-embed.nhsuk-care-card .tribe-events-event-cost a, html.js .tribe-events-page-template.wp-embed-responsive .learndash-wrapper .wp-embed.ld-table-list .tribe-events-event-cost a, .learndash-wrapper html.js .tribe-events-page-template.wp-embed-responsive .wp-embed.ld-table-list .tribe-events-event-cost a, .download-button, body.buddypress #buddypress .request-membership,
   body.buddypress #buddypress .friendship-button a,
   body.buddypress #buddypress .follow-button a,
-  body.buddypress #buddypress #send-private-message a,
   body.buddypress #buddypress #aw-whats-new-submit,
   body.buddypress #buddypress #aw-whats-new-reset,
   body.buddypress #buddypress .dz-button,
@@ -4489,7 +4415,6 @@ body.buddypress #buddypress .button, body.buddypress #buddypress input[type="sub
   #tribe-events-content button:not(.tribe-tickets__rsvp-ar-quantity-input-number), html.js .tribe-events-page-template.wp-embed-responsive .wp-embed.nhsuk-care-card .tribe-events-event-cost a, html.js .tribe-events-page-template.wp-embed-responsive .learndash-wrapper .wp-embed.ld-table-list .tribe-events-event-cost a, .learndash-wrapper html.js .tribe-events-page-template.wp-embed-responsive .wp-embed.ld-table-list .tribe-events-event-cost a, .download-button, body.buddypress #buddypress .request-membership,
   body.buddypress #buddypress .friendship-button a,
   body.buddypress #buddypress .follow-button a,
-  body.buddypress #buddypress #send-private-message a,
   body.buddypress #buddypress #aw-whats-new-submit,
   body.buddypress #buddypress #aw-whats-new-reset,
   body.buddypress #buddypress .dz-button,
@@ -4510,7 +4435,6 @@ body.buddypress #buddypress .button, body.buddypress #buddypress input[type="sub
   #tribe-events-content button:not(.tribe-tickets__rsvp-ar-quantity-input-number), html.js .tribe-events-page-template.wp-embed-responsive .wp-embed.nhsuk-care-card .tribe-events-event-cost a, html.js .tribe-events-page-template.wp-embed-responsive .learndash-wrapper .wp-embed.ld-table-list .tribe-events-event-cost a, .learndash-wrapper html.js .tribe-events-page-template.wp-embed-responsive .wp-embed.ld-table-list .tribe-events-event-cost a, .download-button, body.buddypress #buddypress .request-membership,
   body.buddypress #buddypress .friendship-button a,
   body.buddypress #buddypress .follow-button a,
-  body.buddypress #buddypress #send-private-message a,
   body.buddypress #buddypress #aw-whats-new-submit,
   body.buddypress #buddypress #aw-whats-new-reset,
   body.buddypress #buddypress .dz-button,
@@ -4530,7 +4454,6 @@ body.buddypress #buddypress .button, body.buddypress #buddypress input[type="sub
   #tribe-events-content button:not(.tribe-tickets__rsvp-ar-quantity-input-number), html.js .tribe-events-page-template.wp-embed-responsive .wp-embed.nhsuk-care-card .tribe-events-event-cost a, html.js .tribe-events-page-template.wp-embed-responsive .learndash-wrapper .wp-embed.ld-table-list .tribe-events-event-cost a, .learndash-wrapper html.js .tribe-events-page-template.wp-embed-responsive .wp-embed.ld-table-list .tribe-events-event-cost a, .download-button, body.buddypress #buddypress .request-membership,
   body.buddypress #buddypress .friendship-button a,
   body.buddypress #buddypress .follow-button a,
-  body.buddypress #buddypress #send-private-message a,
   body.buddypress #buddypress #aw-whats-new-submit,
   body.buddypress #buddypress #aw-whats-new-reset,
   body.buddypress #buddypress .dz-button,
@@ -4549,7 +4472,6 @@ input:link[type="submit"], #content a.wp-block-button__link:link, #content .wp-b
 #tribe-events-content button:link:not(.tribe-tickets__rsvp-ar-quantity-input-number), html.js .tribe-events-page-template.wp-embed-responsive .wp-embed.nhsuk-care-card .tribe-events-event-cost a:link, html.js .tribe-events-page-template.wp-embed-responsive .learndash-wrapper .wp-embed.ld-table-list .tribe-events-event-cost a:link, .learndash-wrapper html.js .tribe-events-page-template.wp-embed-responsive .wp-embed.ld-table-list .tribe-events-event-cost a:link, .download-button:link, body.buddypress #buddypress .request-membership:link,
 body.buddypress #buddypress .friendship-button a:link,
 body.buddypress #buddypress .follow-button a:link,
-body.buddypress #buddypress #send-private-message a:link,
 body.buddypress #buddypress #aw-whats-new-submit:link,
 body.buddypress #buddypress #aw-whats-new-reset:link,
 body.buddypress #buddypress .dz-button:link,
@@ -4563,7 +4485,6 @@ input:visited[type="submit"], #content a.wp-block-button__link:visited, #content
 #tribe-events-content button:visited:not(.tribe-tickets__rsvp-ar-quantity-input-number), html.js .tribe-events-page-template.wp-embed-responsive .wp-embed.nhsuk-care-card .tribe-events-event-cost a:visited, html.js .tribe-events-page-template.wp-embed-responsive .learndash-wrapper .wp-embed.ld-table-list .tribe-events-event-cost a:visited, .learndash-wrapper html.js .tribe-events-page-template.wp-embed-responsive .wp-embed.ld-table-list .tribe-events-event-cost a:visited, .download-button:visited, body.buddypress #buddypress .request-membership:visited,
 body.buddypress #buddypress .friendship-button a:visited,
 body.buddypress #buddypress .follow-button a:visited,
-body.buddypress #buddypress #send-private-message a:visited,
 body.buddypress #buddypress #aw-whats-new-submit:visited,
 body.buddypress #buddypress #aw-whats-new-reset:visited,
 body.buddypress #buddypress .dz-button:visited,
@@ -4577,7 +4498,6 @@ input:active[type="submit"], #content a.wp-block-button__link:active, #content .
 #tribe-events-content button:active:not(.tribe-tickets__rsvp-ar-quantity-input-number), html.js .tribe-events-page-template.wp-embed-responsive .wp-embed.nhsuk-care-card .tribe-events-event-cost a:active, html.js .tribe-events-page-template.wp-embed-responsive .learndash-wrapper .wp-embed.ld-table-list .tribe-events-event-cost a:active, .learndash-wrapper html.js .tribe-events-page-template.wp-embed-responsive .wp-embed.ld-table-list .tribe-events-event-cost a:active, .download-button:active, body.buddypress #buddypress .request-membership:active,
 body.buddypress #buddypress .friendship-button a:active,
 body.buddypress #buddypress .follow-button a:active,
-body.buddypress #buddypress #send-private-message a:active,
 body.buddypress #buddypress #aw-whats-new-submit:active,
 body.buddypress #buddypress #aw-whats-new-reset:active,
 body.buddypress #buddypress .dz-button:active,
@@ -4591,7 +4511,6 @@ input:hover[type="submit"], #content a.wp-block-button__link:hover, #content .wp
 #tribe-events-content button:hover:not(.tribe-tickets__rsvp-ar-quantity-input-number), html.js .tribe-events-page-template.wp-embed-responsive .wp-embed.nhsuk-care-card .tribe-events-event-cost a:hover, html.js .tribe-events-page-template.wp-embed-responsive .learndash-wrapper .wp-embed.ld-table-list .tribe-events-event-cost a:hover, .learndash-wrapper html.js .tribe-events-page-template.wp-embed-responsive .wp-embed.ld-table-list .tribe-events-event-cost a:hover, .download-button:hover, body.buddypress #buddypress .request-membership:hover,
 body.buddypress #buddypress .friendship-button a:hover,
 body.buddypress #buddypress .follow-button a:hover,
-body.buddypress #buddypress #send-private-message a:hover,
 body.buddypress #buddypress #aw-whats-new-submit:hover,
 body.buddypress #buddypress #aw-whats-new-reset:hover,
 body.buddypress #buddypress .dz-button:hover,
@@ -4610,7 +4529,6 @@ input[type="submit"]::-moz-focus-inner, #content a.wp-block-button__link::-moz-f
 #tribe-events-content button:not(.tribe-tickets__rsvp-ar-quantity-input-number)::-moz-focus-inner, html.js .tribe-events-page-template.wp-embed-responsive .wp-embed.nhsuk-care-card .tribe-events-event-cost a::-moz-focus-inner, html.js .tribe-events-page-template.wp-embed-responsive .learndash-wrapper .wp-embed.ld-table-list .tribe-events-event-cost a::-moz-focus-inner, .learndash-wrapper html.js .tribe-events-page-template.wp-embed-responsive .wp-embed.ld-table-list .tribe-events-event-cost a::-moz-focus-inner, .download-button::-moz-focus-inner, body.buddypress #buddypress .request-membership::-moz-focus-inner,
 body.buddypress #buddypress .friendship-button a::-moz-focus-inner,
 body.buddypress #buddypress .follow-button a::-moz-focus-inner,
-body.buddypress #buddypress #send-private-message a::-moz-focus-inner,
 body.buddypress #buddypress #aw-whats-new-submit::-moz-focus-inner,
 body.buddypress #buddypress #aw-whats-new-reset::-moz-focus-inner,
 body.buddypress #buddypress .dz-button::-moz-focus-inner,
@@ -4629,7 +4547,6 @@ input:hover[type="submit"], #content a.wp-block-button__link:hover, #content .wp
 #tribe-events-content button:hover:not(.tribe-tickets__rsvp-ar-quantity-input-number), html.js .tribe-events-page-template.wp-embed-responsive .wp-embed.nhsuk-care-card .tribe-events-event-cost a:hover, html.js .tribe-events-page-template.wp-embed-responsive .learndash-wrapper .wp-embed.ld-table-list .tribe-events-event-cost a:hover, .learndash-wrapper html.js .tribe-events-page-template.wp-embed-responsive .wp-embed.ld-table-list .tribe-events-event-cost a:hover, .download-button:hover, body.buddypress #buddypress .request-membership:hover,
 body.buddypress #buddypress .friendship-button a:hover,
 body.buddypress #buddypress .follow-button a:hover,
-body.buddypress #buddypress #send-private-message a:hover,
 body.buddypress #buddypress #aw-whats-new-submit:hover,
 body.buddypress #buddypress #aw-whats-new-reset:hover,
 body.buddypress #buddypress .dz-button:hover,
@@ -4647,7 +4564,6 @@ input:focus[type="submit"], #content a.wp-block-button__link:focus, #content .wp
 #tribe-events-content button:focus:not(.tribe-tickets__rsvp-ar-quantity-input-number), html.js .tribe-events-page-template.wp-embed-responsive .wp-embed.nhsuk-care-card .tribe-events-event-cost a:focus, html.js .tribe-events-page-template.wp-embed-responsive .learndash-wrapper .wp-embed.ld-table-list .tribe-events-event-cost a:focus, .learndash-wrapper html.js .tribe-events-page-template.wp-embed-responsive .wp-embed.ld-table-list .tribe-events-event-cost a:focus, .download-button:focus, body.buddypress #buddypress .request-membership:focus,
 body.buddypress #buddypress .friendship-button a:focus,
 body.buddypress #buddypress .follow-button a:focus,
-body.buddypress #buddypress #send-private-message a:focus,
 body.buddypress #buddypress #aw-whats-new-submit:focus,
 body.buddypress #buddypress #aw-whats-new-reset:focus,
 body.buddypress #buddypress .dz-button:focus,
@@ -4668,7 +4584,6 @@ input:focus:visited[type="submit"], #content a.wp-block-button__link:focus:visit
 #tribe-events-content button:focus:visited:not(.tribe-tickets__rsvp-ar-quantity-input-number), html.js .tribe-events-page-template.wp-embed-responsive .wp-embed.nhsuk-care-card .tribe-events-event-cost a:focus:visited, html.js .tribe-events-page-template.wp-embed-responsive .learndash-wrapper .wp-embed.ld-table-list .tribe-events-event-cost a:focus:visited, .learndash-wrapper html.js .tribe-events-page-template.wp-embed-responsive .wp-embed.ld-table-list .tribe-events-event-cost a:focus:visited, .download-button:focus:visited, body.buddypress #buddypress .request-membership:focus:visited,
 body.buddypress #buddypress .friendship-button a:focus:visited,
 body.buddypress #buddypress .follow-button a:focus:visited,
-body.buddypress #buddypress #send-private-message a:focus:visited,
 body.buddypress #buddypress #aw-whats-new-submit:focus:visited,
 body.buddypress #buddypress #aw-whats-new-reset:focus:visited,
 body.buddypress #buddypress .dz-button:focus:visited,
@@ -4686,7 +4601,6 @@ input:focus:visited:active[type="submit"], #content a.wp-block-button__link:focu
 #tribe-events-content button:focus:visited:active:not(.tribe-tickets__rsvp-ar-quantity-input-number), html.js .tribe-events-page-template.wp-embed-responsive .wp-embed.nhsuk-care-card .tribe-events-event-cost a:focus:visited:active, html.js .tribe-events-page-template.wp-embed-responsive .learndash-wrapper .wp-embed.ld-table-list .tribe-events-event-cost a:focus:visited:active, .learndash-wrapper html.js .tribe-events-page-template.wp-embed-responsive .wp-embed.ld-table-list .tribe-events-event-cost a:focus:visited:active, .download-button:focus:visited:active, body.buddypress #buddypress .request-membership:focus:visited:active,
 body.buddypress #buddypress .friendship-button a:focus:visited:active,
 body.buddypress #buddypress .follow-button a:focus:visited:active,
-body.buddypress #buddypress #send-private-message a:focus:visited:active,
 body.buddypress #buddypress #aw-whats-new-submit:focus:visited:active,
 body.buddypress #buddypress #aw-whats-new-reset:focus:visited:active,
 body.buddypress #buddypress .dz-button:focus:visited:active,
@@ -4704,7 +4618,6 @@ input:active[type="submit"], #content a.wp-block-button__link:active, #content .
 #tribe-events-content button:active:not(.tribe-tickets__rsvp-ar-quantity-input-number), html.js .tribe-events-page-template.wp-embed-responsive .wp-embed.nhsuk-care-card .tribe-events-event-cost a:active, html.js .tribe-events-page-template.wp-embed-responsive .learndash-wrapper .wp-embed.ld-table-list .tribe-events-event-cost a:active, .learndash-wrapper html.js .tribe-events-page-template.wp-embed-responsive .wp-embed.ld-table-list .tribe-events-event-cost a:active, .download-button:active, body.buddypress #buddypress .request-membership:active,
 body.buddypress #buddypress .friendship-button a:active,
 body.buddypress #buddypress .follow-button a:active,
-body.buddypress #buddypress #send-private-message a:active,
 body.buddypress #buddypress #aw-whats-new-submit:active,
 body.buddypress #buddypress #aw-whats-new-reset:active,
 body.buddypress #buddypress .dz-button:active,
@@ -4725,7 +4638,6 @@ input[type="submit"]::before, #content a.wp-block-button__link::before, #content
 #tribe-events-content button:not(.tribe-tickets__rsvp-ar-quantity-input-number)::before, html.js .tribe-events-page-template.wp-embed-responsive .wp-embed.nhsuk-care-card .tribe-events-event-cost a::before, html.js .tribe-events-page-template.wp-embed-responsive .learndash-wrapper .wp-embed.ld-table-list .tribe-events-event-cost a::before, .learndash-wrapper html.js .tribe-events-page-template.wp-embed-responsive .wp-embed.ld-table-list .tribe-events-event-cost a::before, .download-button::before, body.buddypress #buddypress .request-membership::before,
 body.buddypress #buddypress .friendship-button a::before,
 body.buddypress #buddypress .follow-button a::before,
-body.buddypress #buddypress #send-private-message a::before,
 body.buddypress #buddypress #aw-whats-new-submit::before,
 body.buddypress #buddypress #aw-whats-new-reset::before,
 body.buddypress #buddypress .dz-button::before,
@@ -4750,7 +4662,6 @@ input[type="submit"]:active::before, #content a.wp-block-button__link:active::be
 #tribe-events-content button:not(.tribe-tickets__rsvp-ar-quantity-input-number):active::before, html.js .tribe-events-page-template.wp-embed-responsive .wp-embed.nhsuk-care-card .tribe-events-event-cost a:active::before, html.js .tribe-events-page-template.wp-embed-responsive .learndash-wrapper .wp-embed.ld-table-list .tribe-events-event-cost a:active::before, .learndash-wrapper html.js .tribe-events-page-template.wp-embed-responsive .wp-embed.ld-table-list .tribe-events-event-cost a:active::before, .download-button:active::before, body.buddypress #buddypress .request-membership:active::before,
 body.buddypress #buddypress .friendship-button a:active::before,
 body.buddypress #buddypress .follow-button a:active::before,
-body.buddypress #buddypress #send-private-message a:active::before,
 body.buddypress #buddypress #aw-whats-new-submit:active::before,
 body.buddypress #buddypress #aw-whats-new-reset:active::before,
 body.buddypress #buddypress .dz-button:active::before,
@@ -4773,7 +4684,6 @@ input.is-style-secondary[type="submit"], #content a.is-style-secondary.wp-block-
 #tribe-events-content a.is-style-secondary.tribe-events-button,
 #tribe-events-content button.is-style-secondary:not(.tribe-tickets__rsvp-ar-quantity-input-number), html.js .tribe-events-page-template.wp-embed-responsive .wp-embed.nhsuk-care-card .tribe-events-event-cost a.is-style-secondary, html.js .tribe-events-page-template.wp-embed-responsive .learndash-wrapper .wp-embed.ld-table-list .tribe-events-event-cost a.is-style-secondary, .learndash-wrapper html.js .tribe-events-page-template.wp-embed-responsive .wp-embed.ld-table-list .tribe-events-event-cost a.is-style-secondary, .is-style-secondary.download-button, body.buddypress #buddypress .is-style-secondary.request-membership,
 body.buddypress #buddypress .friendship-button a.is-style-secondary,
-body.buddypress #buddypress #send-private-message a.is-style-secondary,
 body.buddypress #buddypress .is-style-secondary#aw-whats-new-submit,
 body.buddypress #buddypress .is-style-secondary.dz-button,
 body.buddypress #buddypress .is-style-secondary.button, body.buddypress #buddypress input.is-style-secondary[type="submit"], body.buddypress #buddypress .is-style-secondary#save, body.buddypress #buddypress .groups .is-style-secondary.membership-requested, #bbpress-forums .is-style-secondary.bb-topic-reply-link-wrap, #bbpress-forums .bbp-admin-links a.is-style-secondary,
@@ -4796,7 +4706,6 @@ input.is-style-secondary:hover[type="submit"], #content a.is-style-secondary.wp-
 #tribe-events-content a.is-style-secondary.tribe-events-button:hover,
 #tribe-events-content button.is-style-secondary:hover:not(.tribe-tickets__rsvp-ar-quantity-input-number), html.js .tribe-events-page-template.wp-embed-responsive .wp-embed.nhsuk-care-card .tribe-events-event-cost a.is-style-secondary:hover, html.js .tribe-events-page-template.wp-embed-responsive .learndash-wrapper .wp-embed.ld-table-list .tribe-events-event-cost a.is-style-secondary:hover, .learndash-wrapper html.js .tribe-events-page-template.wp-embed-responsive .wp-embed.ld-table-list .tribe-events-event-cost a.is-style-secondary:hover, .is-style-secondary.download-button:hover, body.buddypress #buddypress .is-style-secondary.request-membership:hover,
 body.buddypress #buddypress .friendship-button a.is-style-secondary:hover,
-body.buddypress #buddypress #send-private-message a.is-style-secondary:hover,
 body.buddypress #buddypress .is-style-secondary#aw-whats-new-submit:hover,
 body.buddypress #buddypress .is-style-secondary.dz-button:hover,
 body.buddypress #buddypress .is-style-secondary.button:hover, body.buddypress #buddypress input.is-style-secondary:hover[type="submit"], body.buddypress #buddypress .is-style-secondary#save:hover, body.buddypress #buddypress .groups .is-style-secondary.membership-requested:hover, #bbpress-forums .is-style-secondary.bb-topic-reply-link-wrap:hover, #bbpress-forums .bbp-admin-links a.is-style-secondary:hover,
@@ -4818,7 +4727,6 @@ input.is-style-secondary:focus[type="submit"], #content a.is-style-secondary.wp-
 #tribe-events-content a.is-style-secondary.tribe-events-button:focus,
 #tribe-events-content button.is-style-secondary:focus:not(.tribe-tickets__rsvp-ar-quantity-input-number), html.js .tribe-events-page-template.wp-embed-responsive .wp-embed.nhsuk-care-card .tribe-events-event-cost a.is-style-secondary:focus, html.js .tribe-events-page-template.wp-embed-responsive .learndash-wrapper .wp-embed.ld-table-list .tribe-events-event-cost a.is-style-secondary:focus, .learndash-wrapper html.js .tribe-events-page-template.wp-embed-responsive .wp-embed.ld-table-list .tribe-events-event-cost a.is-style-secondary:focus, .is-style-secondary.download-button:focus, body.buddypress #buddypress .is-style-secondary.request-membership:focus,
 body.buddypress #buddypress .friendship-button a.is-style-secondary:focus,
-body.buddypress #buddypress #send-private-message a.is-style-secondary:focus,
 body.buddypress #buddypress .is-style-secondary#aw-whats-new-submit:focus,
 body.buddypress #buddypress .is-style-secondary.dz-button:focus,
 body.buddypress #buddypress .is-style-secondary.button:focus, body.buddypress #buddypress input.is-style-secondary:focus[type="submit"], body.buddypress #buddypress .is-style-secondary#save:focus, body.buddypress #buddypress .groups .is-style-secondary.membership-requested:focus, #bbpress-forums .is-style-secondary.bb-topic-reply-link-wrap:focus, #bbpress-forums .bbp-admin-links a.is-style-secondary:focus,
@@ -4843,7 +4751,6 @@ input.is-style-secondary:active[type="submit"], #content a.is-style-secondary.wp
 #tribe-events-content a.is-style-secondary.tribe-events-button:active,
 #tribe-events-content button.is-style-secondary:active:not(.tribe-tickets__rsvp-ar-quantity-input-number), html.js .tribe-events-page-template.wp-embed-responsive .wp-embed.nhsuk-care-card .tribe-events-event-cost a.is-style-secondary:active, html.js .tribe-events-page-template.wp-embed-responsive .learndash-wrapper .wp-embed.ld-table-list .tribe-events-event-cost a.is-style-secondary:active, .learndash-wrapper html.js .tribe-events-page-template.wp-embed-responsive .wp-embed.ld-table-list .tribe-events-event-cost a.is-style-secondary:active, .is-style-secondary.download-button:active, body.buddypress #buddypress .is-style-secondary.request-membership:active,
 body.buddypress #buddypress .friendship-button a.is-style-secondary:active,
-body.buddypress #buddypress #send-private-message a.is-style-secondary:active,
 body.buddypress #buddypress .is-style-secondary#aw-whats-new-submit:active,
 body.buddypress #buddypress .is-style-secondary.dz-button:active,
 body.buddypress #buddypress .is-style-secondary.button:active, body.buddypress #buddypress input.is-style-secondary:active[type="submit"], body.buddypress #buddypress .is-style-secondary#save:active, body.buddypress #buddypress .groups .is-style-secondary.membership-requested:active, #bbpress-forums .is-style-secondary.bb-topic-reply-link-wrap:active, #bbpress-forums .bbp-admin-links a.is-style-secondary:active,
@@ -4868,7 +4775,6 @@ input.nhsuk-button--disabled.is-style-secondary[type="submit"], #content a.nhsuk
 #tribe-events-content a.nhsuk-button--disabled.is-style-secondary.tribe-events-button,
 #tribe-events-content button.nhsuk-button--disabled.is-style-secondary:not(.tribe-tickets__rsvp-ar-quantity-input-number), html.js .tribe-events-page-template.wp-embed-responsive .wp-embed.nhsuk-care-card .tribe-events-event-cost a.nhsuk-button--disabled.is-style-secondary, html.js .tribe-events-page-template.wp-embed-responsive .learndash-wrapper .wp-embed.ld-table-list .tribe-events-event-cost a.nhsuk-button--disabled.is-style-secondary, .learndash-wrapper html.js .tribe-events-page-template.wp-embed-responsive .wp-embed.ld-table-list .tribe-events-event-cost a.nhsuk-button--disabled.is-style-secondary, .nhsuk-button--disabled.is-style-secondary.download-button, body.buddypress #buddypress .nhsuk-button--disabled.is-style-secondary.request-membership,
 body.buddypress #buddypress .friendship-button a.nhsuk-button--disabled.is-style-secondary,
-body.buddypress #buddypress #send-private-message a.nhsuk-button--disabled.is-style-secondary,
 body.buddypress #buddypress .nhsuk-button--disabled.is-style-secondary#aw-whats-new-submit,
 body.buddypress #buddypress .nhsuk-button--disabled.is-style-secondary.dz-button,
 body.buddypress #buddypress .nhsuk-button--disabled.is-style-secondary.button, body.buddypress #buddypress input.nhsuk-button--disabled.is-style-secondary[type="submit"], body.buddypress #buddypress .nhsuk-button--disabled.is-style-secondary#save, body.buddypress #buddypress .groups .nhsuk-button--disabled.is-style-secondary.membership-requested, #bbpress-forums .nhsuk-button--disabled.is-style-secondary.bb-topic-reply-link-wrap, #bbpress-forums .bbp-admin-links a.nhsuk-button--disabled.is-style-secondary, body.buddypress #buddypress .follow-button a.nhsuk-button--disabled,
@@ -4889,7 +4795,6 @@ input.is-style-reverse[type="submit"], #content a.is-style-reverse.wp-block-butt
 #tribe-events-content button.is-style-reverse:not(.tribe-tickets__rsvp-ar-quantity-input-number), html.js .tribe-events-page-template.wp-embed-responsive .wp-embed.nhsuk-care-card .tribe-events-event-cost a.is-style-reverse, html.js .tribe-events-page-template.wp-embed-responsive .learndash-wrapper .wp-embed.ld-table-list .tribe-events-event-cost a.is-style-reverse, .learndash-wrapper html.js .tribe-events-page-template.wp-embed-responsive .wp-embed.ld-table-list .tribe-events-event-cost a.is-style-reverse, .is-style-reverse.download-button, body.buddypress #buddypress .is-style-reverse.request-membership,
 body.buddypress #buddypress .friendship-button a.is-style-reverse,
 body.buddypress #buddypress .follow-button a.is-style-reverse,
-body.buddypress #buddypress #send-private-message a.is-style-reverse,
 body.buddypress #buddypress .is-style-reverse#aw-whats-new-submit,
 body.buddypress #buddypress .is-style-reverse#aw-whats-new-reset,
 body.buddypress #buddypress .is-style-reverse.dz-button,
@@ -4899,8 +4804,7 @@ body.buddypress #buddypress a.is-style-reverse#aw-whats-new-submit,
 body.buddypress #buddypress a.is-style-reverse#aw-whats-new-reset,
 body.buddypress #buddypress a.is-style-reverse.dz-button,
 body.buddypress #buddypress a.is-style-reverse.button, body.buddypress #buddypress a.is-style-reverse#save, body.buddypress #buddypress .groups a.is-style-reverse.membership-requested, #bbpress-forums a.is-style-reverse.bb-reply-actions-button, #bbpress-forums a.is-style-reverse.bb-topic-reply-link-wrap,
-#bbpress-forums a.is-style-reverse.bb-topic-subscription-link-wrap,
-body.buddypress #buddypress #send-private-message a,
+#bbpress-forums a.is-style-reverse.bb-topic-subscription-link-wrap, body.buddypress #buddypress #send-private-message a,
 body.buddypress #buddypress .fav, body.buddypress #buddypress .groups .membership-requested, body.buddypress #buddypress .bp-manage-group-container .button.confirm.member-promote-to-mod, #bbpress-forums .bbp-admin-links a.bbp-topic-trash-link, #bbpress-forums .bbp-admin-links a.bbp-reply-trash-link, #bbpress-forums .bbp-admin-links a.bbp-topic-edit-link, #bbpress-forums .bbp-admin-links a.bbp-reply-edit-link {
   background-color: #ffffff;
   box-shadow: 0 4px 0 #212b32;
@@ -4919,7 +4823,6 @@ input.is-style-reverse:hover[type="submit"], #content a.is-style-reverse.wp-bloc
 #tribe-events-content button.is-style-reverse:hover:not(.tribe-tickets__rsvp-ar-quantity-input-number), html.js .tribe-events-page-template.wp-embed-responsive .wp-embed.nhsuk-care-card .tribe-events-event-cost a.is-style-reverse:hover, html.js .tribe-events-page-template.wp-embed-responsive .learndash-wrapper .wp-embed.ld-table-list .tribe-events-event-cost a.is-style-reverse:hover, .learndash-wrapper html.js .tribe-events-page-template.wp-embed-responsive .wp-embed.ld-table-list .tribe-events-event-cost a.is-style-reverse:hover, .is-style-reverse.download-button:hover, body.buddypress #buddypress .is-style-reverse.request-membership:hover,
 body.buddypress #buddypress .friendship-button a.is-style-reverse:hover,
 body.buddypress #buddypress .follow-button a.is-style-reverse:hover,
-body.buddypress #buddypress #send-private-message a.is-style-reverse:hover,
 body.buddypress #buddypress .is-style-reverse#aw-whats-new-submit:hover,
 body.buddypress #buddypress .is-style-reverse#aw-whats-new-reset:hover,
 body.buddypress #buddypress .is-style-reverse.dz-button:hover,
@@ -4929,8 +4832,7 @@ body.buddypress #buddypress a.is-style-reverse#aw-whats-new-submit:hover,
 body.buddypress #buddypress a.is-style-reverse#aw-whats-new-reset:hover,
 body.buddypress #buddypress a.is-style-reverse.dz-button:hover,
 body.buddypress #buddypress a.is-style-reverse.button:hover, body.buddypress #buddypress a.is-style-reverse#save:hover, body.buddypress #buddypress .groups a.is-style-reverse.membership-requested:hover, #bbpress-forums a.is-style-reverse.bb-reply-actions-button:hover, #bbpress-forums a.is-style-reverse.bb-topic-reply-link-wrap:hover,
-#bbpress-forums a.is-style-reverse.bb-topic-subscription-link-wrap:hover,
-body.buddypress #buddypress #send-private-message a:hover,
+#bbpress-forums a.is-style-reverse.bb-topic-subscription-link-wrap:hover, body.buddypress #buddypress #send-private-message a:hover,
 body.buddypress #buddypress .fav:hover, body.buddypress #buddypress .groups .membership-requested:hover, body.buddypress #buddypress .bp-manage-group-container .button.confirm.member-promote-to-mod:hover, #bbpress-forums .bbp-admin-links a.bbp-topic-trash-link:hover, #bbpress-forums .bbp-admin-links a.bbp-reply-trash-link:hover, #bbpress-forums .bbp-admin-links a.bbp-topic-edit-link:hover, #bbpress-forums .bbp-admin-links a.bbp-reply-edit-link:hover {
   background-color: #f2f2f2;
   color: #212b32;
@@ -4948,7 +4850,6 @@ input.is-style-reverse:focus[type="submit"], #content a.is-style-reverse.wp-bloc
 #tribe-events-content button.is-style-reverse:focus:not(.tribe-tickets__rsvp-ar-quantity-input-number), html.js .tribe-events-page-template.wp-embed-responsive .wp-embed.nhsuk-care-card .tribe-events-event-cost a.is-style-reverse:focus, html.js .tribe-events-page-template.wp-embed-responsive .learndash-wrapper .wp-embed.ld-table-list .tribe-events-event-cost a.is-style-reverse:focus, .learndash-wrapper html.js .tribe-events-page-template.wp-embed-responsive .wp-embed.ld-table-list .tribe-events-event-cost a.is-style-reverse:focus, .is-style-reverse.download-button:focus, body.buddypress #buddypress .is-style-reverse.request-membership:focus,
 body.buddypress #buddypress .friendship-button a.is-style-reverse:focus,
 body.buddypress #buddypress .follow-button a.is-style-reverse:focus,
-body.buddypress #buddypress #send-private-message a.is-style-reverse:focus,
 body.buddypress #buddypress .is-style-reverse#aw-whats-new-submit:focus,
 body.buddypress #buddypress .is-style-reverse#aw-whats-new-reset:focus,
 body.buddypress #buddypress .is-style-reverse.dz-button:focus,
@@ -4958,8 +4859,7 @@ body.buddypress #buddypress a.is-style-reverse#aw-whats-new-submit:focus,
 body.buddypress #buddypress a.is-style-reverse#aw-whats-new-reset:focus,
 body.buddypress #buddypress a.is-style-reverse.dz-button:focus,
 body.buddypress #buddypress a.is-style-reverse.button:focus, body.buddypress #buddypress a.is-style-reverse#save:focus, body.buddypress #buddypress .groups a.is-style-reverse.membership-requested:focus, #bbpress-forums a.is-style-reverse.bb-reply-actions-button:focus, #bbpress-forums a.is-style-reverse.bb-topic-reply-link-wrap:focus,
-#bbpress-forums a.is-style-reverse.bb-topic-subscription-link-wrap:focus,
-body.buddypress #buddypress #send-private-message a:focus,
+#bbpress-forums a.is-style-reverse.bb-topic-subscription-link-wrap:focus, body.buddypress #buddypress #send-private-message a:focus,
 body.buddypress #buddypress .fav:focus, body.buddypress #buddypress .groups .membership-requested:focus, body.buddypress #buddypress .bp-manage-group-container .button.confirm.member-promote-to-mod:focus, #bbpress-forums .bbp-admin-links a.bbp-topic-trash-link:focus, #bbpress-forums .bbp-admin-links a.bbp-reply-trash-link:focus, #bbpress-forums .bbp-admin-links a.bbp-topic-edit-link:focus, #bbpress-forums .bbp-admin-links a.bbp-reply-edit-link:focus {
   background: #ffeb3b;
   box-shadow: 0 4px 0 #212b32;
@@ -4979,7 +4879,6 @@ input.is-style-reverse:active[type="submit"], #content a.is-style-reverse.wp-blo
 #tribe-events-content button.is-style-reverse:active:not(.tribe-tickets__rsvp-ar-quantity-input-number), html.js .tribe-events-page-template.wp-embed-responsive .wp-embed.nhsuk-care-card .tribe-events-event-cost a.is-style-reverse:active, html.js .tribe-events-page-template.wp-embed-responsive .learndash-wrapper .wp-embed.ld-table-list .tribe-events-event-cost a.is-style-reverse:active, .learndash-wrapper html.js .tribe-events-page-template.wp-embed-responsive .wp-embed.ld-table-list .tribe-events-event-cost a.is-style-reverse:active, .is-style-reverse.download-button:active, body.buddypress #buddypress .is-style-reverse.request-membership:active,
 body.buddypress #buddypress .friendship-button a.is-style-reverse:active,
 body.buddypress #buddypress .follow-button a.is-style-reverse:active,
-body.buddypress #buddypress #send-private-message a.is-style-reverse:active,
 body.buddypress #buddypress .is-style-reverse#aw-whats-new-submit:active,
 body.buddypress #buddypress .is-style-reverse#aw-whats-new-reset:active,
 body.buddypress #buddypress .is-style-reverse.dz-button:active,
@@ -4989,8 +4888,7 @@ body.buddypress #buddypress a.is-style-reverse#aw-whats-new-submit:active,
 body.buddypress #buddypress a.is-style-reverse#aw-whats-new-reset:active,
 body.buddypress #buddypress a.is-style-reverse.dz-button:active,
 body.buddypress #buddypress a.is-style-reverse.button:active, body.buddypress #buddypress a.is-style-reverse#save:active, body.buddypress #buddypress .groups a.is-style-reverse.membership-requested:active, #bbpress-forums a.is-style-reverse.bb-reply-actions-button:active, #bbpress-forums a.is-style-reverse.bb-topic-reply-link-wrap:active,
-#bbpress-forums a.is-style-reverse.bb-topic-subscription-link-wrap:active,
-body.buddypress #buddypress #send-private-message a:active,
+#bbpress-forums a.is-style-reverse.bb-topic-subscription-link-wrap:active, body.buddypress #buddypress #send-private-message a:active,
 body.buddypress #buddypress .fav:active, body.buddypress #buddypress .groups .membership-requested:active, body.buddypress #buddypress .bp-manage-group-container .button.confirm.member-promote-to-mod:active, #bbpress-forums .bbp-admin-links a.bbp-topic-trash-link:active, #bbpress-forums .bbp-admin-links a.bbp-reply-trash-link:active, #bbpress-forums .bbp-admin-links a.bbp-topic-edit-link:active, #bbpress-forums .bbp-admin-links a.bbp-reply-edit-link:active {
   background: #212b32;
   box-shadow: none;
@@ -5010,7 +4908,6 @@ input.is-style-reverse:link[type="submit"], #content a.is-style-reverse.wp-block
 #tribe-events-content button.is-style-reverse:link:not(.tribe-tickets__rsvp-ar-quantity-input-number), html.js .tribe-events-page-template.wp-embed-responsive .wp-embed.nhsuk-care-card .tribe-events-event-cost a.is-style-reverse:link, html.js .tribe-events-page-template.wp-embed-responsive .learndash-wrapper .wp-embed.ld-table-list .tribe-events-event-cost a.is-style-reverse:link, .learndash-wrapper html.js .tribe-events-page-template.wp-embed-responsive .wp-embed.ld-table-list .tribe-events-event-cost a.is-style-reverse:link, .is-style-reverse.download-button:link, body.buddypress #buddypress .is-style-reverse.request-membership:link,
 body.buddypress #buddypress .friendship-button a.is-style-reverse:link,
 body.buddypress #buddypress .follow-button a.is-style-reverse:link,
-body.buddypress #buddypress #send-private-message a.is-style-reverse:link,
 body.buddypress #buddypress .is-style-reverse#aw-whats-new-submit:link,
 body.buddypress #buddypress .is-style-reverse#aw-whats-new-reset:link,
 body.buddypress #buddypress .is-style-reverse.dz-button:link,
@@ -5020,8 +4917,7 @@ body.buddypress #buddypress a.is-style-reverse#aw-whats-new-submit:link,
 body.buddypress #buddypress a.is-style-reverse#aw-whats-new-reset:link,
 body.buddypress #buddypress a.is-style-reverse.dz-button:link,
 body.buddypress #buddypress a.is-style-reverse.button:link, body.buddypress #buddypress a.is-style-reverse#save:link, body.buddypress #buddypress .groups a.is-style-reverse.membership-requested:link, #bbpress-forums a.is-style-reverse.bb-reply-actions-button:link, #bbpress-forums a.is-style-reverse.bb-topic-reply-link-wrap:link,
-#bbpress-forums a.is-style-reverse.bb-topic-subscription-link-wrap:link,
-body.buddypress #buddypress #send-private-message a:link,
+#bbpress-forums a.is-style-reverse.bb-topic-subscription-link-wrap:link, body.buddypress #buddypress #send-private-message a:link,
 body.buddypress #buddypress .fav:link, body.buddypress #buddypress .groups .membership-requested:link, body.buddypress #buddypress .bp-manage-group-container .button.confirm.member-promote-to-mod:link, #bbpress-forums .bbp-admin-links a.bbp-topic-trash-link:link, #bbpress-forums .bbp-admin-links a.bbp-reply-trash-link:link, #bbpress-forums .bbp-admin-links a.bbp-topic-edit-link:link, #bbpress-forums .bbp-admin-links a.bbp-reply-edit-link:link {
   color: #212b32;
 }
@@ -5038,7 +4934,6 @@ input.is-style-reverse:link:active[type="submit"], #content a.is-style-reverse.w
 #tribe-events-content button.is-style-reverse:link:active:not(.tribe-tickets__rsvp-ar-quantity-input-number), html.js .tribe-events-page-template.wp-embed-responsive .wp-embed.nhsuk-care-card .tribe-events-event-cost a.is-style-reverse:link:active, html.js .tribe-events-page-template.wp-embed-responsive .learndash-wrapper .wp-embed.ld-table-list .tribe-events-event-cost a.is-style-reverse:link:active, .learndash-wrapper html.js .tribe-events-page-template.wp-embed-responsive .wp-embed.ld-table-list .tribe-events-event-cost a.is-style-reverse:link:active, .is-style-reverse.download-button:link:active, body.buddypress #buddypress .is-style-reverse.request-membership:link:active,
 body.buddypress #buddypress .friendship-button a.is-style-reverse:link:active,
 body.buddypress #buddypress .follow-button a.is-style-reverse:link:active,
-body.buddypress #buddypress #send-private-message a.is-style-reverse:link:active,
 body.buddypress #buddypress .is-style-reverse#aw-whats-new-submit:link:active,
 body.buddypress #buddypress .is-style-reverse#aw-whats-new-reset:link:active,
 body.buddypress #buddypress .is-style-reverse.dz-button:link:active,
@@ -5065,7 +4960,6 @@ input.nhsuk-button--disabled.is-style-reverse[type="submit"], #content a.nhsuk-b
 #tribe-events-content button.nhsuk-button--disabled.is-style-reverse:not(.tribe-tickets__rsvp-ar-quantity-input-number), html.js .tribe-events-page-template.wp-embed-responsive .wp-embed.nhsuk-care-card .tribe-events-event-cost a.nhsuk-button--disabled.is-style-reverse, html.js .tribe-events-page-template.wp-embed-responsive .learndash-wrapper .wp-embed.ld-table-list .tribe-events-event-cost a.nhsuk-button--disabled.is-style-reverse, .learndash-wrapper html.js .tribe-events-page-template.wp-embed-responsive .wp-embed.ld-table-list .tribe-events-event-cost a.nhsuk-button--disabled.is-style-reverse, .nhsuk-button--disabled.is-style-reverse.download-button, body.buddypress #buddypress .nhsuk-button--disabled.is-style-reverse.request-membership,
 body.buddypress #buddypress .friendship-button a.nhsuk-button--disabled.is-style-reverse,
 body.buddypress #buddypress .follow-button a.nhsuk-button--disabled.is-style-reverse,
-body.buddypress #buddypress #send-private-message a.nhsuk-button--disabled.is-style-reverse,
 body.buddypress #buddypress .nhsuk-button--disabled.is-style-reverse#aw-whats-new-submit,
 body.buddypress #buddypress .nhsuk-button--disabled.is-style-reverse#aw-whats-new-reset,
 body.buddypress #buddypress .nhsuk-button--disabled.is-style-reverse.dz-button,
@@ -5092,7 +4986,6 @@ input.nhsuk-button--disabled.is-style-reverse:focus[type="submit"], #content a.n
 #tribe-events-content button.nhsuk-button--disabled.is-style-reverse:focus:not(.tribe-tickets__rsvp-ar-quantity-input-number), html.js .tribe-events-page-template.wp-embed-responsive .wp-embed.nhsuk-care-card .tribe-events-event-cost a.nhsuk-button--disabled.is-style-reverse:focus, html.js .tribe-events-page-template.wp-embed-responsive .learndash-wrapper .wp-embed.ld-table-list .tribe-events-event-cost a.nhsuk-button--disabled.is-style-reverse:focus, .learndash-wrapper html.js .tribe-events-page-template.wp-embed-responsive .wp-embed.ld-table-list .tribe-events-event-cost a.nhsuk-button--disabled.is-style-reverse:focus, .nhsuk-button--disabled.is-style-reverse.download-button:focus, body.buddypress #buddypress .nhsuk-button--disabled.is-style-reverse.request-membership:focus,
 body.buddypress #buddypress .friendship-button a.nhsuk-button--disabled.is-style-reverse:focus,
 body.buddypress #buddypress .follow-button a.nhsuk-button--disabled.is-style-reverse:focus,
-body.buddypress #buddypress #send-private-message a.nhsuk-button--disabled.is-style-reverse:focus,
 body.buddypress #buddypress .nhsuk-button--disabled.is-style-reverse#aw-whats-new-submit:focus,
 body.buddypress #buddypress .nhsuk-button--disabled.is-style-reverse#aw-whats-new-reset:focus,
 body.buddypress #buddypress .nhsuk-button--disabled.is-style-reverse.dz-button:focus,
@@ -5160,7 +5053,6 @@ html.js .tribe-events-page-template.wp-embed-responsive .learndash-wrapper .wp-e
 body.buddypress #buddypress .request-membership[disabled="disabled"],
 body.buddypress #buddypress .friendship-button a[disabled="disabled"],
 body.buddypress #buddypress .follow-button a[disabled="disabled"],
-body.buddypress #buddypress #send-private-message a[disabled="disabled"],
 body.buddypress #buddypress #aw-whats-new-submit[disabled="disabled"],
 body.buddypress #buddypress #aw-whats-new-reset[disabled="disabled"],
 body.buddypress #buddypress .dz-button[disabled="disabled"],
@@ -5221,7 +5113,6 @@ html.js .tribe-events-page-template.wp-embed-responsive .learndash-wrapper .wp-e
 body.buddypress #buddypress .request-membership[disabled],
 body.buddypress #buddypress .friendship-button a[disabled],
 body.buddypress #buddypress .follow-button a[disabled],
-body.buddypress #buddypress #send-private-message a[disabled],
 body.buddypress #buddypress #aw-whats-new-submit[disabled],
 body.buddypress #buddypress #aw-whats-new-reset[disabled],
 body.buddypress #buddypress .dz-button[disabled],
@@ -5287,7 +5178,6 @@ html.js .tribe-events-page-template.wp-embed-responsive .learndash-wrapper .wp-e
 body.buddypress #buddypress .request-membership[disabled="disabled"]:hover,
 body.buddypress #buddypress .friendship-button a[disabled="disabled"]:hover,
 body.buddypress #buddypress .follow-button a[disabled="disabled"]:hover,
-body.buddypress #buddypress #send-private-message a[disabled="disabled"]:hover,
 body.buddypress #buddypress #aw-whats-new-submit[disabled="disabled"]:hover,
 body.buddypress #buddypress #aw-whats-new-reset[disabled="disabled"]:hover,
 body.buddypress #buddypress .dz-button[disabled="disabled"]:hover,
@@ -5347,7 +5237,6 @@ html.js .tribe-events-page-template.wp-embed-responsive .learndash-wrapper .wp-e
 body.buddypress #buddypress .request-membership[disabled]:hover,
 body.buddypress #buddypress .friendship-button a[disabled]:hover,
 body.buddypress #buddypress .follow-button a[disabled]:hover,
-body.buddypress #buddypress #send-private-message a[disabled]:hover,
 body.buddypress #buddypress #aw-whats-new-submit[disabled]:hover,
 body.buddypress #buddypress #aw-whats-new-reset[disabled]:hover,
 body.buddypress #buddypress .dz-button[disabled]:hover,
@@ -5412,7 +5301,6 @@ html.js .tribe-events-page-template.wp-embed-responsive .learndash-wrapper .wp-e
 body.buddypress #buddypress .request-membership[disabled="disabled"]:focus,
 body.buddypress #buddypress .friendship-button a[disabled="disabled"]:focus,
 body.buddypress #buddypress .follow-button a[disabled="disabled"]:focus,
-body.buddypress #buddypress #send-private-message a[disabled="disabled"]:focus,
 body.buddypress #buddypress #aw-whats-new-submit[disabled="disabled"]:focus,
 body.buddypress #buddypress #aw-whats-new-reset[disabled="disabled"]:focus,
 body.buddypress #buddypress .dz-button[disabled="disabled"]:focus,
@@ -5472,7 +5360,6 @@ html.js .tribe-events-page-template.wp-embed-responsive .learndash-wrapper .wp-e
 body.buddypress #buddypress .request-membership[disabled]:focus,
 body.buddypress #buddypress .friendship-button a[disabled]:focus,
 body.buddypress #buddypress .follow-button a[disabled]:focus,
-body.buddypress #buddypress #send-private-message a[disabled]:focus,
 body.buddypress #buddypress #aw-whats-new-submit[disabled]:focus,
 body.buddypress #buddypress #aw-whats-new-reset[disabled]:focus,
 body.buddypress #buddypress .dz-button[disabled]:focus,
@@ -5537,7 +5424,6 @@ html.js .tribe-events-page-template.wp-embed-responsive .learndash-wrapper .wp-e
 body.buddypress #buddypress .request-membership[disabled="disabled"]:active,
 body.buddypress #buddypress .friendship-button a[disabled="disabled"]:active,
 body.buddypress #buddypress .follow-button a[disabled="disabled"]:active,
-body.buddypress #buddypress #send-private-message a[disabled="disabled"]:active,
 body.buddypress #buddypress #aw-whats-new-submit[disabled="disabled"]:active,
 body.buddypress #buddypress #aw-whats-new-reset[disabled="disabled"]:active,
 body.buddypress #buddypress .dz-button[disabled="disabled"]:active,
@@ -5597,7 +5483,6 @@ html.js .tribe-events-page-template.wp-embed-responsive .learndash-wrapper .wp-e
 body.buddypress #buddypress .request-membership[disabled]:active,
 body.buddypress #buddypress .friendship-button a[disabled]:active,
 body.buddypress #buddypress .follow-button a[disabled]:active,
-body.buddypress #buddypress #send-private-message a[disabled]:active,
 body.buddypress #buddypress #aw-whats-new-submit[disabled]:active,
 body.buddypress #buddypress #aw-whats-new-reset[disabled]:active,
 body.buddypress #buddypress .dz-button[disabled]:active,
@@ -5624,7 +5509,6 @@ input.is-style-secondary[disabled="disabled"][type="submit"], #content a.is-styl
 #tribe-events-content a.is-style-secondary.tribe-events-button[disabled="disabled"],
 #tribe-events-content button.is-style-secondary[disabled="disabled"]:not(.tribe-tickets__rsvp-ar-quantity-input-number), html.js .tribe-events-page-template.wp-embed-responsive .wp-embed.nhsuk-care-card .tribe-events-event-cost a.is-style-secondary[disabled="disabled"], html.js .tribe-events-page-template.wp-embed-responsive .learndash-wrapper .wp-embed.ld-table-list .tribe-events-event-cost a.is-style-secondary[disabled="disabled"], .learndash-wrapper html.js .tribe-events-page-template.wp-embed-responsive .wp-embed.ld-table-list .tribe-events-event-cost a.is-style-secondary[disabled="disabled"], .is-style-secondary.download-button[disabled="disabled"], body.buddypress #buddypress .is-style-secondary.request-membership[disabled="disabled"],
 body.buddypress #buddypress .friendship-button a.is-style-secondary[disabled="disabled"],
-body.buddypress #buddypress #send-private-message a.is-style-secondary[disabled="disabled"],
 body.buddypress #buddypress .is-style-secondary#aw-whats-new-submit[disabled="disabled"],
 body.buddypress #buddypress .is-style-secondary.dz-button[disabled="disabled"],
 body.buddypress #buddypress .is-style-secondary.button[disabled="disabled"], body.buddypress #buddypress input.is-style-secondary[disabled="disabled"][type="submit"], body.buddypress #buddypress .is-style-secondary#save[disabled="disabled"], body.buddypress #buddypress .groups .is-style-secondary.membership-requested[disabled="disabled"], #bbpress-forums .is-style-secondary.bb-topic-reply-link-wrap[disabled="disabled"], #bbpress-forums .bbp-admin-links a.is-style-secondary[disabled="disabled"],
@@ -5688,7 +5572,6 @@ html.js .tribe-events-page-template.wp-embed-responsive .learndash-wrapper .wp-e
 .is-style-secondary.download-button[disabled],
 body.buddypress #buddypress .is-style-secondary.request-membership[disabled],
 body.buddypress #buddypress .friendship-button a.is-style-secondary[disabled],
-body.buddypress #buddypress #send-private-message a.is-style-secondary[disabled],
 body.buddypress #buddypress .is-style-secondary#aw-whats-new-submit[disabled],
 body.buddypress #buddypress .is-style-secondary.dz-button[disabled],
 body.buddypress #buddypress .is-style-secondary.button[disabled],
@@ -5727,7 +5610,6 @@ input.is-style-secondary[disabled="disabled"]:hover[type="submit"], #content a.i
 #tribe-events-content a.is-style-secondary.tribe-events-button[disabled="disabled"]:hover,
 #tribe-events-content button.is-style-secondary[disabled="disabled"]:hover:not(.tribe-tickets__rsvp-ar-quantity-input-number), html.js .tribe-events-page-template.wp-embed-responsive .wp-embed.nhsuk-care-card .tribe-events-event-cost a.is-style-secondary[disabled="disabled"]:hover, html.js .tribe-events-page-template.wp-embed-responsive .learndash-wrapper .wp-embed.ld-table-list .tribe-events-event-cost a.is-style-secondary[disabled="disabled"]:hover, .learndash-wrapper html.js .tribe-events-page-template.wp-embed-responsive .wp-embed.ld-table-list .tribe-events-event-cost a.is-style-secondary[disabled="disabled"]:hover, .is-style-secondary.download-button[disabled="disabled"]:hover, body.buddypress #buddypress .is-style-secondary.request-membership[disabled="disabled"]:hover,
 body.buddypress #buddypress .friendship-button a.is-style-secondary[disabled="disabled"]:hover,
-body.buddypress #buddypress #send-private-message a.is-style-secondary[disabled="disabled"]:hover,
 body.buddypress #buddypress .is-style-secondary#aw-whats-new-submit[disabled="disabled"]:hover,
 body.buddypress #buddypress .is-style-secondary.dz-button[disabled="disabled"]:hover,
 body.buddypress #buddypress .is-style-secondary.button[disabled="disabled"]:hover, body.buddypress #buddypress input.is-style-secondary[disabled="disabled"]:hover[type="submit"], body.buddypress #buddypress .is-style-secondary#save[disabled="disabled"]:hover, body.buddypress #buddypress .groups .is-style-secondary.membership-requested[disabled="disabled"]:hover, #bbpress-forums .is-style-secondary.bb-topic-reply-link-wrap[disabled="disabled"]:hover, #bbpress-forums .bbp-admin-links a.is-style-secondary[disabled="disabled"]:hover,
@@ -5787,7 +5669,6 @@ html.js .tribe-events-page-template.wp-embed-responsive .learndash-wrapper .wp-e
 .is-style-secondary.download-button[disabled]:hover,
 body.buddypress #buddypress .is-style-secondary.request-membership[disabled]:hover,
 body.buddypress #buddypress .friendship-button a.is-style-secondary[disabled]:hover,
-body.buddypress #buddypress #send-private-message a.is-style-secondary[disabled]:hover,
 body.buddypress #buddypress .is-style-secondary#aw-whats-new-submit[disabled]:hover,
 body.buddypress #buddypress .is-style-secondary.dz-button[disabled]:hover,
 body.buddypress #buddypress .is-style-secondary.button[disabled]:hover,
@@ -5826,7 +5707,6 @@ input.is-style-secondary[disabled="disabled"]:focus[type="submit"], #content a.i
 #tribe-events-content a.is-style-secondary.tribe-events-button[disabled="disabled"]:focus,
 #tribe-events-content button.is-style-secondary[disabled="disabled"]:focus:not(.tribe-tickets__rsvp-ar-quantity-input-number), html.js .tribe-events-page-template.wp-embed-responsive .wp-embed.nhsuk-care-card .tribe-events-event-cost a.is-style-secondary[disabled="disabled"]:focus, html.js .tribe-events-page-template.wp-embed-responsive .learndash-wrapper .wp-embed.ld-table-list .tribe-events-event-cost a.is-style-secondary[disabled="disabled"]:focus, .learndash-wrapper html.js .tribe-events-page-template.wp-embed-responsive .wp-embed.ld-table-list .tribe-events-event-cost a.is-style-secondary[disabled="disabled"]:focus, .is-style-secondary.download-button[disabled="disabled"]:focus, body.buddypress #buddypress .is-style-secondary.request-membership[disabled="disabled"]:focus,
 body.buddypress #buddypress .friendship-button a.is-style-secondary[disabled="disabled"]:focus,
-body.buddypress #buddypress #send-private-message a.is-style-secondary[disabled="disabled"]:focus,
 body.buddypress #buddypress .is-style-secondary#aw-whats-new-submit[disabled="disabled"]:focus,
 body.buddypress #buddypress .is-style-secondary.dz-button[disabled="disabled"]:focus,
 body.buddypress #buddypress .is-style-secondary.button[disabled="disabled"]:focus, body.buddypress #buddypress input.is-style-secondary[disabled="disabled"]:focus[type="submit"], body.buddypress #buddypress .is-style-secondary#save[disabled="disabled"]:focus, body.buddypress #buddypress .groups .is-style-secondary.membership-requested[disabled="disabled"]:focus, #bbpress-forums .is-style-secondary.bb-topic-reply-link-wrap[disabled="disabled"]:focus, #bbpress-forums .bbp-admin-links a.is-style-secondary[disabled="disabled"]:focus,
@@ -5886,7 +5766,6 @@ html.js .tribe-events-page-template.wp-embed-responsive .learndash-wrapper .wp-e
 .is-style-secondary.download-button[disabled]:focus,
 body.buddypress #buddypress .is-style-secondary.request-membership[disabled]:focus,
 body.buddypress #buddypress .friendship-button a.is-style-secondary[disabled]:focus,
-body.buddypress #buddypress #send-private-message a.is-style-secondary[disabled]:focus,
 body.buddypress #buddypress .is-style-secondary#aw-whats-new-submit[disabled]:focus,
 body.buddypress #buddypress .is-style-secondary.dz-button[disabled]:focus,
 body.buddypress #buddypress .is-style-secondary.button[disabled]:focus,
@@ -5924,7 +5803,6 @@ input.is-style-secondary[disabled="disabled"]:active[type="submit"], #content a.
 #tribe-events-content a.is-style-secondary.tribe-events-button[disabled="disabled"]:active,
 #tribe-events-content button.is-style-secondary[disabled="disabled"]:active:not(.tribe-tickets__rsvp-ar-quantity-input-number), html.js .tribe-events-page-template.wp-embed-responsive .wp-embed.nhsuk-care-card .tribe-events-event-cost a.is-style-secondary[disabled="disabled"]:active, html.js .tribe-events-page-template.wp-embed-responsive .learndash-wrapper .wp-embed.ld-table-list .tribe-events-event-cost a.is-style-secondary[disabled="disabled"]:active, .learndash-wrapper html.js .tribe-events-page-template.wp-embed-responsive .wp-embed.ld-table-list .tribe-events-event-cost a.is-style-secondary[disabled="disabled"]:active, .is-style-secondary.download-button[disabled="disabled"]:active, body.buddypress #buddypress .is-style-secondary.request-membership[disabled="disabled"]:active,
 body.buddypress #buddypress .friendship-button a.is-style-secondary[disabled="disabled"]:active,
-body.buddypress #buddypress #send-private-message a.is-style-secondary[disabled="disabled"]:active,
 body.buddypress #buddypress .is-style-secondary#aw-whats-new-submit[disabled="disabled"]:active,
 body.buddypress #buddypress .is-style-secondary.dz-button[disabled="disabled"]:active,
 body.buddypress #buddypress .is-style-secondary.button[disabled="disabled"]:active, body.buddypress #buddypress input.is-style-secondary[disabled="disabled"]:active[type="submit"], body.buddypress #buddypress .is-style-secondary#save[disabled="disabled"]:active, body.buddypress #buddypress .groups .is-style-secondary.membership-requested[disabled="disabled"]:active, #bbpress-forums .is-style-secondary.bb-topic-reply-link-wrap[disabled="disabled"]:active, #bbpress-forums .bbp-admin-links a.is-style-secondary[disabled="disabled"]:active,
@@ -5984,7 +5862,6 @@ html.js .tribe-events-page-template.wp-embed-responsive .learndash-wrapper .wp-e
 .is-style-secondary.download-button[disabled]:active,
 body.buddypress #buddypress .is-style-secondary.request-membership[disabled]:active,
 body.buddypress #buddypress .friendship-button a.is-style-secondary[disabled]:active,
-body.buddypress #buddypress #send-private-message a.is-style-secondary[disabled]:active,
 body.buddypress #buddypress .is-style-secondary#aw-whats-new-submit[disabled]:active,
 body.buddypress #buddypress .is-style-secondary.dz-button[disabled]:active,
 body.buddypress #buddypress .is-style-secondary.button[disabled]:active,
@@ -6024,7 +5901,6 @@ input.is-style-reverse[disabled="disabled"][type="submit"], #content a.is-style-
 #tribe-events-content button.is-style-reverse[disabled="disabled"]:not(.tribe-tickets__rsvp-ar-quantity-input-number), html.js .tribe-events-page-template.wp-embed-responsive .wp-embed.nhsuk-care-card .tribe-events-event-cost a.is-style-reverse[disabled="disabled"], html.js .tribe-events-page-template.wp-embed-responsive .learndash-wrapper .wp-embed.ld-table-list .tribe-events-event-cost a.is-style-reverse[disabled="disabled"], .learndash-wrapper html.js .tribe-events-page-template.wp-embed-responsive .wp-embed.ld-table-list .tribe-events-event-cost a.is-style-reverse[disabled="disabled"], .is-style-reverse.download-button[disabled="disabled"], body.buddypress #buddypress .is-style-reverse.request-membership[disabled="disabled"],
 body.buddypress #buddypress .friendship-button a.is-style-reverse[disabled="disabled"],
 body.buddypress #buddypress .follow-button a.is-style-reverse[disabled="disabled"],
-body.buddypress #buddypress #send-private-message a.is-style-reverse[disabled="disabled"],
 body.buddypress #buddypress .is-style-reverse#aw-whats-new-submit[disabled="disabled"],
 body.buddypress #buddypress .is-style-reverse#aw-whats-new-reset[disabled="disabled"],
 body.buddypress #buddypress .is-style-reverse.dz-button[disabled="disabled"],
@@ -6034,8 +5910,7 @@ body.buddypress #buddypress a.is-style-reverse#aw-whats-new-submit[disabled="dis
 body.buddypress #buddypress a.is-style-reverse#aw-whats-new-reset[disabled="disabled"],
 body.buddypress #buddypress a.is-style-reverse.dz-button[disabled="disabled"],
 body.buddypress #buddypress a.is-style-reverse.button[disabled="disabled"], body.buddypress #buddypress a.is-style-reverse#save[disabled="disabled"], body.buddypress #buddypress .groups a.is-style-reverse.membership-requested[disabled="disabled"], #bbpress-forums a.is-style-reverse.bb-reply-actions-button[disabled="disabled"], #bbpress-forums a.is-style-reverse.bb-topic-reply-link-wrap[disabled="disabled"],
-#bbpress-forums a.is-style-reverse.bb-topic-subscription-link-wrap[disabled="disabled"],
-body.buddypress #buddypress #send-private-message a[disabled="disabled"],
+#bbpress-forums a.is-style-reverse.bb-topic-subscription-link-wrap[disabled="disabled"], body.buddypress #buddypress #send-private-message a[disabled="disabled"],
 body.buddypress #buddypress .fav[disabled="disabled"], body.buddypress #buddypress .groups .membership-requested[disabled="disabled"], body.buddypress #buddypress .bp-manage-group-container .button.confirm.member-promote-to-mod[disabled="disabled"], #bbpress-forums .bbp-admin-links a.bbp-topic-trash-link[disabled="disabled"], #bbpress-forums .bbp-admin-links a.bbp-reply-trash-link[disabled="disabled"], #bbpress-forums .bbp-admin-links a.bbp-topic-edit-link[disabled="disabled"], #bbpress-forums .bbp-admin-links a.bbp-reply-edit-link[disabled="disabled"],
 .nhsuk-button--reverse[disabled],
 .nhsuk-list-panel .comment-list .nhsuk-list-panel__item #respond #cancel-comment-reply-link[disabled],
@@ -6108,7 +5983,6 @@ html.js .tribe-events-page-template.wp-embed-responsive .learndash-wrapper .wp-e
 body.buddypress #buddypress .is-style-reverse.request-membership[disabled],
 body.buddypress #buddypress .friendship-button a.is-style-reverse[disabled],
 body.buddypress #buddypress .follow-button a.is-style-reverse[disabled],
-body.buddypress #buddypress #send-private-message a.is-style-reverse[disabled],
 body.buddypress #buddypress .is-style-reverse#aw-whats-new-submit[disabled],
 body.buddypress #buddypress .is-style-reverse#aw-whats-new-reset[disabled],
 body.buddypress #buddypress .is-style-reverse.dz-button[disabled],
@@ -6182,7 +6056,6 @@ input.is-style-reverse[disabled="disabled"]:hover[type="submit"], #content a.is-
 #tribe-events-content button.is-style-reverse[disabled="disabled"]:hover:not(.tribe-tickets__rsvp-ar-quantity-input-number), html.js .tribe-events-page-template.wp-embed-responsive .wp-embed.nhsuk-care-card .tribe-events-event-cost a.is-style-reverse[disabled="disabled"]:hover, html.js .tribe-events-page-template.wp-embed-responsive .learndash-wrapper .wp-embed.ld-table-list .tribe-events-event-cost a.is-style-reverse[disabled="disabled"]:hover, .learndash-wrapper html.js .tribe-events-page-template.wp-embed-responsive .wp-embed.ld-table-list .tribe-events-event-cost a.is-style-reverse[disabled="disabled"]:hover, .is-style-reverse.download-button[disabled="disabled"]:hover, body.buddypress #buddypress .is-style-reverse.request-membership[disabled="disabled"]:hover,
 body.buddypress #buddypress .friendship-button a.is-style-reverse[disabled="disabled"]:hover,
 body.buddypress #buddypress .follow-button a.is-style-reverse[disabled="disabled"]:hover,
-body.buddypress #buddypress #send-private-message a.is-style-reverse[disabled="disabled"]:hover,
 body.buddypress #buddypress .is-style-reverse#aw-whats-new-submit[disabled="disabled"]:hover,
 body.buddypress #buddypress .is-style-reverse#aw-whats-new-reset[disabled="disabled"]:hover,
 body.buddypress #buddypress .is-style-reverse.dz-button[disabled="disabled"]:hover,
@@ -6192,8 +6065,7 @@ body.buddypress #buddypress a.is-style-reverse#aw-whats-new-submit[disabled="dis
 body.buddypress #buddypress a.is-style-reverse#aw-whats-new-reset[disabled="disabled"]:hover,
 body.buddypress #buddypress a.is-style-reverse.dz-button[disabled="disabled"]:hover,
 body.buddypress #buddypress a.is-style-reverse.button[disabled="disabled"]:hover, body.buddypress #buddypress a.is-style-reverse#save[disabled="disabled"]:hover, body.buddypress #buddypress .groups a.is-style-reverse.membership-requested[disabled="disabled"]:hover, #bbpress-forums a.is-style-reverse.bb-reply-actions-button[disabled="disabled"]:hover, #bbpress-forums a.is-style-reverse.bb-topic-reply-link-wrap[disabled="disabled"]:hover,
-#bbpress-forums a.is-style-reverse.bb-topic-subscription-link-wrap[disabled="disabled"]:hover,
-body.buddypress #buddypress #send-private-message a[disabled="disabled"]:hover,
+#bbpress-forums a.is-style-reverse.bb-topic-subscription-link-wrap[disabled="disabled"]:hover, body.buddypress #buddypress #send-private-message a[disabled="disabled"]:hover,
 body.buddypress #buddypress .fav[disabled="disabled"]:hover, body.buddypress #buddypress .groups .membership-requested[disabled="disabled"]:hover, body.buddypress #buddypress .bp-manage-group-container .button.confirm.member-promote-to-mod[disabled="disabled"]:hover, #bbpress-forums .bbp-admin-links a.bbp-topic-trash-link[disabled="disabled"]:hover, #bbpress-forums .bbp-admin-links a.bbp-reply-trash-link[disabled="disabled"]:hover, #bbpress-forums .bbp-admin-links a.bbp-topic-edit-link[disabled="disabled"]:hover, #bbpress-forums .bbp-admin-links a.bbp-reply-edit-link[disabled="disabled"]:hover,
 .nhsuk-button--reverse[disabled]:hover,
 .nhsuk-list-panel .comment-list .nhsuk-list-panel__item #respond #cancel-comment-reply-link[disabled]:hover,
@@ -6262,7 +6134,6 @@ html.js .tribe-events-page-template.wp-embed-responsive .learndash-wrapper .wp-e
 body.buddypress #buddypress .is-style-reverse.request-membership[disabled]:hover,
 body.buddypress #buddypress .friendship-button a.is-style-reverse[disabled]:hover,
 body.buddypress #buddypress .follow-button a.is-style-reverse[disabled]:hover,
-body.buddypress #buddypress #send-private-message a.is-style-reverse[disabled]:hover,
 body.buddypress #buddypress .is-style-reverse#aw-whats-new-submit[disabled]:hover,
 body.buddypress #buddypress .is-style-reverse#aw-whats-new-reset[disabled]:hover,
 body.buddypress #buddypress .is-style-reverse.dz-button[disabled]:hover,
@@ -6336,7 +6207,6 @@ input.is-style-reverse[disabled="disabled"]:focus[type="submit"], #content a.is-
 #tribe-events-content button.is-style-reverse[disabled="disabled"]:focus:not(.tribe-tickets__rsvp-ar-quantity-input-number), html.js .tribe-events-page-template.wp-embed-responsive .wp-embed.nhsuk-care-card .tribe-events-event-cost a.is-style-reverse[disabled="disabled"]:focus, html.js .tribe-events-page-template.wp-embed-responsive .learndash-wrapper .wp-embed.ld-table-list .tribe-events-event-cost a.is-style-reverse[disabled="disabled"]:focus, .learndash-wrapper html.js .tribe-events-page-template.wp-embed-responsive .wp-embed.ld-table-list .tribe-events-event-cost a.is-style-reverse[disabled="disabled"]:focus, .is-style-reverse.download-button[disabled="disabled"]:focus, body.buddypress #buddypress .is-style-reverse.request-membership[disabled="disabled"]:focus,
 body.buddypress #buddypress .friendship-button a.is-style-reverse[disabled="disabled"]:focus,
 body.buddypress #buddypress .follow-button a.is-style-reverse[disabled="disabled"]:focus,
-body.buddypress #buddypress #send-private-message a.is-style-reverse[disabled="disabled"]:focus,
 body.buddypress #buddypress .is-style-reverse#aw-whats-new-submit[disabled="disabled"]:focus,
 body.buddypress #buddypress .is-style-reverse#aw-whats-new-reset[disabled="disabled"]:focus,
 body.buddypress #buddypress .is-style-reverse.dz-button[disabled="disabled"]:focus,
@@ -6346,8 +6216,7 @@ body.buddypress #buddypress a.is-style-reverse#aw-whats-new-submit[disabled="dis
 body.buddypress #buddypress a.is-style-reverse#aw-whats-new-reset[disabled="disabled"]:focus,
 body.buddypress #buddypress a.is-style-reverse.dz-button[disabled="disabled"]:focus,
 body.buddypress #buddypress a.is-style-reverse.button[disabled="disabled"]:focus, body.buddypress #buddypress a.is-style-reverse#save[disabled="disabled"]:focus, body.buddypress #buddypress .groups a.is-style-reverse.membership-requested[disabled="disabled"]:focus, #bbpress-forums a.is-style-reverse.bb-reply-actions-button[disabled="disabled"]:focus, #bbpress-forums a.is-style-reverse.bb-topic-reply-link-wrap[disabled="disabled"]:focus,
-#bbpress-forums a.is-style-reverse.bb-topic-subscription-link-wrap[disabled="disabled"]:focus,
-body.buddypress #buddypress #send-private-message a[disabled="disabled"]:focus,
+#bbpress-forums a.is-style-reverse.bb-topic-subscription-link-wrap[disabled="disabled"]:focus, body.buddypress #buddypress #send-private-message a[disabled="disabled"]:focus,
 body.buddypress #buddypress .fav[disabled="disabled"]:focus, body.buddypress #buddypress .groups .membership-requested[disabled="disabled"]:focus, body.buddypress #buddypress .bp-manage-group-container .button.confirm.member-promote-to-mod[disabled="disabled"]:focus, #bbpress-forums .bbp-admin-links a.bbp-topic-trash-link[disabled="disabled"]:focus, #bbpress-forums .bbp-admin-links a.bbp-reply-trash-link[disabled="disabled"]:focus, #bbpress-forums .bbp-admin-links a.bbp-topic-edit-link[disabled="disabled"]:focus, #bbpress-forums .bbp-admin-links a.bbp-reply-edit-link[disabled="disabled"]:focus,
 .nhsuk-button--reverse[disabled]:focus,
 .nhsuk-list-panel .comment-list .nhsuk-list-panel__item #respond #cancel-comment-reply-link[disabled]:focus,
@@ -6416,7 +6285,6 @@ html.js .tribe-events-page-template.wp-embed-responsive .learndash-wrapper .wp-e
 body.buddypress #buddypress .is-style-reverse.request-membership[disabled]:focus,
 body.buddypress #buddypress .friendship-button a.is-style-reverse[disabled]:focus,
 body.buddypress #buddypress .follow-button a.is-style-reverse[disabled]:focus,
-body.buddypress #buddypress #send-private-message a.is-style-reverse[disabled]:focus,
 body.buddypress #buddypress .is-style-reverse#aw-whats-new-submit[disabled]:focus,
 body.buddypress #buddypress .is-style-reverse#aw-whats-new-reset[disabled]:focus,
 body.buddypress #buddypress .is-style-reverse.dz-button[disabled]:focus,
@@ -6489,7 +6357,6 @@ input.is-style-reverse[disabled="disabled"]:active[type="submit"], #content a.is
 #tribe-events-content button.is-style-reverse[disabled="disabled"]:active:not(.tribe-tickets__rsvp-ar-quantity-input-number), html.js .tribe-events-page-template.wp-embed-responsive .wp-embed.nhsuk-care-card .tribe-events-event-cost a.is-style-reverse[disabled="disabled"]:active, html.js .tribe-events-page-template.wp-embed-responsive .learndash-wrapper .wp-embed.ld-table-list .tribe-events-event-cost a.is-style-reverse[disabled="disabled"]:active, .learndash-wrapper html.js .tribe-events-page-template.wp-embed-responsive .wp-embed.ld-table-list .tribe-events-event-cost a.is-style-reverse[disabled="disabled"]:active, .is-style-reverse.download-button[disabled="disabled"]:active, body.buddypress #buddypress .is-style-reverse.request-membership[disabled="disabled"]:active,
 body.buddypress #buddypress .friendship-button a.is-style-reverse[disabled="disabled"]:active,
 body.buddypress #buddypress .follow-button a.is-style-reverse[disabled="disabled"]:active,
-body.buddypress #buddypress #send-private-message a.is-style-reverse[disabled="disabled"]:active,
 body.buddypress #buddypress .is-style-reverse#aw-whats-new-submit[disabled="disabled"]:active,
 body.buddypress #buddypress .is-style-reverse#aw-whats-new-reset[disabled="disabled"]:active,
 body.buddypress #buddypress .is-style-reverse.dz-button[disabled="disabled"]:active,
@@ -6499,8 +6366,7 @@ body.buddypress #buddypress a.is-style-reverse#aw-whats-new-submit[disabled="dis
 body.buddypress #buddypress a.is-style-reverse#aw-whats-new-reset[disabled="disabled"]:active,
 body.buddypress #buddypress a.is-style-reverse.dz-button[disabled="disabled"]:active,
 body.buddypress #buddypress a.is-style-reverse.button[disabled="disabled"]:active, body.buddypress #buddypress a.is-style-reverse#save[disabled="disabled"]:active, body.buddypress #buddypress .groups a.is-style-reverse.membership-requested[disabled="disabled"]:active, #bbpress-forums a.is-style-reverse.bb-reply-actions-button[disabled="disabled"]:active, #bbpress-forums a.is-style-reverse.bb-topic-reply-link-wrap[disabled="disabled"]:active,
-#bbpress-forums a.is-style-reverse.bb-topic-subscription-link-wrap[disabled="disabled"]:active,
-body.buddypress #buddypress #send-private-message a[disabled="disabled"]:active,
+#bbpress-forums a.is-style-reverse.bb-topic-subscription-link-wrap[disabled="disabled"]:active, body.buddypress #buddypress #send-private-message a[disabled="disabled"]:active,
 body.buddypress #buddypress .fav[disabled="disabled"]:active, body.buddypress #buddypress .groups .membership-requested[disabled="disabled"]:active, body.buddypress #buddypress .bp-manage-group-container .button.confirm.member-promote-to-mod[disabled="disabled"]:active, #bbpress-forums .bbp-admin-links a.bbp-topic-trash-link[disabled="disabled"]:active, #bbpress-forums .bbp-admin-links a.bbp-reply-trash-link[disabled="disabled"]:active, #bbpress-forums .bbp-admin-links a.bbp-topic-edit-link[disabled="disabled"]:active, #bbpress-forums .bbp-admin-links a.bbp-reply-edit-link[disabled="disabled"]:active,
 .nhsuk-button--reverse[disabled]:active,
 .nhsuk-list-panel .comment-list .nhsuk-list-panel__item #respond #cancel-comment-reply-link[disabled]:active,
@@ -6569,7 +6435,6 @@ html.js .tribe-events-page-template.wp-embed-responsive .learndash-wrapper .wp-e
 body.buddypress #buddypress .is-style-reverse.request-membership[disabled]:active,
 body.buddypress #buddypress .friendship-button a.is-style-reverse[disabled]:active,
 body.buddypress #buddypress .follow-button a.is-style-reverse[disabled]:active,
-body.buddypress #buddypress #send-private-message a.is-style-reverse[disabled]:active,
 body.buddypress #buddypress .is-style-reverse#aw-whats-new-submit[disabled]:active,
 body.buddypress #buddypress .is-style-reverse#aw-whats-new-reset[disabled]:active,
 body.buddypress #buddypress .is-style-reverse.dz-button[disabled]:active,
@@ -6643,7 +6508,6 @@ body.buddypress #buddypress .bp-manage-group-container .button.confirm.member-pr
 .ie8 #tribe-events-content button:focus:not(.tribe-tickets__rsvp-ar-quantity-input-number), #tribe-events-content .ie8 button:focus:not(.tribe-tickets__rsvp-ar-quantity-input-number), .ie8 html.js .tribe-events-page-template.wp-embed-responsive .wp-embed.nhsuk-care-card .tribe-events-event-cost a:focus, html.js .tribe-events-page-template.wp-embed-responsive .wp-embed.nhsuk-care-card .tribe-events-event-cost .ie8 a:focus, .ie8 html.js .tribe-events-page-template.wp-embed-responsive .learndash-wrapper .wp-embed.ld-table-list .tribe-events-event-cost a:focus, html.js .tribe-events-page-template.wp-embed-responsive .learndash-wrapper .wp-embed.ld-table-list .tribe-events-event-cost .ie8 a:focus, .ie8 .learndash-wrapper html.js .tribe-events-page-template.wp-embed-responsive .wp-embed.ld-table-list .tribe-events-event-cost a:focus, .learndash-wrapper html.js .tribe-events-page-template.wp-embed-responsive .wp-embed.ld-table-list .tribe-events-event-cost .ie8 a:focus, .ie8 .download-button:focus, .ie8 body.buddypress #buddypress .request-membership:focus, body.buddypress #buddypress .ie8 .request-membership:focus,
 .ie8 body.buddypress #buddypress .friendship-button a:focus, body.buddypress #buddypress .friendship-button .ie8 a:focus,
 .ie8 body.buddypress #buddypress .follow-button a:focus, body.buddypress #buddypress .follow-button .ie8 a:focus,
-.ie8 body.buddypress #buddypress #send-private-message a:focus, body.buddypress #buddypress #send-private-message .ie8 a:focus,
 .ie8 body.buddypress #buddypress #aw-whats-new-submit:focus, body.buddypress #buddypress .ie8 #aw-whats-new-submit:focus,
 .ie8 body.buddypress #buddypress #aw-whats-new-reset:focus, body.buddypress #buddypress .ie8 #aw-whats-new-reset:focus,
 .ie8 body.buddypress #buddypress .dz-button:focus, body.buddypress #buddypress .ie8 .dz-button:focus,
@@ -6665,7 +6529,7 @@ body.buddypress #buddypress .bp-manage-group-container .button.confirm.member-pr
  * 6. Stops the heading from spanning the full width of the card.
  * 7. Removes padding top for the feature heading positioning.
  */
-.nhsuk-card, .ld-course-list-items .ld_course_grid article, .ld-course-list-items .ld_course_grid .thumbnail.course, .nhsuk-panel.is-style-panel-grey, .is-style-panel-grey.sticky, .is-style-panel-grey.download-box, .nhsuk-promo.is-style-promo-small {
+.nhsuk-card, .nhsuk-panel.is-style-panel-grey, .is-style-panel-grey.sticky, .is-style-panel-grey.download-box, .nhsuk-promo.is-style-promo-small {
   margin-bottom: 40px;
   background: #ffffff;
   border: 1px solid #d8dde0;
@@ -6675,7 +6539,7 @@ body.buddypress #buddypress .bp-manage-group-container .button.confirm.member-pr
 }
 
 @media (min-width: 40.0625em) {
-  .nhsuk-card, .ld-course-list-items .ld_course_grid article, .ld-course-list-items .ld_course_grid .thumbnail.course, .nhsuk-panel.is-style-panel-grey, .is-style-panel-grey.sticky, .is-style-panel-grey.download-box, .nhsuk-promo.is-style-promo-small {
+  .nhsuk-card, .nhsuk-panel.is-style-panel-grey, .is-style-panel-grey.sticky, .is-style-panel-grey.download-box, .nhsuk-promo.is-style-promo-small {
     margin-bottom: 48px;
   }
 }
@@ -6712,10 +6576,9 @@ body.buddypress #buddypress .bp-manage-group-container .button.confirm.member-pr
   }
 }
 
-.nhsuk-card__heading, .nhsuk-card.is-style-panel-with-label .nhsuk-card__content h2, .ld-course-list-items .ld_course_grid article.is-style-panel-with-label .nhsuk-card__content h2, .ld-course-list-items .ld_course_grid .is-style-panel-with-label.thumbnail.course .nhsuk-card__content h2, .is-style-panel-with-label.nhsuk-panel.is-style-panel-grey .nhsuk-card__content h2, .is-style-panel-with-label.is-style-panel-grey.sticky .nhsuk-card__content h2, .is-style-panel-with-label.is-style-panel-grey.download-box .nhsuk-card__content h2, .is-style-panel-with-label.nhsuk-promo.is-style-promo-small .nhsuk-card__content h2,
+.nhsuk-card__heading, .nhsuk-card.is-style-panel-with-label .nhsuk-card__content h2, .is-style-panel-with-label.nhsuk-panel.is-style-panel-grey .nhsuk-card__content h2, .is-style-panel-with-label.is-style-panel-grey.sticky .nhsuk-card__content h2, .is-style-panel-with-label.is-style-panel-grey.download-box .nhsuk-card__content h2, .is-style-panel-with-label.nhsuk-promo.is-style-promo-small .nhsuk-card__content h2,
 .nhsuk-card__metadata,
-.nhsuk-card__description,
-.ld-course-list-items .ld_course_grid article .caption {
+.nhsuk-card__description {
   margin-bottom: 16px;
 }
 
@@ -6729,15 +6592,15 @@ body.buddypress #buddypress .bp-manage-group-container .button.confirm.member-pr
   cursor: pointer;
 }
 
-.nhsuk-card--clickable:hover .nhsuk-card__heading a, .nhsuk-card--clickable:hover .nhsuk-card.is-style-panel-with-label .nhsuk-card__content h2 a, .nhsuk-card.is-style-panel-with-label .nhsuk-card__content .nhsuk-card--clickable:hover h2 a, .nhsuk-card--clickable:hover .ld-course-list-items .ld_course_grid article.is-style-panel-with-label .nhsuk-card__content h2 a, .ld-course-list-items .ld_course_grid article.is-style-panel-with-label .nhsuk-card__content .nhsuk-card--clickable:hover h2 a, .nhsuk-card--clickable:hover .ld-course-list-items .ld_course_grid .is-style-panel-with-label.thumbnail.course .nhsuk-card__content h2 a, .ld-course-list-items .ld_course_grid .is-style-panel-with-label.thumbnail.course .nhsuk-card__content .nhsuk-card--clickable:hover h2 a, .nhsuk-card--clickable:hover .is-style-panel-with-label.nhsuk-panel.is-style-panel-grey .nhsuk-card__content h2 a, .is-style-panel-with-label.nhsuk-panel.is-style-panel-grey .nhsuk-card__content .nhsuk-card--clickable:hover h2 a, .nhsuk-card--clickable:hover .is-style-panel-with-label.is-style-panel-grey.sticky .nhsuk-card__content h2 a, .is-style-panel-with-label.is-style-panel-grey.sticky .nhsuk-card__content .nhsuk-card--clickable:hover h2 a, .nhsuk-card--clickable:hover .is-style-panel-with-label.is-style-panel-grey.download-box .nhsuk-card__content h2 a, .is-style-panel-with-label.is-style-panel-grey.download-box .nhsuk-card__content .nhsuk-card--clickable:hover h2 a, .nhsuk-card--clickable:hover .is-style-panel-with-label.nhsuk-promo.is-style-promo-small .nhsuk-card__content h2 a, .is-style-panel-with-label.nhsuk-promo.is-style-promo-small .nhsuk-card__content .nhsuk-card--clickable:hover h2 a,
-.nhsuk-card--clickable:hover .nhsuk-card__link, .nhsuk-card--clickable:active .nhsuk-card__heading a, .nhsuk-card--clickable:active .nhsuk-card.is-style-panel-with-label .nhsuk-card__content h2 a, .nhsuk-card.is-style-panel-with-label .nhsuk-card__content .nhsuk-card--clickable:active h2 a, .nhsuk-card--clickable:active .ld-course-list-items .ld_course_grid article.is-style-panel-with-label .nhsuk-card__content h2 a, .ld-course-list-items .ld_course_grid article.is-style-panel-with-label .nhsuk-card__content .nhsuk-card--clickable:active h2 a, .nhsuk-card--clickable:active .ld-course-list-items .ld_course_grid .is-style-panel-with-label.thumbnail.course .nhsuk-card__content h2 a, .ld-course-list-items .ld_course_grid .is-style-panel-with-label.thumbnail.course .nhsuk-card__content .nhsuk-card--clickable:active h2 a, .nhsuk-card--clickable:active .is-style-panel-with-label.nhsuk-panel.is-style-panel-grey .nhsuk-card__content h2 a, .is-style-panel-with-label.nhsuk-panel.is-style-panel-grey .nhsuk-card__content .nhsuk-card--clickable:active h2 a, .nhsuk-card--clickable:active .is-style-panel-with-label.is-style-panel-grey.sticky .nhsuk-card__content h2 a, .is-style-panel-with-label.is-style-panel-grey.sticky .nhsuk-card__content .nhsuk-card--clickable:active h2 a, .nhsuk-card--clickable:active .is-style-panel-with-label.is-style-panel-grey.download-box .nhsuk-card__content h2 a, .is-style-panel-with-label.is-style-panel-grey.download-box .nhsuk-card__content .nhsuk-card--clickable:active h2 a, .nhsuk-card--clickable:active .is-style-panel-with-label.nhsuk-promo.is-style-promo-small .nhsuk-card__content h2 a, .is-style-panel-with-label.nhsuk-promo.is-style-promo-small .nhsuk-card__content .nhsuk-card--clickable:active h2 a,
+.nhsuk-card--clickable:hover .nhsuk-card__heading a, .nhsuk-card--clickable:hover .nhsuk-card.is-style-panel-with-label .nhsuk-card__content h2 a, .nhsuk-card.is-style-panel-with-label .nhsuk-card__content .nhsuk-card--clickable:hover h2 a, .nhsuk-card--clickable:hover .is-style-panel-with-label.nhsuk-panel.is-style-panel-grey .nhsuk-card__content h2 a, .is-style-panel-with-label.nhsuk-panel.is-style-panel-grey .nhsuk-card__content .nhsuk-card--clickable:hover h2 a, .nhsuk-card--clickable:hover .is-style-panel-with-label.is-style-panel-grey.sticky .nhsuk-card__content h2 a, .is-style-panel-with-label.is-style-panel-grey.sticky .nhsuk-card__content .nhsuk-card--clickable:hover h2 a, .nhsuk-card--clickable:hover .is-style-panel-with-label.is-style-panel-grey.download-box .nhsuk-card__content h2 a, .is-style-panel-with-label.is-style-panel-grey.download-box .nhsuk-card__content .nhsuk-card--clickable:hover h2 a, .nhsuk-card--clickable:hover .is-style-panel-with-label.nhsuk-promo.is-style-promo-small .nhsuk-card__content h2 a, .is-style-panel-with-label.nhsuk-promo.is-style-promo-small .nhsuk-card__content .nhsuk-card--clickable:hover h2 a,
+.nhsuk-card--clickable:hover .nhsuk-card__link, .nhsuk-card--clickable:active .nhsuk-card__heading a, .nhsuk-card--clickable:active .nhsuk-card.is-style-panel-with-label .nhsuk-card__content h2 a, .nhsuk-card.is-style-panel-with-label .nhsuk-card__content .nhsuk-card--clickable:active h2 a, .nhsuk-card--clickable:active .is-style-panel-with-label.nhsuk-panel.is-style-panel-grey .nhsuk-card__content h2 a, .is-style-panel-with-label.nhsuk-panel.is-style-panel-grey .nhsuk-card__content .nhsuk-card--clickable:active h2 a, .nhsuk-card--clickable:active .is-style-panel-with-label.is-style-panel-grey.sticky .nhsuk-card__content h2 a, .is-style-panel-with-label.is-style-panel-grey.sticky .nhsuk-card__content .nhsuk-card--clickable:active h2 a, .nhsuk-card--clickable:active .is-style-panel-with-label.is-style-panel-grey.download-box .nhsuk-card__content h2 a, .is-style-panel-with-label.is-style-panel-grey.download-box .nhsuk-card__content .nhsuk-card--clickable:active h2 a, .nhsuk-card--clickable:active .is-style-panel-with-label.nhsuk-promo.is-style-promo-small .nhsuk-card__content h2 a, .is-style-panel-with-label.nhsuk-promo.is-style-promo-small .nhsuk-card__content .nhsuk-card--clickable:active h2 a,
 .nhsuk-card--clickable:active .nhsuk-card__link {
   color: #7C2855;
   text-decoration: none;
 }
 
-.nhsuk-card--clickable:hover .nhsuk-card__heading a:focus, .nhsuk-card--clickable:hover .nhsuk-card.is-style-panel-with-label .nhsuk-card__content h2 a:focus, .nhsuk-card.is-style-panel-with-label .nhsuk-card__content .nhsuk-card--clickable:hover h2 a:focus, .nhsuk-card--clickable:hover .ld-course-list-items .ld_course_grid article.is-style-panel-with-label .nhsuk-card__content h2 a:focus, .ld-course-list-items .ld_course_grid article.is-style-panel-with-label .nhsuk-card__content .nhsuk-card--clickable:hover h2 a:focus, .nhsuk-card--clickable:hover .ld-course-list-items .ld_course_grid .is-style-panel-with-label.thumbnail.course .nhsuk-card__content h2 a:focus, .ld-course-list-items .ld_course_grid .is-style-panel-with-label.thumbnail.course .nhsuk-card__content .nhsuk-card--clickable:hover h2 a:focus, .nhsuk-card--clickable:hover .is-style-panel-with-label.nhsuk-panel.is-style-panel-grey .nhsuk-card__content h2 a:focus, .is-style-panel-with-label.nhsuk-panel.is-style-panel-grey .nhsuk-card__content .nhsuk-card--clickable:hover h2 a:focus, .nhsuk-card--clickable:hover .is-style-panel-with-label.is-style-panel-grey.sticky .nhsuk-card__content h2 a:focus, .is-style-panel-with-label.is-style-panel-grey.sticky .nhsuk-card__content .nhsuk-card--clickable:hover h2 a:focus, .nhsuk-card--clickable:hover .is-style-panel-with-label.is-style-panel-grey.download-box .nhsuk-card__content h2 a:focus, .is-style-panel-with-label.is-style-panel-grey.download-box .nhsuk-card__content .nhsuk-card--clickable:hover h2 a:focus, .nhsuk-card--clickable:hover .is-style-panel-with-label.nhsuk-promo.is-style-promo-small .nhsuk-card__content h2 a:focus, .is-style-panel-with-label.nhsuk-promo.is-style-promo-small .nhsuk-card__content .nhsuk-card--clickable:hover h2 a:focus,
-.nhsuk-card--clickable:hover .nhsuk-card__link:focus, .nhsuk-card--clickable:active .nhsuk-card__heading a:focus, .nhsuk-card--clickable:active .nhsuk-card.is-style-panel-with-label .nhsuk-card__content h2 a:focus, .nhsuk-card.is-style-panel-with-label .nhsuk-card__content .nhsuk-card--clickable:active h2 a:focus, .nhsuk-card--clickable:active .ld-course-list-items .ld_course_grid article.is-style-panel-with-label .nhsuk-card__content h2 a:focus, .ld-course-list-items .ld_course_grid article.is-style-panel-with-label .nhsuk-card__content .nhsuk-card--clickable:active h2 a:focus, .nhsuk-card--clickable:active .ld-course-list-items .ld_course_grid .is-style-panel-with-label.thumbnail.course .nhsuk-card__content h2 a:focus, .ld-course-list-items .ld_course_grid .is-style-panel-with-label.thumbnail.course .nhsuk-card__content .nhsuk-card--clickable:active h2 a:focus, .nhsuk-card--clickable:active .is-style-panel-with-label.nhsuk-panel.is-style-panel-grey .nhsuk-card__content h2 a:focus, .is-style-panel-with-label.nhsuk-panel.is-style-panel-grey .nhsuk-card__content .nhsuk-card--clickable:active h2 a:focus, .nhsuk-card--clickable:active .is-style-panel-with-label.is-style-panel-grey.sticky .nhsuk-card__content h2 a:focus, .is-style-panel-with-label.is-style-panel-grey.sticky .nhsuk-card__content .nhsuk-card--clickable:active h2 a:focus, .nhsuk-card--clickable:active .is-style-panel-with-label.is-style-panel-grey.download-box .nhsuk-card__content h2 a:focus, .is-style-panel-with-label.is-style-panel-grey.download-box .nhsuk-card__content .nhsuk-card--clickable:active h2 a:focus, .nhsuk-card--clickable:active .is-style-panel-with-label.nhsuk-promo.is-style-promo-small .nhsuk-card__content h2 a:focus, .is-style-panel-with-label.nhsuk-promo.is-style-promo-small .nhsuk-card__content .nhsuk-card--clickable:active h2 a:focus,
+.nhsuk-card--clickable:hover .nhsuk-card__heading a:focus, .nhsuk-card--clickable:hover .nhsuk-card.is-style-panel-with-label .nhsuk-card__content h2 a:focus, .nhsuk-card.is-style-panel-with-label .nhsuk-card__content .nhsuk-card--clickable:hover h2 a:focus, .nhsuk-card--clickable:hover .is-style-panel-with-label.nhsuk-panel.is-style-panel-grey .nhsuk-card__content h2 a:focus, .is-style-panel-with-label.nhsuk-panel.is-style-panel-grey .nhsuk-card__content .nhsuk-card--clickable:hover h2 a:focus, .nhsuk-card--clickable:hover .is-style-panel-with-label.is-style-panel-grey.sticky .nhsuk-card__content h2 a:focus, .is-style-panel-with-label.is-style-panel-grey.sticky .nhsuk-card__content .nhsuk-card--clickable:hover h2 a:focus, .nhsuk-card--clickable:hover .is-style-panel-with-label.is-style-panel-grey.download-box .nhsuk-card__content h2 a:focus, .is-style-panel-with-label.is-style-panel-grey.download-box .nhsuk-card__content .nhsuk-card--clickable:hover h2 a:focus, .nhsuk-card--clickable:hover .is-style-panel-with-label.nhsuk-promo.is-style-promo-small .nhsuk-card__content h2 a:focus, .is-style-panel-with-label.nhsuk-promo.is-style-promo-small .nhsuk-card__content .nhsuk-card--clickable:hover h2 a:focus,
+.nhsuk-card--clickable:hover .nhsuk-card__link:focus, .nhsuk-card--clickable:active .nhsuk-card__heading a:focus, .nhsuk-card--clickable:active .nhsuk-card.is-style-panel-with-label .nhsuk-card__content h2 a:focus, .nhsuk-card.is-style-panel-with-label .nhsuk-card__content .nhsuk-card--clickable:active h2 a:focus, .nhsuk-card--clickable:active .is-style-panel-with-label.nhsuk-panel.is-style-panel-grey .nhsuk-card__content h2 a:focus, .is-style-panel-with-label.nhsuk-panel.is-style-panel-grey .nhsuk-card__content .nhsuk-card--clickable:active h2 a:focus, .nhsuk-card--clickable:active .is-style-panel-with-label.is-style-panel-grey.sticky .nhsuk-card__content h2 a:focus, .is-style-panel-with-label.is-style-panel-grey.sticky .nhsuk-card__content .nhsuk-card--clickable:active h2 a:focus, .nhsuk-card--clickable:active .is-style-panel-with-label.is-style-panel-grey.download-box .nhsuk-card__content h2 a:focus, .is-style-panel-with-label.is-style-panel-grey.download-box .nhsuk-card__content .nhsuk-card--clickable:active h2 a:focus, .nhsuk-card--clickable:active .is-style-panel-with-label.nhsuk-promo.is-style-promo-small .nhsuk-card__content h2 a:focus, .is-style-panel-with-label.nhsuk-promo.is-style-promo-small .nhsuk-card__content .nhsuk-card--clickable:active h2 a:focus,
 .nhsuk-card--clickable:active .nhsuk-card__link:focus {
   color: #212b32;
 }
@@ -6759,7 +6622,7 @@ body.buddypress #buddypress .bp-manage-group-container .button.confirm.member-pr
 *
 * Flexbox is used to make each card in a row the same height.
 */
-.nhsuk-card-group, .ld-course-list-items {
+.nhsuk-card-group {
   display: flex;
   flex-wrap: wrap;
   margin-bottom: 16px;
@@ -6767,80 +6630,65 @@ body.buddypress #buddypress .bp-manage-group-container .button.confirm.member-pr
 }
 
 @media (max-width: 48.0525em) {
-  .nhsuk-card-group, .ld-course-list-items {
+  .nhsuk-card-group {
     margin-bottom: 40px;
   }
 }
 
-.nhsuk-card-group + h2, .ld-course-list-items + h2,
+.nhsuk-card-group + h2,
 .nhsuk-card-group + .nhsuk-heading-l,
-.ld-course-list-items + .nhsuk-heading-l,
 .nhsuk-card-group + h3,
-.ld-course-list-items + h3,
 .nhsuk-card-group + .nhsuk-heading-m,
-.ld-course-list-items + .nhsuk-heading-m,
 .nightingale-latest-news .nhsuk-panel .nhsuk-card-group + a,
-.nightingale-latest-news .nhsuk-panel .ld-course-list-items + a,
 .nightingale-latest-news .sticky .nhsuk-card-group + a,
-.nightingale-latest-news .sticky .ld-course-list-items + a,
 .nightingale-latest-news .download-box .nhsuk-card-group + a,
-.nightingale-latest-news .download-box .ld-course-list-items + a,
 .nhsuk-card.is-style-panel-with-label .nhsuk-card__content .nhsuk-card-group + h2,
-.nhsuk-card.is-style-panel-with-label .nhsuk-card__content .ld-course-list-items + h2,
-.ld-course-list-items .ld_course_grid article.is-style-panel-with-label .nhsuk-card__content .nhsuk-card-group + h2,
-.ld-course-list-items .ld_course_grid article.is-style-panel-with-label .nhsuk-card__content .ld-course-list-items + h2,
-.ld-course-list-items .ld_course_grid .is-style-panel-with-label.thumbnail.course .nhsuk-card__content .nhsuk-card-group + h2,
-.ld-course-list-items .ld_course_grid .is-style-panel-with-label.thumbnail.course .nhsuk-card__content .ld-course-list-items + h2,
 .is-style-panel-with-label.nhsuk-panel.is-style-panel-grey .nhsuk-card__content .nhsuk-card-group + h2,
-.is-style-panel-with-label.nhsuk-panel.is-style-panel-grey .nhsuk-card__content .ld-course-list-items + h2,
 .is-style-panel-with-label.is-style-panel-grey.sticky .nhsuk-card__content .nhsuk-card-group + h2,
-.is-style-panel-with-label.is-style-panel-grey.sticky .nhsuk-card__content .ld-course-list-items + h2,
 .is-style-panel-with-label.is-style-panel-grey.download-box .nhsuk-card__content .nhsuk-card-group + h2,
-.is-style-panel-with-label.is-style-panel-grey.download-box .nhsuk-card__content .ld-course-list-items + h2,
-.is-style-panel-with-label.nhsuk-promo.is-style-promo-small .nhsuk-card__content .nhsuk-card-group + h2,
-.is-style-panel-with-label.nhsuk-promo.is-style-promo-small .nhsuk-card__content .ld-course-list-items + h2 {
+.is-style-panel-with-label.nhsuk-promo.is-style-promo-small .nhsuk-card__content .nhsuk-card-group + h2 {
   padding-top: 0;
   /* [4] */
 }
 
-.nhsuk-card-group__item, .ld-course-list-items .ld_course_grid {
+.nhsuk-card-group__item {
   display: flex;
   list-style-type: none;
   margin-bottom: 0;
 }
 
 @media (max-width: 48.0525em) {
-  .nhsuk-card-group__item, .ld-course-list-items .ld_course_grid {
+  .nhsuk-card-group__item {
     flex: 0 0 100%;
   }
 }
 
-.nhsuk-card-group__item .nhsuk-card, .ld-course-list-items .ld_course_grid .nhsuk-card, .ld-course-list-items .ld_course_grid article, .ld-course-list-items .ld_course_grid .thumbnail.course, .nhsuk-card-group__item .nhsuk-panel.is-style-panel-grey, .ld-course-list-items .ld_course_grid .nhsuk-panel.is-style-panel-grey, .nhsuk-card-group__item .is-style-panel-grey.sticky, .ld-course-list-items .ld_course_grid .is-style-panel-grey.sticky, .nhsuk-card-group__item .is-style-panel-grey.download-box, .ld-course-list-items .ld_course_grid .is-style-panel-grey.download-box, .nhsuk-card-group__item .nhsuk-promo.is-style-promo-small, .ld-course-list-items .ld_course_grid .nhsuk-promo.is-style-promo-small {
+.nhsuk-card-group__item .nhsuk-card, .nhsuk-card-group__item .nhsuk-panel.is-style-panel-grey, .nhsuk-card-group__item .is-style-panel-grey.sticky, .nhsuk-card-group__item .is-style-panel-grey.download-box, .nhsuk-card-group__item .nhsuk-promo.is-style-promo-small {
   margin-bottom: 32px;
 }
 
 @media (max-width: 48.0525em) {
-  .nhsuk-card-group__item .nhsuk-card, .ld-course-list-items .ld_course_grid .nhsuk-card, .ld-course-list-items .ld_course_grid article, .ld-course-list-items .ld_course_grid .thumbnail.course, .nhsuk-card-group__item .nhsuk-panel.is-style-panel-grey, .ld-course-list-items .ld_course_grid .nhsuk-panel.is-style-panel-grey, .nhsuk-card-group__item .is-style-panel-grey.sticky, .ld-course-list-items .ld_course_grid .is-style-panel-grey.sticky, .nhsuk-card-group__item .is-style-panel-grey.download-box, .ld-course-list-items .ld_course_grid .is-style-panel-grey.download-box, .nhsuk-card-group__item .nhsuk-promo.is-style-promo-small, .ld-course-list-items .ld_course_grid .nhsuk-promo.is-style-promo-small {
+  .nhsuk-card-group__item .nhsuk-card, .nhsuk-card-group__item .nhsuk-panel.is-style-panel-grey, .nhsuk-card-group__item .is-style-panel-grey.sticky, .nhsuk-card-group__item .is-style-panel-grey.download-box, .nhsuk-card-group__item .nhsuk-promo.is-style-promo-small {
     margin-bottom: 16px;
   }
-  .nhsuk-card-group__item:last-child .nhsuk-card, .ld-course-list-items .ld_course_grid:last-child .nhsuk-card, .nhsuk-card-group__item:last-child .ld-course-list-items .ld_course_grid article, .ld-course-list-items .ld_course_grid .nhsuk-card-group__item:last-child article, .ld-course-list-items .ld_course_grid:last-child article, .nhsuk-card-group__item:last-child .ld-course-list-items .ld_course_grid .thumbnail.course, .ld-course-list-items .ld_course_grid .nhsuk-card-group__item:last-child .thumbnail.course, .ld-course-list-items .ld_course_grid:last-child .thumbnail.course, .nhsuk-card-group__item:last-child .nhsuk-panel.is-style-panel-grey, .ld-course-list-items .ld_course_grid:last-child .nhsuk-panel.is-style-panel-grey, .nhsuk-card-group__item:last-child .is-style-panel-grey.sticky, .ld-course-list-items .ld_course_grid:last-child .is-style-panel-grey.sticky, .nhsuk-card-group__item:last-child .is-style-panel-grey.download-box, .ld-course-list-items .ld_course_grid:last-child .is-style-panel-grey.download-box, .nhsuk-card-group__item:last-child .nhsuk-promo.is-style-promo-small, .ld-course-list-items .ld_course_grid:last-child .nhsuk-promo.is-style-promo-small {
+  .nhsuk-card-group__item:last-child .nhsuk-card, .nhsuk-card-group__item:last-child .nhsuk-panel.is-style-panel-grey, .nhsuk-card-group__item:last-child .is-style-panel-grey.sticky, .nhsuk-card-group__item:last-child .is-style-panel-grey.download-box, .nhsuk-card-group__item:last-child .nhsuk-promo.is-style-promo-small {
     margin-bottom: 0;
   }
 }
 
 /* Card feature
   ========================================================================== */
-.nhsuk-card--feature, .nhsuk-card.is-style-panel-with-label, .ld-course-list-items .ld_course_grid article.is-style-panel-with-label, .ld-course-list-items .ld_course_grid .is-style-panel-with-label.thumbnail.course, .is-style-panel-with-label.nhsuk-panel.is-style-panel-grey, .is-style-panel-with-label.is-style-panel-grey.sticky, .is-style-panel-with-label.is-style-panel-grey.download-box, .is-style-panel-with-label.nhsuk-promo.is-style-promo-small {
+.nhsuk-card--feature, .nhsuk-card.is-style-panel-with-label, .is-style-panel-with-label.nhsuk-panel.is-style-panel-grey, .is-style-panel-with-label.is-style-panel-grey.sticky, .is-style-panel-with-label.is-style-panel-grey.download-box, .is-style-panel-with-label.nhsuk-promo.is-style-promo-small {
   margin-top: 40px;
 }
 
 @media (min-width: 40.0625em) {
-  .nhsuk-card--feature, .nhsuk-card.is-style-panel-with-label, .ld-course-list-items .ld_course_grid article.is-style-panel-with-label, .ld-course-list-items .ld_course_grid .is-style-panel-with-label.thumbnail.course, .is-style-panel-with-label.nhsuk-panel.is-style-panel-grey, .is-style-panel-with-label.is-style-panel-grey.sticky, .is-style-panel-with-label.is-style-panel-grey.download-box, .is-style-panel-with-label.nhsuk-promo.is-style-promo-small {
+  .nhsuk-card--feature, .nhsuk-card.is-style-panel-with-label, .is-style-panel-with-label.nhsuk-panel.is-style-panel-grey, .is-style-panel-with-label.is-style-panel-grey.sticky, .is-style-panel-with-label.is-style-panel-grey.download-box, .is-style-panel-with-label.nhsuk-promo.is-style-promo-small {
     margin-top: 48px;
   }
 }
 
-.nhsuk-card__heading--feature, .nhsuk-card.is-style-panel-with-label .nhsuk-card__content h2, .ld-course-list-items .ld_course_grid article.is-style-panel-with-label .nhsuk-card__content h2, .ld-course-list-items .ld_course_grid .is-style-panel-with-label.thumbnail.course .nhsuk-card__content h2, .is-style-panel-with-label.nhsuk-panel.is-style-panel-grey .nhsuk-card__content h2, .is-style-panel-with-label.is-style-panel-grey.sticky .nhsuk-card__content h2, .is-style-panel-with-label.is-style-panel-grey.download-box .nhsuk-card__content h2, .is-style-panel-with-label.nhsuk-promo.is-style-promo-small .nhsuk-card__content h2 {
+.nhsuk-card__heading--feature, .nhsuk-card.is-style-panel-with-label .nhsuk-card__content h2, .is-style-panel-with-label.nhsuk-panel.is-style-panel-grey .nhsuk-card__content h2, .is-style-panel-with-label.is-style-panel-grey.sticky .nhsuk-card__content h2, .is-style-panel-with-label.is-style-panel-grey.download-box .nhsuk-card__content h2, .is-style-panel-with-label.nhsuk-promo.is-style-promo-small .nhsuk-card__content h2 {
   background: #005eb8;
   color: #ffffff;
   display: inline-block;
@@ -6855,7 +6703,7 @@ body.buddypress #buddypress .bp-manage-group-container .button.confirm.member-pr
 }
 
 @media (min-width: 40.0625em) {
-  .nhsuk-card__heading--feature, .nhsuk-card.is-style-panel-with-label .nhsuk-card__content h2, .ld-course-list-items .ld_course_grid article.is-style-panel-with-label .nhsuk-card__content h2, .ld-course-list-items .ld_course_grid .is-style-panel-with-label.thumbnail.course .nhsuk-card__content h2, .is-style-panel-with-label.nhsuk-panel.is-style-panel-grey .nhsuk-card__content h2, .is-style-panel-with-label.is-style-panel-grey.sticky .nhsuk-card__content h2, .is-style-panel-with-label.is-style-panel-grey.download-box .nhsuk-card__content h2, .is-style-panel-with-label.nhsuk-promo.is-style-promo-small .nhsuk-card__content h2 {
+  .nhsuk-card__heading--feature, .nhsuk-card.is-style-panel-with-label .nhsuk-card__content h2, .is-style-panel-with-label.nhsuk-panel.is-style-panel-grey .nhsuk-card__content h2, .is-style-panel-with-label.is-style-panel-grey.sticky .nhsuk-card__content h2, .is-style-panel-with-label.is-style-panel-grey.download-box .nhsuk-card__content h2, .is-style-panel-with-label.nhsuk-promo.is-style-promo-small .nhsuk-card__content h2 {
     left: -33px;
     /* [5] */
     margin-right: -32px;
@@ -6865,7 +6713,7 @@ body.buddypress #buddypress .bp-manage-group-container .button.confirm.member-pr
   }
 }
 
-.nhsuk-card__content--feature, .nhsuk-card.is-style-panel-with-label .nhsuk-card__content, .ld-course-list-items .ld_course_grid article.is-style-panel-with-label .nhsuk-card__content, .ld-course-list-items .ld_course_grid .is-style-panel-with-label.thumbnail.course .nhsuk-card__content, .is-style-panel-with-label.nhsuk-panel.is-style-panel-grey .nhsuk-card__content, .is-style-panel-with-label.is-style-panel-grey.sticky .nhsuk-card__content, .is-style-panel-with-label.is-style-panel-grey.download-box .nhsuk-card__content, .is-style-panel-with-label.nhsuk-promo.is-style-promo-small .nhsuk-card__content {
+.nhsuk-card__content--feature, .nhsuk-card.is-style-panel-with-label .nhsuk-card__content, .is-style-panel-with-label.nhsuk-panel.is-style-panel-grey .nhsuk-card__content, .is-style-panel-with-label.is-style-panel-grey.sticky .nhsuk-card__content, .is-style-panel-with-label.is-style-panel-grey.download-box .nhsuk-card__content, .is-style-panel-with-label.nhsuk-promo.is-style-promo-small .nhsuk-card__content {
   padding-top: 0 !important;
 }
 
@@ -12230,7 +12078,7 @@ body.buddypress #buddypress .subnav-filters div input[type="search"]:focus::-ms-
 
 /* colour variable to be used with color-mixer.scss */
 /* colour variable to be used with page-colour.scss & gutenberg-page-colour.scss */
-.nhsuk-panel-group {
+.nhsuk-panel-group, .ld-course-list-items, .ld-course-list-items .ld_course_grid article {
   margin-left: 0;
   margin-right: 0;
 }
@@ -12266,7 +12114,6 @@ input.is-style-reverse:visited[type="submit"], #content a.is-style-reverse.wp-bl
 #tribe-events-content button.is-style-reverse:visited:not(.tribe-tickets__rsvp-ar-quantity-input-number), html.js .tribe-events-page-template.wp-embed-responsive .wp-embed.nhsuk-care-card .tribe-events-event-cost a.is-style-reverse:visited, html.js .tribe-events-page-template.wp-embed-responsive .learndash-wrapper .wp-embed.ld-table-list .tribe-events-event-cost a.is-style-reverse:visited, .learndash-wrapper html.js .tribe-events-page-template.wp-embed-responsive .wp-embed.ld-table-list .tribe-events-event-cost a.is-style-reverse:visited, .is-style-reverse.download-button:visited, body.buddypress #buddypress .is-style-reverse.request-membership:visited,
 body.buddypress #buddypress .friendship-button a.is-style-reverse:visited,
 body.buddypress #buddypress .follow-button a.is-style-reverse:visited,
-body.buddypress #buddypress #send-private-message a.is-style-reverse:visited,
 body.buddypress #buddypress .is-style-reverse#aw-whats-new-submit:visited,
 body.buddypress #buddypress .is-style-reverse#aw-whats-new-reset:visited,
 body.buddypress #buddypress .is-style-reverse.dz-button:visited,
@@ -12276,8 +12123,7 @@ body.buddypress #buddypress a.is-style-reverse#aw-whats-new-submit:visited,
 body.buddypress #buddypress a.is-style-reverse#aw-whats-new-reset:visited,
 body.buddypress #buddypress a.is-style-reverse.dz-button:visited,
 body.buddypress #buddypress a.is-style-reverse.button:visited, body.buddypress #buddypress a.is-style-reverse#save:visited, body.buddypress #buddypress .groups a.is-style-reverse.membership-requested:visited, #bbpress-forums a.is-style-reverse.bb-reply-actions-button:visited, #bbpress-forums a.is-style-reverse.bb-topic-reply-link-wrap:visited,
-#bbpress-forums a.is-style-reverse.bb-topic-subscription-link-wrap:visited,
-body.buddypress #buddypress #send-private-message a:visited,
+#bbpress-forums a.is-style-reverse.bb-topic-subscription-link-wrap:visited, body.buddypress #buddypress #send-private-message a:visited,
 body.buddypress #buddypress .fav:visited, body.buddypress #buddypress .groups .membership-requested:visited, body.buddypress #buddypress .bp-manage-group-container .button.confirm.member-promote-to-mod:visited, #bbpress-forums .bbp-admin-links a.bbp-topic-trash-link:visited, #bbpress-forums .bbp-admin-links a.bbp-reply-trash-link:visited, #bbpress-forums .bbp-admin-links a.bbp-topic-edit-link:visited, #bbpress-forums .bbp-admin-links a.bbp-reply-edit-link:visited {
   color: #212b32;
 }
@@ -12928,16 +12774,16 @@ button {
   margin-left: 16px;
 }
 
-.nhsuk-card .nhsuk-card__description, .ld-course-list-items .ld_course_grid article .nhsuk-card__description, .ld-course-list-items .ld_course_grid .thumbnail.course .nhsuk-card__description, .nhsuk-panel.is-style-panel-grey .nhsuk-card__description, .is-style-panel-grey.sticky .nhsuk-card__description, .is-style-panel-grey.download-box .nhsuk-card__description, .nhsuk-promo.is-style-promo-small .nhsuk-card__description, .ld-course-list-items .ld_course_grid article .caption, .ld-course-list-items .ld_course_grid .thumbnail.course article .caption, .ld-course-list-items .ld_course_grid article .thumbnail.course .caption {
+.nhsuk-card .nhsuk-card__description, .nhsuk-panel.is-style-panel-grey .nhsuk-card__description, .is-style-panel-grey.sticky .nhsuk-card__description, .is-style-panel-grey.download-box .nhsuk-card__description, .nhsuk-promo.is-style-promo-small .nhsuk-card__description {
   display: flow-root;
 }
 
-.nhsuk-card.is-style-panel-grey, .ld-course-list-items .ld_course_grid article.is-style-panel-grey, .ld-course-list-items .ld_course_grid .is-style-panel-grey.thumbnail.course, .is-style-panel-grey.nhsuk-panel, .is-style-panel-grey.sticky, .is-style-panel-grey.download-box, .is-style-panel-grey.nhsuk-promo.is-style-promo-small {
+.nhsuk-card.is-style-panel-grey, .is-style-panel-grey.nhsuk-panel, .is-style-panel-grey.sticky, .is-style-panel-grey.download-box, .is-style-panel-grey.nhsuk-promo.is-style-promo-small {
   background: inherit;
   border: none;
 }
 
-.nhsuk-card figure, .ld-course-list-items .ld_course_grid article figure, .ld-course-list-items .ld_course_grid .thumbnail.course figure, .nhsuk-panel.is-style-panel-grey figure, .is-style-panel-grey.sticky figure, .is-style-panel-grey.download-box figure, .nhsuk-promo.is-style-promo-small figure {
+.nhsuk-card figure, .nhsuk-panel.is-style-panel-grey figure, .is-style-panel-grey.sticky figure, .is-style-panel-grey.download-box figure, .nhsuk-promo.is-style-promo-small figure {
   margin: 0;
 }
 
@@ -14053,7 +13899,6 @@ button {
 }
 
 .ld-course-list-items .ld_course_grid .thumbnail.course {
-  margin-bottom: 40px;
   position: relative;
   padding-bottom: 120px;
 }
@@ -14731,18 +14576,18 @@ ul.download-versions {
   overflow: auto;
 }
 
-.nhsuk-dashboard .nhsuk-panel-group__item {
+.nhsuk-dashboard .nhsuk-panel-group__item, .nhsuk-dashboard .ld-course-list-items .ld_course_grid, .ld-course-list-items .nhsuk-dashboard .ld_course_grid {
   overflow: hidden;
   margin-bottom: 2rem;
 }
 
-.nhsuk-dashboard .nhsuk-panel-group__item .nhsuk-promo__link-wrapper {
+.nhsuk-dashboard .nhsuk-panel-group__item .nhsuk-promo__link-wrapper, .nhsuk-dashboard .ld-course-list-items .ld_course_grid .nhsuk-promo__link-wrapper, .ld-course-list-items .nhsuk-dashboard .ld_course_grid .nhsuk-promo__link-wrapper {
   background: inherit;
   box-shadow: none;
   width: 100%;
 }
 
-.nhsuk-dashboard .nhsuk-panel-group__item .nhsuk-panel-with-label, .nhsuk-dashboard .nhsuk-panel-group__item .nhsuk-panel.is-style-panel-with-label, .nhsuk-dashboard .nhsuk-panel-group__item .is-style-panel-with-label.sticky, .nhsuk-dashboard .nhsuk-panel-group__item .is-style-panel-with-label.download-box {
+.nhsuk-dashboard .nhsuk-panel-group__item .nhsuk-panel-with-label, .nhsuk-dashboard .ld-course-list-items .ld_course_grid .nhsuk-panel-with-label, .ld-course-list-items .nhsuk-dashboard .ld_course_grid .nhsuk-panel-with-label, .nhsuk-dashboard .nhsuk-panel-group__item .nhsuk-panel.is-style-panel-with-label, .nhsuk-dashboard .ld-course-list-items .ld_course_grid .nhsuk-panel.is-style-panel-with-label, .ld-course-list-items .nhsuk-dashboard .ld_course_grid .nhsuk-panel.is-style-panel-with-label, .nhsuk-dashboard .nhsuk-panel-group__item .is-style-panel-with-label.sticky, .nhsuk-dashboard .ld-course-list-items .ld_course_grid .is-style-panel-with-label.sticky, .ld-course-list-items .nhsuk-dashboard .ld_course_grid .is-style-panel-with-label.sticky, .nhsuk-dashboard .nhsuk-panel-group__item .is-style-panel-with-label.download-box, .nhsuk-dashboard .ld-course-list-items .ld_course_grid .is-style-panel-with-label.download-box, .ld-course-list-items .nhsuk-dashboard .ld_course_grid .is-style-panel-with-label.download-box {
   background: inherit;
   margin: 0;
   margin-top: 0;
@@ -14753,7 +14598,7 @@ ul.download-versions {
   height: 100%;
 }
 
-.nhsuk-dashboard .nhsuk-panel-group__item .nhsuk-panel-with-label .nhsuk-panel-with-label__label, .nhsuk-dashboard .nhsuk-panel-group__item .nhsuk-panel.is-style-panel-with-label .nhsuk-panel-with-label__label, .nhsuk-dashboard .nhsuk-panel-group__item .is-style-panel-with-label.sticky .nhsuk-panel-with-label__label, .nhsuk-dashboard .nhsuk-panel-group__item .is-style-panel-with-label.download-box .nhsuk-panel-with-label__label, .nhsuk-panel.is-style-panel-with-label .nhsuk-dashboard .nhsuk-panel-group__item .nhsuk-panel-with-label h3, .nhsuk-dashboard .nhsuk-panel-group__item .nhsuk-panel.is-style-panel-with-label h3, .is-style-panel-with-label.sticky .nhsuk-dashboard .nhsuk-panel-group__item .nhsuk-panel-with-label h3, .nhsuk-dashboard .nhsuk-panel-group__item .is-style-panel-with-label.sticky h3, .is-style-panel-with-label.download-box .nhsuk-dashboard .nhsuk-panel-group__item .nhsuk-panel-with-label h3, .nhsuk-dashboard .nhsuk-panel-group__item .is-style-panel-with-label.download-box h3, .nhsuk-panel.is-style-panel-with-label h3 .nhsuk-dashboard .nhsuk-panel-group__item .nhsuk-panel-with-label .rich-text, .nhsuk-dashboard .nhsuk-panel-group__item .nhsuk-panel.is-style-panel-with-label h3 .rich-text, .nhsuk-panel.is-style-panel-with-label h3 .nhsuk-dashboard .nhsuk-panel-group__item .is-style-panel-with-label.sticky .rich-text, .nhsuk-panel.is-style-panel-with-label h3 .nhsuk-dashboard .nhsuk-panel-group__item .is-style-panel-with-label.download-box .rich-text, .is-style-panel-with-label.sticky h3 .nhsuk-dashboard .nhsuk-panel-group__item .nhsuk-panel-with-label .rich-text, .is-style-panel-with-label.sticky h3 .nhsuk-dashboard .nhsuk-panel-group__item .nhsuk-panel.is-style-panel-with-label .rich-text, .nhsuk-dashboard .nhsuk-panel-group__item .is-style-panel-with-label.sticky h3 .rich-text, .is-style-panel-with-label.sticky h3 .nhsuk-dashboard .nhsuk-panel-group__item .is-style-panel-with-label.download-box .rich-text, .is-style-panel-with-label.download-box h3 .nhsuk-dashboard .nhsuk-panel-group__item .nhsuk-panel-with-label .rich-text, .is-style-panel-with-label.download-box h3 .nhsuk-dashboard .nhsuk-panel-group__item .nhsuk-panel.is-style-panel-with-label .rich-text, .is-style-panel-with-label.download-box h3 .nhsuk-dashboard .nhsuk-panel-group__item .is-style-panel-with-label.sticky .rich-text, .nhsuk-dashboard .nhsuk-panel-group__item .is-style-panel-with-label.download-box h3 .rich-text {
+.nhsuk-dashboard .nhsuk-panel-group__item .nhsuk-panel-with-label .nhsuk-panel-with-label__label, .nhsuk-dashboard .ld-course-list-items .ld_course_grid .nhsuk-panel-with-label .nhsuk-panel-with-label__label, .ld-course-list-items .nhsuk-dashboard .ld_course_grid .nhsuk-panel-with-label .nhsuk-panel-with-label__label, .nhsuk-dashboard .nhsuk-panel-group__item .nhsuk-panel.is-style-panel-with-label .nhsuk-panel-with-label__label, .nhsuk-dashboard .ld-course-list-items .ld_course_grid .nhsuk-panel.is-style-panel-with-label .nhsuk-panel-with-label__label, .ld-course-list-items .nhsuk-dashboard .ld_course_grid .nhsuk-panel.is-style-panel-with-label .nhsuk-panel-with-label__label, .nhsuk-dashboard .nhsuk-panel-group__item .is-style-panel-with-label.sticky .nhsuk-panel-with-label__label, .nhsuk-dashboard .ld-course-list-items .ld_course_grid .is-style-panel-with-label.sticky .nhsuk-panel-with-label__label, .ld-course-list-items .nhsuk-dashboard .ld_course_grid .is-style-panel-with-label.sticky .nhsuk-panel-with-label__label, .nhsuk-dashboard .nhsuk-panel-group__item .is-style-panel-with-label.download-box .nhsuk-panel-with-label__label, .nhsuk-dashboard .ld-course-list-items .ld_course_grid .is-style-panel-with-label.download-box .nhsuk-panel-with-label__label, .ld-course-list-items .nhsuk-dashboard .ld_course_grid .is-style-panel-with-label.download-box .nhsuk-panel-with-label__label, .nhsuk-panel.is-style-panel-with-label .nhsuk-dashboard .nhsuk-panel-group__item .nhsuk-panel-with-label h3, .nhsuk-panel.is-style-panel-with-label .nhsuk-dashboard .ld-course-list-items .ld_course_grid .nhsuk-panel-with-label h3, .nhsuk-panel.is-style-panel-with-label .ld-course-list-items .nhsuk-dashboard .ld_course_grid .nhsuk-panel-with-label h3, .nhsuk-dashboard .nhsuk-panel-group__item .nhsuk-panel.is-style-panel-with-label h3, .nhsuk-dashboard .ld-course-list-items .ld_course_grid .nhsuk-panel.is-style-panel-with-label h3, .ld-course-list-items .nhsuk-dashboard .ld_course_grid .nhsuk-panel.is-style-panel-with-label h3, .is-style-panel-with-label.sticky .nhsuk-dashboard .nhsuk-panel-group__item .nhsuk-panel-with-label h3, .is-style-panel-with-label.sticky .nhsuk-dashboard .ld-course-list-items .ld_course_grid .nhsuk-panel-with-label h3, .is-style-panel-with-label.sticky .ld-course-list-items .nhsuk-dashboard .ld_course_grid .nhsuk-panel-with-label h3, .nhsuk-dashboard .nhsuk-panel-group__item .is-style-panel-with-label.sticky h3, .nhsuk-dashboard .ld-course-list-items .ld_course_grid .is-style-panel-with-label.sticky h3, .ld-course-list-items .nhsuk-dashboard .ld_course_grid .is-style-panel-with-label.sticky h3, .is-style-panel-with-label.download-box .nhsuk-dashboard .nhsuk-panel-group__item .nhsuk-panel-with-label h3, .is-style-panel-with-label.download-box .nhsuk-dashboard .ld-course-list-items .ld_course_grid .nhsuk-panel-with-label h3, .is-style-panel-with-label.download-box .ld-course-list-items .nhsuk-dashboard .ld_course_grid .nhsuk-panel-with-label h3, .nhsuk-dashboard .nhsuk-panel-group__item .is-style-panel-with-label.download-box h3, .nhsuk-dashboard .ld-course-list-items .ld_course_grid .is-style-panel-with-label.download-box h3, .ld-course-list-items .nhsuk-dashboard .ld_course_grid .is-style-panel-with-label.download-box h3, .nhsuk-panel.is-style-panel-with-label h3 .nhsuk-dashboard .nhsuk-panel-group__item .nhsuk-panel-with-label .rich-text, .nhsuk-panel.is-style-panel-with-label h3 .nhsuk-dashboard .ld-course-list-items .ld_course_grid .nhsuk-panel-with-label .rich-text, .nhsuk-panel.is-style-panel-with-label h3 .ld-course-list-items .nhsuk-dashboard .ld_course_grid .nhsuk-panel-with-label .rich-text, .nhsuk-dashboard .nhsuk-panel-group__item .nhsuk-panel.is-style-panel-with-label h3 .rich-text, .nhsuk-dashboard .ld-course-list-items .ld_course_grid .nhsuk-panel.is-style-panel-with-label h3 .rich-text, .ld-course-list-items .nhsuk-dashboard .ld_course_grid .nhsuk-panel.is-style-panel-with-label h3 .rich-text, .nhsuk-panel.is-style-panel-with-label h3 .nhsuk-dashboard .nhsuk-panel-group__item .is-style-panel-with-label.sticky .rich-text, .nhsuk-panel.is-style-panel-with-label h3 .nhsuk-dashboard .ld-course-list-items .ld_course_grid .is-style-panel-with-label.sticky .rich-text, .nhsuk-panel.is-style-panel-with-label h3 .ld-course-list-items .nhsuk-dashboard .ld_course_grid .is-style-panel-with-label.sticky .rich-text, .nhsuk-panel.is-style-panel-with-label h3 .nhsuk-dashboard .nhsuk-panel-group__item .is-style-panel-with-label.download-box .rich-text, .nhsuk-panel.is-style-panel-with-label h3 .nhsuk-dashboard .ld-course-list-items .ld_course_grid .is-style-panel-with-label.download-box .rich-text, .nhsuk-panel.is-style-panel-with-label h3 .ld-course-list-items .nhsuk-dashboard .ld_course_grid .is-style-panel-with-label.download-box .rich-text, .is-style-panel-with-label.sticky h3 .nhsuk-dashboard .nhsuk-panel-group__item .nhsuk-panel-with-label .rich-text, .is-style-panel-with-label.sticky h3 .nhsuk-dashboard .ld-course-list-items .ld_course_grid .nhsuk-panel-with-label .rich-text, .is-style-panel-with-label.sticky h3 .ld-course-list-items .nhsuk-dashboard .ld_course_grid .nhsuk-panel-with-label .rich-text, .is-style-panel-with-label.sticky h3 .nhsuk-dashboard .nhsuk-panel-group__item .nhsuk-panel.is-style-panel-with-label .rich-text, .is-style-panel-with-label.sticky h3 .nhsuk-dashboard .ld-course-list-items .ld_course_grid .nhsuk-panel.is-style-panel-with-label .rich-text, .is-style-panel-with-label.sticky h3 .ld-course-list-items .nhsuk-dashboard .ld_course_grid .nhsuk-panel.is-style-panel-with-label .rich-text, .nhsuk-dashboard .nhsuk-panel-group__item .is-style-panel-with-label.sticky h3 .rich-text, .nhsuk-dashboard .ld-course-list-items .ld_course_grid .is-style-panel-with-label.sticky h3 .rich-text, .ld-course-list-items .nhsuk-dashboard .ld_course_grid .is-style-panel-with-label.sticky h3 .rich-text, .is-style-panel-with-label.sticky h3 .nhsuk-dashboard .nhsuk-panel-group__item .is-style-panel-with-label.download-box .rich-text, .is-style-panel-with-label.sticky h3 .nhsuk-dashboard .ld-course-list-items .ld_course_grid .is-style-panel-with-label.download-box .rich-text, .is-style-panel-with-label.sticky h3 .ld-course-list-items .nhsuk-dashboard .ld_course_grid .is-style-panel-with-label.download-box .rich-text, .is-style-panel-with-label.download-box h3 .nhsuk-dashboard .nhsuk-panel-group__item .nhsuk-panel-with-label .rich-text, .is-style-panel-with-label.download-box h3 .nhsuk-dashboard .ld-course-list-items .ld_course_grid .nhsuk-panel-with-label .rich-text, .is-style-panel-with-label.download-box h3 .ld-course-list-items .nhsuk-dashboard .ld_course_grid .nhsuk-panel-with-label .rich-text, .is-style-panel-with-label.download-box h3 .nhsuk-dashboard .nhsuk-panel-group__item .nhsuk-panel.is-style-panel-with-label .rich-text, .is-style-panel-with-label.download-box h3 .nhsuk-dashboard .ld-course-list-items .ld_course_grid .nhsuk-panel.is-style-panel-with-label .rich-text, .is-style-panel-with-label.download-box h3 .ld-course-list-items .nhsuk-dashboard .ld_course_grid .nhsuk-panel.is-style-panel-with-label .rich-text, .is-style-panel-with-label.download-box h3 .nhsuk-dashboard .nhsuk-panel-group__item .is-style-panel-with-label.sticky .rich-text, .is-style-panel-with-label.download-box h3 .nhsuk-dashboard .ld-course-list-items .ld_course_grid .is-style-panel-with-label.sticky .rich-text, .is-style-panel-with-label.download-box h3 .ld-course-list-items .nhsuk-dashboard .ld_course_grid .is-style-panel-with-label.sticky .rich-text, .nhsuk-dashboard .nhsuk-panel-group__item .is-style-panel-with-label.download-box h3 .rich-text, .nhsuk-dashboard .ld-course-list-items .ld_course_grid .is-style-panel-with-label.download-box h3 .rich-text, .ld-course-list-items .nhsuk-dashboard .ld_course_grid .is-style-panel-with-label.download-box h3 .rich-text {
   z-index: 2;
   top: 0;
   margin: 0 -20px;
@@ -14764,12 +14609,12 @@ ul.download-versions {
   font-size: 1.1rem;
 }
 
-.nhsuk-dashboard .nhsuk-panel-group__item .nhsuk-panel-with-label .nhsuk-dashboard__image, .nhsuk-dashboard .nhsuk-panel-group__item .nhsuk-panel.is-style-panel-with-label .nhsuk-dashboard__image, .nhsuk-dashboard .nhsuk-panel-group__item .is-style-panel-with-label.sticky .nhsuk-dashboard__image, .nhsuk-dashboard .nhsuk-panel-group__item .is-style-panel-with-label.download-box .nhsuk-dashboard__image {
+.nhsuk-dashboard .nhsuk-panel-group__item .nhsuk-panel-with-label .nhsuk-dashboard__image, .nhsuk-dashboard .ld-course-list-items .ld_course_grid .nhsuk-panel-with-label .nhsuk-dashboard__image, .ld-course-list-items .nhsuk-dashboard .ld_course_grid .nhsuk-panel-with-label .nhsuk-dashboard__image, .nhsuk-dashboard .nhsuk-panel-group__item .nhsuk-panel.is-style-panel-with-label .nhsuk-dashboard__image, .nhsuk-dashboard .ld-course-list-items .ld_course_grid .nhsuk-panel.is-style-panel-with-label .nhsuk-dashboard__image, .ld-course-list-items .nhsuk-dashboard .ld_course_grid .nhsuk-panel.is-style-panel-with-label .nhsuk-dashboard__image, .nhsuk-dashboard .nhsuk-panel-group__item .is-style-panel-with-label.sticky .nhsuk-dashboard__image, .nhsuk-dashboard .ld-course-list-items .ld_course_grid .is-style-panel-with-label.sticky .nhsuk-dashboard__image, .ld-course-list-items .nhsuk-dashboard .ld_course_grid .is-style-panel-with-label.sticky .nhsuk-dashboard__image, .nhsuk-dashboard .nhsuk-panel-group__item .is-style-panel-with-label.download-box .nhsuk-dashboard__image, .nhsuk-dashboard .ld-course-list-items .ld_course_grid .is-style-panel-with-label.download-box .nhsuk-dashboard__image, .ld-course-list-items .nhsuk-dashboard .ld_course_grid .is-style-panel-with-label.download-box .nhsuk-dashboard__image {
   width: 100%;
   height: 100%;
 }
 
-.nhsuk-dashboard .nhsuk-panel-group__item .nhsuk-panel-with-label .nhsuk-promo__img, .nhsuk-dashboard .nhsuk-panel-group__item .nhsuk-panel.is-style-panel-with-label .nhsuk-promo__img, .nhsuk-dashboard .nhsuk-panel-group__item .is-style-panel-with-label.sticky .nhsuk-promo__img, .nhsuk-dashboard .nhsuk-panel-group__item .is-style-panel-with-label.download-box .nhsuk-promo__img {
+.nhsuk-dashboard .nhsuk-panel-group__item .nhsuk-panel-with-label .nhsuk-promo__img, .nhsuk-dashboard .ld-course-list-items .ld_course_grid .nhsuk-panel-with-label .nhsuk-promo__img, .ld-course-list-items .nhsuk-dashboard .ld_course_grid .nhsuk-panel-with-label .nhsuk-promo__img, .nhsuk-dashboard .nhsuk-panel-group__item .nhsuk-panel.is-style-panel-with-label .nhsuk-promo__img, .nhsuk-dashboard .ld-course-list-items .ld_course_grid .nhsuk-panel.is-style-panel-with-label .nhsuk-promo__img, .ld-course-list-items .nhsuk-dashboard .ld_course_grid .nhsuk-panel.is-style-panel-with-label .nhsuk-promo__img, .nhsuk-dashboard .nhsuk-panel-group__item .is-style-panel-with-label.sticky .nhsuk-promo__img, .nhsuk-dashboard .ld-course-list-items .ld_course_grid .is-style-panel-with-label.sticky .nhsuk-promo__img, .ld-course-list-items .nhsuk-dashboard .ld_course_grid .is-style-panel-with-label.sticky .nhsuk-promo__img, .nhsuk-dashboard .nhsuk-panel-group__item .is-style-panel-with-label.download-box .nhsuk-promo__img, .nhsuk-dashboard .ld-course-list-items .ld_course_grid .is-style-panel-with-label.download-box .nhsuk-promo__img, .ld-course-list-items .nhsuk-dashboard .ld_course_grid .is-style-panel-with-label.download-box .nhsuk-promo__img {
   position: relative;
   top: -16px;
   z-index: 1;
@@ -14973,7 +14818,6 @@ input.is-style-secondary[type="submit"], #content a.is-style-secondary.wp-block-
 #tribe-events-content button.is-style-secondary:not(.tribe-tickets__rsvp-ar-quantity-input-number), html.js .tribe-events-page-template.wp-embed-responsive .wp-embed.nhsuk-care-card .tribe-events-event-cost a.is-style-secondary, html.js .tribe-events-page-template.wp-embed-responsive .learndash-wrapper .wp-embed.ld-table-list .tribe-events-event-cost a.is-style-secondary, .learndash-wrapper html.js .tribe-events-page-template.wp-embed-responsive .wp-embed.ld-table-list .tribe-events-event-cost a.is-style-secondary, .is-style-secondary.download-button, body.buddypress #buddypress .is-style-secondary.request-membership,
 body.buddypress #buddypress .friendship-button a.is-style-secondary,
 body.buddypress #buddypress .follow-button a.is-style-secondary,
-body.buddypress #buddypress #send-private-message a.is-style-secondary,
 body.buddypress #buddypress .is-style-secondary#aw-whats-new-submit,
 body.buddypress #buddypress .is-style-secondary#aw-whats-new-reset,
 body.buddypress #buddypress .is-style-secondary.dz-button,
@@ -14991,7 +14835,6 @@ input.is-style-reverse[type="submit"], #content a.is-style-reverse.wp-block-butt
 #tribe-events-content button.is-style-reverse:not(.tribe-tickets__rsvp-ar-quantity-input-number), html.js .tribe-events-page-template.wp-embed-responsive .wp-embed.nhsuk-care-card .tribe-events-event-cost a.is-style-reverse, html.js .tribe-events-page-template.wp-embed-responsive .learndash-wrapper .wp-embed.ld-table-list .tribe-events-event-cost a.is-style-reverse, .learndash-wrapper html.js .tribe-events-page-template.wp-embed-responsive .wp-embed.ld-table-list .tribe-events-event-cost a.is-style-reverse, .is-style-reverse.download-button, body.buddypress #buddypress .is-style-reverse.request-membership,
 body.buddypress #buddypress .friendship-button a.is-style-reverse,
 body.buddypress #buddypress .follow-button a.is-style-reverse,
-body.buddypress #buddypress #send-private-message a.is-style-reverse,
 body.buddypress #buddypress .is-style-reverse#aw-whats-new-submit,
 body.buddypress #buddypress .is-style-reverse#aw-whats-new-reset,
 body.buddypress #buddypress .is-style-reverse.dz-button,
@@ -15001,7 +14844,6 @@ body.buddypress #buddypress .is-style-reverse.button, body.buddypress #buddypres
 #tribe-events-content a.is-style-reverse.tribe-events-button, html.js .tribe-events-page-template.wp-embed-responsive .wp-embed.nhsuk-care-card .tribe-events-event-cost a.is-style-reverse, html.js .tribe-events-page-template.wp-embed-responsive .learndash-wrapper .wp-embed.ld-table-list .tribe-events-event-cost a.is-style-reverse, .learndash-wrapper html.js .tribe-events-page-template.wp-embed-responsive .wp-embed.ld-table-list .tribe-events-event-cost a.is-style-reverse, a.is-style-reverse.download-button, body.buddypress #buddypress a.is-style-reverse.request-membership,
 body.buddypress #buddypress .friendship-button a.is-style-reverse,
 body.buddypress #buddypress .follow-button a.is-style-reverse,
-body.buddypress #buddypress #send-private-message a.is-style-reverse,
 body.buddypress #buddypress a.is-style-reverse#aw-whats-new-submit,
 body.buddypress #buddypress a.is-style-reverse#aw-whats-new-reset,
 body.buddypress #buddypress a.is-style-reverse.dz-button,
@@ -15114,7 +14956,7 @@ body.buddypress #buddypress a.is-style-reverse.button, body.buddypress #buddypre
   display: flow-root;
 }
 
-.wp-block-nhsblocks-rowgroup .nhsuk-panel-group {
+.wp-block-nhsblocks-rowgroup .nhsuk-panel-group, .wp-block-nhsblocks-rowgroup .ld-course-list-items, .wp-block-nhsblocks-rowgroup .ld-course-list-items .ld_course_grid article, .ld-course-list-items .ld_course_grid .wp-block-nhsblocks-rowgroup article {
   padding: 0;
 }
 
@@ -15359,7 +15201,7 @@ body.buddypress .wp-block-nhsblocks-stripeblock.nhsuk-section .col-md-4,
  *
  * 1. Flexbox is used to make each panel in a row the same height.
  */
-.nhsuk-panel-group {
+.nhsuk-panel-group, .ld-course-list-items, .ld-course-list-items .ld_course_grid article {
   display: flex;
   flex-wrap: wrap;
   /* [1] */
@@ -15367,32 +15209,32 @@ body.buddypress .wp-block-nhsblocks-stripeblock.nhsuk-section .col-md-4,
 }
 
 @media (max-width: 48.0525em) {
-  .nhsuk-panel-group {
+  .nhsuk-panel-group, .ld-course-list-items, .ld-course-list-items .ld_course_grid article {
     margin-bottom: 24px;
   }
 }
 
-.nhsuk-panel-group__item {
+.nhsuk-panel-group__item, .ld-course-list-items .ld_course_grid {
   display: flex;
   /* [1] */
 }
 
 @media (max-width: 48.0525em) {
-  .nhsuk-panel-group__item {
+  .nhsuk-panel-group__item, .ld-course-list-items .ld_course_grid {
     flex: 0 0 100%;
   }
 }
 
 @media (max-width: 48.0525em) {
-  .nhsuk-panel-group__item {
+  .nhsuk-panel-group__item, .ld-course-list-items .ld_course_grid {
     margin-bottom: 24px;
   }
-  .nhsuk-panel-group__item:last-child {
+  .nhsuk-panel-group__item:last-child, .ld-course-list-items .ld_course_grid:last-child {
     margin-bottom: 0;
   }
 }
 
-.nhsuk-panel-group__item .nhsuk-panel, .nhsuk-panel-group__item .sticky, .nhsuk-panel-group__item .download-box {
+.nhsuk-panel-group__item .nhsuk-panel, .ld-course-list-items .ld_course_grid .nhsuk-panel, .nhsuk-panel-group__item .sticky, .ld-course-list-items .ld_course_grid .sticky, .nhsuk-panel-group__item .download-box, .ld-course-list-items .ld_course_grid .download-box {
   margin-bottom: 0;
   margin-top: 0;
 }
@@ -15641,22 +15483,22 @@ body.buddypress .wp-block-nhsblocks-stripeblock.nhsuk-section .col-md-4,
   display: flow-root;
 }
 
-.wp-block-nhsblock-rowgroup .nhsuk-panel-group {
+.wp-block-nhsblock-rowgroup .nhsuk-panel-group, .wp-block-nhsblock-rowgroup .ld-course-list-items, .wp-block-nhsblock-rowgroup .ld-course-list-items .ld_course_grid article, .ld-course-list-items .ld_course_grid .wp-block-nhsblock-rowgroup article {
   padding: 0;
 }
 
-.nhsuk-dashboard .nhsuk-panel-group__item {
+.nhsuk-dashboard .nhsuk-panel-group__item, .nhsuk-dashboard .ld-course-list-items .ld_course_grid, .ld-course-list-items .nhsuk-dashboard .ld_course_grid {
   overflow: hidden;
   margin-bottom: 2rem;
 }
 
-.nhsuk-dashboard .nhsuk-panel-group__item .nhsuk-promo__link-wrapper {
+.nhsuk-dashboard .nhsuk-panel-group__item .nhsuk-promo__link-wrapper, .nhsuk-dashboard .ld-course-list-items .ld_course_grid .nhsuk-promo__link-wrapper, .ld-course-list-items .nhsuk-dashboard .ld_course_grid .nhsuk-promo__link-wrapper {
   background: inherit;
   box-shadow: none;
   width: 100%;
 }
 
-.nhsuk-dashboard .nhsuk-panel-group__item .nhsuk-panel-with-label, .nhsuk-dashboard .nhsuk-panel-group__item .nhsuk-panel.is-style-panel-with-label, .nhsuk-dashboard .nhsuk-panel-group__item .is-style-panel-with-label.sticky, .nhsuk-dashboard .nhsuk-panel-group__item .is-style-panel-with-label.download-box {
+.nhsuk-dashboard .nhsuk-panel-group__item .nhsuk-panel-with-label, .nhsuk-dashboard .ld-course-list-items .ld_course_grid .nhsuk-panel-with-label, .ld-course-list-items .nhsuk-dashboard .ld_course_grid .nhsuk-panel-with-label, .nhsuk-dashboard .nhsuk-panel-group__item .nhsuk-panel.is-style-panel-with-label, .nhsuk-dashboard .ld-course-list-items .ld_course_grid .nhsuk-panel.is-style-panel-with-label, .ld-course-list-items .nhsuk-dashboard .ld_course_grid .nhsuk-panel.is-style-panel-with-label, .nhsuk-dashboard .nhsuk-panel-group__item .is-style-panel-with-label.sticky, .nhsuk-dashboard .ld-course-list-items .ld_course_grid .is-style-panel-with-label.sticky, .ld-course-list-items .nhsuk-dashboard .ld_course_grid .is-style-panel-with-label.sticky, .nhsuk-dashboard .nhsuk-panel-group__item .is-style-panel-with-label.download-box, .nhsuk-dashboard .ld-course-list-items .ld_course_grid .is-style-panel-with-label.download-box, .ld-course-list-items .nhsuk-dashboard .ld_course_grid .is-style-panel-with-label.download-box {
   background: inherit;
   margin: 0;
   margin-top: 0;
@@ -15667,7 +15509,7 @@ body.buddypress .wp-block-nhsblocks-stripeblock.nhsuk-section .col-md-4,
   height: 100%;
 }
 
-.nhsuk-dashboard .nhsuk-panel-group__item .nhsuk-panel-with-label .nhsuk-panel-with-label__label, .nhsuk-dashboard .nhsuk-panel-group__item .nhsuk-panel.is-style-panel-with-label .nhsuk-panel-with-label__label, .nhsuk-dashboard .nhsuk-panel-group__item .is-style-panel-with-label.sticky .nhsuk-panel-with-label__label, .nhsuk-dashboard .nhsuk-panel-group__item .is-style-panel-with-label.download-box .nhsuk-panel-with-label__label, .nhsuk-panel.is-style-panel-with-label .nhsuk-dashboard .nhsuk-panel-group__item .nhsuk-panel-with-label h3, .nhsuk-dashboard .nhsuk-panel-group__item .nhsuk-panel.is-style-panel-with-label h3, .is-style-panel-with-label.sticky .nhsuk-dashboard .nhsuk-panel-group__item .nhsuk-panel-with-label h3, .nhsuk-dashboard .nhsuk-panel-group__item .is-style-panel-with-label.sticky h3, .is-style-panel-with-label.download-box .nhsuk-dashboard .nhsuk-panel-group__item .nhsuk-panel-with-label h3, .nhsuk-dashboard .nhsuk-panel-group__item .is-style-panel-with-label.download-box h3, .nhsuk-panel.is-style-panel-with-label h3 .nhsuk-dashboard .nhsuk-panel-group__item .nhsuk-panel-with-label .rich-text, .nhsuk-dashboard .nhsuk-panel-group__item .nhsuk-panel.is-style-panel-with-label h3 .rich-text, .nhsuk-panel.is-style-panel-with-label h3 .nhsuk-dashboard .nhsuk-panel-group__item .is-style-panel-with-label.sticky .rich-text, .nhsuk-panel.is-style-panel-with-label h3 .nhsuk-dashboard .nhsuk-panel-group__item .is-style-panel-with-label.download-box .rich-text, .is-style-panel-with-label.sticky h3 .nhsuk-dashboard .nhsuk-panel-group__item .nhsuk-panel-with-label .rich-text, .is-style-panel-with-label.sticky h3 .nhsuk-dashboard .nhsuk-panel-group__item .nhsuk-panel.is-style-panel-with-label .rich-text, .nhsuk-dashboard .nhsuk-panel-group__item .is-style-panel-with-label.sticky h3 .rich-text, .is-style-panel-with-label.sticky h3 .nhsuk-dashboard .nhsuk-panel-group__item .is-style-panel-with-label.download-box .rich-text, .is-style-panel-with-label.download-box h3 .nhsuk-dashboard .nhsuk-panel-group__item .nhsuk-panel-with-label .rich-text, .is-style-panel-with-label.download-box h3 .nhsuk-dashboard .nhsuk-panel-group__item .nhsuk-panel.is-style-panel-with-label .rich-text, .is-style-panel-with-label.download-box h3 .nhsuk-dashboard .nhsuk-panel-group__item .is-style-panel-with-label.sticky .rich-text, .nhsuk-dashboard .nhsuk-panel-group__item .is-style-panel-with-label.download-box h3 .rich-text {
+.nhsuk-dashboard .nhsuk-panel-group__item .nhsuk-panel-with-label .nhsuk-panel-with-label__label, .nhsuk-dashboard .ld-course-list-items .ld_course_grid .nhsuk-panel-with-label .nhsuk-panel-with-label__label, .ld-course-list-items .nhsuk-dashboard .ld_course_grid .nhsuk-panel-with-label .nhsuk-panel-with-label__label, .nhsuk-dashboard .nhsuk-panel-group__item .nhsuk-panel.is-style-panel-with-label .nhsuk-panel-with-label__label, .nhsuk-dashboard .ld-course-list-items .ld_course_grid .nhsuk-panel.is-style-panel-with-label .nhsuk-panel-with-label__label, .ld-course-list-items .nhsuk-dashboard .ld_course_grid .nhsuk-panel.is-style-panel-with-label .nhsuk-panel-with-label__label, .nhsuk-dashboard .nhsuk-panel-group__item .is-style-panel-with-label.sticky .nhsuk-panel-with-label__label, .nhsuk-dashboard .ld-course-list-items .ld_course_grid .is-style-panel-with-label.sticky .nhsuk-panel-with-label__label, .ld-course-list-items .nhsuk-dashboard .ld_course_grid .is-style-panel-with-label.sticky .nhsuk-panel-with-label__label, .nhsuk-dashboard .nhsuk-panel-group__item .is-style-panel-with-label.download-box .nhsuk-panel-with-label__label, .nhsuk-dashboard .ld-course-list-items .ld_course_grid .is-style-panel-with-label.download-box .nhsuk-panel-with-label__label, .ld-course-list-items .nhsuk-dashboard .ld_course_grid .is-style-panel-with-label.download-box .nhsuk-panel-with-label__label, .nhsuk-panel.is-style-panel-with-label .nhsuk-dashboard .nhsuk-panel-group__item .nhsuk-panel-with-label h3, .nhsuk-panel.is-style-panel-with-label .nhsuk-dashboard .ld-course-list-items .ld_course_grid .nhsuk-panel-with-label h3, .nhsuk-panel.is-style-panel-with-label .ld-course-list-items .nhsuk-dashboard .ld_course_grid .nhsuk-panel-with-label h3, .nhsuk-dashboard .nhsuk-panel-group__item .nhsuk-panel.is-style-panel-with-label h3, .nhsuk-dashboard .ld-course-list-items .ld_course_grid .nhsuk-panel.is-style-panel-with-label h3, .ld-course-list-items .nhsuk-dashboard .ld_course_grid .nhsuk-panel.is-style-panel-with-label h3, .is-style-panel-with-label.sticky .nhsuk-dashboard .nhsuk-panel-group__item .nhsuk-panel-with-label h3, .is-style-panel-with-label.sticky .nhsuk-dashboard .ld-course-list-items .ld_course_grid .nhsuk-panel-with-label h3, .is-style-panel-with-label.sticky .ld-course-list-items .nhsuk-dashboard .ld_course_grid .nhsuk-panel-with-label h3, .nhsuk-dashboard .nhsuk-panel-group__item .is-style-panel-with-label.sticky h3, .nhsuk-dashboard .ld-course-list-items .ld_course_grid .is-style-panel-with-label.sticky h3, .ld-course-list-items .nhsuk-dashboard .ld_course_grid .is-style-panel-with-label.sticky h3, .is-style-panel-with-label.download-box .nhsuk-dashboard .nhsuk-panel-group__item .nhsuk-panel-with-label h3, .is-style-panel-with-label.download-box .nhsuk-dashboard .ld-course-list-items .ld_course_grid .nhsuk-panel-with-label h3, .is-style-panel-with-label.download-box .ld-course-list-items .nhsuk-dashboard .ld_course_grid .nhsuk-panel-with-label h3, .nhsuk-dashboard .nhsuk-panel-group__item .is-style-panel-with-label.download-box h3, .nhsuk-dashboard .ld-course-list-items .ld_course_grid .is-style-panel-with-label.download-box h3, .ld-course-list-items .nhsuk-dashboard .ld_course_grid .is-style-panel-with-label.download-box h3, .nhsuk-panel.is-style-panel-with-label h3 .nhsuk-dashboard .nhsuk-panel-group__item .nhsuk-panel-with-label .rich-text, .nhsuk-panel.is-style-panel-with-label h3 .nhsuk-dashboard .ld-course-list-items .ld_course_grid .nhsuk-panel-with-label .rich-text, .nhsuk-panel.is-style-panel-with-label h3 .ld-course-list-items .nhsuk-dashboard .ld_course_grid .nhsuk-panel-with-label .rich-text, .nhsuk-dashboard .nhsuk-panel-group__item .nhsuk-panel.is-style-panel-with-label h3 .rich-text, .nhsuk-dashboard .ld-course-list-items .ld_course_grid .nhsuk-panel.is-style-panel-with-label h3 .rich-text, .ld-course-list-items .nhsuk-dashboard .ld_course_grid .nhsuk-panel.is-style-panel-with-label h3 .rich-text, .nhsuk-panel.is-style-panel-with-label h3 .nhsuk-dashboard .nhsuk-panel-group__item .is-style-panel-with-label.sticky .rich-text, .nhsuk-panel.is-style-panel-with-label h3 .nhsuk-dashboard .ld-course-list-items .ld_course_grid .is-style-panel-with-label.sticky .rich-text, .nhsuk-panel.is-style-panel-with-label h3 .ld-course-list-items .nhsuk-dashboard .ld_course_grid .is-style-panel-with-label.sticky .rich-text, .nhsuk-panel.is-style-panel-with-label h3 .nhsuk-dashboard .nhsuk-panel-group__item .is-style-panel-with-label.download-box .rich-text, .nhsuk-panel.is-style-panel-with-label h3 .nhsuk-dashboard .ld-course-list-items .ld_course_grid .is-style-panel-with-label.download-box .rich-text, .nhsuk-panel.is-style-panel-with-label h3 .ld-course-list-items .nhsuk-dashboard .ld_course_grid .is-style-panel-with-label.download-box .rich-text, .is-style-panel-with-label.sticky h3 .nhsuk-dashboard .nhsuk-panel-group__item .nhsuk-panel-with-label .rich-text, .is-style-panel-with-label.sticky h3 .nhsuk-dashboard .ld-course-list-items .ld_course_grid .nhsuk-panel-with-label .rich-text, .is-style-panel-with-label.sticky h3 .ld-course-list-items .nhsuk-dashboard .ld_course_grid .nhsuk-panel-with-label .rich-text, .is-style-panel-with-label.sticky h3 .nhsuk-dashboard .nhsuk-panel-group__item .nhsuk-panel.is-style-panel-with-label .rich-text, .is-style-panel-with-label.sticky h3 .nhsuk-dashboard .ld-course-list-items .ld_course_grid .nhsuk-panel.is-style-panel-with-label .rich-text, .is-style-panel-with-label.sticky h3 .ld-course-list-items .nhsuk-dashboard .ld_course_grid .nhsuk-panel.is-style-panel-with-label .rich-text, .nhsuk-dashboard .nhsuk-panel-group__item .is-style-panel-with-label.sticky h3 .rich-text, .nhsuk-dashboard .ld-course-list-items .ld_course_grid .is-style-panel-with-label.sticky h3 .rich-text, .ld-course-list-items .nhsuk-dashboard .ld_course_grid .is-style-panel-with-label.sticky h3 .rich-text, .is-style-panel-with-label.sticky h3 .nhsuk-dashboard .nhsuk-panel-group__item .is-style-panel-with-label.download-box .rich-text, .is-style-panel-with-label.sticky h3 .nhsuk-dashboard .ld-course-list-items .ld_course_grid .is-style-panel-with-label.download-box .rich-text, .is-style-panel-with-label.sticky h3 .ld-course-list-items .nhsuk-dashboard .ld_course_grid .is-style-panel-with-label.download-box .rich-text, .is-style-panel-with-label.download-box h3 .nhsuk-dashboard .nhsuk-panel-group__item .nhsuk-panel-with-label .rich-text, .is-style-panel-with-label.download-box h3 .nhsuk-dashboard .ld-course-list-items .ld_course_grid .nhsuk-panel-with-label .rich-text, .is-style-panel-with-label.download-box h3 .ld-course-list-items .nhsuk-dashboard .ld_course_grid .nhsuk-panel-with-label .rich-text, .is-style-panel-with-label.download-box h3 .nhsuk-dashboard .nhsuk-panel-group__item .nhsuk-panel.is-style-panel-with-label .rich-text, .is-style-panel-with-label.download-box h3 .nhsuk-dashboard .ld-course-list-items .ld_course_grid .nhsuk-panel.is-style-panel-with-label .rich-text, .is-style-panel-with-label.download-box h3 .ld-course-list-items .nhsuk-dashboard .ld_course_grid .nhsuk-panel.is-style-panel-with-label .rich-text, .is-style-panel-with-label.download-box h3 .nhsuk-dashboard .nhsuk-panel-group__item .is-style-panel-with-label.sticky .rich-text, .is-style-panel-with-label.download-box h3 .nhsuk-dashboard .ld-course-list-items .ld_course_grid .is-style-panel-with-label.sticky .rich-text, .is-style-panel-with-label.download-box h3 .ld-course-list-items .nhsuk-dashboard .ld_course_grid .is-style-panel-with-label.sticky .rich-text, .nhsuk-dashboard .nhsuk-panel-group__item .is-style-panel-with-label.download-box h3 .rich-text, .nhsuk-dashboard .ld-course-list-items .ld_course_grid .is-style-panel-with-label.download-box h3 .rich-text, .ld-course-list-items .nhsuk-dashboard .ld_course_grid .is-style-panel-with-label.download-box h3 .rich-text {
   z-index: 2;
   top: 0;
   margin: 0 -20px;
@@ -15678,12 +15520,12 @@ body.buddypress .wp-block-nhsblocks-stripeblock.nhsuk-section .col-md-4,
   font-size: 1.1rem;
 }
 
-.nhsuk-dashboard .nhsuk-panel-group__item .nhsuk-panel-with-label .nhsuk-dashboard__image, .nhsuk-dashboard .nhsuk-panel-group__item .nhsuk-panel.is-style-panel-with-label .nhsuk-dashboard__image, .nhsuk-dashboard .nhsuk-panel-group__item .is-style-panel-with-label.sticky .nhsuk-dashboard__image, .nhsuk-dashboard .nhsuk-panel-group__item .is-style-panel-with-label.download-box .nhsuk-dashboard__image {
+.nhsuk-dashboard .nhsuk-panel-group__item .nhsuk-panel-with-label .nhsuk-dashboard__image, .nhsuk-dashboard .ld-course-list-items .ld_course_grid .nhsuk-panel-with-label .nhsuk-dashboard__image, .ld-course-list-items .nhsuk-dashboard .ld_course_grid .nhsuk-panel-with-label .nhsuk-dashboard__image, .nhsuk-dashboard .nhsuk-panel-group__item .nhsuk-panel.is-style-panel-with-label .nhsuk-dashboard__image, .nhsuk-dashboard .ld-course-list-items .ld_course_grid .nhsuk-panel.is-style-panel-with-label .nhsuk-dashboard__image, .ld-course-list-items .nhsuk-dashboard .ld_course_grid .nhsuk-panel.is-style-panel-with-label .nhsuk-dashboard__image, .nhsuk-dashboard .nhsuk-panel-group__item .is-style-panel-with-label.sticky .nhsuk-dashboard__image, .nhsuk-dashboard .ld-course-list-items .ld_course_grid .is-style-panel-with-label.sticky .nhsuk-dashboard__image, .ld-course-list-items .nhsuk-dashboard .ld_course_grid .is-style-panel-with-label.sticky .nhsuk-dashboard__image, .nhsuk-dashboard .nhsuk-panel-group__item .is-style-panel-with-label.download-box .nhsuk-dashboard__image, .nhsuk-dashboard .ld-course-list-items .ld_course_grid .is-style-panel-with-label.download-box .nhsuk-dashboard__image, .ld-course-list-items .nhsuk-dashboard .ld_course_grid .is-style-panel-with-label.download-box .nhsuk-dashboard__image {
   width: 100%;
   height: 100%;
 }
 
-.nhsuk-dashboard .nhsuk-panel-group__item .nhsuk-panel-with-label .nhsuk-promo__img, .nhsuk-dashboard .nhsuk-panel-group__item .nhsuk-panel.is-style-panel-with-label .nhsuk-promo__img, .nhsuk-dashboard .nhsuk-panel-group__item .is-style-panel-with-label.sticky .nhsuk-promo__img, .nhsuk-dashboard .nhsuk-panel-group__item .is-style-panel-with-label.download-box .nhsuk-promo__img {
+.nhsuk-dashboard .nhsuk-panel-group__item .nhsuk-panel-with-label .nhsuk-promo__img, .nhsuk-dashboard .ld-course-list-items .ld_course_grid .nhsuk-panel-with-label .nhsuk-promo__img, .ld-course-list-items .nhsuk-dashboard .ld_course_grid .nhsuk-panel-with-label .nhsuk-promo__img, .nhsuk-dashboard .nhsuk-panel-group__item .nhsuk-panel.is-style-panel-with-label .nhsuk-promo__img, .nhsuk-dashboard .ld-course-list-items .ld_course_grid .nhsuk-panel.is-style-panel-with-label .nhsuk-promo__img, .ld-course-list-items .nhsuk-dashboard .ld_course_grid .nhsuk-panel.is-style-panel-with-label .nhsuk-promo__img, .nhsuk-dashboard .nhsuk-panel-group__item .is-style-panel-with-label.sticky .nhsuk-promo__img, .nhsuk-dashboard .ld-course-list-items .ld_course_grid .is-style-panel-with-label.sticky .nhsuk-promo__img, .ld-course-list-items .nhsuk-dashboard .ld_course_grid .is-style-panel-with-label.sticky .nhsuk-promo__img, .nhsuk-dashboard .nhsuk-panel-group__item .is-style-panel-with-label.download-box .nhsuk-promo__img, .nhsuk-dashboard .ld-course-list-items .ld_course_grid .is-style-panel-with-label.download-box .nhsuk-promo__img, .ld-course-list-items .nhsuk-dashboard .ld_course_grid .is-style-panel-with-label.download-box .nhsuk-promo__img {
   position: relative;
   top: -16px;
   z-index: 1;
@@ -15970,7 +15812,6 @@ body.buddypress #buddypress .nhsuk-buddy__search .autocomplete__wrapper .nhsuk-s
 body.buddypress #buddypress .request-membership,
 body.buddypress #buddypress .friendship-button a,
 body.buddypress #buddypress .follow-button a,
-body.buddypress #buddypress #send-private-message a,
 body.buddypress #buddypress #aw-whats-new-submit,
 body.buddypress #buddypress #aw-whats-new-reset,
 body.buddypress #buddypress .dz-button,

@@ -121,11 +121,12 @@ body.buddypress {
 
 	  }
 	}
-
+    #send-private-message {
+		@extend .nhsuk-action-link;
+	}
 	.request-membership,
 	.friendship-button a,
 	.follow-button a,
-	#send-private-message a,
 	#aw-whats-new-submit,
 	#aw-whats-new-reset,
 	.dz-button,
