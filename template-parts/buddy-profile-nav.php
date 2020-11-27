@@ -7,7 +7,6 @@
  */
 ?>
 
-
 	<?php if ( bp_nouveau_has_nav( array( 'type' => 'primary' ) ) ) : ?>
 
     <div class="nhsuk-full-width-container">

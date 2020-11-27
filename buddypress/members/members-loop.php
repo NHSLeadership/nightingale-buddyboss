@@ -43,7 +43,7 @@ $follow_class = $is_follow_active ? 'follow-active' : '';
         <tbody class="nhsuk-table__body">
 
 		<?php
-		while while ( bp_members() ) : bp_the_member();
+		while ( bp_members() ) : bp_the_member();
 			?>
 			<?php
 			$member_id           = bp_get_member_user_id();
