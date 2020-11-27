@@ -27,31 +27,38 @@
 		$ticker ++;
 			$link        = '';
 			$current_url = $actual_link = ( isset( $_SERVER[ 'HTTPS' ] ) && $_SERVER[ 'HTTPS' ] === 'on' ? "https" : "http" ) . "://$_SERVER[HTTP_HOST]$_SERVER[REQUEST_URI]";
-			$admin_links = array(
-				'/read/',
-				'/edit/',
-				'/change-avatar/',
-				'/change-cover-image/',
-				'/settings/notifications/',
-				'/settings/profile/',
-				'/settings/invites/',
-				'/export/',
-				'/notifications/read/',
-                '/friends/requests/',
-                '/groups/invites/',
-                '/photos/albums',
-                '/forums/replies/',
-                '/forums/favorites/',
-                '/forums/subscriptions/',
-                '/sent-invites',
-			);
-			foreach ($admin_links as $links) {
-				if ( strpos( $current_url, $links ) !== false ) {
-					if ( strpos( bp_nouveau_get_nav_link(), $links ) !== false ) {
-						$link = ' nhsuk-bordered-tabs-item-active-alt';
+
+			if ( $current_url === bp_nouveau_get_nav_link() ) {
+				$link = ' nhsuk-bordered-tabs-item-active-alt';
+			} else {
+				$admin_links = array(
+					'/read/',
+					'/edit/',
+					'/change-avatar/',
+					'/change-cover-image/',
+					'/settings/notifications/',
+					'/settings/profile/',
+					'/settings/invites/',
+					'/export/',
+					'/notifications/read/',
+					'/friends/requests/',
+					'/groups/invites/',
+					'/photos/albums',
+					'/forums/replies/',
+					'/forums/favorites/',
+					'/forums/subscriptions/',
+					'/sent-invites',
+				);
+
+				foreach ( $admin_links as $links ) {
+					if ( strpos( $current_url, $links ) !== false ) {
+						if ( strpos( bp_nouveau_get_nav_link(), $links ) !== false ) {
+							$link = ' nhsuk-bordered-tabs-item-active-alt';
+						}
 					}
 				}
 			}
+
 		?>
 
 			<li id="<?php bp_nouveau_nav_id(); ?>" class="nhsuk-bordered-tabs-item <?php echo $link; ?>" <?php bp_nouveau_nav_scope(); ?>>

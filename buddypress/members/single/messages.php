@@ -9,7 +9,6 @@
     <h1 class="entry-title flex-1"><?php esc_html_e( 'Messages', 'nightingale'); ?></h1>
 	<?php bp_get_template_part( 'common/search-and-filters-bar' ); ?>
 </header>
-<?php bp_get_template_part( 'members/single/parts/item-subnav' ); ?>
 
 <div class="messages-wrapper">
 	<div class="messages-screen">

@@ -11,9 +11,7 @@
 
 		<?php bp_get_template_part( 'common/search-and-filters-bar' ); ?>
     </header>
-<?php //bp_get_template_part( 'members/single/parts/item-subnav' ); ?>
 
-<?php bp_get_template_part( 'common/search-and-filters-bar' ); ?>
 
 <?php
 switch ( bp_current_action() ) :

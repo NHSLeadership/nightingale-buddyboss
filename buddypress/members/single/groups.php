@@ -12,13 +12,13 @@
 		<?php bp_get_template_part( 'common/search-and-filters-bar' ); ?>
     </header>
 <?php if ( bp_is_my_profile() ) : ?>
-	<?php bp_get_template_part( 'members/single/parts/item-subnav' ); ?>
+	<?php //bp_get_template_part( 'members/single/parts/item-subnav' ); ?>
 <?php endif; ?>
 
 <?php if ( ! bp_is_current_action( 'invites' ) ) : ?>
 
 
-	<?php bp_get_template_part( 'common/search-and-filters-bar' ); ?>
+	<?php //bp_get_template_part( 'common/search-and-filters-bar' ); ?>
 
 <?php endif; ?>
 
