@@ -425,3 +425,83 @@ function nightingale_add_buddypanel() {
 	get_template_part( 'template-parts/buddypanel' );
 }
 add_action( 'nightingale_after_body', 'nightingale_add_buddypanel', 10 );
+
+/**
+ * Followers Count
+ */
+if ( ! function_exists( 'nightingale_theme_followers_count' ) ) {
+
+	function nightingale_theme_followers_count( $user_id = false ) {
+
+		if ( ! function_exists( 'bp_is_active' ) && ! function_exists( 'bp_is_activity_follow_active' ) ) {
+			return;
+		}
+
+		$is_follow_active = bp_is_active( 'activity' ) && bp_is_activity_follow_active();
+
+		if ( $user_id == false ) {
+			$user_id = bp_displayed_user_id();
+		}
+
+		if ( $is_follow_active && is_user_logged_in() ) {
+			$total_followers = 0;
+			$follower_ids    = bp_get_follower_ids( array( 'user_id' => $user_id ) );
+
+			if ( ! empty( $follower_ids ) ) {
+				$total_followers = sizeof( explode( ',', $follower_ids ) );
+			}
+
+			if ( $total_followers == 0 ) {
+				$followers = __( '<b>0</b> followers', 'buddyboss-theme' );
+			} elseif ( $total_followers == 1 ) {
+				$followers = __( '<b>1</b> follower', 'buddyboss-theme' );
+			} else {
+				$followers = sprintf( __( '<b>%s</b> followers', 'buddyboss-theme' ), $total_followers );
+			}
+			?>
+
+            <div class="followers-wrap"><?php echo $followers; ?></div>
+			<?php
+		}
+	}
+}
+
+/**
+ * Following Count
+ */
+if ( ! function_exists( 'nightingale_theme_following_count' ) ) {
+
+	function nightingale_theme_following_count( $user_id = false ) {
+
+		if ( ! function_exists( 'bp_is_active' ) && ! function_exists( 'bp_is_activity_follow_active' ) ) {
+			return;
+		}
+
+		$is_follow_active = bp_is_active( 'activity' ) && bp_is_activity_follow_active();
+
+		if ( $user_id == false ) {
+			$user_id = bp_displayed_user_id();
+		}
+
+		if ( $is_follow_active && is_user_logged_in() ) {
+			$total_following = 0;
+			$following_ids   = bp_get_following_ids( array( 'user_id' => $user_id ) );
+
+			if ( ! empty( $following_ids ) ) {
+				$total_following = sizeof( explode( ',', $following_ids ) );
+			}
+
+			if ( $total_following == 0 ) {
+				$following = __( '<b>0</b> following', 'buddyboss-theme' );
+			} elseif ( $total_following == 1 ) {
+				$following = __( '<b>1</b> following', 'buddyboss-theme' );
+			} else {
+				$following = sprintf( __( '<b>%s</b> following', 'buddyboss-theme' ), $total_following );
+			}
+			?>
+
+            <div class="following-wrap"><?php echo $following; ?></div>
+			<?php
+		}
+	}
+}

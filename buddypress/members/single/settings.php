@@ -8,14 +8,10 @@
 $profile_link = trailingslashit( bp_displayed_user_domain() . bp_get_profile_slug() );
 ?>
 
-<header class="entry-header settings-header flex align-items-center">
-	<h1 class="entry-title settings-title"><?php esc_attr_e( 'Account Settings', 'nightingale'); ?></h1>
-	<a href="<?php echo $profile_link; ?>" class="push-right button outline small"><i class="bb-icon-user-small"></i> <?php esc_attr_e( 'View My Profile', 'nightingale'); ?></a>
-</header>
 
 <div class="bp-settings-container">
 	<?php if ( bp_core_can_edit_settings() ) : ?>
-		<?php bp_get_template_part( 'members/single/parts/item-subnav' ); ?>
+		<?php //bp_get_template_part( 'members/single/parts/item-subnav' ); ?>
 	<?php endif; ?>
 
 	<div class="bb-bp-settings-content">

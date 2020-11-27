@@ -17,17 +17,52 @@
 		return;
 	}
 ?>
-
-<nav class="<?php bp_nouveau_single_item_subnav_classes(); ?>" id="subnav" role="navigation" aria-label="<?php esc_attr_e( 'Sub Menu', 'buddyboss' ); ?>">
-	<ul class="subnav">
-
+<div class="nhsuk-grid-full-width">
+    <nav class="nhsuk-bordered-tabs-container" id="subnav" role="navigation" aria-label="<?php esc_attr_e( 'User administration menu', 'nightingale' ); ?>">
+        <ul class="nhsuk-bordered-tabs">
 		<?php
+        $ticker = 0;
 		while ( bp_nouveau_nav_items() ) :
 			bp_nouveau_nav_item();
+		$ticker ++;
+			$link        = '';
+			$current_url = $actual_link = ( isset( $_SERVER[ 'HTTPS' ] ) && $_SERVER[ 'HTTPS' ] === 'on' ? "https" : "http" ) . "://$_SERVER[HTTP_HOST]$_SERVER[REQUEST_URI]";
+
+			if ( $current_url === bp_nouveau_get_nav_link() ) {
+				$link = ' nhsuk-bordered-tabs-item-active-alt';
+			} else {
+				$admin_links = array(
+					'/read/',
+					'/edit/',
+					'/change-avatar/',
+					'/change-cover-image/',
+					'/settings/notifications/',
+					'/settings/profile/',
+					'/settings/invites/',
+					'/export/',
+					'/notifications/read/',
+					'/friends/requests/',
+					'/groups/invites/',
+					'/photos/albums',
+					'/forums/replies/',
+					'/forums/favorites/',
+					'/forums/subscriptions/',
+					'/sent-invites',
+				);
+
+				foreach ( $admin_links as $links ) {
+					if ( strpos( $current_url, $links ) !== false ) {
+						if ( strpos( bp_nouveau_get_nav_link(), $links ) !== false ) {
+							$link = ' nhsuk-bordered-tabs-item-active-alt';
+						}
+					}
+				}
+			}
+
 		?>
 
-			<li id="<?php bp_nouveau_nav_id(); ?>" class="<?php bp_nouveau_nav_classes(); ?>" <?php bp_nouveau_nav_scope(); ?>>
-				<a href="<?php bp_nouveau_nav_link(); ?>" id="<?php bp_nouveau_nav_link_id(); ?>">
+			<li id="<?php bp_nouveau_nav_id(); ?>" class="nhsuk-bordered-tabs-item <?php echo $link; ?>" <?php bp_nouveau_nav_scope(); ?>>
+				<a href="<?php bp_nouveau_nav_link(); ?>" id="<?php bp_nouveau_nav_link_id(); ?>" class="nhsuk-bordered-tabs-link">
 					<?php bp_nouveau_nav_link_text(); ?>
 
 					<?php if ( bp_nouveau_nav_has_count() ) : ?>
@@ -38,5 +73,6 @@
 
 		<?php endwhile; ?>
 
-	</ul>
-</nav><!-- .item-list-tabs#subnav -->
+        </ul>
+    </nav><!-- .item-list-tabs#subnav -->
+</div>

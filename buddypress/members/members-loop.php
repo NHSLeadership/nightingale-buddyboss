@@ -60,7 +60,7 @@ $follow_class = $is_follow_active ? 'follow-active' : '';
                     <div style="float:left; margin-right: 16px;" class="item-avatar">
                         <a href="<?php bp_group_member_domain(); ?>">
 							<?php bp_group_member_avatar(); ?>
-							<?php //bb_user_status( bp_get_group_member_id() ); ?>
+							<?php bb_user_status( bp_get_group_member_id() ); ?>
                         </a>
                     </div>
 					<?php bp_group_member_link(); ?><br />
@@ -83,7 +83,7 @@ $follow_class = $is_follow_active ? 'follow-active' : '';
                 <td role="cell" class="nhsuk-table__cell">
 					<?php
 					if( bp_is_active('friends') ) {
-						bp_add_friend_button();
+						bp_add_friend_button( bp_get_group_member_id() );
 					}
 
 					//if( bp_is_active('messages') ) {

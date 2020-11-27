@@ -11,14 +11,14 @@
 ?>
 
 <input type="hidden" id="thread-id" value="" />
-<div class="bp-messages-container">
-	<div class="bp-messages-nav-panel">
+<div class="bp-messages-container nhsuk-grid-column-full">
+	<div class="bp-messages-nav-panel nhsuk-grod-one-third">
 		<?php bp_get_template_part( 'members/single/parts/item-subnav' ); ?>
 		<div class="subnav-filters filters user-subnav bp-messages-filters push-right" id="subsubnav"></div><!--This is required for filters-->
 		<div class="bp-messages-feedback"></div>
 		<div class="bp-messages-threads-list" id="bp-messages-threads-list"></div>
 	</div>
-	<div class="bp-messages-content"></div>
+	<div class="bp-messages-content nhsuk-grod-two-thirds"></div>
 
 </div>
 

@@ -48,8 +48,8 @@ remove_filter( 'bp_get_add_follow_button', 'buddyboss_theme_bp_get_add_follow_bu
 	            <?php if( function_exists( 'bp_is_activity_follow_active' ) && bp_is_active('activity') && bp_is_activity_follow_active() ) { ?>
                     <div class="flex align-items-top member-social">
                         <div class="flex align-items-center">
-				            <?php buddyboss_theme_followers_count(); ?>
-				            <?php buddyboss_theme_following_count(); ?>
+				            <?php nightingale_theme_followers_count(); ?>
+				            <?php nightingale_theme_following_count(); ?>
                         </div>
 			            <?php
 			            if( function_exists('bp_get_user_social_networks_urls') ){
@@ -76,7 +76,7 @@ remove_filter( 'bp_get_add_follow_button', 'buddyboss_theme_bp_get_add_follow_bu
     </div>
     </div>
 </div>
-    <div id="item-header-avatar">
+    <!--<div id="item-header-avatar">
 		<?php if ( bp_is_my_profile() && ! bp_disable_avatar_uploads() ) { ?>
             <a href="<?php bp_members_component_link( 'profile', 'change-avatar' ); ?>" class="link-change-profile-image" data-balloon-pos="down" data-balloon="<?php _e('Change Profile Photo', 'nightingale'); ?>">
                 <span class="dashicons dashicons-edit"></span>
