@@ -11,9 +11,16 @@
         <div class="nhsuk-bordered-tabs-container">
             <div class="nhsuk-width-container">
                 <nav class="" id="object-nav" role="navigation" aria-label="<?php esc_attr_e( 'Group menu', 'buddyboss' ); ?>">
+                    <p class="nhsuk-header__navigation-title"><a class="label-navigation-buddynav">This Section</a>
+                        <button class="nhsuk-header__navigation-close close-menu-buddynav">
+                            <svg class="nhsuk-icon nhsuk-icon__close" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" aria-hidden="true" focusable="false">
+                                <path d="M13.41 12l5.3-5.29a1 1 0 1 0-1.42-1.42L12 10.59l-5.29-5.3a1 1 0 0 0-1.42 1.42l5.3 5.29-5.3 5.29a1 1 0 0 0 0 1.42 1 1 0 0 0 1.42 0l5.29-5.3 5.29 5.3a1 1 0 0 0 1.42 0 1 1 0 0 0 0-1.42z"></path>
+                            </svg>
+                            <span class="nhsuk-u-visually-hidden">Close Menu</span>
+                        </button>
+                    </p>
 
-
-                    <ul class="nhsuk-bordered-tabs">
+                    <ul class="nhsuk-bordered-tabs  buddynav-menu">
 
 						<?php
 						while ( bp_nouveau_nav_items() ) :

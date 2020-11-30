@@ -1,6 +1,9 @@
 body.buddypress {
   .count {
-	@extend .nhsuk-tag;
+	border-radius: 50%;
+	padding: nhsuk-spacing(1) nhsuk-spacing(2);
+	background-color: $color_nhsuk-red;
+	color: $color_nhsuk-white;
   }
 
   #buddypress {
@@ -220,12 +223,12 @@ body.groups.group-invites {
 	position   : relative;
 	text-align : left;
 
-	.header-count {
-	  background    : red;
-	  border-radius : 50%;
-	  padding       : 0 nhsuk-spacing(1);
-	  position      : relative;
-	  left          : -8px;
+	a {
+	  margin-right: nhsuk-spacing(2);
+	}
+	.count {
+	  position      : absolute;
+	  right          : 0;
 	}
 
 	.bottom {
