@@ -142,7 +142,6 @@ body.buddypress {
   }
 
 
-  @import 'buddy-tabs'; //buddypress tabs styling overrides
 
   /* course page styling */
   .col-md-4 {
@@ -150,6 +149,7 @@ body.buddypress {
   }
 }
 
+@import 'buddy-tabs'; //buddypress tabs styling overrides
 
 @import 'buddy-modals'; //buddypress modal popover styling overrides
 body.groups.group-invites {

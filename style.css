@@ -14935,40 +14935,40 @@ ul.download-versions {
   margin-bottom: 0;
 }
 
-.nhsuk-bordered-tabs-container {
+.nhsuk-bordered-tabs-container, .nhsuk-bordered-tabs-container-footer {
   padding-top: 8px;
   background-color: #ffffff;
   border-bottom: 2px solid #aeb7bd;
 }
 
-.nhsuk-bordered-tabs-container .nhsuk-bordered-tabs {
+.nhsuk-bordered-tabs-container .nhsuk-bordered-tabs, .nhsuk-bordered-tabs-container-footer .nhsuk-bordered-tabs {
   padding: 0;
   margin-bottom: 0;
   display: flex;
 }
 
-.nhsuk-bordered-tabs-container .nhsuk-bordered-tabs .nhsuk-bordered-tabs-item {
+.nhsuk-bordered-tabs-container .nhsuk-bordered-tabs .nhsuk-bordered-tabs-item, .nhsuk-bordered-tabs-container-footer .nhsuk-bordered-tabs .nhsuk-bordered-tabs-item {
   display: inline-block;
   padding: 16px 24px;
   margin-bottom: 0;
   font-size: 16px;
 }
 
-.nhsuk-bordered-tabs-container .nhsuk-bordered-tabs .nhsuk-bordered-tabs-item a {
+.nhsuk-bordered-tabs-container .nhsuk-bordered-tabs .nhsuk-bordered-tabs-item a, .nhsuk-bordered-tabs-container-footer .nhsuk-bordered-tabs .nhsuk-bordered-tabs-item a {
   text-decoration: none;
   word-break: initial;
 }
 
-.nhsuk-bordered-tabs-container .nhsuk-bordered-tabs .nhsuk-bordered-tabs-item a:visited {
+.nhsuk-bordered-tabs-container .nhsuk-bordered-tabs .nhsuk-bordered-tabs-item a:visited, .nhsuk-bordered-tabs-container-footer .nhsuk-bordered-tabs .nhsuk-bordered-tabs-item a:visited {
   text-decoration: none;
   color: #330072;
 }
 
-.nhsuk-bordered-tabs-container .nhsuk-bordered-tabs .nhsuk-bordered-tabs-item a:hover {
+.nhsuk-bordered-tabs-container .nhsuk-bordered-tabs .nhsuk-bordered-tabs-item a:hover, .nhsuk-bordered-tabs-container-footer .nhsuk-bordered-tabs .nhsuk-bordered-tabs-item a:hover {
   text-decoration: underline;
 }
 
-.nhsuk-bordered-tabs-container .nhsuk-bordered-tabs .nhsuk-bordered-tabs-item.nhsuk-bordered-tabs-item-active {
+.nhsuk-bordered-tabs-container .nhsuk-bordered-tabs .nhsuk-bordered-tabs-item.nhsuk-bordered-tabs-item-active, .nhsuk-bordered-tabs-container-footer .nhsuk-bordered-tabs .nhsuk-bordered-tabs-item.nhsuk-bordered-tabs-item-active {
   background-color: #f0f4f5;
   border: 2px solid #aeb7bd;
   border-radius: 4px 4px 0 0;
@@ -14979,31 +14979,31 @@ ul.download-versions {
 }
 
 @media (max-width: 40.0525em) {
-  .nhsuk-bordered-tabs-container {
+  .nhsuk-bordered-tabs-container, .nhsuk-bordered-tabs-container-footer {
     background: inherit;
     border-bottom: none;
   }
-  .nhsuk-bordered-tabs-container:before {
+  .nhsuk-bordered-tabs-container:before, .nhsuk-bordered-tabs-container-footer:before {
     content: 'Pages in this section:';
     font-weight: 600;
     margin: 0 0 16px 16px;
   }
-  .nhsuk-bordered-tabs-container .nhsuk-bordered-tabs {
+  .nhsuk-bordered-tabs-container .nhsuk-bordered-tabs, .nhsuk-bordered-tabs-container-footer .nhsuk-bordered-tabs {
     display: block;
     list-style: none;
     padding: 0;
     margin-top: 8px;
   }
-  .nhsuk-bordered-tabs-container .nhsuk-bordered-tabs .nhsuk-bordered-tabs-item {
+  .nhsuk-bordered-tabs-container .nhsuk-bordered-tabs .nhsuk-bordered-tabs-item, .nhsuk-bordered-tabs-container-footer .nhsuk-bordered-tabs .nhsuk-bordered-tabs-item {
     background: url("data:image/svg+xml,%3Csvg class='nhsuk-icon nhsuk-icon__emdash' xmlns='http://www.w3.org/2000/svg' fill='%23aeb7bd' width='19' height='1' aria-hidden='true'%3E%3Cpath d='M0 0h19v1H0z'%3E%3C/path%3E%3C/svg%3E") left 0.75rem no-repeat;
     padding: 0 0 8px 32px;
     position: relative;
     display: list-item;
   }
-  .nhsuk-bordered-tabs-container .nhsuk-bordered-tabs .nhsuk-bordered-tabs-item.nhsuk-bordered-tabs-item-active {
+  .nhsuk-bordered-tabs-container .nhsuk-bordered-tabs .nhsuk-bordered-tabs-item.nhsuk-bordered-tabs-item-active, .nhsuk-bordered-tabs-container-footer .nhsuk-bordered-tabs .nhsuk-bordered-tabs-item.nhsuk-bordered-tabs-item-active {
     border: none !important;
   }
-  .nhsuk-bordered-tabs-container .nhsuk-bordered-tabs .nhsuk-bordered-tabs-item a {
+  .nhsuk-bordered-tabs-container .nhsuk-bordered-tabs .nhsuk-bordered-tabs-item a, .nhsuk-bordered-tabs-container-footer .nhsuk-bordered-tabs .nhsuk-bordered-tabs-item a {
     display: inline-block;
     color: #212b32;
   }
@@ -16551,7 +16551,7 @@ body.buddypress #buddypress #comments ul.comment-list, body.buddypress #buddypre
   list-style: none;
 }
 
-body.buddypress #buddypress #comments ul.comment-list li .div-comment, body.buddypress #buddypress #activity-stream ul.comment-list li .div-comment {
+body.buddypress #buddypress #comments ul.comment-list li .div-comment, body.buddypress #buddypress #comments ul.comment-list li .comment-body, body.buddypress #buddypress #activity-stream ul.comment-list li .div-comment, body.buddypress #buddypress #activity-stream ul.comment-list li .comment-body {
   clear: both;
   background-color: inherit;
 }
@@ -16570,6 +16570,11 @@ body.buddypress #buddypress #comments ul.comment-list li:first-of-type .comment-
 
 body.buddypress #buddypress #comments ul.comment-list li:first-of-type .comment-author, body.buddypress #buddypress #activity-stream ul.comment-list li:first-of-type .comment-author {
   display: none;
+}
+
+body.buddypress #buddypress #comments ul.comment-list li.load-more, body.buddypress #buddypress #activity-stream ul.comment-list li.load-more {
+  clear: both;
+  margin-top: 32px;
 }
 
 body.buddypress #buddypress #comments ul.comment-list .comment-body, body.buddypress #buddypress #activity-stream ul.comment-list .comment-body {
@@ -16672,12 +16677,33 @@ body.buddypress #buddypress .bp-manage-group-container .usernames .avatar {
   border-radius: 50%;
 }
 
-body.buddypress .nhsuk-bordered-tabs-container .nhsuk-bordered-tabs .nhsuk-bordered-tabs-item {
+.nhsuk-bordered-tabs-container .nhsuk-bordered-tabs .nhsuk-bordered-tabs-item, .nhsuk-bordered-tabs-container-footer .nhsuk-bordered-tabs .nhsuk-bordered-tabs-item {
   padding: 8px;
 }
 
-body.buddypress .nhsuk-bordered-tabs-container .nhsuk-bordered-tabs .nhsuk-bordered-tabs-item.nhsuk-bordered-tabs-item-active-alt {
+.nhsuk-bordered-tabs-container .nhsuk-bordered-tabs .nhsuk-bordered-tabs-item.nhsuk-bordered-tabs-item-active-alt, .nhsuk-bordered-tabs-container-footer .nhsuk-bordered-tabs .nhsuk-bordered-tabs-item.nhsuk-bordered-tabs-item-active-alt {
   border-bottom: 8px solid #005eb8;
+}
+
+.nhsuk-bordered-tabs-container-footer {
+  background: #f0f4f5;
+}
+
+.nhsuk-bordered-tabs-container-footer .nhsuk-bordered-tabs .nhsuk-bordered-tabs-item:hover {
+  background: #768692;
+}
+
+.nhsuk-bordered-tabs-container-footer .nhsuk-bordered-tabs .nhsuk-bordered-tabs-item:hover a {
+  color: #ffffff;
+}
+
+.nhsuk-bordered-tabs-container-footer .nhsuk-bordered-tabs .nhsuk-bordered-tabs-item.nhsuk-bordered-tabs-item-active {
+  background: #005eb8;
+  border-color: #005eb8;
+}
+
+.nhsuk-bordered-tabs-container-footer .nhsuk-bordered-tabs .nhsuk-bordered-tabs-item.nhsuk-bordered-tabs-item-active a {
+  color: #ffffff;
 }
 
 /* The Modal (background) */
@@ -16943,7 +16969,7 @@ body.groups.group-invites #send_group_invite_form .select2-container--default .s
   list-style: none;
 }
 
-#bbpress-forums #comments ul.comment-list li .div-comment, #bbpress-forums #activity-stream ul.comment-list li .div-comment {
+#bbpress-forums #comments ul.comment-list li .div-comment, #bbpress-forums #comments ul.comment-list li .comment-body, #bbpress-forums #activity-stream ul.comment-list li .div-comment, #bbpress-forums #activity-stream ul.comment-list li .comment-body {
   clear: both;
   background-color: inherit;
 }
@@ -16962,6 +16988,11 @@ body.groups.group-invites #send_group_invite_form .select2-container--default .s
 
 #bbpress-forums #comments ul.comment-list li:first-of-type .comment-author, #bbpress-forums #activity-stream ul.comment-list li:first-of-type .comment-author {
   display: none;
+}
+
+#bbpress-forums #comments ul.comment-list li.load-more, #bbpress-forums #activity-stream ul.comment-list li.load-more {
+  clear: both;
+  margin-top: 32px;
 }
 
 #bbpress-forums #comments ul.comment-list .comment-body, #bbpress-forums #activity-stream ul.comment-list .comment-body {

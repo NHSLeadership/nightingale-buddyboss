@@ -70,10 +70,9 @@ echo '<header class="nhsuk-header nhsuk-header--' . esc_attr( $header_layout . $
 		</div>
 
 		<?php
-		if ( class_exists( 'Nightingale_BuddyBoss_BuddyPanel_Menu_Walker' ) ) {
+		if ( function_exists( buddypress ) ) {
 			get_template_part( 'template-parts/buddy-header' );
-		}
-		if ( 'yes' === $header_search ) {
+		} else if ( 'yes' === $header_search ) {
 			?>
 			<div class="nhsuk-header__search">
 				<?php get_search_form(); ?>
@@ -94,9 +93,6 @@ if( $page_tabbed = get_post_meta( get_the_id(), 'tabbed-page', true ) ) {
 	get_template_part( 'partials/tabs' );
 } else {
 	echo nightingale_breadcrumb(); // phpcs:ignore WordPress.Security.EscapeOutput.OutputNotEscaped
-}
-if ( bp_is_active() ) {
-	bp_get_template_part( 'common/nav/directory-nav' );
 }
 ?>
 
