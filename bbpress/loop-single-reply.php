@@ -9,7 +9,7 @@
 
 ?>
 
-<li id="post-<?php bbp_reply_id(); ?>" class="div-comment nhsuk-list-panel__item" data-date="<?php echo get_post_time( 'F Y', false, bbp_get_reply_id(), true ); ?>">
+<div id="post-<?php bbp_reply_id(); ?>" class="div-comment nhsuk-list-panel__item" data-date="<?php echo get_post_time( 'F Y', false, bbp_get_reply_id(), true ); ?>">
 
 	<div class="comment-body">
         <div class="comment_body_comment">
@@ -71,4 +71,4 @@
 		<?php } ?>
 
 </div>
-</li><!-- .reply -->
+</div><!-- .reply -->

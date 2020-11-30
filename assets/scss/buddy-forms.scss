@@ -1,0 +1,58 @@
+/* extend buddypress form elements */
+.field-group, fieldset {
+  @extend .nhsuk-form-group;
+
+  p {
+	@extend .nhsuk-hint;
+  }
+}
+
+.checkbox, .bp-checkbox-wrap {
+  @extend .nhsuk-checkboxes__item;
+
+  input[type="checkbox"] {
+	@extend .nhsuk-checkboxes__input;
+  }
+
+  label {
+	@extend .nhsuk-checkboxes__label;
+  }
+}
+
+.bp-radio-wrap {
+  @extend .nhsuk-radios__item;
+
+  input[type="radio"] {
+	@extend .nhsuk-radios__input;
+  }
+
+  label {
+	@extend .nhsuk-radios__label;
+  }
+}
+
+select {
+  @extend .nhsuk-select;
+}
+
+input[type="textarea"] {
+  @extend .nhsuk-textarea;
+}
+#bp-nouveau-activity-form {
+  @extend .nhsuk-form-group;
+  border : none;
+
+  #whats-new-textarea {
+	@extend .nhsuk-textarea;
+	background : $color_nhsuk-white;
+  }
+}
+
+input[type="submit"], #save {
+  @extend .nhsuk-button;
+
+  &#bp_invites_reset {
+	@extend .nhsuk-button--secondary;
+  }
+}
+

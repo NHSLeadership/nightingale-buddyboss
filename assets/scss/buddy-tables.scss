@@ -1,0 +1,35 @@
+table {
+  @extend .nhsuk-table-responsive;
+
+  thead {
+	@extend .nhsuk-table__head !optional;
+
+	th {
+	  font-size   : $nhsuk-base-font-size;
+	  font-weight : 600;
+	}
+  }
+
+  tbody {
+	@extend .nhsuk-table__body;
+
+	tr {
+	  @extend .nhsuk-table__row;
+
+	  td {
+		@extend .nhsuk-table__cell !optional;
+		font-size : $nhsuk-base-font-size;
+	  }
+	}
+  }
+}
+#members-list {
+  td {
+	margin-top    : nhsuk-spacing(2);
+	margin-bottom : nhsuk-spacing(2);
+  }
+
+  .nhsuk-body-s {
+	margin-bottom : nhsuk-spacing(2);
+  }
+}
