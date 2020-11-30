@@ -16367,9 +16367,6 @@ body.buddypress {
 body.buddypress #buddypress {
   /* extend buddypress form elements */
   /* Manage Members Custom Styling */
-  /* The Modal (background) */
-  /* Modal Content/Box */
-  /* The Close Button */
   /* Groups Overview page */
 }
 
@@ -16480,13 +16477,11 @@ body.buddypress #buddypress .group-invites-search .nhsuk-search textarea, body.b
   border-right: 0;
   border-radius: 4px 0 0 4px;
   float: left;
-  max-width: 80%;
 }
 
 body.buddypress #buddypress .group-invites-search .nhsuk-search .nhsuk-search__submit {
   margin-top: unset;
   margin-left: unset;
-  float: none;
   border-right: 2px solid #aeb7bd;
   border-bottom: 2px solid #aeb7bd;
   border-top: 2px solid #aeb7bd;
@@ -16613,48 +16608,12 @@ body.buddypress #buddypress #comments ul.comment-list .comment-author .comment-m
   margin-bottom: 8px;
 }
 
-body.buddypress #buddypress .bb-modal {
-  display: none;
-  /* Hidden by default */
-  position: fixed;
-  /* Stay in place */
-  z-index: 99;
-  /* Sit on top */
-  left: 0;
-  top: 0;
-  width: 100%;
-  /* Full width */
-  height: 100%;
-  /* Full height */
-  overflow: auto;
-  /* Enable scroll if needed */
-  background-color: #212b32;
-  /* Fallback color */
-}
-
-body.buddypress #buddypress .bb-modal-box {
-  background-color: #ffffff;
-  margin: 10vh 10vw;
-  /* 15% from the top and centered */
-  padding: 16px;
-  border: 1px solid #aeb7bd;
-  border-radius: 4px;
-  width: 80vw;
-  /* Could be more or less, depending on screen size */
-  max-height: 80vh;
-}
-
-body.buddypress #buddypress .close {
-  color: #d5281b;
-  float: right;
-  font-size: 32px;
-}
-
-body.buddypress #buddypress .close:hover,
-body.buddypress #buddypress .close:focus {
-  color: #212b32;
+body.buddypress #buddypress a.bbp-author-link {
   text-decoration: none;
-  cursor: pointer;
+}
+
+body.buddypress #buddypress a.bbp-author-link .bbp-author-name {
+  text-decoration: underline;
 }
 
 body.buddypress #buddypress ul.item-list li .invite-button :not(.group-remove-invite-button) span.icons:before {
@@ -16721,6 +16680,77 @@ body.buddypress .nhsuk-bordered-tabs-container .nhsuk-bordered-tabs .nhsuk-borde
   border-bottom: 8px solid #005eb8;
 }
 
+/* The Modal (background) */
+.bb-modal {
+  display: none;
+  /* Hidden by default */
+  position: fixed;
+  /* Stay in place */
+  z-index: 99;
+  /* Sit on top */
+  left: 0;
+  top: 0;
+  width: 100%;
+  /* Full width */
+  height: 100%;
+  /* Full height */
+  overflow: auto;
+  /* Enable scroll if needed */
+  background-color: #212b32;
+  /* Fallback color */
+}
+
+/* Modal Content/Box */
+.bb-modal-box {
+  background-color: #ffffff;
+  margin: 10vh 10vw;
+  /* 15% from the top and centered */
+  padding: 16px;
+  border: 1px solid #aeb7bd;
+  border-radius: 4px;
+  width: 80vw;
+  /* Could be more or less, depending on screen size */
+  max-height: 80vh;
+}
+
+.bb-modal-box h2 {
+  font-size: 16px;
+  color: #005eb8;
+}
+
+.bb-modal-box #bbp-reply-exerpt {
+  font-weight: 400;
+  font-size: 16px;
+  margin: 8px 24px;
+  color: #768692;
+}
+
+.bb-modal-box #bbp-reply-exerpt:before {
+  content: '\201F';
+  color: #005eb8;
+  font-size: 32px;
+}
+
+.bb-modal-box #bbp-reply-exerpt:after {
+  content: '\201D';
+  color: #005eb8;
+  font-size: 32px;
+}
+
+/* The Close Button */
+.close {
+  color: #d5281b;
+  float: right;
+  font-size: 32px;
+}
+
+.close:hover,
+.close:focus {
+  color: #212b32;
+  text-decoration: none;
+  cursor: pointer;
+}
+
 body.groups.group-invites #send_group_invite_form .select2-container--default .select2-selection--multiple .select2-selection__choice .select2-selection__choice__remove {
   color: #d5281b;
   margin: 0 8px 0 0;
@@ -16729,24 +16759,6 @@ body.groups.group-invites #send_group_invite_form .select2-container--default .s
 
 #bbp_topic_tags_dropdown {
   display: none;
-}
-
-#bbp-reply-exerpt {
-  font-weight: 400;
-  margin: 8px 24px;
-  color: #768692;
-}
-
-#bbp-reply-exerpt:before {
-  content: '\201F';
-  color: #005eb8;
-  font-size: 32px;
-}
-
-#bbp-reply-exerpt:after {
-  content: '\201D';
-  color: #005eb8;
-  font-size: 32px;
 }
 
 #bbpress-forums {
@@ -16867,7 +16879,7 @@ body.groups.group-invites #send_group_invite_form .select2-container--default .s
 
 #bbpress-forums .bbp-admin-links a i {
   color: #ffffff;
-  font-size: 1em;
+  font-size: 24px;
 }
 
 #bbpress-forums .closed {
@@ -16986,6 +16998,14 @@ body.groups.group-invites #send_group_invite_form .select2-container--default .s
 
 #bbpress-forums #comments ul.comment-list .comment-author .comment-meta p, #bbpress-forums #activity-stream ul.comment-list .comment-author .comment-meta p {
   margin-bottom: 8px;
+}
+
+#bbpress-forums a.bbp-author-link {
+  text-decoration: none;
+}
+
+#bbpress-forums a.bbp-author-link .bbp-author-name {
+  text-decoration: underline;
 }
 
 #group-invites-container {

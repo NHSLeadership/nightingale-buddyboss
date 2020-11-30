@@ -14,7 +14,6 @@ $is_buddyboss_bbpress = function_exists( 'buddyboss_bbpress' );
 if ( ! $is_buddyboss_bbpress && ! bbp_is_single_user() ) {
 	get_template_part( 'template-parts/bbpress-banner' );
 } ?>
-
 		<?php if ( have_posts() ) : ?>
 			<?php
 			/* Start the Loop */

@@ -10,7 +10,6 @@
 ?>
 
 <div id="bbpress-forums" class="bb-content-area bs-replies-wrapper">
-	<div class="bb-grid">
 
 		<div class="replies-content nhsuk-list-panel comments-area">
 			<?php bbp_breadcrumb(); ?>
@@ -57,6 +56,5 @@
             </div>
 		</div>
 
-	</div>
 
 </div>

@@ -46,8 +46,6 @@ body.buddypress {
 
 	@import 'buddy-comments'; //buddypress comments, discussion and forum styling overrides
 
-	@import 'buddy-modals'; //buddypress modal popover styling overrides
-
 
 	ul.item-list {
 	  li {
@@ -152,6 +150,8 @@ body.buddypress {
   }
 }
 
+
+@import 'buddy-modals'; //buddypress modal popover styling overrides
 body.groups.group-invites {
   #send_group_invite_form {
 	.select2-container--default {
@@ -174,23 +174,6 @@ body.groups.group-invites {
   display : none;
 }
 
-#bbp-reply-exerpt {
-  font-weight : $nhsuk-font-normal;
-  margin      : nhsuk-spacing(2) nhsuk-spacing(4);
-  color       : $color_nhsuk-grey-2;
-
-  &:before {
-	content   : '\201F';
-	color     : $color_nhsuk-blue;
-	font-size : nhsuk-spacing(5);
-  }
-
-  &:after {
-	content   : '\201D';
-	color     : $color_nhsuk-blue;
-	font-size : nhsuk-spacing(5);
-  }
-}
 
 
 @import 'buddy-forums'; //buddypress comments, discussion and forum styling overrides
