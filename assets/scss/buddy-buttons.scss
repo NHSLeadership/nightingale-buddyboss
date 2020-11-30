@@ -1,0 +1,52 @@
+.request-membership,
+.friendship-button a,
+.follow-button a,
+#send-private-message a,
+#aw-whats-new-submit,
+#aw-whats-new-reset,
+.dz-button,
+.button {
+  @extend .nhsuk-button;
+  float        : left;
+  margin-right : nhsuk-spacing(3);
+}
+
+.follow-button a,
+#aw-whats-new-reset,
+.delete-activity {
+  @extend .nhsuk-button--secondary
+}
+
+#send-private-message a,
+.fav {
+  @extend .nhsuk-button--reverse;
+}
+
+.membership-requested {
+  @extend .nhsuk-tag;
+  @extend .nhsuk-tag--white;
+}
+/* Manage Members Custom Styling */
+.bp-manage-group-container {
+
+  .button {
+    @extend .nhsuk-button;
+    @include nhsuk-typography-responsive(16);
+    padding : nhsuk-spacing(1) nhsuk-spacing(2);
+    float   : left;
+
+    &.confirm {
+      &.member-ban.confirm {
+        background-color : $color_nhsuk-red;
+      }
+
+      &.member-promote-to-mod {
+        @extend .nhsuk-button--reverse;
+      }
+
+      &.member-promote-to-admin {
+        @extend .nhsuk-button--secondary;
+      }
+    }
+  }
+}

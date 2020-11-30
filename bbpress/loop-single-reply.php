@@ -9,7 +9,7 @@
 
 ?>
 
-<li id="post-<?php bbp_reply_id(); ?>" class="div-comment nhsuk-list-panel__item" data-date="<?php echo get_post_time( 'F Y', false, bbp_get_reply_id(), true ); ?>">
+<div id="post-<?php bbp_reply_id(); ?>" class="div-comment nhsuk-list-panel__item" data-date="<?php echo get_post_time( 'F Y', false, bbp_get_reply_id(), true ); ?>">
 
 	<div class="comment-body">
         <div class="comment_body_comment">
@@ -35,7 +35,7 @@
 				echo bbp_get_reply_author_link($args);
 				?>
                 <span class="bs-timestamp"><?php bbp_reply_post_date(); ?></span>
-            </p
+            </p>
 
 			<?php if ( bbp_is_single_user_replies() ) : ?>
 
@@ -59,16 +59,14 @@
         <div class="bbp-meta push-right">
             <div class="more-actions bb-reply-actions bs-dropdown-wrap align-self-center">
                 <button class="nhsuk-button bs-dropdown-link bb-reply-actions-button">Reply / Manage</button>
-                <ul class="bs-dropdown bb-reply-actions-dropdown" style="display: none;">
-                    <li>
+                <div class="bs-dropdown bb-reply-actions-dropdown" style="display: none;">
 							<?php do_action( 'bbp_theme_before_reply_admin_links' ); ?>
 							<?php bbp_reply_admin_links(); ?>
 							<?php do_action( 'bbp_theme_after_reply_admin_links' ); ?>
-                    </li>
-                </ul>
+                </div>
             </div>
         </div><!-- .bbp-meta -->
 		<?php } ?>
 
 </div>
-</li><!-- .reply -->
+</div><!-- .reply -->

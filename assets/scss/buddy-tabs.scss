@@ -1,0 +1,11 @@
+.nhsuk-bordered-tabs-container {
+  .nhsuk-bordered-tabs {
+	.nhsuk-bordered-tabs-item {
+	  padding : nhsuk-spacing(2);
+
+	  &.nhsuk-bordered-tabs-item-active-alt {
+		border-bottom : nhsuk-spacing(2) solid $color_nhsuk-blue;
+	  }
+	}
+  }
+}

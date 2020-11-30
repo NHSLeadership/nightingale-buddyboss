@@ -1,0 +1,60 @@
+
+/* The Modal (background) */
+.bb-modal {
+  display          : none; /* Hidden by default */
+  position         : fixed; /* Stay in place */
+  z-index          : 99; /* Sit on top */
+  left             : 0;
+  top              : 0;
+  width            : 100%; /* Full width */
+  height           : 100%; /* Full height */
+  overflow         : auto; /* Enable scroll if needed */
+  background-color : $color_nhsuk-black; /* Fallback color */
+}
+
+/* Modal Content/Box */
+.bb-modal-box {
+  background-color : $color_nhsuk-white;
+  margin           : 10vh 10vw; /* 15% from the top and centered */
+  padding          : nhsuk-spacing(3);
+  border           : 1px solid $color_nhsuk-grey-3;
+  border-radius    : $nhsuk-border-radius;
+  width            : 80vw; /* Could be more or less, depending on screen size */
+  max-height       : 80vh;
+  h2 {
+    font-size: $nhsuk-base-font-size;
+    color: $color_nhsuk-blue;
+  }
+  #bbp-reply-exerpt {
+    font-weight : $nhsuk-font-normal;
+    font-size: $nhsuk-base-font-size;
+    margin      : nhsuk-spacing(2) nhsuk-spacing(4);
+    color       : $color_nhsuk-grey-2;
+
+    &:before {
+      content   : '\201F';
+      color     : $color_nhsuk-blue;
+      font-size : nhsuk-spacing(5);
+    }
+
+    &:after {
+      content   : '\201D';
+      color     : $color_nhsuk-blue;
+      font-size : nhsuk-spacing(5);
+    }
+  }
+}
+
+/* The Close Button */
+.close {
+  color     : $color_nhsuk-red;
+  float     : right;
+  font-size : nhsuk-spacing(5);
+}
+
+.close:hover,
+.close:focus {
+  color           : $color_nhsuk-black;
+  text-decoration : none;
+  cursor          : pointer;
+}

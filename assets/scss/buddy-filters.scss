@@ -1,0 +1,85 @@
+.subnav-filters {
+  div select, div input[type="search"] {
+	@extend .nhsuk-select;
+	background    : $color_nhsuk-white;
+	padding-right : nhsuk-spacing(4);
+  }
+}
+
+div.select-wrap {
+  span.select-arrow {
+	z-index : 99;
+  }
+}
+
+.nhsuk-buddy__search, .group-search {
+  @extend .nhsuk-header__search;
+  height      : nhsuk-spacing(7);
+  float       : none;
+  margin-left : unset;
+  width       : 100%;
+
+  .autocomplete__wrapper {
+	display : flex;
+
+	.nhsuk-search__input {
+	  border-left   : $nhsuk-border-width-form-element solid $color_nhsuk-grey-3;
+	  border-bottom : $nhsuk-border-width-form-element solid $color_nhsuk-grey-3;
+	  border-top    : $nhsuk-border-width-form-element solid $color_nhsuk-grey-3;
+	  border-right  : 0;
+	  border-radius : $nhsuk-border-radius 0 0 $nhsuk-border-radius;
+	}
+
+	.nhsuk-search__submit {
+	  margin-top    : unset;
+	  margin-left   : unset;
+	  float         : none;
+	  border-right  : $nhsuk-border-width-form-element solid $color_nhsuk-grey-3;
+	  border-bottom : $nhsuk-border-width-form-element solid $color_nhsuk-grey-3;
+	  border-top    : $nhsuk-border-width-form-element solid $color_nhsuk-grey-3;
+	  border-left   : 1px solid $color_nhsuk-grey-3;
+
+	  &:hover {
+		background : $color_nhsuk-dark-blue;
+	  }
+	}
+
+  }
+}
+
+.bp-search {
+  width : 100%;
+}
+
+.group-invites-search {
+  @extend .nhsuk-header__search-wrap;
+  width       : 80%;
+  margin-left : 10%;
+
+  .nhsuk-search {
+	@extend .nhsuk-header__search-form;
+
+	.nhsuk-input {
+	  border-left   : $nhsuk-border-width-form-element solid $color_nhsuk-grey-3;
+	  border-bottom : $nhsuk-border-width-form-element solid $color_nhsuk-grey-3;
+	  border-top    : $nhsuk-border-width-form-element solid $color_nhsuk-grey-3;
+	  border-right  : 0;
+	  border-radius : $nhsuk-border-radius 0 0 $nhsuk-border-radius;
+	  float         : left;
+	}
+
+	.nhsuk-search__submit {
+	  margin-top    : unset;
+	  margin-left   : unset;
+	  border-right  : $nhsuk-border-width-form-element solid $color_nhsuk-grey-3;
+	  border-bottom : $nhsuk-border-width-form-element solid $color_nhsuk-grey-3;
+	  border-top    : $nhsuk-border-width-form-element solid $color_nhsuk-grey-3;
+	  border-left   : 1px solid $color_nhsuk-grey-3;
+	  float         : left;
+
+	  &:hover {
+		background : $color_nhsuk-dark-blue;
+	  }
+	}
+  }
+}

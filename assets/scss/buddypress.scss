@@ -5,151 +5,29 @@ body.buddypress {
 
   #buddypress {
 
-	/* extend buddypress form elements */
-	.field-group, fieldset {
-	  @extend .nhsuk-form-group;
-	  p {
-		@extend .nhsuk-hint;
-	  }
-	}
 
-	.checkbox, .bp-checkbox-wrap {
-	  @extend .nhsuk-checkboxes__item;
+	@import 'buddy-forms'; //buddypress form styling overrides
 
-	  input[type="checkbox"] {
-		@extend .nhsuk-checkboxes__input;
-	  }
+	@import 'buddy-tables'; //buddypress table styling overrides
 
-	  label {
-		@extend .nhsuk-checkboxes__label;
-	  }
-	}
-	.bp-radio-wrap {
-	  @extend .nhsuk-radios__item;
-
-	  input[type="radio"] {
-		@extend .nhsuk-radios__input;
-	  }
-
-	  label {
-		@extend .nhsuk-radios__label;
-	  }
-	}
-
-	select {
-	  @extend .nhsuk-select;
-	}
-	table {
-	  @extend .nhsuk-table-responsive;
-	  thead {
-		@extend .nhsuk-table__head !optional;
-		th {
-		  font-size: $nhsuk-base-font-size;
-		  font-weight: 600;
-		}
-	  }
-	  tbody {
-		@extend .nhsuk-table__body;
-		tr {
-		  @extend .nhsuk-table__row;
-		  td {
-			@extend .nhsuk-table__cell !optional;
-			font-size: $nhsuk-base-font-size;
-		  }
-		}
-	  }
-	}
 	.bp-feedback {
 	  @extend .nhsuk-inset-text;
 	  @extend .is-style-quote-reverse;
+
 	  p.text {
 		@extend .nhsuk-inset-text__quote;
-		font-size: $nhsuk-base-font-size;
+		font-size : $nhsuk-base-font-size;
 	  }
 	}
-	/* end form field options */
 
 	.mobile-only {
 	  display : none;
 	}
 
-	.subnav-filters {
-	  div select, div input[type="search"] {
-		@extend .nhsuk-select;
-		background    : $color_nhsuk-white;
-		padding-right : nhsuk-spacing(4);
-	  }
-	}
 
-	div.select-wrap {
-	  span.select-arrow {
-		z-index : 99;
-	  }
-	}
+	@import 'buddy-filters'; //buddypress styling overrides
 
-	.nhsuk-buddy__search, .group-search {
-	  @extend .nhsuk-header__search;
-	  height      : nhsuk-spacing(7);
-	  float       : none;
-	  margin-left : unset;
-	  width       : 100%;
-
-	  .autocomplete__wrapper {
-		display : flex;
-
-		.nhsuk-search__input {
-		  border-left   : $nhsuk-border-width-form-element solid $color_nhsuk-grey-3;
-		  border-bottom : $nhsuk-border-width-form-element solid $color_nhsuk-grey-3;
-		  border-top    : $nhsuk-border-width-form-element solid $color_nhsuk-grey-3;
-		  border-right  : 0;
-		  border-radius : $nhsuk-border-radius 0 0 $nhsuk-border-radius;
-		}
-
-		.nhsuk-search__submit {
-		  margin-top    : unset;
-		  margin-left   : unset;
-		  float         : none;
-		  border-right  : $nhsuk-border-width-form-element solid $color_nhsuk-grey-3;
-		  border-bottom : $nhsuk-border-width-form-element solid $color_nhsuk-grey-3;
-		  border-top    : $nhsuk-border-width-form-element solid $color_nhsuk-grey-3;
-		  border-left   : 1px solid $color_nhsuk-grey-3;
-
-		  &:hover {
-			background : $color_nhsuk-dark-blue;
-		  }
-		}
-
-	  }
-	}
-
-	.request-membership,
-	.friendship-button a,
-	.follow-button a,
-	#send-private-message a,
-	#aw-whats-new-submit,
-	#aw-whats-new-reset,
-	.dz-button,
-	.button {
-	  @extend .nhsuk-button;
-	  float        : left;
-	  margin-right : nhsuk-spacing(3);
-	}
-
-	.follow-button a,
-	#aw-whats-new-reset,
-	.delete-activity {
-	  @extend .nhsuk-button--secondary
-	}
-
-	#send-private-message a,
-	.fav {
-	  @extend .nhsuk-button--reverse;
-	}
-
-	.membership-requested {
-	  @extend .nhsuk-tag;
-	  @extend .nhsuk-tag--white;
-	}
+	@import 'buddy-buttons'; //buddypress styling overrides
 
 	.item-avatar, #group-admins, .activity-post-avatar {
 	  img {
@@ -165,131 +43,9 @@ body.buddypress {
 	  }
 	}
 
-	#members-list {
-	  td {
-		margin-top    : nhsuk-spacing(2);
-		margin-bottom : nhsuk-spacing(2);
-	  }
 
-	  .nhsuk-body-s {
-		margin-bottom : nhsuk-spacing(2);
-	  }
-	}
+	@import 'buddy-comments'; //buddypress comments, discussion and forum styling overrides
 
-	#bp-nouveau-activity-form {
-	  @extend .nhsuk-form-group;
-	  border : none;
-
-	  #whats-new-textarea {
-		@extend .nhsuk-textarea;
-		background : $color_nhsuk-white;
-	  }
-	}
-
-	#comments, #activity-stream {
-	  @extend #respond;
-	  @extend .nhsuk-list-panel;
-	  margin-top : nhsuk-spacing(3);
-
-	  ul.comment-list {
-		background-color : inherit;
-
-		li.div-comment {
-		  clear            : both;
-		  background-color : inherit;
-		}
-
-		.comment-body {
-		  position   : relative;
-		  background : $color_nhsuk-white;
-
-		  .comment_body_comment:empty {
-			display : none;
-		  }
-
-		  .item-avatar {
-			width  : nhsuk-spacing(3);
-			height : nhsuk-spacing(3);
-		  }
-
-		  .activity-state {
-			position : absolute;
-			bottom   : -32px;
-			right    : 0;
-
-			.activity-state-comments {
-			  @extend .nhsuk-tag;
-			  @extend .nhsuk-tag--white;
-			}
-
-			.activity-state-likes {
-			  @extend .nhsuk-tag;
-			  @extend .nhsuk-tag--grey;
-			}
-		  }
-
-		  :not(.has-likes) {
-			.ac-state-separator,
-			.activity-state-likes {
-			  display : none;
-			}
-		  }
-		}
-
-		.comment-author {
-		  .comment-meta {
-			.avatar {
-			  margin-right  : nhsuk-spacing(2);
-			  margin-left   : nhsuk-spacing(3);
-			  border-radius : 50%;
-			}
-
-			p {
-			  margin-bottom : nhsuk-spacing(2);
-			}
-		  }
-		}
-	  }
-	}
-
-
-	/* The Modal (background) */
-	.bb-modal {
-	  display          : none; /* Hidden by default */
-	  position         : fixed; /* Stay in place */
-	  z-index          : 99; /* Sit on top */
-	  left             : 0;
-	  top              : 0;
-	  width            : 100%; /* Full width */
-	  height           : 100%; /* Full height */
-	  overflow         : auto; /* Enable scroll if needed */
-	  background-color : $color_nhsuk-black; /* Fallback color */
-	}
-
-	/* Modal Content/Box */
-	.bb-modal-box {
-	  background-color : $color_nhsuk-white;
-	  margin           : 10vh 10vw; /* 15% from the top and centered */
-	  padding          : nhsuk-spacing(3);
-	  border           : 1px solid $color_nhsuk-grey-3;
-	  border-radius    : $nhsuk-border-radius;
-	  width            : 80vw; /* Could be more or less, depending on screen size */
-	  max-height       : 80vh;
-	}
-
-	/* The Close Button */
-	.close {
-	  color     : $color_nhsuk-red;
-	  float     : right;
-	  font-size : nhsuk-spacing(5);
-	}
-
-	.close:hover,
-	.close:focus {
-	  color           : $color_nhsuk-black;
-	  text-decoration : none;
-	  cursor          : pointer;
-	}
 
 	ul.item-list {
 	  li {
@@ -327,10 +83,6 @@ body.buddypress {
 		  }
 		}
 
-		&:not(.selected) {
-
-		}
-
 		.action {
 		  height : nhsuk-spacing(7);
 		}
@@ -346,52 +98,7 @@ body.buddypress {
 	  }
 	}
 
-	.bp-search {
-	  width : 100%;
-	}
 
-	.group-invites-search {
-	  @extend .nhsuk-header__search-wrap;
-	  width       : 80%;
-	  margin-left : 10%;
-
-	  .nhsuk-search {
-		@extend .nhsuk-header__search-form;
-
-		.nhsuk-input {
-		  border-left   : $nhsuk-border-width-form-element solid $color_nhsuk-grey-3;
-		  border-bottom : $nhsuk-border-width-form-element solid $color_nhsuk-grey-3;
-		  border-top    : $nhsuk-border-width-form-element solid $color_nhsuk-grey-3;
-		  border-right  : 0;
-		  border-radius : $nhsuk-border-radius 0 0 $nhsuk-border-radius;
-		  float         : left;
-		  max-width     : 80%;
-		}
-
-		.nhsuk-search__submit {
-		  margin-top    : unset;
-		  margin-left   : unset;
-		  float         : none;
-		  border-right  : $nhsuk-border-width-form-element solid $color_nhsuk-grey-3;
-		  border-bottom : $nhsuk-border-width-form-element solid $color_nhsuk-grey-3;
-		  border-top    : $nhsuk-border-width-form-element solid $color_nhsuk-grey-3;
-		  border-left   : 1px solid $color_nhsuk-grey-3;
-		  float         : left;
-
-		  &:hover {
-			background : $color_nhsuk-dark-blue;
-		  }
-		}
-	  }
-	}
-
-	input[type="submit"], #save {
-	  @extend .nhsuk-button;
-
-	  &#bp_invites_reset {
-		@extend .nhsuk-button--secondary;
-	  }
-	}
 
 	/* Groups Overview page */
 	.groups {
@@ -421,7 +128,6 @@ body.buddypress {
 	  }
 	}
 
-	/* Manage Members Custom Styling */
 	.bp-manage-group-container {
 	  .usernames {
 		text-align : center;
@@ -432,52 +138,20 @@ body.buddypress {
 		  border-radius : 50%;
 		}
 	  }
-
-	  .button {
-		@extend .nhsuk-button;
-		@include nhsuk-typography-responsive(16);
-		padding : nhsuk-spacing(1) nhsuk-spacing(2);
-		float   : left;
-
-		&.confirm {
-		  &.member-ban.confirm {
-			background-color : $color_nhsuk-red;
-		  }
-
-		  &.member-promote-to-mod {
-			@extend .nhsuk-button--reverse;
-		  }
-
-		  &.member-promote-to-admin {
-			@extend .nhsuk-button--secondary;
-		  }
-		}
-	  }
-	}
-
-	.medium-editor-element {
-	  @extend .nhsuk-textarea;
-	  background : $color_nhsuk-white;
 	}
   }
 
-  .nhsuk-bordered-tabs-container {
-	.nhsuk-bordered-tabs {
-	  .nhsuk-bordered-tabs-item {
-		padding : nhsuk-spacing(2);
 
-		&.nhsuk-bordered-tabs-item-active-alt {
-		  border-bottom : nhsuk-spacing(2) solid $color_nhsuk-blue;
-		}
-	  }
-	}
-  }
+  @import 'buddy-tabs'; //buddypress tabs styling overrides
+
   /* course page styling */
   .col-md-4 {
 	@extend .nhsuk-grid-column-one-third;
   }
 }
 
+
+@import 'buddy-modals'; //buddypress modal popover styling overrides
 body.groups.group-invites {
   #send_group_invite_form {
 	.select2-container--default {
@@ -496,153 +170,13 @@ body.groups.group-invites {
   }
 }
 
-#bbpress-forums {
-  font-size : $nhsuk-base-font-size;
-
-  .nhsuk-list-panel__list {
-	background-color : inherit;
-  }
-
-  img.avatar-180 {
-	width         : nhsuk-spacing(6);
-	height        : nhsuk-spacing(6);
-	border-radius : 50%;
-  }
-
-  .comment-author {
-	margin-bottom : nhsuk-spacing(2);
-  }
-
-  .action {
-	float : right;
-  }
-
-  .bbp-reply-author {
-	width : auto;
-  }
-
-  .comment-meta {
-	margin-top  : nhsuk-spacing(3);
-	float       : left;
-	margin-left : nhsuk-spacing(2);
-  }
-
-  .bbp-author-name {
-	@extend .nhsuk-body-s;
-	display       : inline-block;
-	margin-bottom : nhsuk-spacing(2);
-  }
-
-  .bb-icon-reply {
-	color         : $color_nhsuk-blue;
-	font-size     : $nhsuk-icon-size;
-	float         : left;
-	padding-right : nhsuk-spacing(2);
-  }
-
-  .bb-reply-actions-button {
-	@extend .nhsuk-button;
-	@extend .nhsuk-button--secondary;
-	@include nhsuk-typography-responsive(16);
-	padding    : nhsuk-spacing(1) nhsuk-spacing(2);
-	margin-top : nhsuk-spacing(2);
-	float      : right;
-
-	a {
-	  color : $color_nhsuk-white;
-	}
-  }
-
-  .bb-topic-reply-link-wrap,
-  .bb-topic-subscription-link-wrap {
-	@extend .nhsuk-button;
-	float : left;
-
-	a {
-	  color : $color_nhsuk-white;
-	}
-  }
-
-  .bb-topic-subscription-link-wrap {
-	@extend .nhsuk-button--secondary;
-	float : right;
-  }
-
-  .bs-dropdown {
-	list-style : none;
-  }
-
-  .bbp-admin-links {
-	a {
-	  @extend .nhsuk-button;
-	  @include nhsuk-typography-responsive(16);
-	  padding : nhsuk-spacing(1) nhsuk-spacing(2);
-
-	  &:empty {
-		display : none;
-	  }
-
-	  &.bbp-topic-close-link,
-	  &.bbp-topic-sticky-link,
-	  &.bbp-reply-sticky-link,
-	  &.bbp-topic-merge-link,
-	  &.bbp-reply-merge-link,
-	  &.bbp-topic-spam-link,
-	  &.bbp-reply-spam-link,
-	  &.bbp-reply-close-link {
-		@extend .nhsuk-button--secondary;
-	  }
-
-	  &.bbp-topic-trash-link,
-	  &.bbp-reply-trash-link,
-	  &.bbp-topic-edit-link,
-	  &.bbp-reply-edit-link {
-		@extend .nhsuk-button--reverse;
-	  }
-
-	  i {
-		color     : $color_nhsuk-white;
-		font-size : 1em;
-	  }
-	}
-  }
-
-  .closed {
-	color : $color_nhsuk-grey-2;
-
-	a {
-	  color : $color_nhsuk-grey-2;
-	}
-
-	.bb-icon-reply {
-	  color : $color_nhsuk-grey-2;
-	}
-  }
-
-  .comment-list {
-	list-style : none;
-
-	li.depth-1,
-	li.depth-2,
-	li.depth-3,
-	li.depth4,
-	li.depth-5,
-	li.depth-6 {
-	  //display : none;
-	}
-  }
-
-  .button-close {
-	background : $color_nhsuk-white;
-	color      : $color_nhsuk-red;
-  }
-
-  .bs-voices-wrap {
-	position : absolute;
-	top      : nhsuk-spacing(2);
-	right    : nhsuk-spacing(3);
-  }
+#bbp_topic_tags_dropdown {
+  display : none;
 }
+
+
+
+@import 'buddy-forums'; //buddypress comments, discussion and forum styling overrides
 
 
 #group-invites-container {
@@ -655,126 +189,6 @@ body.groups.group-invites {
 	&.bb-select-member-view {
 	  background : $color_nhsuk-white;
 	}
-  }
-}
-
-/* add Buddypanel styling components */
-
-.buddypanel {
-  position           : fixed;
-  left               : 0;
-  top                : nhsuk-spacing(3);
-  background         : transparent;
-  position           : fixed;
-  width              : nhsuk-spacing(8);
-  height             : 100%;
-  z-index            : 611;
-  -webkit-transition : width 0.4s;
-  transition         : width 0.4s;
-
-  .panel-head {
-	background    : $color_nhsuk-blue;
-	padding-top   : nhsuk-spacing(2);
-	margin-bottom : 120px;
-
-	a {
-	  left      : nhsuk-spacing(3);
-	  font-size : nhsuk-spacing(6);
-	  color     : $color_nhsuk-white;
-	  padding   : 0 nhsuk-spacing(3);
-	}
-  }
-
-  .side-panel-inner {
-	ul.buddypanel-menu {
-	  list-style   : none;
-	  padding-left : nhsuk-spacing(2);
-
-	  li.bp-menu {
-		a {
-		  color : $color_nhsuk-white;
-
-		  img {
-			display : block;
-			width   : nhsuk-spacing(5);
-			height  : nhsuk-spacing(5);
-			filter  : invert(26%) sepia(70%) saturate(2053%) hue-rotate(192deg) brightness(91%) contrast(104%);
-		  }
-
-		  &.focus-visible {
-			img {
-			  border : $nhsuk-border-width-form-element solid $color_nhsuk-yellow;
-			}
-		  }
-
-		  .link-text {
-			display : none;
-		  }
-		}
-	  }
-	}
-  }
-}
-
-body.buddypanel-open {
-  .buddypanel {
-	width      : 220px;
-	transition : width 0.4s;
-	border     : 2px solid $color_nhsuk-blue;
-
-	.side-panel-inner {
-	  ul.buddypanel-menu {
-
-		padding-left : nhsuk-spacing(3);
-
-		li.bp-menu {
-		  position   : relative;
-		  display    : block;
-		  width      : 180px;
-		  padding    : .75rem 1.25rem;
-		  background : $color_nhsuk-white;
-		  border-top : 1px solid $color_nhsuk-blue;
-
-		  &:hover {
-			background : $color_nhsuk-grey-1;
-			box-shadow : $nhsuk-border-width-form-element $nhsuk-border-width-form-element $color_nhsuk-yellow;
-			cursor     : pointer;
-
-			a {
-			  .link-text {
-				color : $color_nhsuk-white;
-			  }
-			}
-		  }
-
-		  img {
-			display : none;
-		  }
-
-		  a {
-			.link-text {
-			  display : inline-block;
-			  color   : $color_nhsuk-blue;
-			}
-		  }
-		}
-	  }
-	}
-  }
-}
-
-body.logged-in {
-  .buddypanel {
-	top : nhsuk-spacing(5);
-  }
-}
-
-@media only screen and (max-width : 1068px) {
-  /* for the moment, hide buddy panel completely on anything less than a wide screen.
-  	We need some display mechanism for small screens as this is the majority of users.
-  */
-  .buddypanel {
-	display : none;
   }
 }
 
