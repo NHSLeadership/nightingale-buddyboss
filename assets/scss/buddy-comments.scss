@@ -45,7 +45,7 @@
 
 	  .activity-state {
 		position : absolute;
-		bottom   : -32px;
+		bottom   : -#{nhsuk-spacing(5)};
 		right    : 0;
 
 		.activity-state-comments {
