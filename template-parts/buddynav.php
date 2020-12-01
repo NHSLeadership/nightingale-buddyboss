@@ -5,23 +5,23 @@
  * @link      https://developer.wordpress.org/themes/basics/template-hierarchy/
  * @package   Nightingale
  * @copyright NHS Leadership Academy, Tony Blacker
- * @version   1.1 21st August 2019
  */
-$buddy_menu_item = array();
-if ( ! is_user_logged_in() ) {
-	$buddy_menu_item[0] = array( 'url' => '/wp-login.php', 'title' => 'Login' );
-	$buddy_menu_item[1] = array( 'url' => '/register', 'title' => 'Register' );
-	$buddy_menu_item[2] = array( 'url' => '/wp-login.php?action=lostpassword', 'title' => 'Lost your password?' );
-	$url_prefix        = '';
-} else {
 
-	$current_url = $actual_link = ( isset( $_SERVER[ 'HTTPS' ] ) && $_SERVER[ 'HTTPS' ] === 'on' ? "https" : "http" ) . "://$_SERVER[HTTP_HOST]$_SERVER[REQUEST_URI]";
-	foreach ( array_keys( buddypress()->loaded_components ) as $component_id ) {
-		if ( 'profile' === $component_id ) {
-			$buddy_menu_item[0] = array( 'url' => 'profile/', 'title' => 'Profile' );
-		} elseif ( 'settings' === $component_id ) {
-			$buddy_menu_item[1] = array( 'url' => 'settings/', 'title' => 'Account' );
-		} elseif ( 'activity' === $component_id ) {
+$buddy_menu_item = array(); // create empty array of menu links.
+if ( ! is_user_logged_in() ) { // if user is not logged in, lets add some basic links for them.
+	$buddy_menu_item[0] = array( 'url' => '/wp-login.php', 'title' => 'Login' ); // login page.
+	$buddy_menu_item[1] = array( 'url' => '/register', 'title' => 'Register' ); // registration page.
+	$buddy_menu_item[2] = array( 'url' => '/wp-login.php?action=lostpassword', 'title' => 'Lost your password?' ); // forgot password page.
+	$url_prefix        = '';
+} else { // this user is logged in. Lets figure out what links to show them.
+
+	$current_url = $actual_link = ( isset( $_SERVER[ 'HTTPS' ] ) && $_SERVER[ 'HTTPS' ] === 'on' ? "https" : "http" ) . "://$_SERVER[HTTP_HOST]$_SERVER[REQUEST_URI]"; // grab the current url.
+	foreach ( array_keys( buddypress()->loaded_components ) as $component_id ) { // get array of active BuddyBoss components, work through one at a time.
+		if ( 'profile' === $component_id ) { // if the profile component is active...
+			$buddy_menu_item[0] = array( 'url' => 'profile/', 'title' => 'Profile' ); // add profile link.
+		} elseif ( 'settings' === $component_id ) { // if settings component is active...
+			$buddy_menu_item[1] = array( 'url' => 'settings/', 'title' => 'Account' ); // add settings link.
+		} elseif ( 'activity' === $component_id ) { // lather rinse repeat through the array...
 			$buddy_menu_item[2] = array( 'url' => 'activity', 'title' => 'Timeline' );
 		} elseif ( 'notifications' === $component_id ) {
 			$buddy_menu_item[3] = array( 'url' => 'notifications/', 'title' => 'Notifications' );
@@ -39,10 +39,10 @@ if ( ! is_user_logged_in() ) {
 			$buddy_menu_item[9] = array( 'url' => 'invites/', 'title' => 'Email Invites' );
 		}
 	}
-	if ( in_array( 'sfwd-lms/sfwd_lms.php', apply_filters( 'active_plugins', get_option( 'active_plugins' ) ) ) ) {
-		$buddy_menu_item[10] = array( 'url' => 'guides/', 'title' => 'Courses' );
+	if ( in_array( 'sfwd-lms/sfwd_lms.php', apply_filters( 'active_plugins', get_option( 'active_plugins' ) ) ) ) { // if LearnDash installed and active?
+		$buddy_menu_item[10] = array( 'url' => 'guides/', 'title' => 'Courses' ); // add in the link to courses. This is not an active BuddyBoss module, so we need to check the LD plugin status.
 	}
-	$url_prefix = '/members/' . wp_get_current_user()->user_login . '/';
+	$url_prefix = '/members/' . wp_get_current_user()->user_login . '/'; // build the prefix for all urls so the user gets a unique set of links based on their username.
 }
 ?>
 <div class="nhsuk-full-width-container">
@@ -59,16 +59,15 @@ if ( ! is_user_logged_in() ) {
             <ul class="nhsuk-bordered-tabs buddynav-menu">
 				<?php
 
-				foreach ( $buddy_menu_item as $nav_item ) {
-					if ( strpos( $current_url, $nav_item[ 'url' ] ) !== false ) {
-						$activelink = ' nhsuk-bordered-tabs-item-active';
+				foreach ( $buddy_menu_item as $nav_item ) { // setp through the array of links we built in lines 10-45
+					if ( strpos( $current_url, $nav_item[ 'url' ] ) !== false ) { // if the current link is the current url
+						$activelink = ' nhsuk-bordered-tabs-item-active'; // add the active class to the tab.
 					} else {
-						$activelink = '';
+						$activelink = ''; // otherwise, dont.
 					}
 					echo '<li class="nhsuk-bordered-tabs-item' . $activelink . '"><a class="nhsuk-bordered-tabs-link" href="' . esc_url( $url_prefix . $nav_item[ 'url' ] ) . '">' . esc_html( $nav_item[ 'title' ] ) . '</a></li>';
 
 				}
-				// below div is a horrible hacky workaround to stop safari from jumping links all over the show on hover. As and when upstream library gets fixed, this div can come out.
 				?>
             </ul>
         </div>

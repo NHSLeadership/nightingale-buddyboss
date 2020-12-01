@@ -1,17 +1,17 @@
 <?php
-if ( in_array( 'messages', array_keys( buddypress()->loaded_components ) ) ) {
-	$message_link = trailingslashit( bp_loggedin_user_domain() . bp_get_messages_slug() );
-	$unread_message_count = messages_get_unread_count();
-	$messages_component = 'active';
+if ( in_array( 'messages', array_keys( buddypress()->loaded_components ) ) ) { // is the message component active in BuddyBoss admin?
+	$message_link = trailingslashit( bp_loggedin_user_domain() . bp_get_messages_slug() ); // build the link to messages page.
+	$unread_message_count = messages_get_unread_count(); // get a count of how many messages are unread.
+	$messages_component = 'active'; // set messages flag to active.
 } else {
 	$messages_component = 'false';
 }
 
-if ( in_array( 'notifications', array_keys( buddypress()->loaded_components ) ) ) {
-	$notification_link = trailingslashit( bp_loggedin_user_domain() . bp_get_notifications_slug() );
-	$notifications = bp_notifications_get_unread_notification_count( bp_loggedin_user_id() );
-	$unread_notification_count = ! empty( $notifications ) ? $notifications : 0;
-	$notifications_component = 'active';
+if ( in_array( 'notifications', array_keys( buddypress()->loaded_components ) ) ) { // is the notification component active in BuddyBoss admin?
+	$notification_link = trailingslashit( bp_loggedin_user_domain() . bp_get_notifications_slug() ); // build the notifications link.
+	$notifications = bp_notifications_get_unread_notification_count( bp_loggedin_user_id() ); // get notifications list for this user.
+	$unread_notification_count = ! empty( $notifications ) ? $notifications : 0; // count how many unread notifications exist.
+	$notifications_component = 'active'; // set notifications flag to active.
 } else {
 	$notifications_component = 'false';
 }
