@@ -4,7 +4,7 @@ body.buddypress {
 	padding: nhsuk-spacing(1) nhsuk-spacing(2);
 	background-color: $color_nhsuk-red;
 	color: $color_nhsuk-white;
-	font-size: 12px;
+	@include nhsuk-typography-responsive(14);
   }
 
   #buddypress {

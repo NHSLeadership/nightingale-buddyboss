@@ -8,7 +8,7 @@
  *
  * @package Nightingale
  * @copyright NHS Leadership Academy, Tony Blacker
- * @version 1.1 21st August 2019
+ * @version 1.1
  */
 
 flush();
