@@ -4,6 +4,7 @@ body.buddypress {
 	padding: nhsuk-spacing(1) nhsuk-spacing(2);
 	background-color: $color_nhsuk-red;
 	color: $color_nhsuk-white;
+	font-size: 12px;
   }
 
   #buddypress {
@@ -186,14 +187,7 @@ body.groups.group-invites {
   display : block;
 }
 
-@include mq($until : tablet) {
 
-  .bb-groups-invites-left {
-	&.bb-select-member-view {
-	  background : $color_nhsuk-white;
-	}
-  }
-}
 
 /* Buddypress header nav elements */
 .buddypress-header {
@@ -204,8 +198,8 @@ body.groups.group-invites {
   }
 
   img {
-	width       : nhsuk-spacing(5);
-	height      : nhsuk-spacing(5);
+	width       : nhsuk-spacing(4);
+	height      : nhsuk-spacing(4);
 	float       : left;
 	margin-left : nhsuk-spacing(3);
 	filter      : invert(1);
@@ -224,7 +218,7 @@ body.groups.group-invites {
 	text-align : left;
 
 	a {
-	  margin-right: nhsuk-spacing(2);
+	  margin-right: nhsuk-spacing(3);
 	}
 	.count {
 	  position      : absolute;
@@ -241,8 +235,8 @@ body.groups.group-invites {
 	  color            : $color_nhsuk-black;
 	  background-color : $color_nhsuk-white;
 	  font-weight      : normal;
-	  font-size        : 13px;
-	  border-radius    : 8px;
+	  font-size        : $nhsuk-base-font-size;
+	  border-radius    : nhsuk-spacing(2);
 	  position         : absolute;
 	  z-index          : 99999999;
 	  box-sizing       : border-box;
@@ -279,3 +273,28 @@ body.groups.group-invites {
   }
 }
 
+@include mq($until : tablet) {
+
+  .bb-groups-invites-left {
+	&.bb-select-member-view {
+	  background : $color_nhsuk-white;
+	}
+  }
+  .buddypress-header {
+	.buddy-head-popouts {
+	  float: right;
+		a {
+		  margin-right: nhsuk-spacing(1);
+		}
+	  .count {
+		padding: 0 nhsuk-spacing(1);
+	  }
+	}
+	#buddy-search {
+	  display: none;
+	}
+	.buddy-header-search {
+	  display: block;
+	}
+  }
+}
