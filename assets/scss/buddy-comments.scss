@@ -8,7 +8,7 @@
 	list-style : none;
 
 	li{
-	  .div-comment {
+	  .div-comment, .comment-body {
 		clear            : both;
 		background-color : inherit;
 	  }
@@ -27,6 +27,10 @@
 		.comment-author {
 		  display: none;
 		}
+	  }
+	  &.load-more {
+		clear: both;
+		margin-top: nhsuk-spacing(5);
 	  }
 	}
 

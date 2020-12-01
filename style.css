@@ -12450,7 +12450,7 @@ body.buddypress #buddypress .subnav-filters div input[type="search"]:focus::-ms-
 /* ==========================================================================
    #TAG
    ========================================================================== */
-.nhsuk-tag, .pagination_split_post .post-page-numbers, #primary footer .edit-link, #primary footer .tags-links, #primary footer .cat-links, .nhsuk-list-panel .comment-list .nhsuk-list-panel__item .comment-body .vcard .fn .comment-author-label, body.buddypress #buddypress #comments .comment-list .nhsuk-list-panel__item .comment-body .vcard .fn .comment-author-label, body.buddypress #buddypress #activity-stream .comment-list .nhsuk-list-panel__item .comment-body .vcard .fn .comment-author-label, #bbpress-forums #comments .comment-list .nhsuk-list-panel__item .comment-body .vcard .fn .comment-author-label, #bbpress-forums #activity-stream .comment-list .nhsuk-list-panel__item .comment-body .vcard .fn .comment-author-label, .nhsuk-list-panel .comment-list .nhsuk-list-panel__item .comment-body .vcard .fn .comment-author-label.comment-author-label-administrator, .nhsuk-list-panel .comment-list .nhsuk-list-panel__item .comment-body .vcard .fn .comment-author-label.comment-author-label-facilitator, .nhsuk-list-panel .comment-respond .logged-in-as a:nth-of-type(2), body.buddypress #buddypress #comments .comment-respond .logged-in-as a:nth-of-type(2), body.buddypress #buddypress #activity-stream .comment-respond .logged-in-as a:nth-of-type(2), #bbpress-forums #comments .comment-respond .logged-in-as a:nth-of-type(2), #bbpress-forums #activity-stream .comment-respond .logged-in-as a:nth-of-type(2), .article-footer .comments-link, .learndash-wrapper .ld-status, .learndash-wrapper .ld-status.ld-status-progress, .learndash-wrapper .ld-status.ld-status-complete, .learndash-wrapper .ld-breadcrumbs .ld-status.ld-status-progress, .learndash-wrapper .ld-course-status .ld-status.ld-status-progress, .learndash-wrapper .ld-item-details .ld-status.ld-status-progress, .learndash-wrapper .ld-breadcrumbs .ld-status.ld-status-complete, .learndash-wrapper .ld-course-status .ld-status.ld-status-complete, .learndash-wrapper .ld-item-details .ld-status.ld-status-complete, .learndash-wrapper .ld-breadcrumbs .ld-status.ld-status-waiting, .learndash-wrapper .ld-course-status .ld-status.ld-status-waiting, .learndash-wrapper .ld-item-details .ld-status.ld-status-waiting, .download-box .download-count, body.buddypress .count, body.buddypress #buddypress .membership-requested, body.buddypress #buddypress #comments ul.comment-list .comment-body .activity-state .activity-state-comments, body.buddypress #buddypress #activity-stream ul.comment-list .comment-body .activity-state .activity-state-comments, body.buddypress #buddypress #comments ul.comment-list .comment-body .activity-state .activity-state-likes, body.buddypress #buddypress #activity-stream ul.comment-list .comment-body .activity-state .activity-state-likes, body.buddypress #buddypress .groups .leave-group, body.buddypress #buddypress .groups .nhsuk-body-s.last-activity, body.buddypress #buddypress .groups .nhsuk-list-panel .comment-list .nhsuk-list-panel__item .comment-body .vcard .comment-meta a.last-activity, .nhsuk-list-panel .comment-list .nhsuk-list-panel__item .comment-body .vcard .comment-meta body.buddypress #buddypress .groups a.last-activity, body.buddypress #buddypress .groups #comments .comment-list .nhsuk-list-panel__item .comment-body .vcard .comment-meta a.last-activity, body.buddypress #buddypress #comments .comment-list .nhsuk-list-panel__item .comment-body .vcard .comment-meta .groups a.last-activity, body.buddypress #buddypress .groups #activity-stream .comment-list .nhsuk-list-panel__item .comment-body .vcard .comment-meta a.last-activity, body.buddypress #buddypress #activity-stream .comment-list .nhsuk-list-panel__item .comment-body .vcard .comment-meta .groups a.last-activity, #bbpress-forums #comments .comment-list .nhsuk-list-panel__item .comment-body .vcard .comment-meta body.buddypress #buddypress .groups a.last-activity, #bbpress-forums #activity-stream .comment-list .nhsuk-list-panel__item .comment-body .vcard .comment-meta body.buddypress #buddypress .groups a.last-activity, body.buddypress #buddypress .groups .article-footer .last-activity.cat-links, .article-footer body.buddypress #buddypress .groups .last-activity.cat-links, body.buddypress #buddypress .groups .article-footer .last-activity.tags-links, .article-footer body.buddypress #buddypress .groups .last-activity.tags-links, body.buddypress #buddypress .groups .article-footer .last-activity.comments-link, .article-footer body.buddypress #buddypress .groups .last-activity.comments-link, body.buddypress #buddypress .groups #bbpress-forums .last-activity.bbp-author-name, #bbpress-forums body.buddypress #buddypress .groups .last-activity.bbp-author-name, body.groups.group-invites #send_group_invite_form .select2-container--default .select2-selection--multiple .select2-selection__choice, #bbpress-forums .bbp-topic-tags, #bbpress-forums .item-tags ul li, #bbpress-forums #comments ul.comment-list .comment-body .activity-state .activity-state-comments, #bbpress-forums #activity-stream ul.comment-list .comment-body .activity-state .activity-state-comments, #bbpress-forums #comments ul.comment-list .comment-body .activity-state .activity-state-likes, #bbpress-forums #activity-stream ul.comment-list .comment-body .activity-state .activity-state-likes {
+.nhsuk-tag, .pagination_split_post .post-page-numbers, #primary footer .edit-link, #primary footer .tags-links, #primary footer .cat-links, .nhsuk-list-panel .comment-list .nhsuk-list-panel__item .comment-body .vcard .fn .comment-author-label, body.buddypress #buddypress #comments .comment-list .nhsuk-list-panel__item .comment-body .vcard .fn .comment-author-label, body.buddypress #buddypress #activity-stream .comment-list .nhsuk-list-panel__item .comment-body .vcard .fn .comment-author-label, #bbpress-forums #comments .comment-list .nhsuk-list-panel__item .comment-body .vcard .fn .comment-author-label, #bbpress-forums #activity-stream .comment-list .nhsuk-list-panel__item .comment-body .vcard .fn .comment-author-label, .nhsuk-list-panel .comment-list .nhsuk-list-panel__item .comment-body .vcard .fn .comment-author-label.comment-author-label-administrator, .nhsuk-list-panel .comment-list .nhsuk-list-panel__item .comment-body .vcard .fn .comment-author-label.comment-author-label-facilitator, .nhsuk-list-panel .comment-respond .logged-in-as a:nth-of-type(2), body.buddypress #buddypress #comments .comment-respond .logged-in-as a:nth-of-type(2), body.buddypress #buddypress #activity-stream .comment-respond .logged-in-as a:nth-of-type(2), #bbpress-forums #comments .comment-respond .logged-in-as a:nth-of-type(2), #bbpress-forums #activity-stream .comment-respond .logged-in-as a:nth-of-type(2), .article-footer .comments-link, .learndash-wrapper .ld-status, .learndash-wrapper .ld-status.ld-status-progress, .learndash-wrapper .ld-status.ld-status-complete, .learndash-wrapper .ld-breadcrumbs .ld-status.ld-status-progress, .learndash-wrapper .ld-course-status .ld-status.ld-status-progress, .learndash-wrapper .ld-item-details .ld-status.ld-status-progress, .learndash-wrapper .ld-breadcrumbs .ld-status.ld-status-complete, .learndash-wrapper .ld-course-status .ld-status.ld-status-complete, .learndash-wrapper .ld-item-details .ld-status.ld-status-complete, .learndash-wrapper .ld-breadcrumbs .ld-status.ld-status-waiting, .learndash-wrapper .ld-course-status .ld-status.ld-status-waiting, .learndash-wrapper .ld-item-details .ld-status.ld-status-waiting, .download-box .download-count, body.buddypress #buddypress .membership-requested, body.buddypress #buddypress #comments ul.comment-list .comment-body .activity-state .activity-state-comments, body.buddypress #buddypress #activity-stream ul.comment-list .comment-body .activity-state .activity-state-comments, body.buddypress #buddypress #comments ul.comment-list .comment-body .activity-state .activity-state-likes, body.buddypress #buddypress #activity-stream ul.comment-list .comment-body .activity-state .activity-state-likes, body.buddypress #buddypress .groups .leave-group, body.buddypress #buddypress .groups .nhsuk-body-s.last-activity, body.buddypress #buddypress .groups .nhsuk-list-panel .comment-list .nhsuk-list-panel__item .comment-body .vcard .comment-meta a.last-activity, .nhsuk-list-panel .comment-list .nhsuk-list-panel__item .comment-body .vcard .comment-meta body.buddypress #buddypress .groups a.last-activity, body.buddypress #buddypress .groups #comments .comment-list .nhsuk-list-panel__item .comment-body .vcard .comment-meta a.last-activity, body.buddypress #buddypress #comments .comment-list .nhsuk-list-panel__item .comment-body .vcard .comment-meta .groups a.last-activity, body.buddypress #buddypress .groups #activity-stream .comment-list .nhsuk-list-panel__item .comment-body .vcard .comment-meta a.last-activity, body.buddypress #buddypress #activity-stream .comment-list .nhsuk-list-panel__item .comment-body .vcard .comment-meta .groups a.last-activity, #bbpress-forums #comments .comment-list .nhsuk-list-panel__item .comment-body .vcard .comment-meta body.buddypress #buddypress .groups a.last-activity, #bbpress-forums #activity-stream .comment-list .nhsuk-list-panel__item .comment-body .vcard .comment-meta body.buddypress #buddypress .groups a.last-activity, body.buddypress #buddypress .groups .article-footer .last-activity.cat-links, .article-footer body.buddypress #buddypress .groups .last-activity.cat-links, body.buddypress #buddypress .groups .article-footer .last-activity.tags-links, .article-footer body.buddypress #buddypress .groups .last-activity.tags-links, body.buddypress #buddypress .groups .article-footer .last-activity.comments-link, .article-footer body.buddypress #buddypress .groups .last-activity.comments-link, body.buddypress #buddypress .groups #bbpress-forums .last-activity.bbp-author-name, #bbpress-forums body.buddypress #buddypress .groups .last-activity.bbp-author-name, body.groups.group-invites #send_group_invite_form .select2-container--default .select2-selection--multiple .select2-selection__choice, #bbpress-forums .bbp-topic-tags, #bbpress-forums .item-tags ul li, #bbpress-forums #comments ul.comment-list .comment-body .activity-state .activity-state-comments, #bbpress-forums #activity-stream ul.comment-list .comment-body .activity-state .activity-state-comments, #bbpress-forums #comments ul.comment-list .comment-body .activity-state .activity-state-likes, #bbpress-forums #activity-stream ul.comment-list .comment-body .activity-state .activity-state-likes {
   font-weight: 600;
   font-size: 14px;
   font-size: 0.875rem;
@@ -12469,7 +12469,7 @@ body.buddypress #buddypress .subnav-filters div input[type="search"]:focus::-ms-
 }
 
 @media (min-width: 40.0625em) {
-  .nhsuk-tag, .pagination_split_post .post-page-numbers, #primary footer .edit-link, #primary footer .tags-links, #primary footer .cat-links, .nhsuk-list-panel .comment-list .nhsuk-list-panel__item .comment-body .vcard .fn .comment-author-label, body.buddypress #buddypress #comments .comment-list .nhsuk-list-panel__item .comment-body .vcard .fn .comment-author-label, body.buddypress #buddypress #activity-stream .comment-list .nhsuk-list-panel__item .comment-body .vcard .fn .comment-author-label, #bbpress-forums #comments .comment-list .nhsuk-list-panel__item .comment-body .vcard .fn .comment-author-label, #bbpress-forums #activity-stream .comment-list .nhsuk-list-panel__item .comment-body .vcard .fn .comment-author-label, .nhsuk-list-panel .comment-list .nhsuk-list-panel__item .comment-body .vcard .fn .comment-author-label.comment-author-label-administrator, .nhsuk-list-panel .comment-list .nhsuk-list-panel__item .comment-body .vcard .fn .comment-author-label.comment-author-label-facilitator, .nhsuk-list-panel .comment-respond .logged-in-as a:nth-of-type(2), body.buddypress #buddypress #comments .comment-respond .logged-in-as a:nth-of-type(2), body.buddypress #buddypress #activity-stream .comment-respond .logged-in-as a:nth-of-type(2), #bbpress-forums #comments .comment-respond .logged-in-as a:nth-of-type(2), #bbpress-forums #activity-stream .comment-respond .logged-in-as a:nth-of-type(2), .article-footer .comments-link, .learndash-wrapper .ld-status, .learndash-wrapper .ld-status.ld-status-progress, .learndash-wrapper .ld-status.ld-status-complete, .learndash-wrapper .ld-breadcrumbs .ld-status.ld-status-progress, .learndash-wrapper .ld-course-status .ld-status.ld-status-progress, .learndash-wrapper .ld-item-details .ld-status.ld-status-progress, .learndash-wrapper .ld-breadcrumbs .ld-status.ld-status-complete, .learndash-wrapper .ld-course-status .ld-status.ld-status-complete, .learndash-wrapper .ld-item-details .ld-status.ld-status-complete, .learndash-wrapper .ld-breadcrumbs .ld-status.ld-status-waiting, .learndash-wrapper .ld-course-status .ld-status.ld-status-waiting, .learndash-wrapper .ld-item-details .ld-status.ld-status-waiting, .download-box .download-count, body.buddypress .count, body.buddypress #buddypress .membership-requested, body.buddypress #buddypress #comments ul.comment-list .comment-body .activity-state .activity-state-comments, body.buddypress #buddypress #activity-stream ul.comment-list .comment-body .activity-state .activity-state-comments, body.buddypress #buddypress #comments ul.comment-list .comment-body .activity-state .activity-state-likes, body.buddypress #buddypress #activity-stream ul.comment-list .comment-body .activity-state .activity-state-likes, body.buddypress #buddypress .groups .leave-group, body.buddypress #buddypress .groups .nhsuk-body-s.last-activity, body.buddypress #buddypress .groups .nhsuk-list-panel .comment-list .nhsuk-list-panel__item .comment-body .vcard .comment-meta a.last-activity, .nhsuk-list-panel .comment-list .nhsuk-list-panel__item .comment-body .vcard .comment-meta body.buddypress #buddypress .groups a.last-activity, body.buddypress #buddypress .groups #comments .comment-list .nhsuk-list-panel__item .comment-body .vcard .comment-meta a.last-activity, body.buddypress #buddypress #comments .comment-list .nhsuk-list-panel__item .comment-body .vcard .comment-meta .groups a.last-activity, body.buddypress #buddypress .groups #activity-stream .comment-list .nhsuk-list-panel__item .comment-body .vcard .comment-meta a.last-activity, body.buddypress #buddypress #activity-stream .comment-list .nhsuk-list-panel__item .comment-body .vcard .comment-meta .groups a.last-activity, #bbpress-forums #comments .comment-list .nhsuk-list-panel__item .comment-body .vcard .comment-meta body.buddypress #buddypress .groups a.last-activity, #bbpress-forums #activity-stream .comment-list .nhsuk-list-panel__item .comment-body .vcard .comment-meta body.buddypress #buddypress .groups a.last-activity, body.buddypress #buddypress .groups .article-footer .last-activity.cat-links, .article-footer body.buddypress #buddypress .groups .last-activity.cat-links, body.buddypress #buddypress .groups .article-footer .last-activity.tags-links, .article-footer body.buddypress #buddypress .groups .last-activity.tags-links, body.buddypress #buddypress .groups .article-footer .last-activity.comments-link, .article-footer body.buddypress #buddypress .groups .last-activity.comments-link, body.buddypress #buddypress .groups #bbpress-forums .last-activity.bbp-author-name, #bbpress-forums body.buddypress #buddypress .groups .last-activity.bbp-author-name, body.groups.group-invites #send_group_invite_form .select2-container--default .select2-selection--multiple .select2-selection__choice, #bbpress-forums .bbp-topic-tags, #bbpress-forums .item-tags ul li, #bbpress-forums #comments ul.comment-list .comment-body .activity-state .activity-state-comments, #bbpress-forums #activity-stream ul.comment-list .comment-body .activity-state .activity-state-comments, #bbpress-forums #comments ul.comment-list .comment-body .activity-state .activity-state-likes, #bbpress-forums #activity-stream ul.comment-list .comment-body .activity-state .activity-state-likes {
+  .nhsuk-tag, .pagination_split_post .post-page-numbers, #primary footer .edit-link, #primary footer .tags-links, #primary footer .cat-links, .nhsuk-list-panel .comment-list .nhsuk-list-panel__item .comment-body .vcard .fn .comment-author-label, body.buddypress #buddypress #comments .comment-list .nhsuk-list-panel__item .comment-body .vcard .fn .comment-author-label, body.buddypress #buddypress #activity-stream .comment-list .nhsuk-list-panel__item .comment-body .vcard .fn .comment-author-label, #bbpress-forums #comments .comment-list .nhsuk-list-panel__item .comment-body .vcard .fn .comment-author-label, #bbpress-forums #activity-stream .comment-list .nhsuk-list-panel__item .comment-body .vcard .fn .comment-author-label, .nhsuk-list-panel .comment-list .nhsuk-list-panel__item .comment-body .vcard .fn .comment-author-label.comment-author-label-administrator, .nhsuk-list-panel .comment-list .nhsuk-list-panel__item .comment-body .vcard .fn .comment-author-label.comment-author-label-facilitator, .nhsuk-list-panel .comment-respond .logged-in-as a:nth-of-type(2), body.buddypress #buddypress #comments .comment-respond .logged-in-as a:nth-of-type(2), body.buddypress #buddypress #activity-stream .comment-respond .logged-in-as a:nth-of-type(2), #bbpress-forums #comments .comment-respond .logged-in-as a:nth-of-type(2), #bbpress-forums #activity-stream .comment-respond .logged-in-as a:nth-of-type(2), .article-footer .comments-link, .learndash-wrapper .ld-status, .learndash-wrapper .ld-status.ld-status-progress, .learndash-wrapper .ld-status.ld-status-complete, .learndash-wrapper .ld-breadcrumbs .ld-status.ld-status-progress, .learndash-wrapper .ld-course-status .ld-status.ld-status-progress, .learndash-wrapper .ld-item-details .ld-status.ld-status-progress, .learndash-wrapper .ld-breadcrumbs .ld-status.ld-status-complete, .learndash-wrapper .ld-course-status .ld-status.ld-status-complete, .learndash-wrapper .ld-item-details .ld-status.ld-status-complete, .learndash-wrapper .ld-breadcrumbs .ld-status.ld-status-waiting, .learndash-wrapper .ld-course-status .ld-status.ld-status-waiting, .learndash-wrapper .ld-item-details .ld-status.ld-status-waiting, .download-box .download-count, body.buddypress #buddypress .membership-requested, body.buddypress #buddypress #comments ul.comment-list .comment-body .activity-state .activity-state-comments, body.buddypress #buddypress #activity-stream ul.comment-list .comment-body .activity-state .activity-state-comments, body.buddypress #buddypress #comments ul.comment-list .comment-body .activity-state .activity-state-likes, body.buddypress #buddypress #activity-stream ul.comment-list .comment-body .activity-state .activity-state-likes, body.buddypress #buddypress .groups .leave-group, body.buddypress #buddypress .groups .nhsuk-body-s.last-activity, body.buddypress #buddypress .groups .nhsuk-list-panel .comment-list .nhsuk-list-panel__item .comment-body .vcard .comment-meta a.last-activity, .nhsuk-list-panel .comment-list .nhsuk-list-panel__item .comment-body .vcard .comment-meta body.buddypress #buddypress .groups a.last-activity, body.buddypress #buddypress .groups #comments .comment-list .nhsuk-list-panel__item .comment-body .vcard .comment-meta a.last-activity, body.buddypress #buddypress #comments .comment-list .nhsuk-list-panel__item .comment-body .vcard .comment-meta .groups a.last-activity, body.buddypress #buddypress .groups #activity-stream .comment-list .nhsuk-list-panel__item .comment-body .vcard .comment-meta a.last-activity, body.buddypress #buddypress #activity-stream .comment-list .nhsuk-list-panel__item .comment-body .vcard .comment-meta .groups a.last-activity, #bbpress-forums #comments .comment-list .nhsuk-list-panel__item .comment-body .vcard .comment-meta body.buddypress #buddypress .groups a.last-activity, #bbpress-forums #activity-stream .comment-list .nhsuk-list-panel__item .comment-body .vcard .comment-meta body.buddypress #buddypress .groups a.last-activity, body.buddypress #buddypress .groups .article-footer .last-activity.cat-links, .article-footer body.buddypress #buddypress .groups .last-activity.cat-links, body.buddypress #buddypress .groups .article-footer .last-activity.tags-links, .article-footer body.buddypress #buddypress .groups .last-activity.tags-links, body.buddypress #buddypress .groups .article-footer .last-activity.comments-link, .article-footer body.buddypress #buddypress .groups .last-activity.comments-link, body.buddypress #buddypress .groups #bbpress-forums .last-activity.bbp-author-name, #bbpress-forums body.buddypress #buddypress .groups .last-activity.bbp-author-name, body.groups.group-invites #send_group_invite_form .select2-container--default .select2-selection--multiple .select2-selection__choice, #bbpress-forums .bbp-topic-tags, #bbpress-forums .item-tags ul li, #bbpress-forums #comments ul.comment-list .comment-body .activity-state .activity-state-comments, #bbpress-forums #activity-stream ul.comment-list .comment-body .activity-state .activity-state-comments, #bbpress-forums #comments ul.comment-list .comment-body .activity-state .activity-state-likes, #bbpress-forums #activity-stream ul.comment-list .comment-body .activity-state .activity-state-likes {
     font-size: 16px;
     font-size: 1rem;
     line-height: 1;
@@ -12477,7 +12477,7 @@ body.buddypress #buddypress .subnav-filters div input[type="search"]:focus::-ms-
 }
 
 @media print {
-  .nhsuk-tag, .pagination_split_post .post-page-numbers, #primary footer .edit-link, #primary footer .tags-links, #primary footer .cat-links, .nhsuk-list-panel .comment-list .nhsuk-list-panel__item .comment-body .vcard .fn .comment-author-label, body.buddypress #buddypress #comments .comment-list .nhsuk-list-panel__item .comment-body .vcard .fn .comment-author-label, body.buddypress #buddypress #activity-stream .comment-list .nhsuk-list-panel__item .comment-body .vcard .fn .comment-author-label, #bbpress-forums #comments .comment-list .nhsuk-list-panel__item .comment-body .vcard .fn .comment-author-label, #bbpress-forums #activity-stream .comment-list .nhsuk-list-panel__item .comment-body .vcard .fn .comment-author-label, .nhsuk-list-panel .comment-list .nhsuk-list-panel__item .comment-body .vcard .fn .comment-author-label.comment-author-label-administrator, .nhsuk-list-panel .comment-list .nhsuk-list-panel__item .comment-body .vcard .fn .comment-author-label.comment-author-label-facilitator, .nhsuk-list-panel .comment-respond .logged-in-as a:nth-of-type(2), body.buddypress #buddypress #comments .comment-respond .logged-in-as a:nth-of-type(2), body.buddypress #buddypress #activity-stream .comment-respond .logged-in-as a:nth-of-type(2), #bbpress-forums #comments .comment-respond .logged-in-as a:nth-of-type(2), #bbpress-forums #activity-stream .comment-respond .logged-in-as a:nth-of-type(2), .article-footer .comments-link, .learndash-wrapper .ld-status, .learndash-wrapper .ld-status.ld-status-progress, .learndash-wrapper .ld-status.ld-status-complete, .learndash-wrapper .ld-breadcrumbs .ld-status.ld-status-progress, .learndash-wrapper .ld-course-status .ld-status.ld-status-progress, .learndash-wrapper .ld-item-details .ld-status.ld-status-progress, .learndash-wrapper .ld-breadcrumbs .ld-status.ld-status-complete, .learndash-wrapper .ld-course-status .ld-status.ld-status-complete, .learndash-wrapper .ld-item-details .ld-status.ld-status-complete, .learndash-wrapper .ld-breadcrumbs .ld-status.ld-status-waiting, .learndash-wrapper .ld-course-status .ld-status.ld-status-waiting, .learndash-wrapper .ld-item-details .ld-status.ld-status-waiting, .download-box .download-count, body.buddypress .count, body.buddypress #buddypress .membership-requested, body.buddypress #buddypress #comments ul.comment-list .comment-body .activity-state .activity-state-comments, body.buddypress #buddypress #activity-stream ul.comment-list .comment-body .activity-state .activity-state-comments, body.buddypress #buddypress #comments ul.comment-list .comment-body .activity-state .activity-state-likes, body.buddypress #buddypress #activity-stream ul.comment-list .comment-body .activity-state .activity-state-likes, body.buddypress #buddypress .groups .leave-group, body.buddypress #buddypress .groups .nhsuk-body-s.last-activity, body.buddypress #buddypress .groups .nhsuk-list-panel .comment-list .nhsuk-list-panel__item .comment-body .vcard .comment-meta a.last-activity, .nhsuk-list-panel .comment-list .nhsuk-list-panel__item .comment-body .vcard .comment-meta body.buddypress #buddypress .groups a.last-activity, body.buddypress #buddypress .groups #comments .comment-list .nhsuk-list-panel__item .comment-body .vcard .comment-meta a.last-activity, body.buddypress #buddypress #comments .comment-list .nhsuk-list-panel__item .comment-body .vcard .comment-meta .groups a.last-activity, body.buddypress #buddypress .groups #activity-stream .comment-list .nhsuk-list-panel__item .comment-body .vcard .comment-meta a.last-activity, body.buddypress #buddypress #activity-stream .comment-list .nhsuk-list-panel__item .comment-body .vcard .comment-meta .groups a.last-activity, #bbpress-forums #comments .comment-list .nhsuk-list-panel__item .comment-body .vcard .comment-meta body.buddypress #buddypress .groups a.last-activity, #bbpress-forums #activity-stream .comment-list .nhsuk-list-panel__item .comment-body .vcard .comment-meta body.buddypress #buddypress .groups a.last-activity, body.buddypress #buddypress .groups .article-footer .last-activity.cat-links, .article-footer body.buddypress #buddypress .groups .last-activity.cat-links, body.buddypress #buddypress .groups .article-footer .last-activity.tags-links, .article-footer body.buddypress #buddypress .groups .last-activity.tags-links, body.buddypress #buddypress .groups .article-footer .last-activity.comments-link, .article-footer body.buddypress #buddypress .groups .last-activity.comments-link, body.buddypress #buddypress .groups #bbpress-forums .last-activity.bbp-author-name, #bbpress-forums body.buddypress #buddypress .groups .last-activity.bbp-author-name, body.groups.group-invites #send_group_invite_form .select2-container--default .select2-selection--multiple .select2-selection__choice, #bbpress-forums .bbp-topic-tags, #bbpress-forums .item-tags ul li, #bbpress-forums #comments ul.comment-list .comment-body .activity-state .activity-state-comments, #bbpress-forums #activity-stream ul.comment-list .comment-body .activity-state .activity-state-comments, #bbpress-forums #comments ul.comment-list .comment-body .activity-state .activity-state-likes, #bbpress-forums #activity-stream ul.comment-list .comment-body .activity-state .activity-state-likes {
+  .nhsuk-tag, .pagination_split_post .post-page-numbers, #primary footer .edit-link, #primary footer .tags-links, #primary footer .cat-links, .nhsuk-list-panel .comment-list .nhsuk-list-panel__item .comment-body .vcard .fn .comment-author-label, body.buddypress #buddypress #comments .comment-list .nhsuk-list-panel__item .comment-body .vcard .fn .comment-author-label, body.buddypress #buddypress #activity-stream .comment-list .nhsuk-list-panel__item .comment-body .vcard .fn .comment-author-label, #bbpress-forums #comments .comment-list .nhsuk-list-panel__item .comment-body .vcard .fn .comment-author-label, #bbpress-forums #activity-stream .comment-list .nhsuk-list-panel__item .comment-body .vcard .fn .comment-author-label, .nhsuk-list-panel .comment-list .nhsuk-list-panel__item .comment-body .vcard .fn .comment-author-label.comment-author-label-administrator, .nhsuk-list-panel .comment-list .nhsuk-list-panel__item .comment-body .vcard .fn .comment-author-label.comment-author-label-facilitator, .nhsuk-list-panel .comment-respond .logged-in-as a:nth-of-type(2), body.buddypress #buddypress #comments .comment-respond .logged-in-as a:nth-of-type(2), body.buddypress #buddypress #activity-stream .comment-respond .logged-in-as a:nth-of-type(2), #bbpress-forums #comments .comment-respond .logged-in-as a:nth-of-type(2), #bbpress-forums #activity-stream .comment-respond .logged-in-as a:nth-of-type(2), .article-footer .comments-link, .learndash-wrapper .ld-status, .learndash-wrapper .ld-status.ld-status-progress, .learndash-wrapper .ld-status.ld-status-complete, .learndash-wrapper .ld-breadcrumbs .ld-status.ld-status-progress, .learndash-wrapper .ld-course-status .ld-status.ld-status-progress, .learndash-wrapper .ld-item-details .ld-status.ld-status-progress, .learndash-wrapper .ld-breadcrumbs .ld-status.ld-status-complete, .learndash-wrapper .ld-course-status .ld-status.ld-status-complete, .learndash-wrapper .ld-item-details .ld-status.ld-status-complete, .learndash-wrapper .ld-breadcrumbs .ld-status.ld-status-waiting, .learndash-wrapper .ld-course-status .ld-status.ld-status-waiting, .learndash-wrapper .ld-item-details .ld-status.ld-status-waiting, .download-box .download-count, body.buddypress #buddypress .membership-requested, body.buddypress #buddypress #comments ul.comment-list .comment-body .activity-state .activity-state-comments, body.buddypress #buddypress #activity-stream ul.comment-list .comment-body .activity-state .activity-state-comments, body.buddypress #buddypress #comments ul.comment-list .comment-body .activity-state .activity-state-likes, body.buddypress #buddypress #activity-stream ul.comment-list .comment-body .activity-state .activity-state-likes, body.buddypress #buddypress .groups .leave-group, body.buddypress #buddypress .groups .nhsuk-body-s.last-activity, body.buddypress #buddypress .groups .nhsuk-list-panel .comment-list .nhsuk-list-panel__item .comment-body .vcard .comment-meta a.last-activity, .nhsuk-list-panel .comment-list .nhsuk-list-panel__item .comment-body .vcard .comment-meta body.buddypress #buddypress .groups a.last-activity, body.buddypress #buddypress .groups #comments .comment-list .nhsuk-list-panel__item .comment-body .vcard .comment-meta a.last-activity, body.buddypress #buddypress #comments .comment-list .nhsuk-list-panel__item .comment-body .vcard .comment-meta .groups a.last-activity, body.buddypress #buddypress .groups #activity-stream .comment-list .nhsuk-list-panel__item .comment-body .vcard .comment-meta a.last-activity, body.buddypress #buddypress #activity-stream .comment-list .nhsuk-list-panel__item .comment-body .vcard .comment-meta .groups a.last-activity, #bbpress-forums #comments .comment-list .nhsuk-list-panel__item .comment-body .vcard .comment-meta body.buddypress #buddypress .groups a.last-activity, #bbpress-forums #activity-stream .comment-list .nhsuk-list-panel__item .comment-body .vcard .comment-meta body.buddypress #buddypress .groups a.last-activity, body.buddypress #buddypress .groups .article-footer .last-activity.cat-links, .article-footer body.buddypress #buddypress .groups .last-activity.cat-links, body.buddypress #buddypress .groups .article-footer .last-activity.tags-links, .article-footer body.buddypress #buddypress .groups .last-activity.tags-links, body.buddypress #buddypress .groups .article-footer .last-activity.comments-link, .article-footer body.buddypress #buddypress .groups .last-activity.comments-link, body.buddypress #buddypress .groups #bbpress-forums .last-activity.bbp-author-name, #bbpress-forums body.buddypress #buddypress .groups .last-activity.bbp-author-name, body.groups.group-invites #send_group_invite_form .select2-container--default .select2-selection--multiple .select2-selection__choice, #bbpress-forums .bbp-topic-tags, #bbpress-forums .item-tags ul li, #bbpress-forums #comments ul.comment-list .comment-body .activity-state .activity-state-comments, #bbpress-forums #activity-stream ul.comment-list .comment-body .activity-state .activity-state-comments, #bbpress-forums #comments ul.comment-list .comment-body .activity-state .activity-state-likes, #bbpress-forums #activity-stream ul.comment-list .comment-body .activity-state .activity-state-likes {
     font-size: 14pt;
     line-height: 1;
   }
@@ -14935,40 +14935,40 @@ ul.download-versions {
   margin-bottom: 0;
 }
 
-.nhsuk-bordered-tabs-container {
+.nhsuk-bordered-tabs-container, .nhsuk-bordered-tabs-container-footer {
   padding-top: 8px;
   background-color: #ffffff;
   border-bottom: 2px solid #aeb7bd;
 }
 
-.nhsuk-bordered-tabs-container .nhsuk-bordered-tabs {
+.nhsuk-bordered-tabs-container .nhsuk-bordered-tabs, .nhsuk-bordered-tabs-container-footer .nhsuk-bordered-tabs {
   padding: 0;
   margin-bottom: 0;
   display: flex;
 }
 
-.nhsuk-bordered-tabs-container .nhsuk-bordered-tabs .nhsuk-bordered-tabs-item {
+.nhsuk-bordered-tabs-container .nhsuk-bordered-tabs .nhsuk-bordered-tabs-item, .nhsuk-bordered-tabs-container-footer .nhsuk-bordered-tabs .nhsuk-bordered-tabs-item {
   display: inline-block;
   padding: 16px 24px;
   margin-bottom: 0;
   font-size: 16px;
 }
 
-.nhsuk-bordered-tabs-container .nhsuk-bordered-tabs .nhsuk-bordered-tabs-item a {
+.nhsuk-bordered-tabs-container .nhsuk-bordered-tabs .nhsuk-bordered-tabs-item a, .nhsuk-bordered-tabs-container-footer .nhsuk-bordered-tabs .nhsuk-bordered-tabs-item a {
   text-decoration: none;
   word-break: initial;
 }
 
-.nhsuk-bordered-tabs-container .nhsuk-bordered-tabs .nhsuk-bordered-tabs-item a:visited {
+.nhsuk-bordered-tabs-container .nhsuk-bordered-tabs .nhsuk-bordered-tabs-item a:visited, .nhsuk-bordered-tabs-container-footer .nhsuk-bordered-tabs .nhsuk-bordered-tabs-item a:visited {
   text-decoration: none;
   color: #330072;
 }
 
-.nhsuk-bordered-tabs-container .nhsuk-bordered-tabs .nhsuk-bordered-tabs-item a:hover {
+.nhsuk-bordered-tabs-container .nhsuk-bordered-tabs .nhsuk-bordered-tabs-item a:hover, .nhsuk-bordered-tabs-container-footer .nhsuk-bordered-tabs .nhsuk-bordered-tabs-item a:hover {
   text-decoration: underline;
 }
 
-.nhsuk-bordered-tabs-container .nhsuk-bordered-tabs .nhsuk-bordered-tabs-item.nhsuk-bordered-tabs-item-active {
+.nhsuk-bordered-tabs-container .nhsuk-bordered-tabs .nhsuk-bordered-tabs-item.nhsuk-bordered-tabs-item-active, .nhsuk-bordered-tabs-container-footer .nhsuk-bordered-tabs .nhsuk-bordered-tabs-item.nhsuk-bordered-tabs-item-active {
   background-color: #f0f4f5;
   border: 2px solid #aeb7bd;
   border-radius: 4px 4px 0 0;
@@ -14978,34 +14978,46 @@ ul.download-versions {
   color: #005eb8;
 }
 
-@media (max-width: 40.0525em) {
-  .nhsuk-bordered-tabs-container {
+@media (max-width: 61.865em) {
+  .nhsuk-bordered-tabs-container, .nhsuk-bordered-tabs-container-footer {
     background: inherit;
     border-bottom: none;
   }
-  .nhsuk-bordered-tabs-container:before {
-    content: 'Pages in this section:';
-    font-weight: 600;
-    margin: 0 0 16px 16px;
+  .nhsuk-bordered-tabs-container .close-menu-buddynav, .nhsuk-bordered-tabs-container-footer .close-menu-buddynav {
+    display: none;
+    background: #ffffff;
+    top: -8px;
+    position: absolute;
   }
-  .nhsuk-bordered-tabs-container .nhsuk-bordered-tabs {
-    display: block;
+  .nhsuk-bordered-tabs-container .label-navigation-buddynav, .nhsuk-bordered-tabs-container-footer .label-navigation-buddynav {
+    border-radius: 4px;
+    border: 2px solid #768692;
+    background: #ffffff;
+    padding: 8px 16px;
+  }
+  .nhsuk-bordered-tabs-container .nhsuk-bordered-tabs, .nhsuk-bordered-tabs-container-footer .nhsuk-bordered-tabs {
+    display: none;
     list-style: none;
     padding: 0;
     margin-top: 8px;
   }
-  .nhsuk-bordered-tabs-container .nhsuk-bordered-tabs .nhsuk-bordered-tabs-item {
-    background: url("data:image/svg+xml,%3Csvg class='nhsuk-icon nhsuk-icon__emdash' xmlns='http://www.w3.org/2000/svg' fill='%23aeb7bd' width='19' height='1' aria-hidden='true'%3E%3Cpath d='M0 0h19v1H0z'%3E%3C/path%3E%3C/svg%3E") left 0.75rem no-repeat;
-    padding: 0 0 8px 32px;
+  .nhsuk-bordered-tabs-container .nhsuk-bordered-tabs .nhsuk-bordered-tabs-item, .nhsuk-bordered-tabs-container-footer .nhsuk-bordered-tabs .nhsuk-bordered-tabs-item {
+    padding: 8px 0 8px 32px;
     position: relative;
     display: list-item;
+    background: #ffffff;
+    width: 100%;
+    border-bottom: 2px solid #f0f4f5;
   }
-  .nhsuk-bordered-tabs-container .nhsuk-bordered-tabs .nhsuk-bordered-tabs-item.nhsuk-bordered-tabs-item-active {
-    border: none !important;
-  }
-  .nhsuk-bordered-tabs-container .nhsuk-bordered-tabs .nhsuk-bordered-tabs-item a {
+  .nhsuk-bordered-tabs-container .nhsuk-bordered-tabs .nhsuk-bordered-tabs-item a, .nhsuk-bordered-tabs-container-footer .nhsuk-bordered-tabs .nhsuk-bordered-tabs-item a {
     display: inline-block;
     color: #212b32;
+  }
+  .nhsuk-bordered-tabs-container .nhsuk-bordered-tabs .nhsuk-bordered-tabs-item.nhsuk-bordered-tabs-item-active, .nhsuk-bordered-tabs-container-footer .nhsuk-bordered-tabs .nhsuk-bordered-tabs-item.nhsuk-bordered-tabs-item-active {
+    background: #005eb8;
+  }
+  .nhsuk-bordered-tabs-container .nhsuk-bordered-tabs .nhsuk-bordered-tabs-item.nhsuk-bordered-tabs-item-active a, .nhsuk-bordered-tabs-container-footer .nhsuk-bordered-tabs .nhsuk-bordered-tabs-item.nhsuk-bordered-tabs-item-active a {
+    color: #ffffff;
   }
 }
 
@@ -16364,6 +16376,31 @@ body.buddypress {
   /* course page styling */
 }
 
+body.buddypress .count {
+  border-radius: 50%;
+  padding: 4px 8px;
+  background-color: #d5281b;
+  color: #ffffff;
+  font-size: 12px;
+  font-size: 0.75rem;
+  line-height: 1.66667;
+}
+
+@media (min-width: 40.0625em) {
+  body.buddypress .count {
+    font-size: 14px;
+    font-size: 0.875rem;
+    line-height: 1.71429;
+  }
+}
+
+@media print {
+  body.buddypress .count {
+    font-size: 12pt;
+    line-height: 1.2;
+  }
+}
+
 body.buddypress #buddypress {
   /* extend buddypress form elements */
   /* Manage Members Custom Styling */
@@ -16551,7 +16588,7 @@ body.buddypress #buddypress #comments ul.comment-list, body.buddypress #buddypre
   list-style: none;
 }
 
-body.buddypress #buddypress #comments ul.comment-list li .div-comment, body.buddypress #buddypress #activity-stream ul.comment-list li .div-comment {
+body.buddypress #buddypress #comments ul.comment-list li .div-comment, body.buddypress #buddypress #comments ul.comment-list li .comment-body, body.buddypress #buddypress #activity-stream ul.comment-list li .div-comment, body.buddypress #buddypress #activity-stream ul.comment-list li .comment-body {
   clear: both;
   background-color: inherit;
 }
@@ -16570,6 +16607,11 @@ body.buddypress #buddypress #comments ul.comment-list li:first-of-type .comment-
 
 body.buddypress #buddypress #comments ul.comment-list li:first-of-type .comment-author, body.buddypress #buddypress #activity-stream ul.comment-list li:first-of-type .comment-author {
   display: none;
+}
+
+body.buddypress #buddypress #comments ul.comment-list li.load-more, body.buddypress #buddypress #activity-stream ul.comment-list li.load-more {
+  clear: both;
+  margin-top: 32px;
 }
 
 body.buddypress #buddypress #comments ul.comment-list .comment-body, body.buddypress #buddypress #activity-stream ul.comment-list .comment-body {
@@ -16672,12 +16714,33 @@ body.buddypress #buddypress .bp-manage-group-container .usernames .avatar {
   border-radius: 50%;
 }
 
-body.buddypress .nhsuk-bordered-tabs-container .nhsuk-bordered-tabs .nhsuk-bordered-tabs-item {
+.nhsuk-bordered-tabs-container .nhsuk-bordered-tabs .nhsuk-bordered-tabs-item, .nhsuk-bordered-tabs-container-footer .nhsuk-bordered-tabs .nhsuk-bordered-tabs-item {
   padding: 8px;
 }
 
-body.buddypress .nhsuk-bordered-tabs-container .nhsuk-bordered-tabs .nhsuk-bordered-tabs-item.nhsuk-bordered-tabs-item-active-alt {
+.nhsuk-bordered-tabs-container .nhsuk-bordered-tabs .nhsuk-bordered-tabs-item.nhsuk-bordered-tabs-item-active-alt, .nhsuk-bordered-tabs-container-footer .nhsuk-bordered-tabs .nhsuk-bordered-tabs-item.nhsuk-bordered-tabs-item-active-alt {
   border-bottom: 8px solid #005eb8;
+}
+
+.nhsuk-bordered-tabs-container-footer {
+  background: #f0f4f5;
+}
+
+.nhsuk-bordered-tabs-container-footer .nhsuk-bordered-tabs .nhsuk-bordered-tabs-item:hover {
+  background: #768692;
+}
+
+.nhsuk-bordered-tabs-container-footer .nhsuk-bordered-tabs .nhsuk-bordered-tabs-item:hover a {
+  color: #ffffff;
+}
+
+.nhsuk-bordered-tabs-container-footer .nhsuk-bordered-tabs .nhsuk-bordered-tabs-item.nhsuk-bordered-tabs-item-active {
+  background: #005eb8;
+  border-color: #005eb8;
+}
+
+.nhsuk-bordered-tabs-container-footer .nhsuk-bordered-tabs .nhsuk-bordered-tabs-item.nhsuk-bordered-tabs-item-active a {
+  color: #ffffff;
 }
 
 /* The Modal (background) */
@@ -16943,7 +17006,7 @@ body.groups.group-invites #send_group_invite_form .select2-container--default .s
   list-style: none;
 }
 
-#bbpress-forums #comments ul.comment-list li .div-comment, #bbpress-forums #activity-stream ul.comment-list li .div-comment {
+#bbpress-forums #comments ul.comment-list li .div-comment, #bbpress-forums #comments ul.comment-list li .comment-body, #bbpress-forums #activity-stream ul.comment-list li .div-comment, #bbpress-forums #activity-stream ul.comment-list li .comment-body {
   clear: both;
   background-color: inherit;
 }
@@ -16962,6 +17025,11 @@ body.groups.group-invites #send_group_invite_form .select2-container--default .s
 
 #bbpress-forums #comments ul.comment-list li:first-of-type .comment-author, #bbpress-forums #activity-stream ul.comment-list li:first-of-type .comment-author {
   display: none;
+}
+
+#bbpress-forums #comments ul.comment-list li.load-more, #bbpress-forums #activity-stream ul.comment-list li.load-more {
+  clear: both;
+  margin-top: 32px;
 }
 
 #bbpress-forums #comments ul.comment-list .comment-body, #bbpress-forums #activity-stream ul.comment-list .comment-body {
@@ -17012,12 +17080,6 @@ body.groups.group-invites #send_group_invite_form .select2-container--default .s
   display: block;
 }
 
-@media (max-width: 40.0525em) {
-  .bb-groups-invites-left.bb-select-member-view {
-    background: #ffffff;
-  }
-}
-
 /* Buddypress header nav elements */
 .buddypress-header .nhsuk-icon-buddy-search {
   fill: #ffffff;
@@ -17026,8 +17088,8 @@ body.groups.group-invites #send_group_invite_form .select2-container--default .s
 }
 
 .buddypress-header img {
-  width: 32px;
-  height: 32px;
+  width: 24px;
+  height: 24px;
   float: left;
   margin-left: 16px;
   filter: invert(1);
@@ -17046,54 +17108,32 @@ body.groups.group-invites #send_group_invite_form .select2-container--default .s
   text-align: left;
 }
 
-.buddypress-header .buddy-head-popouts .header-count {
-  background: red;
-  border-radius: 50%;
-  padding: 0 4px;
-  position: relative;
-  left: -8px;
+.buddypress-header .buddy-head-popouts a {
+  margin-right: 16px;
 }
 
-.buddypress-header .buddy-head-popouts .bottom {
-  min-width: 200px;
-  /*max-width:400px;*/
-  top: 40px;
-  left: 50%;
-  transform: translate(-50%, 0);
-  padding: 20px;
-  color: #212b32;
-  background-color: #ffffff;
-  font-weight: normal;
-  font-size: 13px;
-  border-radius: 8px;
+.buddypress-header .buddy-head-popouts .count {
   position: absolute;
-  z-index: 99999999;
-  box-sizing: border-box;
-  box-shadow: 0 1px 8px rgba(0, 0, 0, 0.5);
-  display: none;
+  right: 0;
 }
 
-.buddypress-header .buddy-head-popouts .bottom i {
-  position: absolute;
-  bottom: 100%;
-  left: 50%;
-  margin-left: -12px;
-  width: 24px;
-  height: 12px;
-  overflow: hidden;
-}
-
-.buddypress-header .buddy-head-popouts .bottom i::after {
-  content: '';
-  position: absolute;
-  width: 12px;
-  height: 12px;
-  left: 50%;
-  transform: translate(-50%, 50%) rotate(45deg);
-  background-color: #eeeeee;
-  box-shadow: 0 1px 8px rgba(0, 0, 0, 0.5);
-}
-
-.buddypress-header .buddy-head-popouts:hover .bottom {
-  display: block;
+@media (max-width: 40.0525em) {
+  .bb-groups-invites-left.bb-select-member-view {
+    background: #ffffff;
+  }
+  .buddypress-header .buddy-head-popouts {
+    float: right;
+  }
+  .buddypress-header .buddy-head-popouts a {
+    margin-right: 4px;
+  }
+  .buddypress-header .buddy-head-popouts .count {
+    padding: 0 4px;
+  }
+  .buddypress-header #buddy-search {
+    display: none;
+  }
+  .buddypress-header .buddy-header-search {
+    display: block;
+  }
 }

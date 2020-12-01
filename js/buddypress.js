@@ -80,15 +80,31 @@ jQuery(document).on('click', '.js-modal-close', function (e) {
  *  submit modal forms
  */
 const modalRegion = document.querySelector( '.bb-modal-box' );
-const modalForm = modalRegion.querySelector( 'form' );
-const submitModal = modalForm.querySelector( '.submit' );
-jQuery( submitModal ).click(function() {
-  jQuery(modalForm).submit();
-});
+if (modalRegion) {
+  const modalForm = modalRegion.querySelector('form');
+  const submitModal = modalForm.querySelector('.submit');
+  jQuery(submitModal).click(function () {
+    jQuery(modalForm).submit();
+  });
+}
 
 /* buddy header animations */
 jQuery(document).on('click', '.buddy-search', function (e) {
   e.preventDefault();
   jQuery('.buddy-search').toggle();
   jQuery('.buddy-header-search').show('slide', {direction: 'left'}, 500);
+});
+
+/**
+ * Buddy nav show/hide for mobile
+ */
+jQuery(document).on('click', '.label-navigation-buddynav', function (e) {
+  jQuery(this).parent().siblings('.buddynav-menu').show();
+  jQuery(this).siblings('.close-menu-buddynav').show();
+  jQuery(this).hide();
+});
+jQuery(document).on('click', '.close-menu-buddynav', function (e) {
+  jQuery(this).parent().siblings('.buddynav-menu').hide();
+  jQuery(this).siblings('.label-navigation-buddynav').show();
+  jQuery(this).hide();
 });

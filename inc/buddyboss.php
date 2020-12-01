@@ -328,3 +328,4 @@ if ( ! function_exists( 'nightingale_theme_following_count' ) ) {
 		}
 	}
 }
+
