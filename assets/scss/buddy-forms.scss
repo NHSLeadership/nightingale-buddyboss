@@ -38,6 +38,13 @@ select {
 input[type="textarea"] {
   @extend .nhsuk-textarea;
 }
+
+.bp-faux-placeholder-label {
+  @extend .nhsuk-textarea;
+  background:  $color_nhsuk-white;
+  border: 1px solid $color_nhsuk_black !important; // added important tag to avoid 28 different specific rules
+}
+
 #bp-nouveau-activity-form {
   @extend .nhsuk-form-group;
   border : none;

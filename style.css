@@ -12579,7 +12579,7 @@ body.buddypress #buddypress .subnav-filters div input[type="search"]:focus::-ms-
 /* ==========================================================================
    COMPONENTS/ #TEXTAREA
    ========================================================================== */
-.nhsuk-textarea, .learndash-wrapper .wpProQuiz_content textarea, body.buddypress #buddypress input[type="textarea"], body.buddypress #buddypress #bp-nouveau-activity-form #whats-new-textarea, body.buddypress #buddypress #bp-message-content #message_content, #bbpress-forums .medium-editor-element, #bbpress-forums #bbp_editor_reply_content_forums_editor_1 {
+.nhsuk-textarea, .learndash-wrapper .wpProQuiz_content textarea, body.buddypress #buddypress input[type="textarea"], body.buddypress #buddypress .bp-faux-placeholder-label, body.buddypress #buddypress #bp-nouveau-activity-form #whats-new-textarea, body.buddypress #buddypress #bp-message-content #message_content, #bbpress-forums .medium-editor-element, #bbpress-forums #bbp_editor_reply_content_forums_editor_1 {
   font-weight: 400;
   font-size: 16px;
   font-size: 1rem;
@@ -12596,7 +12596,7 @@ body.buddypress #buddypress .subnav-filters div input[type="search"]:focus::-ms-
 }
 
 @media (min-width: 40.0625em) {
-  .nhsuk-textarea, .learndash-wrapper .wpProQuiz_content textarea, body.buddypress #buddypress input[type="textarea"], body.buddypress #buddypress #bp-nouveau-activity-form #whats-new-textarea, body.buddypress #buddypress #bp-message-content #message_content, #bbpress-forums .medium-editor-element, #bbpress-forums #bbp_editor_reply_content_forums_editor_1 {
+  .nhsuk-textarea, .learndash-wrapper .wpProQuiz_content textarea, body.buddypress #buddypress input[type="textarea"], body.buddypress #buddypress .bp-faux-placeholder-label, body.buddypress #buddypress #bp-nouveau-activity-form #whats-new-textarea, body.buddypress #buddypress #bp-message-content #message_content, #bbpress-forums .medium-editor-element, #bbpress-forums #bbp_editor_reply_content_forums_editor_1 {
     font-size: 19px;
     font-size: 1.1875rem;
     line-height: 1.47368;
@@ -12604,13 +12604,13 @@ body.buddypress #buddypress .subnav-filters div input[type="search"]:focus::-ms-
 }
 
 @media print {
-  .nhsuk-textarea, .learndash-wrapper .wpProQuiz_content textarea, body.buddypress #buddypress input[type="textarea"], body.buddypress #buddypress #bp-nouveau-activity-form #whats-new-textarea, body.buddypress #buddypress #bp-message-content #message_content, #bbpress-forums .medium-editor-element, #bbpress-forums #bbp_editor_reply_content_forums_editor_1 {
+  .nhsuk-textarea, .learndash-wrapper .wpProQuiz_content textarea, body.buddypress #buddypress input[type="textarea"], body.buddypress #buddypress .bp-faux-placeholder-label, body.buddypress #buddypress #bp-nouveau-activity-form #whats-new-textarea, body.buddypress #buddypress #bp-message-content #message_content, #bbpress-forums .medium-editor-element, #bbpress-forums #bbp_editor_reply_content_forums_editor_1 {
     font-size: 14pt;
     line-height: 1.15;
   }
 }
 
-.nhsuk-textarea:focus, .learndash-wrapper .wpProQuiz_content textarea:focus, body.buddypress #buddypress input:focus[type="textarea"], body.buddypress #buddypress #bp-nouveau-activity-form #whats-new-textarea:focus, body.buddypress #buddypress #bp-message-content #message_content:focus, #bbpress-forums .medium-editor-element:focus, #bbpress-forums #bbp_editor_reply_content_forums_editor_1:focus {
+.nhsuk-textarea:focus, .learndash-wrapper .wpProQuiz_content textarea:focus, body.buddypress #buddypress input:focus[type="textarea"], body.buddypress #buddypress .bp-faux-placeholder-label:focus, body.buddypress #buddypress #bp-nouveau-activity-form #whats-new-textarea:focus, body.buddypress #buddypress #bp-message-content #message_content:focus, #bbpress-forums .medium-editor-element:focus, #bbpress-forums #bbp_editor_reply_content_forums_editor_1:focus {
   border: 2px solid #212b32;
   box-shadow: inset 0 0 0 2px;
   outline: 4px solid #ffeb3b;
@@ -12731,7 +12731,7 @@ body.buddypress #buddypress .subnav-filters div input[type="search"]:focus::-ms-
   max-width: 100%;
 }
 
-.nhsuk-textarea, .learndash-wrapper .wpProQuiz_content textarea, body.buddypress #buddypress input[type="textarea"], body.buddypress #buddypress #bp-nouveau-activity-form #whats-new-textarea, body.buddypress #buddypress #bp-message-content #message_content, #bbpress-forums .medium-editor-element, #bbpress-forums #bbp_editor_reply_content_forums_editor_1 {
+.nhsuk-textarea, .learndash-wrapper .wpProQuiz_content textarea, body.buddypress #buddypress input[type="textarea"], body.buddypress #buddypress .bp-faux-placeholder-label, body.buddypress #buddypress #bp-nouveau-activity-form #whats-new-textarea, body.buddypress #buddypress #bp-message-content #message_content, #bbpress-forums .medium-editor-element, #bbpress-forums #bbp_editor_reply_content_forums_editor_1 {
   min-height: 10rem;
   width: 100%;
 }
@@ -14017,7 +14017,7 @@ button {
   padding-left: 24px;
 }
 
-.gform_wrapper .gform_body .nhsuk-textarea, .gform_wrapper .gform_body .learndash-wrapper .wpProQuiz_content textarea, .learndash-wrapper .wpProQuiz_content .gform_wrapper .gform_body textarea, .gform_wrapper .gform_body body.buddypress #buddypress input[type="textarea"], body.buddypress #buddypress .gform_wrapper .gform_body input[type="textarea"], .gform_wrapper .gform_body body.buddypress #buddypress #bp-nouveau-activity-form #whats-new-textarea, body.buddypress #buddypress #bp-nouveau-activity-form .gform_wrapper .gform_body #whats-new-textarea, .gform_wrapper .gform_body body.buddypress #buddypress #bp-message-content #message_content, body.buddypress #buddypress #bp-message-content .gform_wrapper .gform_body #message_content, .gform_wrapper .gform_body #bbpress-forums .medium-editor-element, #bbpress-forums .gform_wrapper .gform_body .medium-editor-element, .gform_wrapper .gform_body #bbpress-forums #bbp_editor_reply_content_forums_editor_1, #bbpress-forums .gform_wrapper .gform_body #bbp_editor_reply_content_forums_editor_1 {
+.gform_wrapper .gform_body .nhsuk-textarea, .gform_wrapper .gform_body .learndash-wrapper .wpProQuiz_content textarea, .learndash-wrapper .wpProQuiz_content .gform_wrapper .gform_body textarea, .gform_wrapper .gform_body body.buddypress #buddypress input[type="textarea"], body.buddypress #buddypress .gform_wrapper .gform_body input[type="textarea"], .gform_wrapper .gform_body body.buddypress #buddypress .bp-faux-placeholder-label, body.buddypress #buddypress .gform_wrapper .gform_body .bp-faux-placeholder-label, .gform_wrapper .gform_body body.buddypress #buddypress #bp-nouveau-activity-form #whats-new-textarea, body.buddypress #buddypress #bp-nouveau-activity-form .gform_wrapper .gform_body #whats-new-textarea, .gform_wrapper .gform_body body.buddypress #buddypress #bp-message-content #message_content, body.buddypress #buddypress #bp-message-content .gform_wrapper .gform_body #message_content, .gform_wrapper .gform_body #bbpress-forums .medium-editor-element, #bbpress-forums .gform_wrapper .gform_body .medium-editor-element, .gform_wrapper .gform_body #bbpress-forums #bbp_editor_reply_content_forums_editor_1, #bbpress-forums .gform_wrapper .gform_body #bbp_editor_reply_content_forums_editor_1 {
   min-height: 200px;
 }
 
@@ -14025,7 +14025,7 @@ button {
   display: none;
 }
 
-.gform_wrapper .gform_body .gform_wrapper li.gfield fieldset .nhsuk-textarea, .gform_wrapper .gform_body .gform_wrapper li.gfield fieldset .learndash-wrapper .wpProQuiz_content textarea, .learndash-wrapper .wpProQuiz_content .gform_wrapper .gform_body .gform_wrapper li.gfield fieldset textarea, .gform_wrapper .gform_body .gform_wrapper li.gfield fieldset body.buddypress #buddypress input[type="textarea"], body.buddypress #buddypress .gform_wrapper .gform_body .gform_wrapper li.gfield fieldset input[type="textarea"], .gform_wrapper .gform_body .gform_wrapper li.gfield fieldset body.buddypress #buddypress #bp-nouveau-activity-form #whats-new-textarea, body.buddypress #buddypress #bp-nouveau-activity-form .gform_wrapper .gform_body .gform_wrapper li.gfield fieldset #whats-new-textarea, .gform_wrapper .gform_body .gform_wrapper li.gfield fieldset body.buddypress #buddypress #bp-message-content #message_content, body.buddypress #buddypress #bp-message-content .gform_wrapper .gform_body .gform_wrapper li.gfield fieldset #message_content, .gform_wrapper .gform_body .gform_wrapper li.gfield fieldset #bbpress-forums .medium-editor-element, #bbpress-forums .gform_wrapper .gform_body .gform_wrapper li.gfield fieldset .medium-editor-element, .gform_wrapper .gform_body .gform_wrapper li.gfield fieldset #bbpress-forums #bbp_editor_reply_content_forums_editor_1, #bbpress-forums .gform_wrapper .gform_body .gform_wrapper li.gfield fieldset #bbp_editor_reply_content_forums_editor_1 {
+.gform_wrapper .gform_body .gform_wrapper li.gfield fieldset .nhsuk-textarea, .gform_wrapper .gform_body .gform_wrapper li.gfield fieldset .learndash-wrapper .wpProQuiz_content textarea, .learndash-wrapper .wpProQuiz_content .gform_wrapper .gform_body .gform_wrapper li.gfield fieldset textarea, .gform_wrapper .gform_body .gform_wrapper li.gfield fieldset body.buddypress #buddypress input[type="textarea"], body.buddypress #buddypress .gform_wrapper .gform_body .gform_wrapper li.gfield fieldset input[type="textarea"], .gform_wrapper .gform_body .gform_wrapper li.gfield fieldset body.buddypress #buddypress .bp-faux-placeholder-label, body.buddypress #buddypress .gform_wrapper .gform_body .gform_wrapper li.gfield fieldset .bp-faux-placeholder-label, .gform_wrapper .gform_body .gform_wrapper li.gfield fieldset body.buddypress #buddypress #bp-nouveau-activity-form #whats-new-textarea, body.buddypress #buddypress #bp-nouveau-activity-form .gform_wrapper .gform_body .gform_wrapper li.gfield fieldset #whats-new-textarea, .gform_wrapper .gform_body .gform_wrapper li.gfield fieldset body.buddypress #buddypress #bp-message-content #message_content, body.buddypress #buddypress #bp-message-content .gform_wrapper .gform_body .gform_wrapper li.gfield fieldset #message_content, .gform_wrapper .gform_body .gform_wrapper li.gfield fieldset #bbpress-forums .medium-editor-element, #bbpress-forums .gform_wrapper .gform_body .gform_wrapper li.gfield fieldset .medium-editor-element, .gform_wrapper .gform_body .gform_wrapper li.gfield fieldset #bbpress-forums #bbp_editor_reply_content_forums_editor_1, #bbpress-forums .gform_wrapper .gform_body .gform_wrapper li.gfield fieldset #bbp_editor_reply_content_forums_editor_1 {
   width: 100%;
 }
 
@@ -16469,6 +16469,11 @@ body.buddypress #buddypress {
   /* Groups Overview page */
 }
 
+body.buddypress #buddypress .bp-faux-placeholder-label {
+  background: #ffffff;
+  border: 1px solid #212b32 !important;
+}
+
 body.buddypress #buddypress #bp-nouveau-activity-form {
   border: none;
 }
@@ -16613,6 +16618,7 @@ body.buddypress #buddypress .group-invites-search .nhsuk-search textarea, body.b
   border-right: 0;
   border-radius: 4px 0 0 4px;
   float: left;
+  width: 80%;
 }
 
 body.buddypress #buddypress .group-invites-search .nhsuk-search .nhsuk-search__submit {
@@ -16815,6 +16821,18 @@ body.buddypress #buddypress .bp-manage-group-container .usernames .avatar {
 
 .nhsuk-bordered-tabs-container .nhsuk-bordered-tabs .nhsuk-bordered-tabs-item, .nhsuk-bordered-tabs-container-footer .nhsuk-bordered-tabs .nhsuk-bordered-tabs-item {
   padding: 8px;
+  position: relative;
+}
+
+.nhsuk-bordered-tabs-container .nhsuk-bordered-tabs .nhsuk-bordered-tabs-item a .count, .nhsuk-bordered-tabs-container-footer .nhsuk-bordered-tabs .nhsuk-bordered-tabs-item a .count {
+  position: absolute;
+  top: 0px;
+  right: -4px;
+  width: 16px;
+  height: 16px;
+  font-size: 10px;
+  padding: 0px;
+  text-align: center;
 }
 
 .nhsuk-bordered-tabs-container .nhsuk-bordered-tabs .nhsuk-bordered-tabs-item.nhsuk-bordered-tabs-item-active-alt, .nhsuk-bordered-tabs-container-footer .nhsuk-bordered-tabs .nhsuk-bordered-tabs-item.nhsuk-bordered-tabs-item-active-alt {
