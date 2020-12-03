@@ -36,3 +36,25 @@ if ( in_array( 'buddyboss-platform/bp-loader.php', $active_plugins, true ) ) {
 	}
 }
 
+/**
+ * Function to show/hide buddy icons when search activated on mobile
+ * This seems counterintuitive, because it fires *before* the class "is-active" gets modified.
+ */
+function nightingale_buddy_search_mobile_fix() {
+	echo "<script>
+
+jQuery('#toggle-search').click(function() {
+  	if (jQuery(this).is('.is-active')) {
+	    jQuery('.buddypress-header').show();
+	} else {
+	  console.log('that happened');  
+	    jQuery('.buddypress-header').hide();
+	}
+});
+jQuery('#close-search').click(function() {
+  jQuery('.buddypress-header').show();
+});
+</script>";
+}
+add_action( 'wp_footer', 'nightingale_buddy_search_mobile_fix' );
+

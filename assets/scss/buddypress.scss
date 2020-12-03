@@ -1,11 +1,12 @@
+.count {
+  border-radius: 50%;
+  padding: nhsuk-spacing(1) nhsuk-spacing(2);
+  background-color: $color_nhsuk-red;
+  color: $color_nhsuk-white;
+  @include nhsuk-typography-responsive(14);
+}
 body.buddypress {
-  .count {
-	border-radius: 50%;
-	padding: nhsuk-spacing(1) nhsuk-spacing(2);
-	background-color: $color_nhsuk-red;
-	color: $color_nhsuk-white;
-	@include nhsuk-typography-responsive(14);
-  }
+
 
   #buddypress {
 
@@ -191,6 +192,7 @@ body.groups.group-invites {
 
 /* Buddypress header nav elements */
 .buddypress-header {
+  float: right;
   .nhsuk-icon-buddy-search {
 	fill        : $color_nhsuk-white;
 	float       : left;
@@ -228,11 +230,16 @@ body.groups.group-invites {
   }
 }
 
-@include mq($until : tablet) {
+@include mq($until : desktop) {
 
   .bb-groups-invites-left {
 	&.bb-select-member-view {
 	  background : $color_nhsuk-white;
+	}
+  }
+  .nhsuk-header__menu {
+	button {
+	  margin-bottom: nhsuk-spacing(2);
 	}
   }
   .buddypress-header {
@@ -240,6 +247,15 @@ body.groups.group-invites {
 	  float: right;
 		a {
 		  margin-right: nhsuk-spacing(1);
+		  img {
+			border: 1px solid $color_nhsuk-black; // because the image is inverted, we need to set it to black to then show as white.
+			border-radius: nhsuk-spacing(1);
+			cursor: pointer;
+			padding: nhsuk-spacing(2);
+			height: nhsuk-spacing(6);
+			width: nhsuk-spacing(6);
+			margin-left: nhsuk-spacing(2);
+		  }
 		}
 	  .count {
 		padding: 0 nhsuk-spacing(1);

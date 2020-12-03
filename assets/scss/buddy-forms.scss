@@ -47,7 +47,12 @@ input[type="textarea"] {
 	background : $color_nhsuk-white;
   }
 }
-
+#bp-message-content {
+  #message_content {
+	@extend .nhsuk-textarea;
+	background : $color_nhsuk-white;
+  }
+}
 input[type="submit"], #save {
   @extend .nhsuk-button;
 

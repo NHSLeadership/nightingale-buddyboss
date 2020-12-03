@@ -70,9 +70,10 @@ echo '<header class="nhsuk-header nhsuk-header--' . esc_attr( $header_layout . $
 		</div>
 
 		<?php
-		if ( function_exists( buddypress ) ) {
+		if ( is_user_logged_in() ) {
 			get_template_part( 'template-parts/buddy-header' );
-		} else if ( 'yes' === $header_search ) {
+		}
+		if ( 'yes' === $header_search ) {
 			?>
 			<div class="nhsuk-header__search">
 				<?php get_search_form(); ?>

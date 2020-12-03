@@ -7,7 +7,6 @@
 ?>
 <header class="entry-header notifications-header flex">
     <h1 class="entry-title flex-1"><?php esc_html_e( 'Messages', 'nightingale'); ?></h1>
-	<?php bp_get_template_part( 'common/search-and-filters-bar' ); ?>
 </header>
 
 <div class="messages-wrapper">

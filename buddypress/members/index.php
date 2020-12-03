@@ -29,12 +29,6 @@
 
 	<div class="members-directory-container">
 
-		<?php if ( function_exists( 'bp_disable_advanced_profile_search' ) && bp_disable_advanced_profile_search() ) { ?>
-			<div class="subnav-search members-search">
-				<?php bp_nouveau_search_form(); ?>
-			</div>
-		<?php } ?>
-
 		<?php
 			/**
 			 * Fires before the display of the members list tabs.
@@ -43,12 +37,6 @@
 			 */
 			do_action( 'bp_before_directory_members_tabs' );
 		?>
-
-		<?php if ( ! bp_nouveau_is_object_nav_in_sidebar() ) : ?>
-
-			<?php bp_get_template_part( 'common/nav/directory-nav' ); ?>
-
-		<?php endif; ?>
 
 		<?php
 			/**
@@ -60,7 +48,12 @@
 		?>
 
 		<div class="flex bp-secondary-header align-items-center">
-			<div class="push-right flex">
+			<?php if ( function_exists( 'bp_disable_advanced_profile_search' ) && bp_disable_advanced_profile_search() ) { ?>
+                <div class="subnav-search members-search  nhsuk-buddy__search">
+					<?php bp_nouveau_search_form(); ?>
+                </div>
+			<?php } ?>
+            <div class="push-right">
 				<div class="bp-profile-filter-wrap subnav-filters filters no-ajax">
 					<?php bp_get_template_part( 'common/filters/member-filters' ); ?>
 				</div>

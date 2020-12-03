@@ -12,7 +12,7 @@ div.select-wrap {
   }
 }
 
-.nhsuk-buddy__search, .group-search {
+.nhsuk-buddy__search, .group-search  {
   @extend .nhsuk-header__search;
   height      : nhsuk-spacing(7);
   float       : none;
@@ -22,7 +22,7 @@ div.select-wrap {
   .autocomplete__wrapper {
 	display : flex;
 
-	.nhsuk-search__input {
+	.nhsuk-search__input, #user_messages_search {
 	  border-left   : $nhsuk-border-width-form-element solid $color_nhsuk-grey-3;
 	  border-bottom : $nhsuk-border-width-form-element solid $color_nhsuk-grey-3;
 	  border-top    : $nhsuk-border-width-form-element solid $color_nhsuk-grey-3;
@@ -44,6 +44,38 @@ div.select-wrap {
 	  }
 	}
 
+  }
+}
+
+#user_messages_search_form {
+  border: none;
+  #user_messages_search {
+	float: left;
+	border-left  : $nhsuk-border-width-form-element solid $color_nhsuk-grey-3;
+	border-bottom : $nhsuk-border-width-form-element solid $color_nhsuk-grey-3;
+	border-top    : $nhsuk-border-width-form-element solid $color_nhsuk-grey-3;
+	border-right: 1px solid $color_nhsuk-grey-3;
+	border-radius: nhsuk-spacing(1) 0 0 nhsuk-spacing(1);
+  }
+  #user_messages_search_submit {
+	margin-top    : unset;
+	margin-left   : 0;
+	float         : right;
+	border-right  : $nhsuk-border-width-form-element solid $color_nhsuk-grey-3;
+	border-bottom : $nhsuk-border-width-form-element solid $color_nhsuk-grey-3;
+	border-top    : $nhsuk-border-width-form-element solid $color_nhsuk-grey-3;
+	border-radius: 0 nhsuk-spacing(1) nhsuk-spacing(1) 0;
+	border-left   : 1px solid $color_nhsuk-grey-3;
+	box-shadow: none;
+	padding-top: 0;
+	padding-bottom: 0;
+	margin-bottom: nhsuk-spacing(3);
+	height: 40px; // hard coded pixel value to get around buddyboss hijacking everything else with this element
+
+
+	&:hover {
+	  background : $color_nhsuk-white;
+	}
   }
 }
 

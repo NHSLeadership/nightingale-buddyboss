@@ -8,6 +8,8 @@
  */
 
 $buddy_menu_item = array(); // create empty array of menu links.
+$current_url = ( isset( $_SERVER[ 'HTTPS' ] ) && $_SERVER[ 'HTTPS' ] === 'on' ? "https" : "http" ) . "://$_SERVER[HTTP_HOST]$_SERVER[REQUEST_URI]";
+
 if ( ! is_user_logged_in() ) { // if user is not logged in, lets add some basic links for them.
 	$buddy_menu_item[0] = array( 'url' => '/wp-login.php', 'title' => 'Login' ); // login page.
 	$buddy_menu_item[1] = array( 'url' => '/register', 'title' => 'Register' ); // registration page.

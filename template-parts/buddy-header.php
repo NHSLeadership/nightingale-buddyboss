@@ -19,12 +19,6 @@ if ( in_array( 'notifications', array_keys( buddypress()->loaded_components ) ) 
 
 
     <div class="buddypress-header">
-        <div class="buddy-header-search"><?php get_search_form(); ?></div>
-        <div id="buddy-search" class="buddy-head-popouts">
-            <a href="#" class="buddy-search">
-				<?php echo '<img src="' . get_stylesheet_directory_uri() . '/assets/images/svg/buddyboss/search.svg' . '" class="bbnavmenu header-notifications"></a>'; ?>
-            </a>
-        </div>
 		<?php if ( 'active' === $messages_component ) { ?>
             <div id="buddy-messages" class="buddy-head-popouts">
 				<?php
