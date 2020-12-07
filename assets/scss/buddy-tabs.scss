@@ -24,9 +24,24 @@
 }
 .nhsuk-bordered-tabs-container-footer {
   @extend .nhsuk-bordered-tabs-container;
-  background: $color_nhsuk-grey-5;
+  position: relative;
+  top: -#{nhsuk-spacing(5)};
+  background: $color_nhsuk-grey-4;
+  padding-top: 0;
+  border-bottom: none;
+
   .nhsuk-bordered-tabs {
 	.nhsuk-bordered-tabs-item {
+
+	  border-radius: 0 0 nhsuk-spacing(1) nhsuk-spacing(1);
+	  margin-left: nhsuk-spacing(1);
+	  background: $color_nhsuk-blue;
+	  a {
+		color: $color_nhsuk-white;
+		&:visited {
+		  color: $color_nhsuk-white;
+		}
+	  }
 	  &:hover {
 		background: $color_nhsuk-grey-2;
 		a {
@@ -34,10 +49,16 @@
 		}
 	  }
 	  &.nhsuk-bordered-tabs-item-active {
-		background: $color_nhsuk-blue;
+		background: $color_nhsuk-grey-5;
 		border-color: $color_nhsuk-blue;
+		margin-bottom: 0;
+		margin-top: -#{nhsuk-spacing(1)};
+		border-bottom: 2px solid;
+		border-color: $color_nhsuk-blue;
+		border-top: 2px solid $color_nhsuk-grey-5;
+		border-radius: 0 0 nhsuk-spacing(1) nhsuk-spacing(1);
 		a {
-		  color: $color_nhsuk-white;
+		  color: $color_nhsuk-grey-2;
 		}
 	  }
 	}

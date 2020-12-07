@@ -16,11 +16,12 @@ flush();
 </div>
 </main>
 </div>
-<?php
-get_template_part( 'template-parts/buddynav' );
-?>
+
 <footer>
 	<div class="nhsuk-footer" id="nhsuk-footer">
+		<?php
+		get_template_part( 'template-parts/buddynav' );
+		?>
 		<div class="nhsuk-width-container">
 			<?php if ( is_active_sidebar( 'footer-region' ) ) : ?>
 				<div id="nhsuk-footer-widgets" class="nhsuk-footer__widgets widget-area" role="complementary">
