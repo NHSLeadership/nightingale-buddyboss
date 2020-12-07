@@ -5,9 +5,7 @@
  * @since BuddyPress 3.0.0
  * @version 3.0.0
  */
-?>
 
-<?php
 	$bp_nouveau = bp_nouveau();
 	$has_nav    = bp_nouveau_has_nav( array( 'type' => 'secondary' ) );
 	$nav_count  = count( $bp_nouveau->sorted_nav );

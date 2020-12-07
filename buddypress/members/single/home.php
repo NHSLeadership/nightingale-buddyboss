@@ -48,11 +48,6 @@ if ( bp_is_user_messages() || bp_is_user_settings() || bp_is_user_notifications(
 	<?php } ?>
 
 	<div class="bp-wrap <?php echo $user_full_template; ?>">
-		<?php if ( ! bp_nouveau_is_object_nav_in_sidebar() && ! bp_is_user_messages() && ! bp_is_user_settings() && ! bp_is_user_notifications() && ! bp_is_user_profile_edit() && ! bp_is_user_change_avatar() && ! bp_is_user_change_cover_image() ) : ?>
-
-			<?php //bp_get_template_part( 'members/single/parts/item-nav' ); ?>
-
-		<?php endif; ?>
 
 		<div class="bb-profile-grid <?php echo $grid_class; ?>">
 			<div id="item-body" class="item-body">
