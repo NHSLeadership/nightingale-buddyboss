@@ -28,7 +28,7 @@ if ( ! empty( $filepath ) ) {
 	wp_localize_script( 'learndash_template_script_js', 'sfwd_data', $data );
 
 }
-wp_enqueue_script( 'learndash-grid','/wp-content/plugins/learndash-course-grid/assets/css/style.css', '', '1.0');
+wp_enqueue_style( 'learndash-grid','/wp-content/plugins/learndash-course-grid/assets/css/style.css', '', '1.1');
 
 //LD_QuizPro::showModalWindow();
 add_action( 'wp_footer', array( 'LD_QuizPro', 'showModalWindow' ), 20 );

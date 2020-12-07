@@ -17288,3 +17288,15 @@ body.groups.group-invites #send_group_invite_form .select2-container--default .s
     display: block;
   }
 }
+
+.ld-course-list-items .ld_course_grid .thumbnail.course a img {
+  margin-bottom: -48px;
+}
+
+.ld-course-list-items .ld_course_grid .thumbnail.course .caption {
+  margin-top: 48px;
+}
+
+.ld-course-list-items .ld_course_grid .thumbnail.course .caption .ld_course_grid_button {
+  position: static;
+}

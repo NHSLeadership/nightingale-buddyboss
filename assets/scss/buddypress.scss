@@ -288,3 +288,24 @@ body.groups.group-invites {
 	}
   }
 }
+
+
+.ld-course-list-items {
+  .ld_course_grid {
+	.thumbnail {
+	  &.course {
+		a {
+		  img {
+			margin-bottom: -#{nhsuk-spacing(7)}; // oout a negative margin on images so title of course isnt pushed too far down when an image is present;
+		  }
+		}
+		.caption {
+		  margin-top: nhsuk-spacing(7); // default spacing above title so it doesnt crash ribbon
+		  .ld_course_grid_button {
+			position: static;
+		  }
+		}
+	  }
+	}
+  }
+}
