@@ -37,11 +37,18 @@ bp_nouveau_before_loop();
 							'object_dir' => 'groups',
 							'item_id'    => bp_get_group_id(),
 						) );
-						if ( $group_cover_image_url ) {
-							echo '<img src="' . $group_cover_image_url . '" class="nhsuk-card__img" />';
+						if ( !$group_cover_image_url ) {
+							$group_cover_image_url = get_theme_mod( 'buddyboss_group_cover_default', get_theme_file_uri( 'assets/images/svg/group-default.png' ) );
 						}
+						echo '<img src="' . $group_cover_image_url . '" class="nhsuk-card__img" />';
 						?>
 					<?php } ?>
+	                <?php if ( ! bp_disable_group_avatar_uploads() ) : ?>
+                        <div class="item-avatar">
+                            <a href="<?php bp_group_permalink(); ?>" class="group-avatar-wrap"><?php bp_group_avatar( bp_nouveau_avatar_args() ); ?></a>
+                        </div>
+	                <?php endif; ?>
+	                <?php bp_nouveau_groups_loop_buttons(); ?>
                     <div class="nhsuk-card__content">
 
 
@@ -50,14 +57,10 @@ bp_nouveau_before_loop();
                         </h2>
                         <div class="nhsuk-card__description">
 							<?php bp_group_description_excerpt( false, 150 ) ?>
-							<?php if ( ! bp_disable_group_avatar_uploads() ) : ?>
-                                <div class="item-avatar">
-                                    <a href="<?php bp_group_permalink(); ?>" class="group-avatar-wrap"><?php bp_group_avatar( bp_nouveau_avatar_args() ); ?></a>
-                                </div>
+
 
 								<?php bp_nouveau_groups_loop_item(); ?>
 
-                                <div class="groups-loop-buttons footer-button-wrap"><?php bp_nouveau_groups_loop_buttons(); ?></div>
                             <div style="clear: both"></div>
 								<?php if ( bp_nouveau_group_has_meta() ) : ?>
 
@@ -72,7 +75,6 @@ bp_nouveau_before_loop();
 									);
 									?>
                                 </p>
-							<?php endif; ?>
                         </div>
                     </div>
                 </div>
