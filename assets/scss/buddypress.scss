@@ -148,9 +148,28 @@ body.buddypress {
 
 
 
+
   /* course page styling */
   .col-md-4 {
 	@extend .nhsuk-grid-column-one-third;
+  }
+
+  .wp-block-nhsblocks-heroblock {
+	img.avatar {
+	  height: nhsuk-spacing(9);
+	  width: nhsuk-spacing(9);
+	  border-radius: 50%;
+	  float: right;
+	  padding-top: nhsuk-spacing(1);
+	  margin-right: nhsuk-spacing(2);
+	  + h1 {
+		float: left;
+		clear: none;
+	  ~ .item-meta {
+		  clear: both;
+		}
+	  }
+	}
   }
 }
 

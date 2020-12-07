@@ -8,10 +8,14 @@
 
 $profile_cover_width = nightingale_buddyboss_theme_get_option( 'buddyboss_profile_cover_width' );
 $profile_cover_height = nightingale_buddyboss_theme_get_option( 'buddyboss_profile_cover_height' );
-$profile_cover_image_url  = get_theme_mod( 'buddyboss_group_cover_default', get_theme_file_uri( 'assets/images/svg/newsletter-bg.svg' ) );
+$displayed_user           = bp_get_displayed_user();
+$cover_image_url          = bp_attachments_get_attachment( 'url', array( 'object_dir' => 'members', 'item_id'    => $displayed_user->id, ) );
+if ( !$cover_image_url ) {
+	$cover_image_url = get_theme_mod( 'buddyboss_group_cover_default', get_theme_file_uri( 'assets/images/svg/newsletter-bg.svg' ) );
+}
 remove_filter( 'bp_get_add_follow_button', 'buddyboss_theme_bp_get_add_follow_button' );
 ?>
-<div class="wp-block-nhsblocks-heroblock nhsuk-hero nhsuk-hero--image nhsuk-hero--image-description" style="background-image: url(<?php echo $profile_cover_image_url; ?>); background-size: cover; background-position: center center;">
+<div class="wp-block-nhsblocks-heroblock nhsuk-hero nhsuk-hero--image nhsuk-hero--image-description" style="background-image: url(<?php echo $cover_image_url; ?>); background-size: cover; background-position: center center;">
     <div class="nhsuk-hero__overlay">
     <div class="nhsuk-width-container">
     <div class="nhsuk-grid-row">
@@ -22,6 +26,7 @@ remove_filter( 'bp_get_add_follow_button', 'buddyboss_theme_bp_get_add_follow_bu
     <?php } ?>
         <div class="nhsuk-grid-column-two-thirds">
             <div class="wp-block-nhsblocks-heroinner nhsuk-hero-content">
+	            <?php bp_displayed_user_avatar( 'type=full' ); ?>
                 <h1 class="nhsuk-u-margin-bottom-3">
 	                <?php echo bp_core_get_user_displayname( bp_displayed_user_id() ); ?>
                 </h1>
