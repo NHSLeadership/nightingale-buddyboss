@@ -8,6 +8,7 @@
 	list-style       : none;
 
 	li {
+	  border-bottom: 2px solid $color_nhsuk-grey-4;
 	  .div-comment, .comment-body {
 		clear            : both;
 		background-color : inherit;
@@ -18,24 +19,28 @@
 	  }
 
 	  &:first-of-type {
-		.comment-body {
-		  border : $nhsuk-border-width-form-element solid $color_nhsuk-blue;
-
-		  .comment_body_comment {
-			&:after {
-			  display : none;
-			}
-		  }
-		}
-
-		.comment-author {
-		  display : none;
-		}
+		//display: none; // for some really weird reason, the first comment is _always_ empty.
 	  }
 
 	  &.load-more {
 		clear      : both;
 		margin-top : nhsuk-spacing(5);
+	  }
+
+	  .item-avatar {
+		float: left;
+		margin-right: nhsuk-spacing(2);
+	  }
+	  .comment-meta {
+		float: left;
+		p {
+		  @extend .nhsuk-body-s;
+		}
+	  }
+	  &:after {
+		clear: both;
+		content: "";
+		display: table;
 	  }
 	}
 
@@ -79,14 +84,28 @@
 	.comment-author {
 	  .comment-meta {
 		.avatar {
-		  margin-right  : nhsuk-spacing(2);
-		  margin-left   : nhsuk-spacing(3);
-		  border-radius : 50%;
+		  display: none;
 		}
 
 		p {
 		  margin-bottom : nhsuk-spacing(2);
 		}
+	  }
+	}
+	.activity-meta {
+	  &:before {
+		clear: both;
+		content: "";
+		display: table;
+	  }
+	}
+  }
+}
+#activity-stream {
+  ul.comment-list {
+	li {
+	  &:first-of-type {
+		display: block;
 	  }
 	}
   }

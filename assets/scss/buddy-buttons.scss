@@ -1,17 +1,61 @@
-.friendship-button a,
-.follow-button a,
+.friendship-button a.friendship-button,
+.follow-button a.follow-button,
 #send-private-message a,
 #aw-whats-new-submit,
 #aw-whats-new-reset,
-.dz-button {
+.accept,
+.reject,
+#bp-media-submit,
+#bp-add-media,
+#bb-create-album
+{
   @extend .nhsuk-button;
   float        : left;
   margin-right : nhsuk-spacing(3);
 }
+.reject,
+.friendship-button a.friendship-button.is_friend,
+.friendship-button a.friendship-button.pending_friend,
+.follow-button a.follow-button.following
+{
+  @extend .nhsuk-button--secondary;
+}
 
+.generic-button a {
+  float: left;
+  background: inherit;
+  border: none;
+  box-shadow: none;
+  span.like-count {
+    &:before {
+      content: "\1F44D \2007";
+    }
+  }
+  span.comment-count {
+    &:before {
+      content: "\1F4AC \2007";
+    }
+  }
+  span.edit-label {
+    &:before {
+      content: "\270E \2007";
+    }
+  }
+  span.delete-label {
+    &:before {
+      content: "\232B \2007";
+    }
+  }
+  &.unfav {
+    span.like-count {
+      &:before {
+        content: "\24E7 \2007";
+      }
+    }
+  }
+}
 .follow-button a,
-#aw-whats-new-reset,
-.delete-activity {
+#aw-whats-new-reset {
   @extend .nhsuk-button--secondary
 }
 
@@ -46,5 +90,11 @@
         @extend .nhsuk-button--secondary;
       }
     }
+  }
+}
+.dz-message {
+  .dz-button {
+    box-shadow: none;
+    @extend .nhsuk-body-s;
   }
 }

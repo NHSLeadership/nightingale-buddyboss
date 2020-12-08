@@ -16,6 +16,7 @@
 
   label {
 	@extend .nhsuk-checkboxes__label;
+	margin: 0;
   }
 }
 
@@ -28,6 +29,7 @@
 
   label {
 	@extend .nhsuk-radios__label;
+	margin: 0;
   }
 }
 

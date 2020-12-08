@@ -24,7 +24,7 @@
                     <div class="item-avatar">
                         <a href="<?php bp_member_permalink(); ?>">
                             <?php bp_member_avatar( bp_nouveau_avatar_args() ); ?>
-                            <?php bb_user_status( bp_get_member_user_id() ); ?>
+                            <?php //bb_user_status( bp_get_member_user_id() ); ?>
                         </a>
                     </div>
 

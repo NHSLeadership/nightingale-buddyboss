@@ -56,9 +56,6 @@ bp_nouveau_before_loop();
 							<?php bp_group_link(); ?>
                         </h2>
                         <div class="nhsuk-card__description">
-							<?php bp_group_description_excerpt( false, 150 ) ?>
-
-
 								<?php bp_nouveau_groups_loop_item(); ?>
 
                             <div style="clear: both"></div>
