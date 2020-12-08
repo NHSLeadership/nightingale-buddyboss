@@ -16858,7 +16858,25 @@ body.buddypress .wp-block-nhsblocks-heroblock img.avatar + h1 ~ .item-meta {
 }
 
 .nhsuk-bordered-tabs-container-footer {
-  background: #f0f4f5;
+  position: relative;
+  top: -32px;
+  background: #d8dde0;
+  padding-top: 0;
+  border-bottom: none;
+}
+
+.nhsuk-bordered-tabs-container-footer .nhsuk-bordered-tabs .nhsuk-bordered-tabs-item {
+  border-radius: 0 0 4px 4px;
+  margin-left: 4px;
+  background: #005eb8;
+}
+
+.nhsuk-bordered-tabs-container-footer .nhsuk-bordered-tabs .nhsuk-bordered-tabs-item a {
+  color: #ffffff;
+}
+
+.nhsuk-bordered-tabs-container-footer .nhsuk-bordered-tabs .nhsuk-bordered-tabs-item a:visited {
+  color: #ffffff;
 }
 
 .nhsuk-bordered-tabs-container-footer .nhsuk-bordered-tabs .nhsuk-bordered-tabs-item:hover {
@@ -16870,12 +16888,18 @@ body.buddypress .wp-block-nhsblocks-heroblock img.avatar + h1 ~ .item-meta {
 }
 
 .nhsuk-bordered-tabs-container-footer .nhsuk-bordered-tabs .nhsuk-bordered-tabs-item.nhsuk-bordered-tabs-item-active {
-  background: #005eb8;
+  background: #f0f4f5;
   border-color: #005eb8;
+  margin-bottom: 0;
+  margin-top: -4px;
+  border-bottom: 2px solid;
+  border-color: #005eb8;
+  border-top: 2px solid #f0f4f5;
+  border-radius: 0 0 4px 4px;
 }
 
 .nhsuk-bordered-tabs-container-footer .nhsuk-bordered-tabs .nhsuk-bordered-tabs-item.nhsuk-bordered-tabs-item-active a {
-  color: #ffffff;
+  color: #768692;
 }
 
 /* The Modal (background) */
@@ -17299,4 +17323,8 @@ body.groups.group-invites #send_group_invite_form .select2-container--default .s
 
 .ld-course-list-items .ld_course_grid .thumbnail.course .caption .ld_course_grid_button {
   position: static;
+}
+
+body.bp-nouveau {
+  word-break: initial;
 }
