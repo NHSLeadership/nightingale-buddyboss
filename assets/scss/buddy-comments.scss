@@ -5,32 +5,37 @@
 
   ul.comment-list {
 	background-color : inherit;
-	list-style : none;
+	list-style       : none;
 
-	li{
+	li {
 	  .div-comment, .comment-body {
 		clear            : both;
 		background-color : inherit;
 	  }
+
 	  ul {
-		list-style: none;
+		list-style : none;
 	  }
+
 	  &:first-of-type {
 		.comment-body {
-		  border: $nhsuk-border-width-form-element solid $color_nhsuk-blue;
+		  border : $nhsuk-border-width-form-element solid $color_nhsuk-blue;
+
 		  .comment_body_comment {
 			&:after {
-			  display: none;
+			  display : none;
 			}
 		  }
 		}
+
 		.comment-author {
-		  display: none;
+		  display : none;
 		}
 	  }
+
 	  &.load-more {
-		clear: both;
-		margin-top: nhsuk-spacing(5);
+		clear      : both;
+		margin-top : nhsuk-spacing(5);
 	  }
 	}
 
@@ -86,9 +91,27 @@
 	}
   }
 }
+
 a.bbp-author-link {
-  text-decoration: none;
+  text-decoration : none;
+
   .bbp-author-name {
-	text-decoration: underline;
+	text-decoration : underline;
+  }
+}
+
+@include mq($until : tablet) {
+  #item-body {
+	#comments, #activity-stream {
+	  margin-left  : 0;
+	  margin-right : 0;
+	  max-width: 90vw;
+	  .comment-list {
+		.nhsuk-list-panel__item {
+		  border-bottom : 1px solid $color_nhsuk-grey-4;
+		  padding-bottom: nhsuk-spacing(8);
+		}
+	  }
+	}
   }
 }

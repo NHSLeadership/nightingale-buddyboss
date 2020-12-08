@@ -1,10 +1,11 @@
 .count {
-  border-radius: 50%;
-  padding: nhsuk-spacing(1) nhsuk-spacing(2);
-  background-color: $color_nhsuk-red;
-  color: $color_nhsuk-white;
+  border-radius    : 50%;
+  padding          : nhsuk-spacing(1) nhsuk-spacing(2);
+  background-color : $color_nhsuk-red;
+  color            : $color_nhsuk-white;
   @include nhsuk-typography-responsive(14);
 }
+
 body.buddypress {
 
   #buddypress {
@@ -17,6 +18,28 @@ body.buddypress {
 	.bp-feedback {
 	  @extend .nhsuk-inset-text;
 	  @extend .is-style-quote-reverse;
+
+	  &.success {
+		background   : $color_nhsuk-green;
+		border-color : $color_nhsuk-green;
+
+		.bp-icon {
+		  background : $color_nhsuk-green !important;
+		}
+	  }
+
+	  &.error {
+		background   : $color_nhsuk-red;
+		border-color : $color_nhsuk-red;
+
+		.bp-icon {
+		  background : $color_nhsuk-red !important;
+		}
+
+		p {
+		  color : $color_nhsuk-white;
+		}
+	  }
 
 	  p.text {
 		@extend .nhsuk-inset-text__quote;
@@ -103,7 +126,6 @@ body.buddypress {
 	}
 
 
-
 	/* Groups Overview page */
 	.groups {
 	  .groups-meta {
@@ -113,10 +135,6 @@ body.buddypress {
 	  .leave-group {
 		@extend .nhsuk-tag;
 		@extend .nhsuk-tag--yellow;
-
-		&:after {
-		  content : '\00a0 \2612 \00a0 Leave Group';
-		}
 	  }
 
 	  .membership-requested {
@@ -146,8 +164,6 @@ body.buddypress {
   }
 
 
-
-
   /* course page styling */
   .col-md-4 {
 	@extend .nhsuk-grid-column-one-third;
@@ -155,18 +171,47 @@ body.buddypress {
 
   .wp-block-nhsblocks-heroblock {
 	img.avatar {
-	  height: nhsuk-spacing(9);
-	  width: nhsuk-spacing(9);
-	  border-radius: 50%;
-	  float: right;
-	  padding-top: nhsuk-spacing(1);
-	  margin-right: nhsuk-spacing(2);
+	  height        : nhsuk-spacing(9);
+	  width         : nhsuk-spacing(9);
+	  border-radius : 50%;
+	  float         : right;
+	  padding-top   : nhsuk-spacing(1);
+	  margin-right  : nhsuk-spacing(2);
+
 	  + h1 {
-		float: left;
-		clear: none;
-	  ~ .item-meta {
-		  clear: both;
+		float : left;
+		clear : none;
+
+		~ .item-meta {
+		  clear : both;
 		}
+	  }
+	}
+  }
+
+  article.page {
+	> .entry-header {
+	  margin-bottom: nhsuk-spacing(2);
+	  .entry-title {
+		@extend .nhsuk-heading-xl;
+		color : $color_nhsuk-black;
+		float : left;
+
+		+ span {
+		  float : right;
+		  color : $color_nhsuk-grey-5;
+
+		  a {
+			@extend .nhsuk-button;
+		  }
+		}
+
+	  }
+
+	  &:after {
+		content : "";
+		clear   : both;
+		display : table;
 	  }
 	}
   }
@@ -198,7 +243,6 @@ body.groups.group-invites {
 }
 
 
-
 @import 'buddy-forums'; //buddypress comments, discussion and forum styling overrides
 
 
@@ -207,10 +251,10 @@ body.groups.group-invites {
 }
 
 
-
 /* Buddypress header nav elements */
 .buddypress-header {
-  float: right;
+  float : right;
+
   .nhsuk-icon-buddy-search {
 	fill        : $color_nhsuk-white;
 	float       : left;
@@ -238,11 +282,12 @@ body.groups.group-invites {
 	text-align : left;
 
 	a {
-	  margin-right: nhsuk-spacing(3);
+	  margin-right : nhsuk-spacing(3);
 	}
+
 	.count {
-	  position      : absolute;
-	  right          : 0;
+	  position : absolute;
+	  right    : 0;
 	}
 
   }
@@ -257,33 +302,38 @@ body.groups.group-invites {
   }
   .nhsuk-header__menu {
 	button {
-	  margin-bottom: nhsuk-spacing(2);
+	  margin-bottom : nhsuk-spacing(2);
 	}
   }
   .buddypress-header {
 	.buddy-head-popouts {
-	  float: right;
-		a {
-		  margin-right: nhsuk-spacing(1);
-		  img {
-			border: 1px solid $color_nhsuk-black; // because the image is inverted, we need to set it to black to then show as white.
-			border-radius: nhsuk-spacing(1);
-			cursor: pointer;
-			padding: nhsuk-spacing(2);
-			height: nhsuk-spacing(6);
-			width: nhsuk-spacing(6);
-			margin-left: nhsuk-spacing(2);
-		  }
+	  float : right;
+
+	  a {
+		margin-right : nhsuk-spacing(1);
+
+		img {
+		  border        : 1px solid $color_nhsuk-black; // because the image is inverted, we need to set it to black to then show as white.
+		  border-radius : nhsuk-spacing(1);
+		  cursor        : pointer;
+		  padding       : nhsuk-spacing(2);
+		  height        : nhsuk-spacing(6);
+		  width         : nhsuk-spacing(6);
+		  margin-left   : nhsuk-spacing(2);
 		}
+	  }
+
 	  .count {
-		padding: 0 nhsuk-spacing(1);
+		padding : 0 nhsuk-spacing(1);
 	  }
 	}
+
 	#buddy-search {
-	  display: none;
+	  display : none;
 	}
+
 	.buddy-header-search {
-	  display: block;
+	  display : block;
 	}
   }
 }
@@ -295,19 +345,59 @@ body.groups.group-invites {
 	  &.course {
 		a {
 		  img {
-			margin-bottom: -#{nhsuk-spacing(7)}; // oout a negative margin on images so title of course isnt pushed too far down when an image is present;
+			margin-bottom : -#{nhsuk-spacing(7)}; // oout a negative margin on images so title of course isnt pushed too far down when an image is present;
 		  }
 		}
+
 		.caption {
-		  margin-top: nhsuk-spacing(7); // default spacing above title so it doesnt crash ribbon
+		  margin-top : nhsuk-spacing(7); // default spacing above title so it doesnt crash ribbon
 		  .ld_course_grid_button {
-			position: static;
+			position : static;
 		  }
 		}
 	  }
 	}
   }
 }
+
 body.bp-nouveau {
-  word-break: initial;
+  word-break : initial;
+}
+
+body.register {
+  .buddypress-wrap {
+	@extend .nhsuk-width-container;
+  }
+}
+ul#groups-list {
+  .nhsuk-card {
+	.item-avatar {
+	  position: relative;
+	  left: nhsuk-spacing(3);
+	  top: -#{nhsuk-spacing(4)};
+	  img {
+		width: nhsuk-spacing(7);
+		height: nhsuk-spacing(7);
+	  }
+	}
+	.bp-generic-meta {
+	  float: right;
+	  position: relative;
+	  top: -#{nhsuk-spacing(7)};
+	  height: nhsuk-spacing(4);
+	  &.action {
+		button {
+		  padding: 0;
+		  background: none;
+		  color: $nhsuk-link-color;
+		  box-shadow: none;
+		  font-weight: $nhsuk-font-normal;
+		  font-size: $nhsuk-base-font-size;
+		}
+	  }
+	}
+	.nhsuk-card__content {
+	  padding-top: 0;
+	}
+  }
 }

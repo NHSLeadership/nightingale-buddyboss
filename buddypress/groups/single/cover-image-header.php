@@ -33,6 +33,14 @@ $group_cover_image_url = $group_cover_image_url ?: $default_group_cover;
 				<?php } ?>
 				<div class="nhsuk-grid-column-two-thirds">
 					<div class="wp-block-nhsblocks-heroinner nhsuk-hero-content">
+						<?php if ( ! bp_disable_group_avatar_uploads() ) : ?>
+								<?php if ( bp_is_item_admin() ) { ?>
+                                    <a href="<?php echo $group_avatar; ?>" class="link-change-profile-image bp-tooltip" data-bp-tooltip-pos="up" data-bp-tooltip="<?php _e('Change Group Photo', 'buddyboss'); ?>">
+                                        <i class="bb-icon-edit-thin"></i>
+                                    </a>
+								<?php } ?>
+								<?php bp_group_avatar(); ?>
+						<?php endif; ?>
 						<h1 class="nhsuk-u-margin-bottom-3">
 							<?php echo esc_attr( bp_get_group_name() ); ?>
 						</h1>

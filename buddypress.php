@@ -39,48 +39,6 @@ if ( ( function_exists( 'bp_is_register_page' ) && bp_is_register_page() ) || ( 
 	$class_bp_register = 'bs-bp-container';
 }
 ?>
-        <?php
-        if ( function_exists( 'bp_is_register_page' ) && bp_is_register_page() ) {
-				$logo_id = nightingale_buddyboss_theme_get_option( 'admin_logo_media', 'id' );
-				$logo	 = ( $logo_id ) ? wp_get_attachment_image( $logo_id, 'full', '', array( 'class' => 'bb-logo' ) ) : get_bloginfo( 'name' );
-                $enable_private_network = bp_get_option( 'bp-enable-private-network' );
-                if ( '0' === $enable_private_network ) {
-	            ?>
-                    <div class="register-section-logo private-on-div">
-                        <?php echo $logo; ?>
-                    </div>
-                    <?php
-                } else {
-                    ?>
-                    <div class="register-section-logo">
-                        <a href="<?php echo esc_url( home_url( '/' ) ); ?>" rel="home">
-                            <?php echo $logo; ?>
-                        </a>
-                    </div>
-                    <?php
-                }
-        } elseif ( function_exists( 'bp_is_activation_page' ) && bp_is_activation_page() ) {
-	        $logo_id = nightingale_buddyboss_theme_get_option( 'admin_logo_media', 'id' );
-	        $logo	 = ( $logo_id ) ? wp_get_attachment_image( $logo_id, 'full', '', array( 'class' => 'bb-logo' ) ) : get_bloginfo( 'name' );
-	        $enable_private_network = bp_get_option( 'bp-enable-private-network' );
-	        if ( '0' === $enable_private_network ) {
-	            ?>
-                <div class="activate-section-logo">
-                    <?php echo $logo; ?>
-                </div>
-                <?php
-            } else {
-		        ?>
-                <div class="activate-section-logo">
-                    <a href="<?php echo esc_url( home_url( '/' ) ); ?>" rel="home">
-				        <?php echo $logo; ?>
-                    </a>
-                </div>
-		        <?php
-            }
-        }
-        ?>
-
 		<?php if ( have_posts() ) : ?>
 			<?php
 			/* Start the Loop */

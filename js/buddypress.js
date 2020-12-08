@@ -108,3 +108,8 @@ jQuery(document).on('click', '.close-menu-buddynav', function (e) {
   jQuery(this).siblings('.label-navigation-buddynav').show();
   jQuery(this).hide();
 });
+jQuery(document).on('click', '.group-button', function (e) {
+  e.preventDefault();
+  var link = jQuery(this).attr("data-bp-nonce");
+  window.location.href = link;
+})

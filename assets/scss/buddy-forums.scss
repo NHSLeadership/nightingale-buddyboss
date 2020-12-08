@@ -173,4 +173,15 @@
 	background : $color_nhsuk-white;
   }
   @import 'buddy-comments'; //buddypress comments, discussion and forum styling overrides
+  .bbp-no-topic, .bbp-no-reply {
+	clear: both;
+	.bp-feedback {
+	  @extend .nhsuk-inset-text;
+	  @extend .is-style-quote-reverse;
+	  .bp-icon {
+		background: $color_nhsuk-blue;
+		font-size: nhsuk-spacing(5);
+	  }
+	}
+  }
 }

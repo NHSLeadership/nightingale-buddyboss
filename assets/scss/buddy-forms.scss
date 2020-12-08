@@ -54,12 +54,30 @@ input[type="textarea"] {
 	background : $color_nhsuk-white;
   }
 }
-#bp-message-content {
-  #message_content {
-	@extend .nhsuk-textarea;
-	background : $color_nhsuk-white;
+.messages-wrapper {
+  .bp-messages-nav-panel {
+	.bp-messages-threads-list {
+	  ul#message-threads {
+		li.current {
+		  border: 2px solid $color_nhsuk-grey-2;
+		}
+	  }
+	}
+  }
+  .bp-messages-content-wrapper {
+	ul#bp-message-thread-list {
+	  overflow : unset;
+	}
+
+	#bp-message-content {
+	  #message_content {
+		@extend .nhsuk-textarea;
+		background : $color_nhsuk-white;
+	  }
+	}
   }
 }
+
 input[type="submit"], #save {
   @extend .nhsuk-button;
 
