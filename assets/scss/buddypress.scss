@@ -161,6 +161,22 @@ body.buddypress {
 		}
 	  }
 	}
+	.current-visibility-level {
+	  @extend .nhsuk-tag;
+	  float: right;
+	}
+	table.notification-settings {
+	  th.icon {
+		display: none;
+	  }
+	  tbody {
+		tr {
+		  td:first-child {
+			display : none;
+		  }
+		}
+	  }
+	}
   }
 
 

@@ -10,9 +10,6 @@ $profile_link = trailingslashit( bp_displayed_user_domain() . bp_get_profile_slu
 
 
 <div class="bp-settings-container">
-	<?php if ( bp_core_can_edit_settings() ) : ?>
-		<?php //bp_get_template_part( 'members/single/parts/item-subnav' ); ?>
-	<?php endif; ?>
 
 	<div class="bb-bp-settings-content">
 		<?php

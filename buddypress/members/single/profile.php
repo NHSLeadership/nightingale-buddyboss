@@ -15,11 +15,6 @@ $profile_link = trailingslashit( bp_displayed_user_domain() . bp_get_profile_slu
 <?php } ?>
 
 <div class="bp-profile-wrapper">
-	<?php
-	if( bp_is_user_profile_edit() || bp_is_user_change_avatar() || bp_is_user_change_cover_image() ) {
-		//bp_get_template_part( 'members/single/parts/item-subnav' );
-	}
-	?>
 
 	<div class="bp-profile-content">
 

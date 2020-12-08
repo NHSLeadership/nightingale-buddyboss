@@ -3,8 +3,7 @@
 #send-private-message a,
 #aw-whats-new-submit,
 #aw-whats-new-reset,
-.dz-button,
-.button {
+.dz-button {
   @extend .nhsuk-button;
   float        : left;
   margin-right : nhsuk-spacing(3);

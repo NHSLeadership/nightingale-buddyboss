@@ -8,9 +8,6 @@
 
 ?>
 
-
-<?php //bp_get_template_part( 'members/single/parts/item-subnav' ); ?>
-
 <?php bp_nouveau_activity_member_post_form(); ?>
 
 <?php bp_get_template_part( 'common/search-and-filters-bar' ); ?>
