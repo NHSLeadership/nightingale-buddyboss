@@ -8,6 +8,10 @@
  */
 
 get_header();
+?>
+<div id="primary" class=" nhsuk-grid-row nhsuk-width-restrict">
+		<div class="nhsuk-grid-column-full full-width">
+	<?php
 $admin_custom_login = nightingale_buddyboss_theme_get_option( 'boss_custom_login' );
 $admin_login_background_text = nightingale_buddyboss_theme_get_option( 'admin_login_background_text' );
 $admin_login_background_textarea = nightingale_buddyboss_theme_get_option( 'admin_login_background_textarea' );
@@ -56,7 +60,7 @@ if ( ( function_exists( 'bp_is_register_page' ) && bp_is_register_page() ) || ( 
 			?>
 
 			<?php
-		//buddyboss_pagination();
+		buddyboss_pagination();
 
 		else :
 			get_template_part( 'template-parts/content', 'none' );
@@ -70,6 +74,7 @@ if( !bp_is_group_create() && !bp_is_user_profile_edit() && !bp_is_user_change_av
 }
 
 ?>
-
+		</div>
+</div>
 <?php
 get_footer();

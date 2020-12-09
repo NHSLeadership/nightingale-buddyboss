@@ -1,0 +1,51 @@
+body.groups.group-invites {
+  #group-invites-container {
+	display : block;
+
+	.bb-groups-invites-left {
+	  ul#members-list {
+		max-height : 100vh;
+
+		li {
+		  .item {
+			width : 40%;
+		  }
+		}
+	  }
+	}
+
+	.bb-groups-invites-right {
+	  #send_group_invite_form {
+
+		.bb-groups-invites-right-top {
+		  select.send-to-input {
+			display : none;
+		  }
+
+		  .select2 {
+			.select2-selection {
+			  ul.select2-selection__rendered {
+				li.select2-selection__choice {
+				  @extend .nhsuk-tag;
+				  @extend .nhsuk-tag--grey;
+
+				  .select2-selection__choice__remove {
+					padding : 0 nhsuk-spacing(1);
+				  }
+				}
+				.select2-search {
+				  .select2-search__field {
+					display: none;
+				  }
+				}
+			  }
+			}
+		  }
+		}
+		.bb-groups-invites-right-bottom {
+		  margin: 0 nhsuk-spacing(4);
+		}
+	  }
+	}
+  }
+}

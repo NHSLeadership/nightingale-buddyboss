@@ -62,9 +62,11 @@ body.buddypress {
 		height        : nhsuk-spacing(6);
 		width         : nhsuk-spacing(6);
 	  }
-	  text-decoration: none;
+
+	  text-decoration : none;
+
 	  span {
-		text-decoration: underline;
+		text-decoration : underline;
 	  }
 	}
 
@@ -165,14 +167,17 @@ body.buddypress {
 		}
 	  }
 	}
+
 	.current-visibility-level {
 	  @extend .nhsuk-tag;
-	  float: right;
+	  float : right;
 	}
+
 	table.notification-settings {
 	  th.icon {
-		display: none;
+		display : none;
 	  }
+
 	  tbody {
 		tr {
 		  td:first-child {
@@ -191,9 +196,10 @@ body.buddypress {
 
   .wp-block-nhsblocks-heroblock {
 	.dashicons {
-	  background: $color_nhsuk-white;
-	  color: $color_nhsuk-blue;
+	  background : $color_nhsuk-white;
+	  color      : $color_nhsuk-blue;
 	}
+
 	img.avatar {
 	  height        : nhsuk-spacing(8);
 	  width         : nhsuk-spacing(8);
@@ -209,62 +215,74 @@ body.buddypress {
 		~ .item-meta {
 		  clear : both;
 		}
+
 		~ p {
-		  clear: both;
+		  clear : both;
 		}
 	  }
 	}
+
 	.followers-wrap, .following-wrap {
-	  float: left;
+	  float : left;
 	  @extend .nhsuk-body-s;
 	}
+
 	.following-wrap {
-	  margin-left: nhsuk-spacing(3);
+	  margin-left : nhsuk-spacing(3);
 	}
+
 	.right {
-	  float : right;
-	  margin-top: nhsuk-spacing(3);
+	  float      : right;
+	  margin-top : nhsuk-spacing(3);
+
 	  .friendship-button, .follow-button, .generic-button {
-		text-align: right;
+		text-align : right;
+
 		a, button {
 		  @extend .nhsuk-button;
-		  margin-bottom: nhsuk-spacing(3);
-		  float: right;
+		  margin-bottom : nhsuk-spacing(3);
+		  float         : right;
 		}
 	  }
+
 	  .generic-button, .view-as, #user_switching_switch_to {
 		a {
 		  @extend .nhsuk-button--reverse;
-		  font-size: $nhsuk-base-font-size;
-		  padding: nhsuk-spacing(2) nhsuk-spacing(1);
-		  box-shadow: none;
-		  margin-left: nhsuk-spacing(3);
-		  margin-right: nhsuk-spacing(3);
+		  font-size    : $nhsuk-base-font-size;
+		  padding      : nhsuk-spacing(2) nhsuk-spacing(1);
+		  box-shadow   : none;
+		  margin-left  : nhsuk-spacing(3);
+		  margin-right : nhsuk-spacing(3);
 		}
+
 		a.send-message {
-			@extend .nhsuk-button;
-		  	@extend .nhsuk-button--reverse;
+		  @extend .nhsuk-button;
+		  @extend .nhsuk-button--reverse;
 		}
 	  }
+
 	  .view-as {
-		margin-top: 240px;
+		margin-top : 240px;
 	  }
 	}
-	@include mq($until: tablet) {
+
+	@include mq($until : tablet) {
 	  .right {
 		display : none;
 	  }
 	}
+
 	.nhsuk-hero-content {
 	  .dashicons {
-		float: right;
+		float : right;
 	  }
 	}
   }
 
   article.page {
 	> .entry-header {
-	  margin-bottom: nhsuk-spacing(2);
+	  margin-bottom : nhsuk-spacing(2);
+
 	  .entry-title {
 		@extend .nhsuk-heading-xl;
 		color : $color_nhsuk-black;
@@ -293,23 +311,7 @@ body.buddypress {
 @import 'buddy-tabs'; //buddypress tabs styling overrides
 
 @import 'buddy-modals'; //buddypress modal popover styling overrides
-body.groups.group-invites {
-  #send_group_invite_form {
-	.select2-container--default {
-	  .select2-selection--multiple {
-		.select2-selection__choice {
-		  @extend .nhsuk-tag;
 
-		  .select2-selection__choice__remove {
-			color   : $color_nhsuk-red;
-			margin  : 0 nhsuk-spacing(2) 0 0;
-			padding : 0 nhsuk-spacing(1);
-		  }
-		}
-	  }
-	}
-  }
-}
 
 #bbp_topic_tags_dropdown {
   display : none;
@@ -318,21 +320,7 @@ body.groups.group-invites {
 
 @import 'buddy-forums'; //buddypress comments, discussion and forum styling overrides
 
-
-#group-invites-container {
-  display : block;
-  .bb-groups-invites-left {
-	ul#members-list {
-	  max-height: unset;
-	  overflow: unset;
-	  li {
-		.item {
-		  width: 40%;
-		}
-	  }
-	}
-  }
-}
+@import 'groups/groups'; // import all of the various group page stylings
 
 
 /* Buddypress header nav elements */
@@ -453,73 +441,86 @@ body.register {
 	@extend .nhsuk-width-container;
   }
 }
+
 ul#groups-list {
   .nhsuk-card {
 	.item-avatar {
-	  position: relative;
-	  left: nhsuk-spacing(3);
-	  top: -#{nhsuk-spacing(4)};
+	  position : relative;
+	  left     : nhsuk-spacing(3);
+	  top      : -#{nhsuk-spacing(4)};
+
 	  img {
-		width: nhsuk-spacing(7);
-		height: nhsuk-spacing(7);
+		width  : nhsuk-spacing(7);
+		height : nhsuk-spacing(7);
 	  }
 	}
+
 	.bp-generic-meta {
-	  float: right;
-	  position: relative;
-	  top: -#{nhsuk-spacing(7)};
-	  height: nhsuk-spacing(4);
+	  float    : right;
+	  position : relative;
+	  top      : -#{nhsuk-spacing(7)};
+	  height   : nhsuk-spacing(4);
+
 	  &.action {
 		button {
-		  padding: 0;
-		  background: none;
-		  color: $nhsuk-link-color;
-		  box-shadow: none;
-		  font-weight: $nhsuk-font-normal;
-		  font-size: $nhsuk-base-font-size;
+		  padding     : 0;
+		  background  : none;
+		  color       : $nhsuk-link-color;
+		  box-shadow  : none;
+		  font-weight : $nhsuk-font-normal;
+		  font-size   : $nhsuk-base-font-size;
 		}
 	  }
 	}
+
 	.nhsuk-card__content {
-	  padding-top: 0;
+	  padding-top : 0;
 	}
   }
 }
+
 // pending invites styling
 .bp-invites-content {
   ul#members-list {
-	>li {
+	> li {
 	  @extend .nhsuk-grid-column-one-half;
-	  padding: nhsuk-spacing(3);
-	  position: relative;
+	  padding  : nhsuk-spacing(3);
+	  position : relative;
+
 	  ul.group-inviters {
 		li {
-		  margin: 0;
-		  float: left;
-		  margin-right: nhsuk-spacing(2);
+		  margin       : 0;
+		  float        : left;
+		  margin-right : nhsuk-spacing(2);
+
 		  img.avatar {
-			height: nhsuk-spacing(5);
-			width: nhsuk-spacing(5);
-			border-radius: 50%;
+			height        : nhsuk-spacing(5);
+			width         : nhsuk-spacing(5);
+			border-radius : 50%;
 		  }
 		}
 	  }
+
 	  p {
-		clear: both;
+		clear : both;
 		@extend .nhsuk-body-s;
 	  }
+
 	  &:after {
-		clear: none;
+		clear : none;
 	  }
+
 	  .action {
-		position: absolute;
-		top: nhsuk-spacing(3);
-		right: nhsuk-spacing(3);
+		position : absolute;
+		top      : nhsuk-spacing(3);
+		right    : nhsuk-spacing(3);
+
 		button {
 		  @extend .nhsuk-button;
-		  background: $color_nhsuk-red;
+		  background : $color_nhsuk-red;
+
 		  span.icons:before {
-			color: $color_nhsuk-white;
+			color : $color_nhsuk-white;
 		  }
 		}
 	  }
@@ -528,56 +529,65 @@ ul#groups-list {
 }
 
 body.notifications {
-	.nhsuk-card-group__item {
-	  .nhsuk-card {
-		.nhsuk-card__content {
-		  > div {
-			float: left;
-			padding: nhsuk-spacing(3) nhsuk-spacing(1);
-			&.nhsuk-checkboxes {
-			  padding-top: 0;
-			}
-			&.push-right {
-			  float: right;
-			}
-			&.notifications-options-nav {
-			  .select-wrap {
-				#notification-select {
-				  @extend .nhsuk-select;
-				  margin-right : nhsuk-spacing(3);
-				  appearance: auto;
-				}
-				margin-right: nhsuk-spacing(3);
+  .nhsuk-card-group__item {
+	.nhsuk-card {
+	  .nhsuk-card__content {
+		> div {
+		  float   : left;
+		  padding : nhsuk-spacing(3) nhsuk-spacing(1);
+
+		  &.nhsuk-checkboxes {
+			padding-top : 0;
+		  }
+
+		  &.push-right {
+			float : right;
+		  }
+
+		  &.notifications-options-nav {
+			.select-wrap {
+			  #notification-select {
+				@extend .nhsuk-select;
+				margin-right : nhsuk-spacing(3);
+				appearance   : auto;
 			  }
 
-			  #notification-bulk-manage {
-				font-size : $nhsuk-base-font-size;
-				padding   : nhsuk-spacing(2);
-			  }
+			  margin-right : nhsuk-spacing(3);
 			}
-			&.actions {
-			  float: right;
-			  .dashicons {
-				width: nhsuk-spacing(6);
-				height: nhsuk-spacing(6);
-			  }
+
+			#notification-bulk-manage {
+			  font-size : $nhsuk-base-font-size;
+			  padding   : nhsuk-spacing(2);
 			}
-			img.avatar {
-			  width: nhsuk-spacing(8);
-			  height: nhsuk-spacing(8);
-			  border-radius: 50%;
-			  position: relative;
-			  top: -#{nhsuk-spacing(2)};
+		  }
+
+		  &.actions {
+			float : right;
+
+			.dashicons {
+			  width  : nhsuk-spacing(6);
+			  height : nhsuk-spacing(6);
 			}
-			.posted {
-			  width: 100%;
-			  @extend .nhsuk-body-s;
-			}
+		  }
+
+		  img.avatar {
+			width         : nhsuk-spacing(8);
+			height        : nhsuk-spacing(8);
+			border-radius : 50%;
+			position      : relative;
+			top           : -#{nhsuk-spacing(2)};
+		  }
+
+		  .posted {
+			width : 100%;
+			@extend .nhsuk-body-s;
 		  }
 		}
 	  }
 	}
+  }
 }
+
 .bbp-topic-tags {
   a {
 	@extend .nhsuk-tag;
