@@ -1,18 +1,19 @@
 .nhsuk-bordered-tabs-container {
   .nhsuk-bordered-tabs {
 	.nhsuk-bordered-tabs-item {
-	  padding : nhsuk-spacing(2);
-	  position: relative;
+	  padding  : nhsuk-spacing(2);
+	  position : relative;
+
 	  a {
 		.count {
-		  position: absolute;
-		  top: 0px;
-		  right: -4px;
-		  width: 16px;
-		  height: 16px;
-		  font-size: 10px;
-		  padding: 0px;
-		  text-align: center;
+		  position   : absolute;
+		  top        : 0px;
+		  right      : -4px;
+		  width      : 16px;
+		  height     : 16px;
+		  font-size  : 10px;
+		  padding    : 0px;
+		  text-align : center;
 		}
 	  }
 
@@ -22,43 +23,93 @@
 	}
   }
 }
+
+
+/* Secondary tabs styling */
+#buddypress {
+  nav#object-nav {
+	border-top: none;
+	border-bottom: none;
+	ul.nhsuk-bordered-tabs {
+	  li.nhsuk-bordered-tabs-item {
+		padding: nhsuk-spacing(2);
+	  }
+	}
+  }
+  nav.secondary {
+	border-bottom    : 2px solid $color_nhsuk-blue;
+	background-color : $color_nhsuk-grey-5;
+	border-top       : none;
+  }
+  ul.button-tabs {
+	border-bottom    : 2px solid $color_nhsuk-blue;
+	li {
+	  padding: nhsuk-spacing(2);
+	  border-top: 2px solid $color_nhsuk-blue;
+	  border-left: 2px solid $color_nhsuk-blue;
+	  border-right: 2px solid $color_nhsuk-blue;
+	  border-radius: nhsuk-spacing(1) nhsuk-spacing(1) 0 0;
+	  margin-right: nhsuk-spacing(1);
+	  margin-bottom: 0;
+	  position: relative;
+	  top: 2px;
+	  border-bottom: 2px solid $color_nhsuk-grey-5;
+
+	  &.current {
+		background: $color_nhsuk-blue;
+		border-bottom: 2px solid $color_nhsuk-blue;
+		a {
+		  background: $color_nhsuk-blue;
+		  color: $color_nhsuk-white;
+		}
+	  }
+	}
+  }
+}
+
 .nhsuk-bordered-tabs-container-footer {
   @extend .nhsuk-bordered-tabs-container;
-  position: relative;
-  top: -#{nhsuk-spacing(5)};
-  background: $color_nhsuk-grey-4;
-  padding-top: 0;
-  border-bottom: none;
+  position      : relative;
+  top           : -#{nhsuk-spacing(5)};
+  background    : $color_nhsuk-grey-4;
+  padding-top   : 0;
+  border-bottom : none;
 
   .nhsuk-bordered-tabs {
 	.nhsuk-bordered-tabs-item {
 
-	  border-radius: 0 0 nhsuk-spacing(1) nhsuk-spacing(1);
-	  margin-left: nhsuk-spacing(1);
-	  background: $color_nhsuk-blue;
+	  border-radius : 0 0 nhsuk-spacing(1) nhsuk-spacing(1);
+	  margin-left   : nhsuk-spacing(1);
+	  background    : $color_nhsuk-blue;
+
 	  a {
-		color: $color_nhsuk-white;
+		color : $color_nhsuk-white;
+
 		&:visited {
-		  color: $color_nhsuk-white;
+		  color : $color_nhsuk-white;
 		}
 	  }
+
 	  &:hover {
-		background: $color_nhsuk-grey-2;
+		background : $color_nhsuk-grey-2;
+
 		a {
-		  color: $color_nhsuk-white;
+		  color : $color_nhsuk-white;
 		}
 	  }
+
 	  &.nhsuk-bordered-tabs-item-active {
-		background: $color_nhsuk-grey-5;
-		border-color: $color_nhsuk-blue;
-		margin-bottom: 0;
-		margin-top: -#{nhsuk-spacing(1)};
-		border-bottom: 2px solid;
-		border-color: $color_nhsuk-blue;
-		border-top: 2px solid $color_nhsuk-grey-5;
-		border-radius: 0 0 nhsuk-spacing(1) nhsuk-spacing(1);
+		background    : $color_nhsuk-grey-5;
+		border-color  : $color_nhsuk-blue;
+		margin-bottom : 0;
+		margin-top    : -#{nhsuk-spacing(1)};
+		border-bottom : 2px solid;
+		border-color  : $color_nhsuk-blue;
+		border-top    : 2px solid $color_nhsuk-grey-5;
+		border-radius : 0 0 nhsuk-spacing(1) nhsuk-spacing(1);
+
 		a {
-		  color: $color_nhsuk-grey-2;
+		  color : $color_nhsuk-grey-2;
 		}
 	  }
 	}
