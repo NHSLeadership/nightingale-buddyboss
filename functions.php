@@ -5,12 +5,12 @@
  * @link      https://developer.wordpress.org/themes/basics/theme-functions/
  * @package   Nightingale
  * @copyright NHS Leadership Academy, Tony Blacker
- * @version   2.2.7 8th December 2020
+ * @version   2.2.8 8th December 2020
  */
 add_action( 'wp_enqueue_scripts', 'enqueue_child_styles' );
 
 function enqueue_child_styles() {
-	wp_enqueue_style( 'buddyboss-style', get_stylesheet_uri() );
+	wp_enqueue_style( 'buddyboss-style', get_stylesheet_uri(), '', '20201208' );
 }
 /**
  * Create an array of active plugins.

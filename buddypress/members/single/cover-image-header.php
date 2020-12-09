@@ -53,8 +53,7 @@ remove_filter( 'bp_get_add_follow_button', 'buddyboss_theme_bp_get_add_follow_bu
 							<?php if ( function_exists( 'bp_is_activity_follow_active' ) && bp_is_active( 'activity' ) && bp_is_activity_follow_active() ) { ?>
                                 <div class="flex align-items-top member-social">
                                     <div class="flex align-items-center">
-										<?php nightingale_theme_followers_count(); ?>
-										<?php nightingale_theme_following_count(); ?>
+										<?php nightingale_theme_followers_count(); ?> <?php nightingale_theme_following_count(); ?>
                                     </div>
 									<?php
 									if ( function_exists( 'bp_get_user_social_networks_urls' ) ) {
@@ -76,6 +75,17 @@ remove_filter( 'bp_get_add_follow_button', 'buddyboss_theme_bp_get_add_follow_bu
 							<?php } ?>
                             <span class="nhsuk-hero__arrow" aria-hidden="true"></span>
                         </div>
+                    </div>
+                    <div class="nhsuk-grid-column-one-third right">
+	                    <?php
+	                    bp_nouveau_member_header_buttons(
+		                    array(
+			                    'container'         => 'div',
+			                    'button_element'    => 'button',
+			                    'container_classes' => array( 'member-header-actions' ),
+		                    )
+	                    );
+	                    ?>
                     </div>
                 </div>
             </div>

@@ -36,7 +36,7 @@ $group_cover_image_url = $group_cover_image_url ?: $default_group_cover;
 						<?php if ( ! bp_disable_group_avatar_uploads() ) : ?>
 								<?php if ( bp_is_item_admin() ) { ?>
                                     <a href="<?php echo $group_avatar; ?>" class="link-change-profile-image bp-tooltip" data-bp-tooltip-pos="up" data-bp-tooltip="<?php _e('Change Group Photo', 'buddyboss'); ?>">
-                                        <i class="bb-icon-edit-thin"></i>
+                                        <span class="dashicons dashicons-edit"></span>
                                     </a>
 								<?php } ?>
 								<?php bp_group_avatar(); ?>
@@ -49,6 +49,9 @@ $group_cover_image_url = $group_cover_image_url ?: $default_group_cover;
 						<span class="nhsuk-hero__arrow" aria-hidden="true"></span>
 					</div>
 				</div>
+                <div class="nhsuk-grid-column-one-third right">
+	                <?php bp_nouveau_group_header_buttons(); ?>
+                </div>
 			</div>
 		</div>
 	</div>

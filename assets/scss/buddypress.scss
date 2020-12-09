@@ -62,6 +62,10 @@ body.buddypress {
 		height        : nhsuk-spacing(6);
 		width         : nhsuk-spacing(6);
 	  }
+	  text-decoration: none;
+	  span {
+		text-decoration: underline;
+	  }
 	}
 
 	.nhsuk-card__content {
@@ -186,13 +190,17 @@ body.buddypress {
   }
 
   .wp-block-nhsblocks-heroblock {
+	.dashicons {
+	  background: $color_nhsuk-white;
+	  color: $color_nhsuk-blue;
+	}
 	img.avatar {
-	  height        : nhsuk-spacing(9);
-	  width         : nhsuk-spacing(9);
+	  height        : nhsuk-spacing(8);
+	  width         : nhsuk-spacing(8);
 	  border-radius : 50%;
 	  float         : right;
 	  padding-top   : nhsuk-spacing(1);
-	  margin-right  : nhsuk-spacing(2);
+	  margin-right  : 0;
 
 	  + h1 {
 		float : left;
@@ -201,6 +209,55 @@ body.buddypress {
 		~ .item-meta {
 		  clear : both;
 		}
+		~ p {
+		  clear: both;
+		}
+	  }
+	}
+	.followers-wrap, .following-wrap {
+	  float: left;
+	  @extend .nhsuk-body-s;
+	}
+	.following-wrap {
+	  margin-left: nhsuk-spacing(3);
+	}
+	.right {
+	  float : right;
+	  margin-top: nhsuk-spacing(3);
+	  .friendship-button, .follow-button, .generic-button {
+		text-align: right;
+		a, button {
+		  @extend .nhsuk-button;
+		  margin-bottom: nhsuk-spacing(3);
+		  float: right;
+		}
+	  }
+	  .generic-button, .view-as, #user_switching_switch_to {
+		a {
+		  @extend .nhsuk-button--reverse;
+		  font-size: $nhsuk-base-font-size;
+		  padding: nhsuk-spacing(2) nhsuk-spacing(1);
+		  box-shadow: none;
+		  margin-left: nhsuk-spacing(3);
+		  margin-right: nhsuk-spacing(3);
+		}
+		a.send-message {
+			@extend .nhsuk-button;
+		  	@extend .nhsuk-button--reverse;
+		}
+	  }
+	  .view-as {
+		margin-top: 240px;
+	  }
+	}
+	@include mq($until: tablet) {
+	  .right {
+		display : none;
+	  }
+	}
+	.nhsuk-hero-content {
+	  .dashicons {
+		float: right;
 	  }
 	}
   }
@@ -264,6 +321,17 @@ body.groups.group-invites {
 
 #group-invites-container {
   display : block;
+  .bb-groups-invites-left {
+	ul#members-list {
+	  max-height: unset;
+	  overflow: unset;
+	  li {
+		.item {
+		  width: 40%;
+		}
+	  }
+	}
+  }
 }
 
 
@@ -415,5 +483,104 @@ ul#groups-list {
 	.nhsuk-card__content {
 	  padding-top: 0;
 	}
+  }
+}
+// pending invites styling
+.bp-invites-content {
+  ul#members-list {
+	>li {
+	  @extend .nhsuk-grid-column-one-half;
+	  padding: nhsuk-spacing(3);
+	  position: relative;
+	  ul.group-inviters {
+		li {
+		  margin: 0;
+		  float: left;
+		  margin-right: nhsuk-spacing(2);
+		  img.avatar {
+			height: nhsuk-spacing(5);
+			width: nhsuk-spacing(5);
+			border-radius: 50%;
+		  }
+		}
+	  }
+	  p {
+		clear: both;
+		@extend .nhsuk-body-s;
+	  }
+	  &:after {
+		clear: none;
+	  }
+	  .action {
+		position: absolute;
+		top: nhsuk-spacing(3);
+		right: nhsuk-spacing(3);
+		button {
+		  @extend .nhsuk-button;
+		  background: $color_nhsuk-red;
+		  span.icons:before {
+			color: $color_nhsuk-white;
+		  }
+		}
+	  }
+	}
+  }
+}
+
+body.notifications {
+	.nhsuk-card-group__item {
+	  .nhsuk-card {
+		.nhsuk-card__content {
+		  > div {
+			float: left;
+			padding: nhsuk-spacing(3) nhsuk-spacing(1);
+			&.nhsuk-checkboxes {
+			  padding-top: 0;
+			}
+			&.push-right {
+			  float: right;
+			}
+			&.notifications-options-nav {
+			  .select-wrap {
+				#notification-select {
+				  @extend .nhsuk-select;
+				  margin-right : nhsuk-spacing(3);
+				  appearance: auto;
+				}
+				margin-right: nhsuk-spacing(3);
+			  }
+
+			  #notification-bulk-manage {
+				font-size : $nhsuk-base-font-size;
+				padding   : nhsuk-spacing(2);
+			  }
+			}
+			&.actions {
+			  float: right;
+			  .dashicons {
+				width: nhsuk-spacing(6);
+				height: nhsuk-spacing(6);
+			  }
+			}
+			img.avatar {
+			  width: nhsuk-spacing(8);
+			  height: nhsuk-spacing(8);
+			  border-radius: 50%;
+			  position: relative;
+			  top: -#{nhsuk-spacing(2)};
+			}
+			.posted {
+			  width: 100%;
+			  @extend .nhsuk-body-s;
+			}
+		  }
+		}
+	  }
+	}
+}
+.bbp-topic-tags {
+  a {
+	@extend .nhsuk-tag;
+	@extend .nhsuk-tag--white;
   }
 }
