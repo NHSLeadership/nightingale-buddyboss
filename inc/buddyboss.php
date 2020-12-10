@@ -329,3 +329,41 @@ if ( ! function_exists( 'nightingale_theme_following_count' ) ) {
 	}
 }
 
+
+if ( ! function_exists( 'buddyboss_pagination' ) ) {
+
+	/**
+	 * Custom Pagination
+	 */
+	function buddyboss_pagination() {
+		global $paged, $wp_query;
+
+		if ( ! $max_page ) {
+			$max_page = $wp_query->max_num_pages;
+		}
+
+		if ( ! $paged ) {
+			$paged = 1;
+		}
+
+		$nextpage = intval( $paged ) + 1;
+
+		if ( is_front_page() || is_home() ) {
+			$template = 'home';
+		} elseif ( is_category() ) {
+			$template = 'category';
+		} elseif ( is_search() ) {
+			$template = 'search';
+		} else {
+			$template = 'archive';
+		}
+
+		$class = ' post-infinite-scroll';
+		$label = __( 'Load More', 'nightingale-buddyboss' );
+
+		if ( ! is_single() && ( $nextpage <= $max_page ) ) {
+			$attr = 'data-page=' . $nextpage . ' data-template=' . $template;
+			echo '<div class="bb-pagination pagination-below"><a class="button-load-more-posts' . $class . '" href="' . next_posts( $max_page, false ) . "\" $attr>" . $label . '</a></div>';
+		}
+	}
+}

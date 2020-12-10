@@ -67,8 +67,10 @@ input[type="textarea"] {
 	}
   }
   .bp-messages-content-wrapper {
+	height: auto;
 	ul#bp-message-thread-list {
 	  overflow : unset;
+	  max-height: unset;
 	}
 
 	#bp-message-content {
