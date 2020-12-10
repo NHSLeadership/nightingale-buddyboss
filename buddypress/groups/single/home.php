@@ -27,7 +27,6 @@ if ( bp_has_groups() ) :
 
 		<div class="bp-wrap">
 
-			<div class="bb-profile-grid bb-grid">
 				<div id="item-body" class="item-body">
 					<?php bp_nouveau_group_template_part(); ?>
 				</div>
@@ -47,7 +46,6 @@ if ( bp_has_groups() ) :
 						</div>
 					</div>
 				<?php } ?>
-			</div>
 
 		</div><!-- // .bp-wrap -->
 

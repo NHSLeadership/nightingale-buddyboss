@@ -1,13 +1,15 @@
-#comments, #activity-stream {
+#comments {
   @extend #respond;
   @extend .nhsuk-list-panel;
   margin-top : nhsuk-spacing(3);
 
   ul.comment-list {
+	@extend .nhsuk-list-panel__list;
 	background-color : inherit;
 	list-style       : none;
 
-	li {
+	li:not(.load-more) {
+	  @extend .nhsuk-list-panel__item;
 	  border-bottom: 2px solid $color_nhsuk-grey-4;
 	  .div-comment, .comment-body {
 		clear            : both;
@@ -43,13 +45,23 @@
 		display: table;
 	  }
 	}
+	li.load-more {
+	  a.button {
+		@extend .nhsuk-button;
+		@extend .nhsuk-button--reverse;
+	  }
+	}
 
 	.comment-body {
 	  position   : relative;
 	  background : $color_nhsuk-white;
 
-	  .comment_body_comment:empty {
-		display : none;
+	  .comment_body_comment {
+		&:empty {
+		  display : none;
+		}
+
+
 	  }
 
 	  .item-avatar {
@@ -57,28 +69,7 @@
 		height : nhsuk-spacing(3);
 	  }
 
-	  .activity-state {
-		position : absolute;
-		bottom   : -#{nhsuk-spacing(5)};
-		right    : 0;
 
-		.activity-state-comments {
-		  @extend .nhsuk-tag;
-		  @extend .nhsuk-tag--white;
-		}
-
-		.activity-state-likes {
-		  @extend .nhsuk-tag;
-		  @extend .nhsuk-tag--grey;
-		}
-	  }
-
-	  :not(.has-likes) {
-		.ac-state-separator,
-		.activity-state-likes {
-		  display : none;
-		}
-	  }
 	}
 
 	.comment-author {
@@ -92,22 +83,7 @@
 		}
 	  }
 	}
-	.activity-meta {
-	  &:before {
-		clear: both;
-		content: "";
-		display: table;
-	  }
-	}
-  }
-}
-#activity-stream {
-  ul.comment-list {
-	li {
-	  &:first-of-type {
-		display: block;
-	  }
-	}
+
   }
 }
 
@@ -121,7 +97,7 @@ a.bbp-author-link {
 
 @include mq($until : tablet) {
   #item-body {
-	#comments, #activity-stream {
+	#comments {
 	  margin-left  : 0;
 	  margin-right : 0;
 	  max-width: 90vw;
