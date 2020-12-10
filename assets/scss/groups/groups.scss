@@ -1,1 +1,45 @@
 @import 'invites'; //invite pages styling
+
+/**
+Everything below here is group specific. Like, ONLY groups are affected. But all pages within groups. Antyhing more specific needs to be in a separate file.
+ */
+//single groups
+body.groups {
+  .group-description { // the header area across all group pages
+	.activity { // the member count
+	  padding: nhsuk-spacing(2);
+	  border: none;
+	  background: $color_nhsuk-blue;
+	  float: right;
+	  a, a:active, a:hover, a:visited {
+		color: $color_nhsuk-white;
+		text-decoration: none;
+	  }
+	}
+	#item-actions { // Group meta data
+	  .moderators-lists { // list of group owners
+		.moderators-title {
+		  float: left;
+		}
+		.user-list {
+		  float: left;
+		  ul#group-admins {
+			list-style: none;
+			li {
+			  float: left;
+			  img.avatar {
+				width: nhsuk-spacing(4);
+				height: nhsuk-spacing(4);
+			  }
+			}
+		  }
+		}
+	  }
+	}
+	&:after {
+	  clear: both;
+	  content: "";
+	  display: table;
+	}
+  }
+}

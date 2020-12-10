@@ -1,4 +1,12 @@
 .subnav-filters {
+  ul {
+	width: 100%;
+	float: none;
+  }
+  .subnav-search, .group-act-search {
+	width: 50%;
+	float: right;
+  }
   div select, div input[type="search"] {
 	@extend .nhsuk-select;
 	background    : $color_nhsuk-white;

@@ -1,0 +1,169 @@
+body.buddypress {
+  #buddypress {
+	#activity-stream { // the feed element
+	  padding-top : 0;
+
+	  .activity-list.bp-list { // ul wrapper for posts
+		padding    : 0;
+		background : inherit;
+		border     : none;
+
+		.activity-item { // individual li items
+		  box-shadow     : none;
+		  padding-bottom : 0;
+
+		  .item-avatar {
+			width  : nhsuk-spacing(8);
+			margin : 0 nhsuk-spacing(2) 0 0;
+		  }
+
+		  .activity-content { // the actual contents of the post
+			.activity-header {
+			  @extend .nhsuk-body-s; // make text small.
+			  img.avatar { // the group avatar
+				border-radius : 50%;
+				height        : nhsuk-spacing(5);
+				width         : nhsuk-spacing(5);
+			  }
+			}
+
+			.bp-generic-meta.action {
+			  background : inherit;
+			  text-align : left;
+
+			  .generic-button {
+				@extend .nhsuk-body-s;
+				display       : inline-block;
+				margin-bottom : nhsuk-spacing(2);
+			  }
+			}
+
+			.activity-state {
+
+			  .activity-state-likes {
+				font-size  : $nhsuk-base-font-size;
+				color      : $color_nhsuk-white;
+				background : $color_nhsuk-blue;
+				padding    : nhsuk-spacing(2);
+				float: right;
+			  }
+			  .activity-state-comments {
+				font-size  : $nhsuk-base-font-size;
+				border : 1px solid $color_nhsuk-black;
+				padding    : nhsuk-spacing(2);
+				float: left;
+			  }
+			  .ac-state-separator {
+				display: none;
+			  }
+			}
+		  }
+		  .activity-comments { // replies and responses to the post
+			ul {
+			  li {
+				.acomment-meta {
+				  @extend .nhsuk-body-s;
+				}
+				.acomment-content {
+				  p {
+					font-size: $nhsuk-base-font-size;
+					color: $color_nhsuk-black;
+				  }
+				}
+				.action { //buttons
+				  text-align: left;
+				  .generic-button {
+					a {
+					  font-size : $nhsuk-base-font-size;
+					  &:before {
+						font-family: "bb-icons";
+						font-size: 18px;
+						vertical-align: middle;
+					  }
+					  &.acomment-reply {
+						&:before {
+						  content: "\e80b";
+						}
+					  }
+					  &.acomment-delete {
+						&:before {
+						  content : "\eaea";
+						}
+					  }
+					}
+				  }
+				}
+			  }
+			}
+			.ac-form { // the reply form
+			  img.avatar {
+				border-radius : 50%;
+			  }
+			  input[type="submit"] {
+				float: right;
+			  }
+			  button.ac-reply-cancel {
+				@extend .nhsuk-button--secondary;
+				float: right;
+			  }
+			}
+		  }
+		}
+	  }
+	}
+
+	#bp-nouveau-activity-form {
+	  @extend .nhsuk-form-group;
+	  border     : 1px solid $color_nhsuk-grey-3;
+	  padding    : nhsuk-spacing(3);
+	  margin-top : nhsuk-spacing(3);
+	  background : $color_nhsuk-white;
+
+	  #whats-new-content {
+		#whats-new-textarea {
+		  border: nhsuk-spacing(1) solid $color_nhsuk-grey-5;
+		}
+		.medium-editor-toolbar {
+		  &.active {
+			position : relative;
+			bottom   : 0;
+			left     : 0;
+		  }
+		}
+	  }
+
+	  #whats-new-form:not(.focus-in) { // hide elements before the form is focussed
+		#whats-new-avatar {
+		  display : none;
+		}
+
+		#whats-new-content {
+		  #whats-new-textarea {
+			@extend .nhsuk-textarea;
+			min-height : nhsuk-spacing(5);
+			border     : 0;
+		  }
+		}
+	  }
+
+	  #whats-new-toolbar {
+		float : left;
+	  }
+
+	  #activity-form-submit-wrapper {
+		border-top : 0;
+	  }
+	  &.modal-popup {
+		#whats-new-content {
+		  #whats-new-textarea {
+		  	margin: nhsuk-spacing(2);
+		  }
+		  }
+	  }
+	}
+
+	.subnav-filters {
+	  margin : 0;
+	}
+  }
+}

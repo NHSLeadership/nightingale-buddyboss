@@ -321,6 +321,7 @@ body.buddypress {
 @import 'buddy-forums'; //buddypress comments, discussion and forum styling overrides
 
 @import 'groups/groups'; // import all of the various group page stylings
+@import 'timeline/timeline'; // import all of the timeline / activity feed stylings
 
 
 /* Buddypress header nav elements */
@@ -363,8 +364,17 @@ body.buddypress {
 	}
 
   }
+  ~ .nhsuk-header__search {
+	position: relative;
+	top: -#{nhsuk-spacing(2)};
+  }
 }
 
+#group-search {
+  button {
+	margin-bottom: nhsuk-spacing(2);
+  }
+}
 @include mq($until : desktop) {
 
   .bb-groups-invites-left {

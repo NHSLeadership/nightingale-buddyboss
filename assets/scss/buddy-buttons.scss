@@ -26,33 +26,7 @@
   background: inherit;
   border: none;
   box-shadow: none;
-  span.like-count {
-    &:before {
-      content: "\1F44D \2007";
-    }
-  }
-  span.comment-count {
-    &:before {
-      content: "\1F4AC \2007";
-    }
-  }
-  span.edit-label {
-    &:before {
-      content: "\270E \2007";
-    }
-  }
-  span.delete-label {
-    &:before {
-      content: "\232B \2007";
-    }
-  }
-  &.unfav {
-    span.like-count {
-      &:before {
-        content: "\24E7 \2007";
-      }
-    }
-  }
+
 }
 .follow-button a,
 #aw-whats-new-reset {
