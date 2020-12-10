@@ -7,9 +7,9 @@
 
 ?>
 <?php
-if ( ! bp_is_group_creation_step( 'group-invites' ) ) {
+if ( ! bp_is_group_creation_step( 'group-invites' ) ) :
 	bp_get_template_part( 'groups/single/parts/invite-subnav' );
-}
+endif;
 ?>
 <div id="group-invites-container" class="nhsuk-grid-column-full">
     <br />
@@ -32,11 +32,11 @@ if ( ! bp_is_group_creation_step( 'group-invites' ) ) {
         <div class="bb-panel-head">
             <div class="bb-panel-subhead">
                 <h4 class="total-members-text"><?php _e( 'Members', 'buddyboss' ); ?></h4>
-				<?php if ( bp_is_active( 'friends' ) ) { ?>
+				<?php if ( bp_is_active( 'friends' ) ) : ?>
                     <div id="bp-invites-dropdown-options-loader" class="bp-invites-dropdown-options-loader-hide">
                         <i class="bb-icons bb-icon-loader animate-spin"></i>
                     </div>
-				<?php } ?>
+				<?php endif; ?>
             </div>
         </div>
 

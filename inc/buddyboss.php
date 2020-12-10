@@ -338,8 +338,6 @@ if ( ! function_exists( 'buddyboss_pagination' ) ) {
 	function buddyboss_pagination() {
 		global $paged, $wp_query;
 
-		$max_page = 0;
-
 		if ( ! $max_page ) {
 			$max_page = $wp_query->max_num_pages;
 		}
@@ -360,7 +358,7 @@ if ( ! function_exists( 'buddyboss_pagination' ) ) {
 			$template = 'archive';
 		}
 
-		$class = ( true ) ? ' post-infinite-scroll' : '';
+		$class = ' post-infinite-scroll';
 		$label = __( 'Load More', 'nightingale-buddyboss' );
 
 		if ( ! is_single() && ( $nextpage <= $max_page ) ) {
