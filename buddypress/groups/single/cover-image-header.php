@@ -44,7 +44,9 @@ $group_cover_image_url = $group_cover_image_url ?: $default_group_cover;
 						<h1 class="nhsuk-u-margin-bottom-3">
 							<?php echo esc_attr( bp_get_group_name() ); ?>
 						</h1>
-						<p class="nhsuk-body-l nhsuk-u-margin-bottom-0"><?php echo wp_kses( bp_nouveau_group_meta()->status, array( 'span' => array( 'class' => array() ) ) ); ?></p>
+						<p class="nhsuk-body-l nhsuk-u-margin-bottom-0">
+                            <?php echo wp_kses( bp_nouveau_group_meta()->status, array( 'span' => array( 'class' => array() ) ) ); ?>
+                        </p>
 
 						<span class="nhsuk-hero__arrow" aria-hidden="true"></span>
 					</div>
@@ -56,5 +58,17 @@ $group_cover_image_url = $group_cover_image_url ?: $default_group_cover;
 		</div>
 	</div>
 </div>
-<?php //bp_get_template_part( 'groups/single/parts/header-item-actions' ); ?>
+<?php if ( ! bp_nouveau_groups_front_page_description() && bp_nouveau_group_has_meta( 'description' ) ) : ?>
+    <div class="desc-wrap">
+        <div class="group-description">
+			<?php bp_group_description(); ?>
+            <p class="activity">
+                <a href="<?php echo esc_url( bp_get_group_permalink() . 'members' ); ?>"><?php echo esc_html( bp_get_group_member_count() ); ?></a>
+            </p>
+	        <?php bp_nouveau_group_hook( 'before', 'header_meta' ); ?>
+	        <?php bp_get_template_part( 'groups/single/parts/header-item-actions' ); ?>
+
+        </div><!-- //.group_description -->
+    </div>
+<?php endif; ?>
 
