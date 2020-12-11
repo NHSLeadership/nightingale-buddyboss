@@ -1,0 +1,30 @@
+.bbp-topics1 {
+
+  .nhsuk-card {
+
+
+	&.closed {
+	  background : $color_nhsuk-grey-5;
+	  color : $color_nhsuk-grey-2;
+
+	  a {
+		color : $color_nhsuk-grey-2;
+	  }
+
+	  .bb-icon-reply {
+		color : $color_nhsuk-grey-2;
+	  }
+
+	  .bbp-topic-permalink {
+		&:after {
+		  content : "Topic Closed";
+		  text-decoration: none;
+		  color   : $color_nhsuk-grey-2;
+		  padding : nhsuk-spacing(2);
+		  border  : 1px solid $color_nhsuk-grey-2;
+		  margin  : 0 nhsuk-spacing(3);
+		}
+	  }
+	}
+  }
+}

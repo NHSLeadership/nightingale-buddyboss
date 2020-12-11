@@ -1,0 +1,76 @@
+body.groups { // limit these changes to only the groups listing page
+
+  #buddypress {
+	.subnav-search {
+	  width : 50%;
+	  float : right;
+	}
+
+	.bp-secondary-header {
+	  width : 50%;
+	  float : left;
+
+	  .subnav-filters {
+		float : left;
+
+		&:empty {
+		  display : none;
+		}
+	  }
+	}
+
+	ul#groups-list {
+	  .nhsuk-card {
+		.header-flash {
+		  background-color : $color_nhsuk-blue;
+		  height           : nhsuk-spacing(9);
+		  width            : 100%;
+		  background-size  : cover;
+		}
+
+		.item-avatar {
+		  position : relative;
+		  left     : nhsuk-spacing(3);
+		  top      : -#{nhsuk-spacing(4)};
+
+		  img {
+			width  : nhsuk-spacing(7);
+			height : nhsuk-spacing(7);
+		  }
+		}
+
+		.bp-generic-meta {
+		  float    : right;
+		  position : relative;
+		  top      : -#{nhsuk-spacing(7)};
+		  height   : nhsuk-spacing(4);
+
+		  &.action {
+			button {
+			  padding     : 0;
+			  background  : none;
+			  color       : $nhsuk-link-color;
+			  box-shadow  : none;
+			  font-weight : $nhsuk-font-bold;
+			  font-size   : $nhsuk-base-font-size;
+			  border      : 0;
+			}
+		  }
+
+		  .groups-meta {
+			text-align : center;
+		  }
+
+		}
+
+		.nhsuk-card__content {
+		  padding-top : 0;
+		  .last-activity {
+			padding: nhsuk-spacing(2);
+			border: 1px solid $color_nhsuk-grey-3;
+		  }
+		}
+	  }
+	}
+  }
+}

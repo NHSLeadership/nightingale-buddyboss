@@ -1,0 +1,72 @@
+body.group-admin {
+  #buddypress {
+	#group-settings-form {
+	  .requests {
+		#request-list {
+		  .single-request {
+			width : 100%;
+
+			.request-title {
+			  float : left;
+
+			  img.avatar {
+				width: nhsuk-spacing(5);
+				height: nhsuk-spacing(5);
+			  }
+			}
+
+			.action {
+			  float : right;
+			  width: auto;
+			  width: 200px;
+			}
+			.request-content {
+			  clear : both;
+			  font-size
+			  .request-body {
+				.comments {
+
+				}
+				.activity {
+				  @extend %nhsuk-body-s;
+				  color: $color_nhsuk-grey-2;
+				}
+			  }
+			}
+
+		  }
+		}
+	  }
+	}
+  }
+  /* Manage Members Custom Styling */
+  .bp-manage-group-container {
+
+	.button {
+	  @extend .nhsuk-button;
+	  @include nhsuk-typography-responsive(16);
+	  padding : nhsuk-spacing(1) nhsuk-spacing(2);
+	  float   : left;
+	  margin-right: nhsuk-spacing(3);
+
+	  &.confirm {
+		@extend .nhsuk-button--reverse;
+		padding: nhsuk-spacing(2) nhsuk-spacing(3);
+		&.member-ban {
+		  background-color : $color_nhsuk-red;
+		  color: $color_nhsuk-white;
+		  content: "Remove & Block";
+		}
+
+		&.member-promote-to-mod {
+
+		}
+
+		&.member-promote-to-admin {
+		  @extend .nhsuk-button--secondary;
+		  color: $color_nhsuk-white;
+		}
+	  }
+	}
+  }
+}

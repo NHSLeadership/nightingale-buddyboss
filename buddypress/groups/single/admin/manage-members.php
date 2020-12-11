@@ -40,18 +40,14 @@
                         <tr role="row" class="nhsuk-table__row">
                             <td class="nhsuk-table__cell usernames">
 								<?php echo bp_core_fetch_avatar( array( 'item_id' => bp_get_member_user_id(), 'type' => 'thumb', 'alt' => '', ) ); ?>
-                                <br />
+                                <br/>
                                 <a href="<?php bp_member_permalink(); ?>"> <?php bp_member_name(); ?></a>
                             </td>
-
-							<?php if ( count( bp_group_admin_ids( false, 'array' ) ) > 1 ) : ?>
-
-                                <td class="nhsuk-table__cell">
+                            <td class="nhsuk-table__cell">
+								<?php if ( count( bp_group_admin_ids( false, 'array' ) ) > 1 ) : ?>
                                     <a class="button confirm admin-demote-to-member" href="<?php bp_group_member_demote_link( bp_get_member_user_id() ); ?>"><?php printf( __( 'Demote to regular %s', 'nightingale' ), strtolower( get_group_role_label( bp_get_current_group_id(), 'member_singular_label_name' ) ) ); ?></a>
-                                </td>
-
-							<?php endif; ?>
-
+								<?php endif; ?>
+                            </td>
                         </tr>
 					<?php endwhile; ?>
 
@@ -92,18 +88,16 @@
                 <tr role="row" class="nhsuk-table__row">
                     <td class="nhsuk-table__cell usernames">
 						<?php echo bp_core_fetch_avatar( array( 'item_id' => bp_get_member_user_id(), 'type' => 'thumb', 'width' => 30, 'height' => 30, 'alt' => '', ) ); ?>
-                        <br />
+                        <br/>
                         <a href="<?php bp_member_permalink(); ?>"> <?php bp_member_name(); ?></a>
                     </td>
 
-					<?php if ( count( bp_group_admin_ids( false, 'array' ) ) > 1 ) : ?>
 
-                        <td class="nhsuk-table__cell">
-                            <a href="<?php bp_group_member_promote_admin_link( array( 'user_id' => bp_get_member_user_id() ) ); ?>" class="button confirm mod-promote-to-admin"><?php printf( __( 'Promote to co-%s', 'nightingale' ), strtolower( get_group_role_label( bp_get_current_group_id(), 'organizer_singular_label_name' ) ) ); ?></a>
-                            <a class="button confirm mod-demote-to-member" href="<?php bp_group_member_demote_link( bp_get_member_user_id() ); ?>"><?php printf( __( 'Demote to regular %s', 'nightingale' ), strtolower( get_group_role_label( bp_get_current_group_id(), 'member_singular_label_name' ) ) ); ?></a>
-                        </td>
+                    <td class="nhsuk-table__cell">
+                        <a href="<?php bp_group_member_promote_admin_link( array( 'user_id' => bp_get_member_user_id() ) ); ?>" class="button confirm mod-promote-to-admin"><?php printf( __( 'Promote to co-%s', 'nightingale' ), strtolower( get_group_role_label( bp_get_current_group_id(), 'organizer_singular_label_name' ) ) ); ?></a>
+                        <a class="button confirm mod-demote-to-member" href="<?php bp_group_member_demote_link( bp_get_member_user_id() ); ?>"><?php printf( __( 'Demote to regular %s', 'nightingale' ), strtolower( get_group_role_label( bp_get_current_group_id(), 'member_singular_label_name' ) ) ); ?></a>
+                    </td>
 
-					<?php endif; ?>
 
                 </tr>
 
@@ -148,7 +142,7 @@
                     <tr role="row" class="nhsuk-table__row">
                         <td class="nhsuk-table__cell usernames">
 							<?php echo bp_core_fetch_avatar( array( 'item_id' => bp_get_member_user_id(), 'type' => 'thumb', 'alt' => '', ) ); ?>
-                            <br />
+                            <br/>
                             <a href="<?php bp_member_permalink(); ?>"> <?php bp_member_name(); ?></a>
                             <span class="banned warn">
 								<?php if ( bp_get_group_member_is_banned() ) : ?><?php

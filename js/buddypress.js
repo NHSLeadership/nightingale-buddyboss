@@ -8,7 +8,7 @@ jQuery(document).on('click', '.bs-dropdown-link.bb-reply-actions-button', functi
   if (jQuery(this).hasClass('active')) { // if the element is active, show the word "Close".
     jQuery(this).text('Close');
   } else { // otherwise show normal button wording.
-    jQuery(this).text('Reply / Manage');
+    jQuery(this).text('Manage');
   }
 });
 
@@ -113,3 +113,29 @@ jQuery(document).on('click', '.group-button', function (e) {
   var link = jQuery(this).attr("data-bp-nonce");
   window.location.href = link;
 })
+
+const forumForm = document.querySelector('.bbp-topic-form');
+if (forumForm) {
+  var topicTitle = forumForm.querySelector('#bbp_topic_title');
+  var topicContent = forumForm.querySelector('.bbp-the-content');
+  var topicToolbar = forumForm.querySelector('#whats-new-toolbar');
+  var topicChecks = forumForm.querySelector('.bp-checkbox-wrap');
+  var topicSubmit = forumForm.querySelector('.bbp-submit-wrapper');
+  jQuery(topicContent).hide();
+  jQuery(topicToolbar).hide();
+  jQuery(topicChecks).hide();
+  jQuery(topicSubmit).hide();
+  jQuery(topicTitle).bind('keyup', function() {
+    jQuery(topicContent).show();
+    jQuery(topicToolbar).show();
+    jQuery(topicChecks).show();
+    jQuery(topicSubmit).show();
+    jQuery(forumForm).css({
+      "border-color": "#005eb8",
+      "border-width": "2px",
+      "border-style": "solid",
+      "background": "white"
+    });
+    jQuery(topicTitle).unbind('keyup'); // make sure this only runs once so we dont kill browser memory
+  });
+}

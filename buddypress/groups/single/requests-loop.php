@@ -21,24 +21,27 @@
 		bp_group_the_membership_request();
 		?>
 
-        <li class="nhsuk-grid-column-one-half nhsuk-card-group__item">
+        <li class="nhsuk-grid-column-full nhsuk-card-group__item">
             <div class="nhsuk-card">
-                <div class="nhsuk-card__content">
-                    <h2 class="nhsuk-card__heading nhsuk-heading-m">
+                <div class="nhsuk-card__content single-request">
+                    <h2 class="nhsuk-card__heading nhsuk-heading-m request-title">
+						<?php bp_group_request_user_avatar_thumb(); ?>
 						<?php bp_group_request_user_link(); ?>
                     </h2>
-                    <div class="nhsuk-card__description">
-                        <div class="item-avatar">
-							<?php bp_group_request_user_avatar_thumb(); ?>
-                        </div>
-                            
+	                <?php bp_nouveau_group_hook( '', 'membership_requests_admin_item' ); ?>
+	                <?php bp_nouveau_groups_request_buttons(); ?>
+                    <div class="nhsuk-card__description request-content">
+
+
                         <div class="item-meta">
-                            <span class="comments"><?php bp_group_request_comment(); ?></span>
-                            <span class="activity"><?php bp_group_request_time_since_requested(); ?></span>
-							<?php bp_nouveau_group_hook( '', 'membership_requests_admin_item' ); ?>
+                            <div class="request-body">
+
+                                <div class="comments"><?php bp_group_request_comment(); ?></div>
+                                <div class="activity"><?php bp_group_request_time_since_requested(); ?></div>
+                            </div>
+
                         </div>
 
-						<?php bp_nouveau_groups_request_buttons(); ?>
                     </div>
                 </div>
             </div>

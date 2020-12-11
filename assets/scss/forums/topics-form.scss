@@ -1,0 +1,18 @@
+form#new-post {
+  background: inherit;
+  padding: nhsuk-spacing(3);
+  fieldset.bbp-form {
+	border: 0;
+	@extend .nhsuk-fieldset;
+	legend {
+	  @extend .nhsuk-fieldset__legend;
+	  @extend .nhsuk-fieldset__legend--l;
+	}
+	.bbp_editor_topic_content {
+	  @extend .nhsuk-textarea;
+	}
+	input[type="search"] {
+	  @extend .nhsuk-input;
+	}
+  }
+}

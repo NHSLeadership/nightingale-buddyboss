@@ -3,8 +3,8 @@
 #send-private-message a,
 #aw-whats-new-submit,
 #aw-whats-new-reset,
-.accept,
-.reject,
+.accept button,
+.reject button,
 #bp-media-submit,
 #bp-add-media,
 #bb-create-album
@@ -13,7 +13,7 @@
   float        : left;
   margin-right : nhsuk-spacing(3);
 }
-.reject,
+.reject button,
 .friendship-button a.friendship-button.is_friend,
 .friendship-button a.friendship-button.pending_friend,
 .follow-button a.follow-button.following
@@ -42,33 +42,10 @@
   @extend .nhsuk-tag;
   @extend .nhsuk-tag--white;
 }
-/* Manage Members Custom Styling */
-.bp-manage-group-container {
 
-  .button {
-    @extend .nhsuk-button;
-    @include nhsuk-typography-responsive(16);
-    padding : nhsuk-spacing(1) nhsuk-spacing(2);
-    float   : left;
-
-    &.confirm {
-      &.member-ban.confirm {
-        background-color : $color_nhsuk-red;
-      }
-
-      &.member-promote-to-mod {
-        @extend .nhsuk-button--reverse;
-      }
-
-      &.member-promote-to-admin {
-        @extend .nhsuk-button--secondary;
-      }
-    }
-  }
-}
 .dz-message {
   .dz-button {
     box-shadow: none;
-    @extend .nhsuk-body-s;
+    @extend %nhsuk-body-s;
   }
 }

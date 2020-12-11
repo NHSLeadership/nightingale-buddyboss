@@ -33,6 +33,8 @@
 								$current_url = substr( $current_url, 0, ( strpos( $current_url, "/invite/" ) +8 ) ); // remove send-invites from url so active tab works properly
 							} else if (  strpos( $current_url, '/admin/' ) !== false ) {
 								$current_url = substr( $current_url, 0, ( strpos( $current_url, "/admin/" ) +7 ) ); // remove everything after admin link
+							} else if (  strpos( $current_url, '/members/' ) !== false ) {
+								$current_url = substr( $current_url, 0, ( strpos( $current_url, "/members/" ) +9 ) ); // remove everything after admin link
 							}
 							if ( bp_nouveau_get_nav_link() === $current_url ) {
 								$link = ' nhsuk-bordered-tabs-item-active';
