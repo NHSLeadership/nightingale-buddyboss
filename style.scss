@@ -27,4 +27,11 @@ Nicolas Gallagher and Jonathan Neal https://necolas.github.io/normalize.css/
 
 @import '../nightingale/style.scss';
 @import 'assets/scss/buddypress.scss'; //buddypress styling overrides
+/*
+ * added the below body rule as important to over-ride weird bug in safari where h3 top padding gets applied to the body element.
+ */
+body {
+  padding-top: 0 !important;
+}
+
 
