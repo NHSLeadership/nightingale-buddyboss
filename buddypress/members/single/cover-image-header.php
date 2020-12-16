@@ -69,9 +69,6 @@ remove_filter( 'bp_get_add_follow_button', 'buddyboss_theme_bp_get_add_follow_bu
 									}
 									?>
                                 </div>
-								<?php remove_filter( 'bp_get_add_friend_button', 'buddyboss_theme_bp_get_add_friend_button' ); ?>
-								<?php bp_nouveau_member_header_buttons( array( 'container_classes' => array( 'member-header-actions' ) ) ); ?>
-								<?php add_filter( 'bp_get_add_friend_button', 'buddyboss_theme_bp_get_add_friend_button' ); ?>
 							<?php } ?>
                             <span class="nhsuk-hero__arrow" aria-hidden="true"></span>
                         </div>

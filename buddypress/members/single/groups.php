@@ -14,9 +14,6 @@
 
 <?php if ( ! bp_is_current_action( 'invites' ) ) : ?>
 
-
-	<?php //bp_get_template_part( 'common/search-and-filters-bar' ); ?>
-
 <?php endif; ?>
 
 <?php

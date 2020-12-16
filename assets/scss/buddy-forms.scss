@@ -35,6 +35,10 @@
 
 select {
   @extend .nhsuk-select;
+  appearance: menulist;
+  + .select-arrow {
+	display: none;
+  }
 }
 
 input[type="textarea"] {

@@ -1,0 +1,62 @@
+body.my-groups.invites {
+  .subnav-filters {
+	.last, .component-filters {
+	  float: left;
+	}
+  }
+  #buddypress {
+
+	ul#groups-list {
+
+
+	  li.item-invite {
+		padding: 0 nhsuk-spacing(3);
+		margin: 0;
+		.item-block {
+		  padding : nhsuk-spacing(3);
+
+		  > a {
+			float : left;
+
+			img.avatar {
+			  width        : nhsuk-spacing(6);
+			  height       : nhsuk-spacing(6);
+			  margin-right : nhsuk-spacing(3);
+			  margin: nhsuk-spacing(2) 0;
+			}
+		  }
+
+		  h2 {
+			float : left;
+			clear : none;
+			margin: nhsuk-spacing(2);
+		  }
+		  p.invite-message {
+			font-size: $nhsuk-base-font-size;
+		  }
+		  .item-meta-details {
+			@extend %nhsuk-body-s;
+			margin: nhsuk-spacing(2) 0;
+		  }
+		}
+		ul.action {
+		  clear      : both;
+		  margin-top : nhsuk-spacing(5);
+
+		  li.accept {
+			button {
+			  @extend .nhsuk-button;
+			}
+		  }
+
+		  li.reject {
+			button {
+			  @extend .nhsuk-button;
+			  @extend .nhsuk-button--secondary;
+			}
+		  }
+		}
+	  }
+	}
+  }
+}

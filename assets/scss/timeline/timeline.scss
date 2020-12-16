@@ -19,7 +19,7 @@ body.buddypress {
 
 		  .activity-content { // the actual contents of the post
 			.activity-header {
-			  @extend .nhsuk-body-s; // make text small.
+			  @extend %nhsuk-body-s; // make text small.
 			  img.avatar { // the group avatar
 				border-radius : 50%;
 				height        : nhsuk-spacing(5);
@@ -32,7 +32,7 @@ body.buddypress {
 			  text-align : left;
 
 			  .generic-button {
-				@extend .nhsuk-body-s;
+				@extend %nhsuk-body-s;
 				display       : inline-block;
 				margin-bottom : nhsuk-spacing(2);
 			  }
@@ -62,7 +62,7 @@ body.buddypress {
 			ul {
 			  li {
 				.acomment-meta {
-				  @extend .nhsuk-body-s;
+				  @extend %nhsuk-body-s;
 				}
 				.acomment-content {
 				  p {

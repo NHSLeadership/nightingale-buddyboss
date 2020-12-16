@@ -8,7 +8,6 @@
  */
 
 ?>
-
 <div id="bbpress-forums" class="<?php if(bbp_is_single_forum() && bbp_has_forums()){echo 'single-with-sub-forum ';} ?>">
 
 	<?php if ( ! empty( $post->post_parent ) && bbp_is_single_forum() && !bp_is_group_single() ) {

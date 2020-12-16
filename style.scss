@@ -2,7 +2,7 @@
 /*
 Theme Name: Nightingale-BuddyBoss
 Text Domain: nightingale-buddyboss
-Version: 2.2.8
+Version: 2.3.0
 Requires at least: 5.0
 Tested up to: 5.5.1
 Requires PHP: 5.2.4
@@ -27,4 +27,11 @@ Nicolas Gallagher and Jonathan Neal https://necolas.github.io/normalize.css/
 
 @import '../nightingale/style.scss';
 @import 'assets/scss/buddypress.scss'; //buddypress styling overrides
+/*
+ * added the below body rule as important to over-ride weird bug in safari where h3 top padding gets applied to the body element.
+ */
+body {
+  padding-top: 0 !important;
+}
+
 

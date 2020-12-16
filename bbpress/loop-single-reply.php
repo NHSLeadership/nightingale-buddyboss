@@ -58,12 +58,16 @@
 
         <div class="bbp-meta push-right">
             <div class="more-actions bb-reply-actions bs-dropdown-wrap align-self-center">
-                <button class="nhsuk-button bs-dropdown-link bb-reply-actions-button">Reply / Manage</button>
+                <?php if ( bp_is_item_admin() ) : ?>
+                    <button class="nhsuk-button bs-dropdown-link bb-reply-actions-button">Reply / Manage</button>
                 <div class="bs-dropdown bb-reply-actions-dropdown" style="display: none;">
 							<?php do_action( 'bbp_theme_before_reply_admin_links' ); ?>
 							<?php bbp_reply_admin_links(); ?>
 							<?php do_action( 'bbp_theme_after_reply_admin_links' ); ?>
                 </div>
+            <?php else: ?>
+	                <?php bbp_reply_admin_links(); ?>
+            <?php endif; ?>
             </div>
         </div><!-- .bbp-meta -->
 		<?php } ?>

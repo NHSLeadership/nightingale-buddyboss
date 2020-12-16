@@ -7,33 +7,32 @@
  */
 ?>
 
-<h2 class="screen-heading group-invites-screen"><?php esc_html_e( 'Group Invites', 'nightingale'); ?></h2>
+<h2 class="nhsuk-heading-l"><?php esc_html_e( 'Group Invites', 'nightingale'); ?></h2>
 
 <?php bp_nouveau_group_hook( 'before', 'invites_content' ); ?>
 
 <?php if ( bp_has_groups( 'type=invites&user_id=' . bp_loggedin_user_id() ) ) : ?>
 
-	<ul id="groups-list" class="invites item-list bp-list item-list groups-list" data-bp-list="groups_invites">
+	<ul id="groups-list" class="invites item-list bp-list item-list groups-list nhsuk-grid-row nhsuk-card-group" data-bp-list="groups_invites">
 
 		<?php
 		while ( bp_groups() ) :
 			bp_the_group();
 		?>
 
-			<li <?php bp_group_class( array( 'item-entry' ) ); ?> data-bp-item-id="<?php bp_group_id(); ?>" data-bp-item-component="groups">
-				<div class="list-wrap">
+			<li <?php bp_group_class( array( 'item-invite', 'nhsuk-grid-column-one-half', 'nhsuk-card-group__item' ) ); ?> data-bp-item-id="<?php bp_group_id(); ?>" data-bp-item-component="groups">
+				<div class="list-wrap nhsuk-card">
+					<div class="nhsuk-card__content">
 
-					<?php if ( ! bp_disable_group_avatar_uploads() ) : ?>
-						<div class="item-avatar">
-							<a href="<?php bp_group_permalink(); ?>"><?php bp_group_avatar( bp_nouveau_avatar_args() ); ?></a>
-						</div>
-					<?php endif; ?>
 
-					<div class="item">
+
+					<div class="nhsuk-card__description">
 
 						<div class="item-block">
-
-							<h2 class="list-title groups-title"><?php nightingale_bp_group_link(); ?></h2>
+							<?php if ( ! bp_disable_group_avatar_uploads() ) : ?>
+                                    <a href="<?php bp_group_permalink(); ?>"><?php bp_group_avatar( bp_nouveau_avatar_args() ); ?></a>
+							<?php endif; ?>
+							<h2 class="nhsuk-card__heading nhsuk-heading-m"><?php nightingale_bp_group_link(); ?></h2>
 
 							<p class="item-meta group-details">
 	                            <?php $inviter = bp_groups_get_invited_by(); ?>
@@ -65,7 +64,7 @@
 
 					</div>
 
-
+                </div>
 				</div>
 			</li>
 

@@ -8,7 +8,6 @@
  */
 
 ?>
-
 <div id="bbpress-forums">
 
 	<?php bbp_breadcrumb(); ?>

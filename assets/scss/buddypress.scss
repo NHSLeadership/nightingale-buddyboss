@@ -6,9 +6,18 @@
   @include nhsuk-typography-responsive(14);
 }
 
+img.avatar {
+  border-radius : 50%;
+}
+
 body.buddypress {
 
   #buddypress {
+	.item-title {
+	  h1 {
+		margin-bottom : nhsuk-spacing(3);
+	  }
+	}
 
 
 	@import 'buddy-forms'; //buddypress form styling overrides
@@ -77,9 +86,6 @@ body.buddypress {
 	}
 
 
-	@import 'buddy-comments'; //buddypress comments, discussion and forum styling overrides
-
-
 	ul.item-list {
 	  li {
 		.invite-button {
@@ -132,30 +138,6 @@ body.buddypress {
 	}
 
 
-	/* Groups Overview page */
-	.groups {
-	  .groups-meta {
-		text-align : center;
-	  }
-
-	  .leave-group {
-		@extend .nhsuk-tag;
-		@extend .nhsuk-tag--yellow;
-	  }
-
-	  .membership-requested {
-		@extend .nhsuk-button;
-		@extend .nhsuk-button--reverse;
-	  }
-
-	  .nhsuk-body-s {
-		&.last-activity {
-		  @extend .nhsuk-tag;
-		  @extend .nhsuk-tag--white;
-		}
-	  }
-	}
-
 	.bp-manage-group-container {
 	  .usernames {
 		text-align : center;
@@ -189,11 +171,6 @@ body.buddypress {
   }
 
 
-  /* course page styling */
-  .col-md-4 {
-	@extend .nhsuk-grid-column-one-third;
-  }
-
   .wp-block-nhsblocks-heroblock {
 	.dashicons {
 	  background : $color_nhsuk-white;
@@ -224,7 +201,7 @@ body.buddypress {
 
 	.followers-wrap, .following-wrap {
 	  float : left;
-	  @extend .nhsuk-body-s;
+	  @extend %nhsuk-body-s;
 	}
 
 	.following-wrap {
@@ -318,10 +295,13 @@ body.buddypress {
 }
 
 
-@import 'buddy-forums'; //buddypress comments, discussion and forum styling overrides
+@import 'forums/forums'; //buddypress comments, discussion and forum styling overrides
 
 @import 'groups/groups'; // import all of the various group page stylings
 @import 'timeline/timeline'; // import all of the timeline / activity feed stylings
+@import 'manage/manage'; //buddypress group admin styling overrides
+@import 'courses/courses'; //buddypress group admin styling overrides
+@import 'members/members'; //buddypress group admin styling overrides
 
 
 /* Buddypress header nav elements */
@@ -361,20 +341,23 @@ body.buddypress {
 	.count {
 	  position : absolute;
 	  right    : 0;
+	  padding: 0 nhsuk-spacing(2);
 	}
 
   }
+
   ~ .nhsuk-header__search {
-	position: relative;
-	top: -#{nhsuk-spacing(2)};
+	position : relative;
+	top      : -#{nhsuk-spacing(2)};
   }
 }
 
 #group-search {
   button {
-	margin-bottom: nhsuk-spacing(2);
+	margin-bottom : nhsuk-spacing(2);
   }
 }
+
 @include mq($until : desktop) {
 
   .bb-groups-invites-left {
@@ -420,28 +403,6 @@ body.buddypress {
   }
 }
 
-
-.ld-course-list-items {
-  .ld_course_grid {
-	.thumbnail {
-	  &.course {
-		a {
-		  img {
-			margin-bottom : -#{nhsuk-spacing(7)}; // oout a negative margin on images so title of course isnt pushed too far down when an image is present;
-		  }
-		}
-
-		.caption {
-		  margin-top : nhsuk-spacing(7); // default spacing above title so it doesnt crash ribbon
-		  .ld_course_grid_button {
-			position : static;
-		  }
-		}
-	  }
-	}
-  }
-}
-
 body.bp-nouveau {
   word-break : initial;
 }
@@ -452,42 +413,6 @@ body.register {
   }
 }
 
-ul#groups-list {
-  .nhsuk-card {
-	.item-avatar {
-	  position : relative;
-	  left     : nhsuk-spacing(3);
-	  top      : -#{nhsuk-spacing(4)};
-
-	  img {
-		width  : nhsuk-spacing(7);
-		height : nhsuk-spacing(7);
-	  }
-	}
-
-	.bp-generic-meta {
-	  float    : right;
-	  position : relative;
-	  top      : -#{nhsuk-spacing(7)};
-	  height   : nhsuk-spacing(4);
-
-	  &.action {
-		button {
-		  padding     : 0;
-		  background  : none;
-		  color       : $nhsuk-link-color;
-		  box-shadow  : none;
-		  font-weight : $nhsuk-font-normal;
-		  font-size   : $nhsuk-base-font-size;
-		}
-	  }
-	}
-
-	.nhsuk-card__content {
-	  padding-top : 0;
-	}
-  }
-}
 
 // pending invites styling
 .bp-invites-content {
@@ -513,7 +438,7 @@ ul#groups-list {
 
 	  p {
 		clear : both;
-		@extend .nhsuk-body-s;
+		@extend %nhsuk-body-s;
 	  }
 
 	  &:after {
@@ -590,7 +515,7 @@ body.notifications {
 
 		  .posted {
 			width : 100%;
-			@extend .nhsuk-body-s;
+			@extend %nhsuk-body-s;
 		  }
 		}
 	  }

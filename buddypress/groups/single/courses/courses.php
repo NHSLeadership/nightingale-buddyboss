@@ -57,6 +57,8 @@ if ( ! empty( $quiz_attempts_meta ) ) {
     <h1 class="entry-title flex-1">My Learning</h1>
 </header>
 <?php bp_get_template_part( 'members/single/parts/item-subnav' ); ?>
-<div class="learndash-wrapper">
+<div class="learndash-course-items">
+    <div class="ld-course-list-items">
 [ld_course_list mycourses="true" progress_bar="true" col="3" course_categoryselector="true"]
+    </div>
 </div>

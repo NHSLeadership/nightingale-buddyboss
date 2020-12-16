@@ -7,6 +7,7 @@
  */
 ?>
 
+<?php bp_get_template_part( 'common/nav/directory-nav' ); ?>
     <div class="subnav-search groups-search nhsuk-buddy__search">
         <?php bp_nouveau_search_form(); ?>
     </div>

@@ -1,0 +1,93 @@
+body.forum {
+  #bbpress-forums {
+	font-size : $nhsuk-base-font-size;
+
+	.nhsuk-list-panel__list {
+	  background-color : inherit;
+	}
+
+	img.avatar-180, img.avatar-80 {
+	  width         : nhsuk-spacing(6);
+	  height        : nhsuk-spacing(6);
+	  border-radius : 50%;
+	}
+
+
+
+
+	.bb-topic-reply-link-wrapper {
+	  float : left;
+
+	  a {
+		@extend .nhsuk-button;
+	  }
+	}
+
+	.bb-topic-subscription-link-wrapper {
+	  float : right;
+
+	  a {
+		@extend .nhsuk-button;
+		@extend .nhsuk-button--reverse;
+	  }
+	}
+
+
+
+	.bbp-topic-tags {
+	  @extend .nhsuk-tag;
+	  @extend .nhsuk-tag--white;
+	}
+
+	.item-tags {
+	  .bb-icon-tag {
+		float      : left;
+		font-size  : nhsuk-spacing(4);
+		margin-top : nhsuk-spacing(1);
+	  }
+
+	  ul {
+		list-style   : none;
+		float        : left;
+		padding-left : nhsuk-spacing(2);
+
+		li {
+		  @extend .nhsuk-tag;
+		  @extend .nhsuk-tag--white;
+		  float       : left;
+		  margin-left : nhsuk-spacing(2);
+		}
+	  }
+	}
+
+	.medium-editor-element, #bbp_editor_reply_content_forums_editor_1 {
+	  @extend .nhsuk-textarea;
+	  background : $color_nhsuk-white;
+	}
+
+	.bbp-no-topic, .bbp-no-reply {
+	  clear : both;
+
+	  .bp-feedback {
+		@extend .nhsuk-inset-text;
+		@extend .is-style-quote-reverse;
+
+		.bp-icon {
+		  background : $color_nhsuk-blue;
+		  font-size  : nhsuk-spacing(5);
+		}
+	  }
+	}
+
+
+	@import 'topics';
+	@import 'topics-form';
+	@import 'discussion';
+
+	.bbp-submit-wrapper {
+	  button[type="submit"] {
+		@extend .nhsuk-button;
+	  }
+	}
+  }
+}

@@ -38,9 +38,9 @@ bp_nouveau_before_loop();
 							'item_id'    => bp_get_group_id(),
 						) );
 						if ( !$group_cover_image_url ) {
-							$group_cover_image_url = get_theme_mod( 'buddyboss_group_cover_default', get_theme_file_uri( 'assets/images/svg/group-default.png' ) );
+							$group_cover_image_url = get_theme_mod( 'buddyboss_group_cover_default', get_theme_file_uri( 'assets/images/svg/newsletter-bg.svg' ) );
 						}
-						echo '<img src="' . $group_cover_image_url . '" class="nhsuk-card__img" />';
+						echo '<div class="header-flash" style="background-image: url(' . $group_cover_image_url . ')" ></div>';
 						?>
 					<?php } ?>
 	                <?php if ( ! bp_disable_group_avatar_uploads() ) : ?>
@@ -63,6 +63,7 @@ bp_nouveau_before_loop();
 
                                     <p class="nhsuk-body-s"><?php bp_nouveau_group_meta(); ?></p>
 								<?php endif; ?>
+                            <?php if ( current_user_can( 'administrator' ) ) : ?>
                                 <p class="last-activity nhsuk-body-s">
 									<?php
 									printf(
@@ -72,6 +73,7 @@ bp_nouveau_before_loop();
 									);
 									?>
                                 </p>
+                            <?php endif; ?>
                         </div>
                     </div>
                 </div>
