@@ -73,17 +73,6 @@ remove_filter( 'bp_get_add_follow_button', 'buddyboss_theme_bp_get_add_follow_bu
                             <span class="nhsuk-hero__arrow" aria-hidden="true"></span>
                         </div>
                     </div>
-                    <div class="nhsuk-grid-column-one-third right">
-	                    <?php
-	                    bp_nouveau_member_header_buttons(
-		                    array(
-			                    'container'         => 'div',
-			                    'button_element'    => 'button',
-			                    'container_classes' => array( 'member-header-actions' ),
-		                    )
-	                    );
-	                    ?>
-                    </div>
                 </div>
             </div>
         </div>

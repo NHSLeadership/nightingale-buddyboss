@@ -18,6 +18,7 @@ $profile_link = trailingslashit( bp_displayed_user_domain() . bp_get_profile_slu
 
 	<div class="bp-profile-content">
 
+
 		<?php bp_nouveau_member_hook( 'before', 'profile_content' ); ?>
 
 		<div class="profile <?php echo bp_current_action(); ?>">

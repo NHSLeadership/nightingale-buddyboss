@@ -35,11 +35,10 @@ if ( bp_is_user_messages() || bp_is_user_settings() || bp_is_user_notifications(
 <?php bp_get_template_part( 'members/single/parts/item-subnav' ); ?>
 	<?php bp_nouveau_member_hook( 'before', 'home_content' ); ?>
 
-	<div id="item-header" role="complementary" data-bp-item-id="<?php echo esc_attr( bp_displayed_user_id() ); ?>" data-bp-item-component="members" class="users-header single-headers">
 
 		<?php bp_nouveau_member_header_template_part(); ?>
 
-	</div><!-- #item-header -->
+
 	<?php if ( isset($bp_nouveau_appearance['user_nav_display']) && $bp_nouveau_appearance['user_nav_display'] &&  is_active_sidebar( 'profile' ) && !bp_is_user_settings() && !bp_is_user_messages() && !bp_is_user_notifications() && !bp_is_user_profile_edit() && !bp_is_user_change_avatar() && !bp_is_user_change_cover_image() && $profile_cover_width != 'default' ) {
 		$grid_class = '';
 		?>
@@ -52,6 +51,17 @@ if ( bp_is_user_messages() || bp_is_user_settings() || bp_is_user_notifications(
 		<div class="bb-profile-grid <?php echo $grid_class; ?>">
 			<div id="item-body" class="item-body">
 				<div class="item-body-inner">
+                    <div id="item-header" data-bp-item-id="<?php echo esc_attr( bp_displayed_user_id() ); ?>" data-bp-item-component="members" class="users-header single-headers">
+						<?php
+						bp_nouveau_member_header_buttons(
+							array(
+								'container'         => 'div',
+								'button_element'    => 'button',
+								'container_classes' => array( 'member-header-actions' ),
+							)
+						);
+						?>
+                    </div>
 					<?php bp_nouveau_member_template_part(); ?>
 				</div>
 			</div><!-- #item-body -->

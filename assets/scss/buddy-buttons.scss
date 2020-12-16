@@ -5,6 +5,7 @@
 #aw-whats-new-reset,
 .accept button,
 .reject button,
+.ac-reply-cancel,
 #bp-media-submit,
 #bp-add-media,
 #bb-create-album
@@ -16,7 +17,8 @@
 .reject button,
 .friendship-button a.friendship-button.is_friend,
 .friendship-button a.friendship-button.pending_friend,
-.follow-button a.follow-button.following
+.follow-button a.follow-button.following,
+.ac-reply-cancel
 {
   @extend .nhsuk-button--secondary;
 }

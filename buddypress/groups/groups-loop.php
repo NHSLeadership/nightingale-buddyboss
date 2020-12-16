@@ -28,7 +28,7 @@ bp_nouveau_before_loop();
 			bp_the_group();
 			?>
 
-            <li class="nhsuk-grid-column-one-third nhsuk-card-group__item">
+            <li class="nhsuk-grid-column-one-third nhsuk-card-group__item"  data-bp-item-id="<?php bp_group_id(); ?>" data-bp-item-component="groups">
 
                 <div class="nhsuk-card">
 					<?php if ( ! bp_disable_group_cover_image_uploads() ) { ?>

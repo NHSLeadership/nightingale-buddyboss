@@ -21,7 +21,7 @@
 		bp_group_the_membership_request();
 		?>
 
-        <li class="nhsuk-grid-column-full nhsuk-card-group__item">
+        <li class="nhsuk-grid-column-full nhsuk-card-group__item request-card">
             <div class="nhsuk-card">
                 <div class="nhsuk-card__content single-request">
                     <h2 class="nhsuk-card__heading nhsuk-heading-m request-title">
@@ -38,10 +38,10 @@
 
                                 <div class="comments"><?php bp_group_request_comment(); ?></div>
                                 <div class="activity"><?php bp_group_request_time_since_requested(); ?></div>
+                                <?php bp_nouveau_group_hook( '', 'membership_requests_admin_item' ); ?>
                             </div>
 
                         </div>
-
                     </div>
                 </div>
             </div>
