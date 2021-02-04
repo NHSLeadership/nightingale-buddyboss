@@ -1,3 +1,6 @@
+/**
+@todo as a temporary measure, I have removed lines 7 12 and 19 as this was causing all kinds of painful recursion and adding over 250kb to the resulting output.
+ */
 .bb-single-reply-list {
   #comments {
 	@extend #respond;
