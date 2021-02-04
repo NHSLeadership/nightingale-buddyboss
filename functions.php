@@ -11,7 +11,7 @@ add_action( 'wp_enqueue_scripts', 'enqueue_child_styles', 20 );
 
 function enqueue_child_styles() {
 	wp_dequeue_style( 'nightingale-style' );
-	wp_enqueue_style( 'buddyboss-style', get_stylesheet_uri(), '', '20201209' );
+	wp_enqueue_style( 'nightingale-buddyboss-style', get_stylesheet_directory_uri() . '/style.min.css', '', '20210203' );
 }
 /**
  * Create an array of active plugins.
