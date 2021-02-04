@@ -9,7 +9,19 @@
 img.avatar {
   border-radius : 50%;
 }
-
+/* temporary learndash fixes */
+body.learndash-cpt {
+  .learndash-wrapper {
+	.ld-course-status {
+	  .ld-course-status-segment {
+		.ld-course-status-content {
+		  position: relative;
+		}
+	  }
+	}
+  }
+}
+/* end temp LD fixes */
 body.buddypress {
 
   #buddypress {

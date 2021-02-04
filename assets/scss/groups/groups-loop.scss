@@ -46,7 +46,7 @@ body.groups { // limit these changes to only the groups listing page
 		  height   : nhsuk-spacing(4);
 
 		  &.action {
-			button {
+			button, a {
 			  padding     : 0;
 			  background  : none;
 			  color       : $nhsuk-link-color;
@@ -54,6 +54,9 @@ body.groups { // limit these changes to only the groups listing page
 			  font-weight : $nhsuk-font-bold;
 			  font-size   : $nhsuk-base-font-size;
 			  border      : 0;
+			  &.leave-group.bp-toggle-action-button-clicked {
+				color: $color_nhsuk-red;
+			  }
 			}
 		  }
 

@@ -23,28 +23,35 @@ if ( ! is_user_logged_in() ) { // if user is not logged in, lets add some basic 
 			$buddy_menu_item[0] = array( 'url' => 'profile/', 'title' => 'Profile' ); // add profile link.
 		} elseif ( 'settings' === $component_id ) { // if settings component is active...
 			$buddy_menu_item[1] = array( 'url' => 'settings/', 'title' => 'Account' ); // add settings link.
-		} elseif ( 'activity' === $component_id ) { // lather rinse repeat through the array...
-			$buddy_menu_item[2] = array( 'url' => 'activity', 'title' => 'Timeline' );
+		/* removing a chunk of these to simplify life. At a later point we will want to add thiese back in, which is why they are commented rather than deleted. */
+		//} elseif ( 'activity' === $component_id ) { // lather rinse repeat through the array...
+		//	$buddy_menu_item[2] = array( 'url' => 'activity', 'title' => 'Timeline' );
 		} elseif ( 'notifications' === $component_id ) {
 			$buddy_menu_item[3] = array( 'url' => 'notifications/', 'title' => 'Notifications' );
-		} elseif ( 'messages' === $component_id ) {
-			$buddy_menu_item[4] = array( 'url' => 'messages/', 'title' => 'Messages' );
-		} elseif ( 'friends' === $component_id ) {
-			$buddy_menu_item[5] = array( 'url' => 'friends/', 'title' => 'Connections' );
+		//} elseif ( 'messages' === $component_id ) {
+		//	$buddy_menu_item[4] = array( 'url' => 'messages/', 'title' => 'Messages' );
+		//} elseif ( 'friends' === $component_id ) {
+		//	$buddy_menu_item[5] = array( 'url' => 'friends/', 'title' => 'Connections' );
 		} elseif ( 'groups' === $component_id ) {
-			$buddy_menu_item[6] = array( 'url' => 'groups/', 'title' => 'Groups' );
-		} elseif ( 'forums' === $component_id ) {
-			$buddy_menu_item[7] = array( 'url' => 'forums/', 'title' => 'Forums' );
-		} elseif ( 'photos' === $component_id ) {
-			$buddy_menu_item[8] = array( 'url' => 'photos/', 'title' => 'Photos' );
-		} elseif ( 'invites' === $component_id ) {
-			$buddy_menu_item[9] = array( 'url' => 'invites/', 'title' => 'Email Invites' );
+			$buddy_menu_item[6] = array( 'url' => 'groups/', 'title' => 'My Groups' );
+		//} elseif ( 'forums' === $component_id ) {
+		//	$buddy_menu_item[7] = array( 'url' => 'forums/', 'title' => 'Forums' );
+		//} elseif ( 'photos' === $component_id ) {
+		//	$buddy_menu_item[8] = array( 'url' => 'photos/', 'title' => 'Photos' );
+		//} elseif ( 'invites' === $component_id ) {
+		//	$buddy_menu_item[9] = array( 'url' => 'invites/', 'title' => 'Email Invites' );
 		}
 	}
-	if ( in_array( 'sfwd-lms/sfwd_lms.php', apply_filters( 'active_plugins', get_option( 'active_plugins' ) ) ) ) { // if LearnDash installed and active?
-		$buddy_menu_item[10] = array( 'url' => 'guides/', 'title' => 'Courses' ); // add in the link to courses. This is not an active BuddyBoss module, so we need to check the LD plugin status.
-	}
-	$url_prefix = '/members/' . wp_get_current_user()->user_login . '/'; // build the prefix for all urls so the user gets a unique set of links based on their username.
+	//if ( in_array( 'sfwd-lms/sfwd_lms.php', apply_filters( 'active_plugins', get_option( 'active_plugins' ) ) ) ) { // if LearnDash installed and active?
+	//	$buddy_menu_item[10] = array( 'url' => 'guides/', 'title' => 'My Courses' ); // add in the link to courses. This is not an active BuddyBoss module, so we need to check the LD plugin status.
+	//}
+
+    /* sanitize user names */
+	$profilename = wp_get_current_user()->user_login;
+	$profilename = str_replace('.', '-', $profilename);
+	$profilename = str_replace('@', '', $profilename);
+
+	$url_prefix = '/members/' . $profilename . '/'; // build the prefix for all urls so the user gets a unique set of links based on their username.
 }
 ?>
 <div class="nhsuk-full-width-container">

@@ -108,11 +108,7 @@ jQuery(document).on('click', '.close-menu-buddynav', function (e) {
   jQuery(this).siblings('.label-navigation-buddynav').show();
   jQuery(this).hide();
 });
-jQuery(document).on('click', '.group-button', function (e) {
-  e.preventDefault();
-  var link = jQuery(this).attr("data-bp-nonce");
-  window.location.href = link;
-})
+
 
 const forumForm = document.querySelector('.bbp-topic-form');
 if (forumForm) {
@@ -139,3 +135,42 @@ if (forumForm) {
     jQuery(topicTitle).unbind('keyup'); // make sure this only runs once so we dont kill browser memory
   });
 }
+
+/**
+ * this section added to modify the default buddboss behaviour with groups.
+ * Default behaviour is to automatically request membership using an ajax request.
+ * We want to prevent that ajax request, and then convert the button to a link to the request page.
+ */
+jQuery(document).on('click', 'button.request-membership', function (e) { // when the button is clicked.
+  e.preventDefault(); // stop it doing the default behaviour.
+  var link = jQuery(this).attr("data-bp-nonce"); // find the data-bp-nonce attribute.
+  window.location.href = link; // move the browser window the data-bp-nonce attribute so it behaves as if it were a
+  // standard link.
+});
+
+/**
+ * This is a new function to wait for an ajax element to load. The groups listing loads after the dom is ready, so
+ * we need this to ensure we modify the markup once it is actually loaded.
+ */
+var waitForEl = function(selector, callback) {
+  if (jQuery(selector).length) {
+    callback();
+  } else {
+    setTimeout(function() {
+      waitForEl(selector, callback);
+    }, 100);
+  }
+};
+
+waitForEl('#groups-list', function() { // so now we can wait for the ul with id groups-list to load.
+  jQuery('.request-membership').removeAttr('data-bp-btn-action'); // when it has take out the data-bp-btn-action
+  // attribute. This is the attribute that would trigger the default BuddyBoss behaviour so we need to take it out
+  // of the way before the button gets clicked.
+});
+
+/* fix for when people decide to add their email address instead of a first name :facepalm */
+jQuery('.bbp-user-page .nhsuk-hero-content h1').html( function( index, html ) {
+  if ( thisisanemail = html.split('@')[0] ) {
+    return thisisanemail.split('.')[0];
+  }
+});
