@@ -11,8 +11,23 @@ form#new-post {
 	.bbp_editor_topic_content {
 	  @extend .nhsuk-textarea;
 	}
+	.medium-editor-element {
+	  &.emojionearea {
+		min-height: 1rem;
+		border: none;
+	  }
+	}
 	input[type="search"] {
 	  @extend .nhsuk-input;
 	}
   }
+
+	.medium-editor-toolbar-active {
+	  height     : 40px;
+	  visibility : visible;
+
+	  .medium-editor-toolbar-actions {
+		opacity : 1;
+	  }
+	}
 }
