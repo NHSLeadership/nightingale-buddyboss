@@ -5,18 +5,25 @@
 #aw-whats-new-reset,
 .accept button,
 .reject button,
+.ac-reply-cancel,
 #bp-media-submit,
 #bp-add-media,
-#bb-create-album
+#bb-create-album,
+#bbp_topic_submit,
+#bbp-close-btn
 {
   @extend .nhsuk-button;
   float        : left;
   margin-right : nhsuk-spacing(3);
 }
+
+.btn-new-topic, .subscription-toggle {
+  @extend .nhsuk-button;
+}
 .reject button,
 .friendship-button a.friendship-button.is_friend,
 .friendship-button a.friendship-button.pending_friend,
-.follow-button a.follow-button.following
+.follow-button a.follow-button.following, .ac-reply-cancel, #bbp-close-btn
 {
   @extend .nhsuk-button--secondary;
 }
@@ -34,7 +41,7 @@
 }
 
 #send-private-message a,
-.fav {
+.fav, .subscription-toggle {
   @extend .nhsuk-button--reverse;
 }
 

@@ -68,6 +68,7 @@ jQuery(document).on('click', '.btn-new-topic', function (e) {
   jQuery('.bbp-topic-form').show(500);
 });
 
+
 /**
  * On clicking close link, close modal.
  */
