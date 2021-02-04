@@ -1,10 +1,10 @@
 {
-  "name": "nightingale",
+  "name": "nightingale-buddyboss",
   "repository": {
     "type": "git",
     "url": "https://github.com/NHSLeadership/nightingale-buddyboss.git"
   },
-  "version": "2.2.4",
+  "version": "2.3.1",
   "description": "",
   "main": "index.js",
   "scripts": {
