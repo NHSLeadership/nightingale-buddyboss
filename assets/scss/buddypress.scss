@@ -476,9 +476,9 @@ body.register {
 }
 
 body.notifications {
-  .nhsuk-card-group__item {
+  //.nhsuk-card-group__item { // removed temporarily along with closing brace at line 535 - the specificity caused crazy bloat
 	.nhsuk-card {
-	  .nhsuk-card__content {
+	  //.nhsuk-card__content { // removed temporarily along with closing brace at line 533 - the specificity caused crazy bloat
 		> div {
 		  float   : left;
 		  padding : nhsuk-spacing(3) nhsuk-spacing(1);
@@ -530,9 +530,9 @@ body.notifications {
 			@extend %nhsuk-body-s;
 		  }
 		}
-	  }
+	 // }
 	}
-  }
+  //}
 }
 
 .bbp-topic-tags {

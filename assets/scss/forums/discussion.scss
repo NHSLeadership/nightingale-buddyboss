@@ -1,19 +1,22 @@
+/**
+@todo as a temporary measure, I have removed lines 7 12 and 19 as this was causing all kinds of painful recursion and adding over 250kb to the resulting output.
+ */
 .bb-single-reply-list {
   #comments {
 	@extend #respond;
-	@extend .nhsuk-list-panel;
+	//@extend .nhsuk-list-panel;
 	margin-top : nhsuk-spacing(3);
 
 	ul.comment-list {
 	  li:not(.load-more) {
-		@extend .nhsuk-list-panel__item;
+		//@extend .nhsuk-list-panel__item;
 
 		.div-comment, .comment-body {
 		  clear            : both;
 		  background-color : inherit;
 		}
 
-		@extend .nhsuk-list-panel__list;
+		//@extend .nhsuk-list-panel__list;
 		background-color : inherit;
 		list-style       : none;
 
