@@ -32,8 +32,6 @@ body.forum {
 	  }
 	}
 
-
-
 	.bbp-topic-tags {
 	  @extend .nhsuk-tag;
 	  @extend .nhsuk-tag--white;
@@ -60,7 +58,7 @@ body.forum {
 	  }
 	}
 
-	.medium-editor-element, #bbp_editor_reply_content_forums_editor_1 {
+	[role="textbox"], #bbp_editor_reply_content_forums_editor_1 {
 	  @extend .nhsuk-textarea;
 	  background : $color_nhsuk-white;
 	}
