@@ -338,7 +338,7 @@ if ( ! function_exists( 'buddyboss_pagination' ) ) {
 	function buddyboss_pagination() {
 		global $paged, $wp_query;
 
-		if ( ! $max_page ) {
+		if ( !isset( $max_page ) ) {
 			$max_page = $wp_query->max_num_pages;
 		}
 

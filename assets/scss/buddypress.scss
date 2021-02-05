@@ -9,18 +9,7 @@
 img.avatar {
   border-radius : 50%;
 }
-/* temporary learndash fixes */
-body.learndash-cpt {
-  .learndash-wrapper {
-	.ld-course-status {
-	  .ld-course-status-segment {
-		.ld-course-status-content {
-		  position: relative;
-		}
-	  }
-	}
-  }
-}
+
 /* end temp LD fixes */
 body.buddypress {
 
@@ -39,6 +28,9 @@ body.buddypress {
 	.bp-feedback {
 	  @extend .nhsuk-inset-text;
 	  @extend .is-style-quote-reverse;
+	  p {
+		color: $color_nhsuk-white;
+	  }
 
 	  &.success {
 		background   : $color_nhsuk-green;
@@ -76,6 +68,7 @@ body.buddypress {
 	@import 'buddy-filters'; //buddypress styling overrides
 
 	@import 'buddy-buttons'; //buddypress styling overrides
+
 
 	.item-avatar, #group-admins, .activity-post-avatar {
 	  img {
@@ -197,15 +190,15 @@ body.buddypress {
 	  padding-top   : nhsuk-spacing(1);
 	  margin-right  : 0;
 
-	  + h1 {
+	  +h1 {
 		float : left;
 		clear : none;
 
-		~ .item-meta {
+		~.item-meta {
 		  clear : both;
 		}
 
-		~ p {
+		~p {
 		  clear : both;
 		}
 	  }
@@ -269,7 +262,7 @@ body.buddypress {
   }
 
   article.page {
-	> .entry-header {
+	>.entry-header {
 	  margin-bottom : nhsuk-spacing(2);
 
 	  .entry-title {
@@ -277,7 +270,7 @@ body.buddypress {
 		color : $color_nhsuk-black;
 		float : left;
 
-		+ span {
+		+span {
 		  float : right;
 		  color : $color_nhsuk-grey-5;
 
@@ -296,7 +289,6 @@ body.buddypress {
 	}
   }
 }
-
 @import 'buddy-tabs'; //buddypress tabs styling overrides
 
 @import 'buddy-modals'; //buddypress modal popover styling overrides
@@ -358,7 +350,7 @@ body.buddypress {
 
   }
 
-  ~ .nhsuk-header__search {
+  ~.nhsuk-header__search {
 	position : relative;
 	top      : -#{nhsuk-spacing(2)};
   }
@@ -429,7 +421,7 @@ body.register {
 // pending invites styling
 .bp-invites-content {
   ul#members-list {
-	> li {
+	>li {
 	  @extend .nhsuk-grid-column-one-half;
 	  padding  : nhsuk-spacing(3);
 	  position : relative;
@@ -477,9 +469,9 @@ body.register {
 
 body.notifications {
   //.nhsuk-card-group__item { // removed temporarily along with closing brace at line 535 - the specificity caused crazy bloat
-	.nhsuk-card {
-	  //.nhsuk-card__content { // removed temporarily along with closing brace at line 533 - the specificity caused crazy bloat
-		> div {
+	//.nhsuk-card {
+	  .nhsuk-card__content { // removed temporarily along with closing brace at line 533 - the specificity caused crazy bloat
+		>div {
 		  float   : left;
 		  padding : nhsuk-spacing(3) nhsuk-spacing(1);
 
@@ -530,10 +522,11 @@ body.notifications {
 			@extend %nhsuk-body-s;
 		  }
 		}
-	 // }
-	}
+	  }
+	//}
   //}
 }
+
 
 .bbp-topic-tags {
   a {

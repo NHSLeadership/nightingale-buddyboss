@@ -21,7 +21,11 @@ form#new-post {
 	  @extend .nhsuk-input;
 	}
   }
-
+  .select2-search {
+	.select2-search__field {
+	  min-height: 1rem;
+	}
+  }
 	.medium-editor-toolbar-active {
 	  height     : 40px;
 	  visibility : visible;

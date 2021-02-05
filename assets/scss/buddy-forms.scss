@@ -36,7 +36,7 @@
 select {
   @extend .nhsuk-select;
   appearance: menulist;
-  + .select-arrow {
+  +.select-arrow {
 	display: none;
   }
 }
