@@ -73,9 +73,24 @@ body.group-admin {
 		padding : nhsuk-spacing(2) nhsuk-spacing(3);
 
 		&.member-ban {
-		  background-color : $color_nhsuk-red;
-		  color            : $color_nhsuk-white;
-		  content          : "Remove & Block";
+		  visibility: hidden;
+		  width: 170px;
+		  height: 30px;
+		  &:after {
+			@extend .nhsuk-button;
+			padding      : nhsuk-spacing(1) nhsuk-spacing(2);
+			float        : left;
+			margin-right : nhsuk-spacing(3);
+			visibility: visible;
+			display: block;
+			position: absolute;
+			top: 0;
+			left: 0;
+			width: 170px;
+			background-color : $color_nhsuk-red;
+			color            : $color_nhsuk-white;
+			content          : "Remove & Block";
+		  }
 		}
 
 		&.member-promote-to-mod {
