@@ -25,7 +25,7 @@
   "devDependencies": {
     "cssnano": "^5.1.11",
     "cssnano-preset-advanced": "^5.3.7",
-    "postcss-cli": "^7.1.1",
+    "postcss-cli": "^9.1.0",
     "sass": "^1.32.6"
   }
 }
