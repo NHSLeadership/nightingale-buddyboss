@@ -16,8 +16,8 @@
 	}
 ?>
 <div class="nhsuk-grid-full-width">
-    <nav class="nhsuk-bordered-tabs-container secondary" id="subnav" role="navigation" aria-label="<?php esc_attr_e( 'User administration menu', 'nightingale' ); ?>">
-        <ul class="nhsuk-bordered-tabs">
+    <nav style="clear: left;" class="nhsuk-bordered-tabs-container secondary" id="subnav" role="navigation" aria-label="<?php esc_attr_e( 'User administration menu', 'nightingale' ); ?>">
+		<ul class="nhsuk-bordered-tabs">
 		<?php
         $ticker = 0;
 		while ( bp_nouveau_nav_items() ) :
