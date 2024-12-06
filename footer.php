@@ -1,4 +1,5 @@
 <?php
+
 /**
  * The template for displaying the footer
  *
@@ -17,24 +18,29 @@ flush();
 </main>
 </div>
 
-<footer>
-	<div class="nhsuk-footer" id="nhsuk-footer">
-		<?php
-		get_template_part( 'template-parts/buddynav' );
-		?>
-		<div class="nhsuk-width-container">
-			<?php if ( is_active_sidebar( 'footer-region' ) ) : ?>
-				<div id="nhsuk-footer-widgets" class="nhsuk-footer__widgets widget-area" role="complementary">
-					<?php dynamic_sidebar( 'footer-region' ); ?>
-				</div>
-				<?php
-			endif;
-			get_template_part( 'partials/footernav' );
-			get_template_part( 'partials/footer-copyright' );
-			?>
+<footer role="contentinfo">
+    <div class="nhsuk-footer-container" id="nhsuk-footer">
+    <?php
+        get_template_part('template-parts/buddynav');
+    ?>
+        <div class="nhsuk-width-container">
+            <?php if (is_active_sidebar('footer-region')) : ?>
+                <div id="nhsuk-footer-widgets" class="nhsuk-footer__widgets widget-area" role="complementary">
+                    <?php dynamic_sidebar('footer-region'); ?>
+                </div>
+                <?php
+            endif;
+            ?>
+            <h2 class="nhsuk-u-visually-hidden">Support links</h2>
+            <div class="nhsuk-footer">
+            <?php
+                get_template_part('partials/footernav');
+                get_template_part('partials/footer-copyright');
+            ?>
+            </div>
 
-		</div>
-	</div>
+        </div>
+    </div>
 </footer>
 <?php wp_footer(); ?>
 </body>

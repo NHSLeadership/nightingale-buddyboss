@@ -47,9 +47,9 @@ if ( 'normal' !== $header_colour ) {
 } else {
 	$header_colour_text = '';
 }
-echo '<header class="nhsuk-header nhsuk-header--' . esc_attr( $header_layout . $header_colour_text ) . '">';
+echo '<header class="nhsuk-header nhsuk-header--' . esc_attr( $header_layout . $header_colour_text ) . '" role="banner">';
 ?>
-<div class="nhsuk-width-container nhsuk-header__container">
+<div class="nhsuk-header__container">
 	<?php
 	get_template_part( 'partials/logo' );
 	?>
@@ -63,11 +63,6 @@ echo '<header class="nhsuk-header nhsuk-header--' . esc_attr( $header_layout . $
 			$headersearchextra = '';
 		}
 		?>
-		<div class="nhsuk-header__menu <?php echo esc_attr( $headersearchextra ); ?>">
-			<button class="nhsuk-header__menu-toggle" id="toggle-menu" aria-controls="header-navigation"
-					aria-label="Open menu">Menu
-			</button>
-		</div>
 
 		<?php
 		if ( is_user_logged_in() ) {
@@ -79,7 +74,7 @@ echo '<header class="nhsuk-header nhsuk-header--' . esc_attr( $header_layout . $
 				<?php get_search_form(); ?>
 			</div>
 			<?php
-        }
+		}
 		?>
 
 	</div>
